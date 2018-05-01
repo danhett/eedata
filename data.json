@@ -1,0 +1,50 @@
+{
+	"poems": [
+    {
+			"tag": "testPoem1",
+			"lines": [
+				"this is a line of poetry",
+				"this is another line of poetry",
+				"another line of poetry"
+			],
+			"errors": [
+				"the thing didn't work",
+				"this is an error",
+				"oh no, things are broken"
+			]
+		},
+
+		{
+			"tag": "testPoem2",
+			"lines": [
+				"this is a line of poetry",
+				"this is another line of poetry",
+				"another line of poetry"
+			],
+			"errors": [
+				"the thing didn't work",
+				"this is an error",
+				"oh no, things are broken"
+			]
+		},
+
+		{
+			"tag": "testPoem3",
+			"lines": [
+				"this is a line of poetry",
+				"this is another line of poetry",
+				"another line of poetry"
+			],
+			"errors": [
+				"the thing didn't work",
+				"this is an error",
+				"oh no, things are broken"
+			],
+			"timing": {
+				"type":"daily",
+				"start":"14:00",
+				"end":"15:00"
+			}
+		}
+	]
+}
