@@ -1,50 +1,79 @@
 {
-	"poems": [
+  "poems": [
     {
-			"tag": "testPoem1",
-			"lines": [
-				"this is a line of poetry",
-				"this is another line of poetry",
-				"another line of poetry"
-			],
-			"errors": [
-				"the thing didn't work",
-				"this is an error",
-				"oh no, things are broken"
-			]
-		},
-
-		{
-			"tag": "testPoem2",
-			"lines": [
-				"this is a line of poetry",
-				"this is another line of poetry",
-				"another line of poetry"
-			],
-			"errors": [
-				"the thing didn't work",
-				"this is an error",
-				"oh no, things are broken"
-			]
-		},
-
-		{
-			"tag": "testPoem3",
-			"lines": [
-				"this is a line of poetry",
-				"this is another line of poetry",
-				"another line of poetry"
-			],
-			"errors": [
-				"the thing didn't work",
-				"this is an error",
-				"oh no, things are broken"
-			],
-			"timing": {
-				"type":"daily",
-				"start":"14:00",
-				"end":"15:00"
-			}
-		}
-	]
+      "tag": "testRandom",
+      "lines": [
+        "this is a line of poetry",
+        "this is another line of poetry",
+        "another line of poetry"
+      ],
+      "errors": [
+        "the thing didn't work",
+        "this is an error",
+        "oh no, things are broken"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "start": "14:00",
+        "chance": "50"
+      }
+    },
+    {
+      "tag": "testEveryday",
+      "lines": [
+        "this is a line of poetry",
+        "this is another line of poetry",
+        "another line of poetry"
+      ],
+      "errors": [
+        "the thing didn't work",
+        "this is an error",
+        "oh no, things are broken"
+      ],
+      "timing": {
+        "type": "EVERYDAY",
+        "start": "14:00",
+        "end": "15:00"
+      }
+    },
+    {
+      "tag": "testDaily",
+      "lines": [
+        "this is a line of poetry",
+        "this is another line of poetry",
+        "another line of poetry"
+      ],
+      "errors": [
+        "the thing didn't work",
+        "this is an error",
+        "oh no, things are broken"
+      ],
+      "timing": {
+        "type": "DAILY",
+        "days": ["mon", "wed", "fri"],
+        "start": "14:00",
+        "end": "15:00"
+      }
+    },
+    {
+      "tag": "testUnique",
+      "lines": [
+        "this is a line of poetry",
+        "this is another line of poetry",
+        "another line of poetry"
+      ],
+      "errors": [
+        "the thing didn't work",
+        "this is an error",
+        "oh no, things are broken"
+      ],
+      "timing": {
+        "type": "UNIQUE",
+        "times": [
+          {"start":"2013-02-08 09:30", "end":"2013-02-08 09:30"},
+          {"start":"2013-02-08 09:30", "end":"2013-02-08 09:30"}
+        ]
+      }
+    }
+  ]
 }
