@@ -50,8 +50,8 @@
       "timing": {
         "type": "DAILY",
         "days": ["mon", "wed", "fri"],
-        "start": "14:00",
-        "end": "15:00"
+        "start": "20:00",
+        "end": "22:00"
       }
     },
     {
