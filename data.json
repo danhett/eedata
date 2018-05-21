@@ -49,7 +49,7 @@
       ],
       "timing": {
         "type": "DAILY",
-        "days": ["mon", "wed", "fri"],
+        "days": ["Monday", "Wednesday", "Friday"],
         "start": "20:00",
         "end": "22:00"
       }
