@@ -1,7 +1,7 @@
 {
   "poems": [
     {
-      "tag": "testUnique",
+      "tag": "emptyexample",
       "lines": [
         "",
         "",
@@ -17,7 +17,6 @@
         "chance": "50"
       }
     },
-
 
     {
       "tag": "testRandom",
@@ -36,6 +35,7 @@
         "chance": "50"
       }
     },
+
     {
       "tag": "testEveryday",
       "lines": [
@@ -54,6 +54,7 @@
         "end": "22:00"
       }
     },
+
     {
       "tag": "testDaily",
       "lines": [
@@ -73,6 +74,7 @@
         "end": "22:00"
       }
     },
+
     {
       "tag": "testUnique",
       "lines": [
@@ -106,6 +108,1142 @@
       ],
       "errors": [
         "nobody sits at the bench"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "bike",
+      "lines": [
+        "the bike turns left",
+        "the bike turns right",
+        "the car waits",
+        "the car waits at the lights",
+        "the car stops suddenly"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "busdriving",
+      "lines": [
+        "the bus turns left",
+        "the bus turns right",
+        "the bus waits"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "busdriving",
+      "lines": [
+        "someone waits for a bus",
+        "someone stands at the bus stop",
+        "the bus is moving",
+        "the bus slows down",
+        "the upper deck is empty",
+        "someone watches out of the window"
+      ],
+      "errors": [
+        "there are no buses here"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "car",
+      "lines": [
+        "the car turns left",
+        "the car turns right",
+        "the car waits",
+        "the car waits at the lights",
+        "the car stops suddenly"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "cat",
+      "lines": [
+        "someone is talking to a cat",
+        "someone strokes the cat"
+      ],
+      "errors": [
+        "the cat has disappeared"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "child",
+      "lines": [
+        "a child shouts",
+        "someone carries a baby",
+        "someone pushes a stroller"
+      ],
+      "errors": [
+        "the baby is sleeping"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "dog",
+      "lines": [
+        "someone walks a dog",
+        "a child walks a dog"
+      ],
+      "errors": [
+        "nobody walks the dog"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "meeting",
+      "lines": [
+        "someone travels to a meeting",
+        "the meeting begins",
+        "the meeting ends"
+      ],
+      "errors": [
+        "there is no meeting"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "person",
+      "lines": [
+        "someone sneezes",
+        "someone fastens their shoe laces",
+        "someone coughs"
+      ],
+      "errors": [
+        "someone is at home"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "phone",
+      "lines": [
+        "someone answers their phone",
+        "someone makes a call",
+        "someone sends a text"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "photo",
+      "lines": [
+        "someone takes a photo",
+        "a girl takes a photo"
+      ],
+      "errors": [
+        "nobody takes a photo"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "photo",
+      "lines": [
+        "someone is queueing",
+        "someone is waiting"
+      ],
+      "errors": [
+        "nobody is queueing"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "queueing",
+      "lines": [
+        "someone is queueing",
+        "someone is waiting"
+      ],
+      "errors": [
+        "nobody is queueing"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "shopping",
+      "lines": [
+        "someone carries shopping bags",
+        "someone enters a shop"
+      ],
+      "errors": [
+        "nobody is shopping"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "squirrel",
+      "lines": [
+        "a squirrel climbs in the tree",
+        "a squirrel looks for food"
+      ],
+      "errors": [
+        "the squirrel is hiding"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "taxi",
+      "lines": [
+        "someone flags down a taxi",
+        "the taxi fare is paid"
+      ],
+      "errors": [
+        "there are no taxis"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "time",
+      "lines": [
+        "someone is on time",
+        "someone is late"
+      ],
+      "errors": [
+        "someone is on time"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "truck",
+      "lines": [
+        "the truck turns left",
+        "the truck turns right",
+        "the truck waits",
+        "the truck waits at the lights",
+        "the truck is loaded",
+        "the truck is unloaded"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "canal",
+      "lines": [
+        "the canal level is high",
+        "the canal level is normal",
+        "the canal level is low"
+      ],
+      "errors": [
+        "is the canal level high?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "exchangerate",
+      "lines": [
+        "the pound is weak",
+        "the pound is strong"
+      ],
+      "errors": [
+        "the pound fluctuates"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "fullmoon",
+      "lines": [
+        "there is a full moon tonight",
+        "there is a full moon soon",
+        "there isn't a full moon soon"
+      ],
+      "errors": [
+        "is there a full moon tonight?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "letterbox",
+      "lines": [
+        "the letters are collected"
+      ],
+      "errors": [
+        "are the letters collected?",
+        "no letter collection today",
+        "someone sends a letter"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "petrol",
+      "lines": [
+        "petrol is cheaper"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "rain",
+      "lines": [
+        "there is heavy rain falling",
+        "there is light rain falling",
+        "it may rain soon",
+        "it isn't going to rain"
+      ],
+      "errors": [
+        "is it going to rain?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "rent",
+      "lines": [
+        "the rent goes up"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "streetlights",
+      "lines": [
+        "the street lights turn off",
+        "the street lights are off",
+        "the street lights turn on",
+        "the street lights are on",
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "sunrise",
+      "lines": [
+        "the sun rises",
+        "it is daytime",
+        "the sun sets",
+        "it is night time",
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "temparature",
+      "lines": [
+        "it is a very hot day",
+        "it is a hot day",
+        "it is a warm day",
+        "it is a cool day",
+        "it is a cold day"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "weather",
+      "lines": [
+        "*** TAKEN FROM API ***"
+      ],
+      "errors": [
+        "what is the weather like?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "bustime",
+      "lines": [
+        "the bus arrives",
+        "the bus is travelling"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "cyclists",
+      "lines": [
+        "the cyclists are riding",
+        "no cyclists are riding"
+      ],
+      "errors": [
+        "are cyclists riding?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "traintime",
+      "lines": [
+        "the train departs",
+        "the train arrives"
+      ],
+      "errors": [
+        "is the train arriving?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "airquality",
+      "lines": [
+        "the air quality is good",
+        "the air quality is okay",
+        "the air quality is poor"
+      ],
+      "errors": [
+        "the air quality changes"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "parking",
+      "lines": [
+        "the cars can easily park",
+        "the cars can park"
+      ],
+      "errors": [
+        "there is no space to park"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "band",
+      "lines": [
+        "the band plays"
+      ],
+      "errors": [
+        "is the concert today?",
+        "there is no concert today",
+        "is someone at the concert?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "cello",
+      "lines": [
+        "the cello plays"
+      ],
+      "errors": [
+        "is the cello playing?",
+        "the cello is silent",
+        "is the cello playing?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "cinema",
+      "lines": [
+        "the film is showing"
+      ],
+      "errors": [
+        "no film is showing",
+        "is the film showing?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "music",
+      "lines": [
+        "the music is playing"
+      ],
+      "errors": [
+        "is there a concert today?",
+        "there is no concert today",
+        "is someone at the concert?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "opera",
+      "lines": [
+        "the music is playing"
+      ],
+      "errors": [
+        "is the opera today?",
+        "no opera is sung today",
+        "is the opera today?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "orchestra",
+      "lines": [
+        "the orchestra is playing"
+      ],
+      "errors": [
+        "does the orchestra play today?",
+        "the orchestra isn't playing",
+        "does the orchestra play today?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "piano",
+      "lines": [
+        "someone plays the piano"
+      ],
+      "errors": [
+        "is someone playing the piano?",
+        "the piano is silent",
+        "is someone playing the piano?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "sing",
+      "lines": [
+        "someone is singing"
+      ],
+      "errors": [
+        "is someone singing today?",
+        "nobody is singing",
+        "is someone singing?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "theatre",
+      "lines": [
+        "the play is performed"
+      ],
+      "errors": [
+        "is the theatre open?",
+        "the theatre is closed.",
+        "is the theatre open?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "violin",
+      "lines": [
+        "someone plays the violin"
+      ],
+      "errors": [
+        "is someone playing the violin?",
+        "the violin is silent",
+        "is someone playing the violin?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "exhibition",
+      "lines": [
+        "the exhibition opens"
+      ],
+      "errors": [
+        "is the exhibition today?",
+        "is someone at the exhibition?",
+        "is there an exhibition today?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "gallery",
+      "lines": [
+        "the gallery is open"
+      ],
+      "errors": [
+        "is the gallery open?",
+        "the gallery is closed.",
+        "is the gallery open today?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "jazz",
+      "lines": [
+        "the jazz musicians play"
+      ],
+      "errors": [
+        "do the jazz musicians play?",
+        "there is no jazz playing.",
+        "is someone listening to jazz?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "museum",
+      "lines": [
+        "the museum is open"
+      ],
+      "errors": [
+        "is the museum open?",
+        "the museum is closed.",
+        "is someone at the museum?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "exam",
+      "lines": [
+        "the students take an exam"
+      ],
+      "errors": [
+        "are the students taking an exam?",
+        "there are no exams today",
+        "is the exam being taken?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "lecture",
+      "lines": [
+        "the lecturer speaks to the students"
+      ],
+      "errors": [
+        "is there a lecture?",
+        "the lecture hall is quiet",
+        "is there a lecture?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "nursery",
+      "lines": [
+        "the children play in the nursery"
+      ],
+      "errors": [
+        "is the nursery open?",
+        "the nursery is closed",
+        "are the babies in the nursery?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "library",
+      "lines": [
+        "the book is borrowed",
+        "the book is returned"
+      ],
+      "errors": [
+        "is the library open?",
+        "the library is closed",
+        "the library is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
+    {
+      "tag": "party",
+      "lines": [
+        "people are partying",
+        "the party is loud"
+      ],
+      "errors": [
+        "is there a party?",
+        "there is no party tonight",
+        "there might be a party tonight"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    }
+
+    {
+      "tag": "casino",
+      "lines": [
+        "the gambler wins",
+        "the house wins"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    }
+
+    {
+      "tag": "dancer",
+      "lines": [
+        "the dancer dances",
+        "there is a dance recital"
+      ],
+      "errors": [
+        "is there a dance performance?",
+        "there is no dance tonight",
+        "is there dancing tonight?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "radio",
+      "lines": [
+        "the radio plays the news",
+        "a song plays on the radio",
+        "these is chat on the radio"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "rehearsal",
+      "lines": [
+        "the band rehearses",
+        "the dancer rehearses"
+      ],
+      "errors": [
+        "is there a rehearsal?",
+        "there is no rehearsal",
+        "is there a rehearsal?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "football",
+      "lines": [
+        "the team won",
+        "the team lost",
+        "the team drew"
+      ],
+      "errors": [
+        "did the team win?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "swimming",
+      "lines": [
+        "the swimmers swim",
+        "the divers dive"
+      ],
+      "errors": [
+        "is someone swimming?",
+        "the pool is closed today",
+        "is someone swimming?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "taichi",
+      "lines": [
+        "someone does tai chi",
+        "the woman does tai chi",
+        "the people do tai chi"
+      ],
+      "errors": [
+        "is the tai chi class today?",
+        "nobody is doing tai chi",
+        "is the tai chi class today?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "yoga",
+      "lines": [
+        "someone does yoga",
+        "the woman does yoga",
+        "the people do yoga"
+      ],
+      "errors": [
+        "is the yoga class today?",
+        "nobody is doing yoga",
+        "is the yoga class today?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "community",
+      "lines": [
+        "the community meets",
+        "there is a meeting of the community"
+      ],
+      "errors": [
+        "does the community meet?",
+        "the community aren't meeting today",
+        "the community meets"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "foodbank",
+      "lines": [
+        "the food bank is busy",
+        "the food bank is open"
+      ],
+      "errors": [
+        "is the food bank open?",
+        "the food back is closed",
+        "the food bank is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "park",
+      "lines": [
+        "the park is busy",
+        "the park is open"
+      ],
+      "errors": [
+        "the park is quiet",
+        "nobody is at the park",
+        "the park is quiet"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "confession",
+      "lines": [
+        "the man is at confession",
+        "the woman is at confession",
+        "there is a confession"
+      ],
+      "errors": [
+        "is there a confession?",
+        "there is no confession",
+        "confession is today"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "mass",
+      "lines": [
+        "the people are at mass",
+        "the priest gives mass"
+      ],
+      "errors": [
+        "is there mass?",
+        "there is no mass today",
+        "mass is today"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "mosque",
+      "lines": [
+        "the mosque is at prayer",
+        "the people are the mosque are praying"
+      ],
+      "errors": [
+        "are there prayers now?",
+        "there are no prayers now",
+        "the mosque is not at prayer"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "sikh",
+      "lines": [
+        "the temple is open",
+        "the temple doors are open"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "bar",
+      "lines": [
+        "the bar is open",
+        "people are at the bar"
+      ],
+      "errors": [
+        "is the bar open?",
+        "the bar is closed",
+        "is someone in the bar?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "burger",
+      "lines": [
+        "the burger place is open",
+        "the man eats a burger"
+      ],
+      "errors": [
+        "is the burger place open?",
+        "nobody is eating",
+        "is someone in the burger place?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "cafe",
+      "lines": [
+        "the coffee is served",
+        "the coffee is refilled"
+      ],
+      "errors": [
+        "is someone drinking coffee?",
+        "the cafe is closed",
+        "is someone in the cafe?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "drinks",
+      "lines": [
+        "drinks are poured",
+        "drinks are cheap"
+      ],
+      "errors": [
+        "is someone drinking coffee?",
+        "the cafe is closed",
+        "is someone in the cafe?"
       ],
       "timing": {
         "type": "RANDOM",
