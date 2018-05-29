@@ -504,7 +504,7 @@
         "the street lights turn off",
         "the street lights are off",
         "the street lights turn on",
-        "the street lights are on",
+        "the street lights are on"
       ],
       "errors": [],
       "timing": {
@@ -519,7 +519,7 @@
         "the sun rises",
         "it is daytime",
         "the sun sets",
-        "it is night time",
+        "it is night time"
       ],
       "errors": [],
       "timing": {
@@ -935,7 +935,7 @@
         "type": "RANDOM",
         "chance": "100"
       }
-    }
+    },
 
     {
       "tag": "casino",
@@ -948,7 +948,7 @@
         "type": "RANDOM",
         "chance": "50"
       }
-    }
+    },
 
     {
       "tag": "dancer",
