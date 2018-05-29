@@ -146,7 +146,7 @@
     },
 
     {
-      "tag": "busdriving",
+      "tag": "buswaiting",
       "lines": [
         "someone waits for a bus",
         "someone stands at the bus stop",
@@ -280,21 +280,6 @@
       ],
       "errors": [
         "nobody takes a photo"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-
-    {
-      "tag": "photo",
-      "lines": [
-        "someone is queueing",
-        "someone is waiting"
-      ],
-      "errors": [
-        "nobody is queueing"
       ],
       "timing": {
         "type": "RANDOM",
@@ -1244,6 +1229,217 @@
         "is someone drinking coffee?",
         "the cafe is closed",
         "is someone in the cafe?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "icecream",
+      "lines": [
+        "someone eats an ice cream",
+        "the ice cream is served"
+      ],
+      "errors": [
+        "nobody eats an ice cream"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "bank",
+      "lines": [
+        "the bank opens",
+        "the bank is open"
+      ],
+      "errors": [
+        "the bank is closed",
+        "is the bank open?",
+        "the bank is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "market",
+      "lines": [
+        "the market opens",
+        "the market is open"
+      ],
+      "errors": [
+        "the market is closed",
+        "is the market open?",
+        "the market is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "office",
+      "lines": [
+        "the office opens",
+        "the office is open"
+      ],
+      "errors": [
+        "the office is closed",
+        "is the office open?",
+        "the office is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "shop",
+      "lines": [
+        "the shop opens",
+        "the shop is open"
+      ],
+      "errors": [
+        "the shop is closed",
+        "is the shop open?",
+        "the shop is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "escalator",
+      "lines": [
+        "the escalators go up",
+        "the escalators go down"
+      ],
+      "errors": [
+        "the escalators are still"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "gardencentre",
+      "lines": [
+        "the garden centre is open",
+        "the garden centre is busy"
+      ],
+      "errors": [
+        "is the garden centre open?",
+        "the garden centre is closed",
+        "is the garden centre open?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "hotel",
+      "lines": [
+        "someone checks into the hotel",
+        "someone stays in the hotel",
+        "the hotel is full",
+        "the hotel is busy"
+      ],
+      "errors": [
+        "is someone staying at the hotel?",
+        "the hotel is quiet",
+        "is someone staying at the hotel?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "wedding",
+      "lines": [
+        "there is a wedding today",
+        "the wedding is today"
+      ],
+      "errors": [
+        "is there a wedding today?",
+        "there is no wedding today",
+        "there a wedding today?"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "baby",
+      "lines": [
+        "the baby is born",
+        "the baby is due"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "blood",
+      "lines": [
+        "someone donates blood",
+        "there is a blood donation"
+      ],
+      "errors": [
+        "the blood bank is closed",
+        "does someone donate blood?",
+        "the blood bank is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "shift",
+      "lines": [
+        "the shift continues",
+        "the shift changes"
+      ],
+      "errors": [],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "brewery",
+      "lines": [
+        "the brewery is open",
+        "drinks are brewing"
+      ],
+      "errors": [
+        "is the brewery open?",
+        "the brewery is closed",
+        "no drinks are brewing"
       ],
       "timing": {
         "type": "RANDOM",
