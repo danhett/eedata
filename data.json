@@ -1445,6 +1445,380 @@
         "type": "RANDOM",
         "chance": "50"
       }
+    },
+
+    {
+      "tag": "NEWo2",
+      "lines": [
+        "the o2 is high",
+        "there is high o2"
+      ],
+      "errors": [
+        "is there high o2?",
+        "the o2 is low"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWhumidity",
+      "lines": [
+        "the air is humid",
+        "there is high humidity"
+      ],
+      "errors": [
+        "is the air humid?",
+        "the humidity is low"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWflightnoise",
+      "lines": [
+        "the plane flies overhead",
+        "there aircraft is landing"
+      ],
+      "errors": [
+        "is there a flight overhead?",
+        "the flight hasn't landed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWjourneytime",
+      "lines": [
+        "the journey is short",
+        "there is a short journey"
+      ],
+      "errors": [
+        "the journey is long",
+        "there is a long journey"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWrainduration",
+      "lines": [
+        "it has rained for a while",
+        "it hasn't rained for long"
+      ],
+      "errors": [
+        "there isn't any rain",
+        "no rain here now"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWparticlecount",
+      "lines": [
+        "the pollution is high",
+        "there are lots of particles"
+      ],
+      "errors": [
+        "the pollution is low",
+        "there aren't many particles"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWsoilmoisture",
+      "lines": [
+        "the soil moisture is high",
+        "there ground is damp"
+      ],
+      "errors": [
+        "the ground is dry",
+        "there is no moisture in the ground"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWhiveactivity",
+      "lines": [
+        "the bee hive is busy",
+        "the been hive is buzzing"
+      ],
+      "errors": [
+        "the bee hive is quiet",
+        "the been hive is at rest"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWwindspeed",
+      "lines": [
+        "the wind is strong",
+        "the wind is forceful"
+      ],
+      "errors": [
+        "the wind stops",
+        "the air is still"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWcongestion",
+      "lines": [
+        "the road is busy",
+        "there is a lot of traffic"
+      ],
+      "errors": [
+        "the road is quiet",
+        "the traffic is light",
+        "there is not much traffic"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWwindspeed",
+      "lines": [
+        "the wind is strong",
+        "the wind is forceful"
+      ],
+      "errors": [
+        "the wind stops",
+        "the air is still"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWwinddirection",
+      "lines": [
+        "the wind blows north",
+        "the wind blows south",
+        "the wind blows east",
+        "the wind blows west"
+      ],
+      "errors": [
+        "the wind has stopped",
+        "there is no wind"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWairpressure",
+      "lines": [
+        "the air pressure is high",
+        "the air pressure is up"
+      ],
+      "errors": [
+        "the air pressure is low",
+        "the air pressure is down"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWmaxsound",
+      "lines": [
+        "the city is noisy",
+        "the city is loud"
+      ],
+      "errors": [
+        "the city is quiet",
+        "there isn't much noise"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWraskl",
+      "lines": [
+        "the workshop is busy",
+        "the workshop is working"
+      ],
+      "errors": [
+        "the workshop is quiet",
+        "the workshop is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWbridge",
+      "lines": [
+        "the bridge is lowered",
+        "the bridge is low"
+      ],
+      "errors": [
+        "the bridge is raised",
+        "the bridge is high"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWaccident",
+      "lines": [
+        "there is a collision",
+        "the car brakes suddenly"
+      ],
+      "errors": [
+        "the pedestrian crosses safely",
+        "the ambulance stays parked"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWsynagogue",
+      "lines": [
+        "the synagogue is open",
+        "the synagogue is at prayer"
+      ],
+      "errors": [
+        "the synagogue is not at prayer",
+        "the synagogue is closed"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWuni",
+      "lines": [
+        "the university is open",
+        "the university is busy"
+      ],
+      "errors": [
+        "the university is closed",
+        "the university is quiet"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWnightclub",
+      "lines": [
+        "the nightclub is open",
+        "the nightclub is busy"
+      ],
+      "errors": [
+        "the nightclub is closed",
+        "the nightclub is quiet"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWmetro",
+      "lines": [
+        "the tram travels",
+        "the tram arrives",
+        "the tram departs"
+      ],
+      "errors": [
+        "the tram is still",
+        "the tram is not running"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWtrain",
+      "lines": [
+        "the train travels",
+        "the train arrives",
+        "the train departs"
+      ],
+      "errors": [
+        "the train is still",
+        "the train is not running"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWbus",
+      "lines": [
+        "the bus travels",
+        "the bus arrives",
+        "the bus departs"
+      ],
+      "errors": [
+        "the bus is still",
+        "the bus is not running"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
     }
   ]
 }
