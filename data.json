@@ -1609,14 +1609,14 @@
     },
 
     {
-      "tag": "NEWwindspeed",
+      "tag": "NEWaveragespeed",
       "lines": [
-        "the wind is strong",
-        "the wind is forceful"
+        "the traffic is fast",
+        "the traffic moves quickly"
       ],
       "errors": [
-        "the wind stops",
-        "the air is still"
+        "the traffic is slow",
+        "the traffic moves slowly"
       ],
       "timing": {
         "type": "RANDOM",
@@ -1814,6 +1814,39 @@
       "errors": [
         "the bus is still",
         "the bus is not running"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWbus",
+      "lines": [
+        "the bus travels",
+        "the bus arrives",
+        "the bus departs"
+      ],
+      "errors": [
+        "the bus is still",
+        "the bus is not running"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+      }
+    },
+
+    {
+      "tag": "NEWpollution",
+      "lines": [
+        "the pollution is high",
+        "the pollution is average"
+      ],
+      "errors": [
+        "is the pollution high?",
+        "the pollution is low"
       ],
       "timing": {
         "type": "RANDOM",
