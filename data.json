@@ -1539,7 +1539,7 @@
 
     {
       "tag": "NEWo2",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the o2 is high",
         "there is high o2"
@@ -1556,7 +1556,7 @@
 
     {
       "tag": "NEWhumidity",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the air is humid",
         "there is high humidity"
@@ -1573,7 +1573,7 @@
 
     {
       "tag": "NEWflightnoise",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the plane flies overhead",
         "there aircraft is landing"
@@ -1590,7 +1590,7 @@
 
     {
       "tag": "NEWjourneytime",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the journey is short",
         "there is a short journey"
@@ -1607,7 +1607,7 @@
 
     {
       "tag": "NEWrainduration",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "it has rained for a while",
         "it hasn't rained for long"
@@ -1624,7 +1624,7 @@
 
     {
       "tag": "NEWparticlecount",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the pollution is high",
         "there are lots of particles"
@@ -1641,7 +1641,7 @@
 
     {
       "tag": "NEWsoilmoisture",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the soil moisture is high",
         "there ground is damp"
@@ -1658,7 +1658,7 @@
 
     {
       "tag": "NEWhiveactivity",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the bee hive is busy",
         "the been hive is buzzing"
@@ -1675,7 +1675,7 @@
 
     {
       "tag": "NEWwindspeed",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the wind is strong",
         "the wind is forceful"
@@ -1692,7 +1692,7 @@
 
     {
       "tag": "NEWcongestion",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the road is busy",
         "there is a lot of traffic"
@@ -1710,7 +1710,7 @@
 
     {
       "tag": "NEWaveragespeed",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the traffic is fast",
         "the traffic moves quickly"
@@ -1727,7 +1727,7 @@
 
     {
       "tag": "NEWwinddirection",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the wind blows north",
         "the wind blows south",
@@ -1746,7 +1746,7 @@
 
     {
       "tag": "NEWairpressure",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the air pressure is high",
         "the air pressure is up"
@@ -1763,7 +1763,7 @@
 
     {
       "tag": "NEWmaxsound",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the city is noisy",
         "the city is loud"
@@ -1780,7 +1780,7 @@
 
     {
       "tag": "NEWraskl",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the workshop is busy",
         "the workshop is working"
@@ -1797,7 +1797,7 @@
 
     {
       "tag": "NEWbridge",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the bridge is lowered",
         "the bridge is low"
@@ -1814,7 +1814,7 @@
 
     {
       "tag": "NEWaccident",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "there is a collision",
         "the car brakes suddenly"
@@ -1831,7 +1831,7 @@
 
     {
       "tag": "NEWsynagogue",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the synagogue is open",
         "the synagogue is at prayer"
@@ -1848,7 +1848,7 @@
 
     {
       "tag": "NEWuni",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the university is open",
         "the university is busy"
@@ -1865,7 +1865,7 @@
 
     {
       "tag": "NEWnightclub",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the nightclub is open",
         "the nightclub is busy"
@@ -1882,7 +1882,7 @@
 
     {
       "tag": "NEWmetro",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the tram travels",
         "the tram arrives",
@@ -1900,7 +1900,7 @@
 
     {
       "tag": "NEWtrain",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the train travels",
         "the train arrives",
@@ -1918,7 +1918,7 @@
 
     {
       "tag": "NEWbus",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the bus travels",
         "the bus arrives",
@@ -1936,7 +1936,7 @@
 
     {
       "tag": "NEWbus",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the bus travels",
         "the bus arrives",
@@ -1954,7 +1954,7 @@
 
     {
       "tag": "NEWpollution",
-      "enabled": "true",
+      "enabled": "false",
       "lines": [
         "the pollution is high",
         "the pollution is average"
