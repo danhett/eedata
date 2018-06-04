@@ -2,6 +2,7 @@
   "poems": [
     {
       "tag": "emptyexample",
+      "enabled": "true",
       "lines": [
         "",
         "",
@@ -20,6 +21,7 @@
 
     {
       "tag": "testRandom",
+      "enabled": "true",
       "lines": [
         "this is a line of poetry",
         "this is another line of poetry",
@@ -38,6 +40,7 @@
 
     {
       "tag": "testEveryday",
+      "enabled": "true",
       "lines": [
         "this is a line of poetry",
         "this is another line of poetry",
@@ -57,6 +60,7 @@
 
     {
       "tag": "testDaily",
+      "enabled": "true",
       "lines": [
         "this is a line of poetry",
         "this is another line of poetry",
@@ -77,6 +81,7 @@
 
     {
       "tag": "testUnique",
+      "enabled": "true",
       "lines": [
         "this is a line of poetry",
         "this is another line of poetry",
@@ -98,6 +103,7 @@
 
     {
       "tag": "bench",
+      "enabled": "true",
       "lines": [
         "someone sits on the bench",
         "two people sit on the bench",
@@ -117,6 +123,7 @@
 
     {
       "tag": "bike",
+      "enabled": "true",
       "lines": [
         "the bike turns left",
         "the bike turns right",
@@ -133,6 +140,7 @@
 
     {
       "tag": "busdriving",
+      "enabled": "true",
       "lines": [
         "the bus turns left",
         "the bus turns right",
@@ -147,6 +155,7 @@
 
     {
       "tag": "buswaiting",
+      "enabled": "true",
       "lines": [
         "someone waits for a bus",
         "someone stands at the bus stop",
@@ -166,6 +175,7 @@
 
     {
       "tag": "car",
+      "enabled": "true",
       "lines": [
         "the car turns left",
         "the car turns right",
@@ -182,6 +192,7 @@
 
     {
       "tag": "cat",
+      "enabled": "true",
       "lines": [
         "someone is talking to a cat",
         "someone strokes the cat"
@@ -197,6 +208,7 @@
 
     {
       "tag": "child",
+      "enabled": "true",
       "lines": [
         "a child shouts",
         "someone carries a baby",
@@ -213,6 +225,7 @@
 
     {
       "tag": "dog",
+      "enabled": "true",
       "lines": [
         "someone walks a dog",
         "a child walks a dog"
@@ -228,6 +241,7 @@
 
     {
       "tag": "meeting",
+      "enabled": "true",
       "lines": [
         "someone travels to a meeting",
         "the meeting begins",
@@ -244,6 +258,7 @@
 
     {
       "tag": "person",
+      "enabled": "true",
       "lines": [
         "someone sneezes",
         "someone fastens their shoe laces",
@@ -260,6 +275,7 @@
 
     {
       "tag": "phone",
+      "enabled": "true",
       "lines": [
         "someone answers their phone",
         "someone makes a call",
@@ -274,6 +290,7 @@
 
     {
       "tag": "photo",
+      "enabled": "true",
       "lines": [
         "someone takes a photo",
         "a girl takes a photo"
@@ -289,6 +306,7 @@
 
     {
       "tag": "queueing",
+      "enabled": "true",
       "lines": [
         "someone is queueing",
         "someone is waiting"
@@ -304,6 +322,7 @@
 
     {
       "tag": "shopping",
+      "enabled": "true",
       "lines": [
         "someone carries shopping bags",
         "someone enters a shop"
@@ -319,6 +338,7 @@
 
     {
       "tag": "squirrel",
+      "enabled": "true",
       "lines": [
         "a squirrel climbs in the tree",
         "a squirrel looks for food"
@@ -334,6 +354,7 @@
 
     {
       "tag": "taxi",
+      "enabled": "true",
       "lines": [
         "someone flags down a taxi",
         "the taxi fare is paid"
@@ -349,6 +370,7 @@
 
     {
       "tag": "time",
+      "enabled": "true",
       "lines": [
         "someone is on time",
         "someone is late"
@@ -364,6 +386,7 @@
 
     {
       "tag": "truck",
+      "enabled": "true",
       "lines": [
         "the truck turns left",
         "the truck turns right",
@@ -381,6 +404,7 @@
 
     {
       "tag": "canal",
+      "enabled": "true",
       "lines": [
         "the canal level is high",
         "the canal level is normal",
@@ -397,6 +421,7 @@
 
     {
       "tag": "exchangerate",
+      "enabled": "true",
       "lines": [
         "the pound is weak",
         "the pound is strong"
@@ -412,6 +437,7 @@
 
     {
       "tag": "fullmoon",
+      "enabled": "true",
       "lines": [
         "there is a full moon tonight",
         "there is a full moon soon",
@@ -428,6 +454,7 @@
 
     {
       "tag": "letterbox",
+      "enabled": "true",
       "lines": [
         "the letters are collected"
       ],
@@ -444,6 +471,7 @@
 
     {
       "tag": "petrol",
+      "enabled": "true",
       "lines": [
         "petrol is cheaper"
       ],
@@ -456,6 +484,7 @@
 
     {
       "tag": "rain",
+      "enabled": "true",
       "lines": [
         "there is heavy rain falling",
         "there is light rain falling",
@@ -473,6 +502,7 @@
 
     {
       "tag": "rent",
+      "enabled": "true",
       "lines": [
         "the rent goes up"
       ],
@@ -485,6 +515,7 @@
 
     {
       "tag": "streetlights",
+      "enabled": "true",
       "lines": [
         "the street lights turn off",
         "the street lights are off",
@@ -500,6 +531,7 @@
 
     {
       "tag": "sunrise",
+      "enabled": "true",
       "lines": [
         "the sun rises",
         "it is daytime",
@@ -515,6 +547,7 @@
 
     {
       "tag": "temparature",
+      "enabled": "true",
       "lines": [
         "it is a very hot day",
         "it is a hot day",
@@ -531,6 +564,7 @@
 
     {
       "tag": "weather",
+      "enabled": "true",
       "lines": [
         "*** TAKEN FROM API ***"
       ],
@@ -545,6 +579,7 @@
 
     {
       "tag": "bustime",
+      "enabled": "true",
       "lines": [
         "the bus arrives",
         "the bus is travelling"
@@ -558,6 +593,7 @@
 
     {
       "tag": "cyclists",
+      "enabled": "true",
       "lines": [
         "the cyclists are riding",
         "no cyclists are riding"
@@ -573,6 +609,7 @@
 
     {
       "tag": "traintime",
+      "enabled": "true",
       "lines": [
         "the train departs",
         "the train arrives"
@@ -588,6 +625,7 @@
 
     {
       "tag": "airquality",
+      "enabled": "true",
       "lines": [
         "the air quality is good",
         "the air quality is okay",
@@ -604,6 +642,7 @@
 
     {
       "tag": "parking",
+      "enabled": "true",
       "lines": [
         "the cars can easily park",
         "the cars can park"
@@ -619,6 +658,7 @@
 
     {
       "tag": "band",
+      "enabled": "true",
       "lines": [
         "the band plays"
       ],
@@ -635,6 +675,7 @@
 
     {
       "tag": "cello",
+      "enabled": "true",
       "lines": [
         "the cello plays"
       ],
@@ -651,6 +692,7 @@
 
     {
       "tag": "cinema",
+      "enabled": "true",
       "lines": [
         "the film is showing"
       ],
@@ -666,6 +708,7 @@
 
     {
       "tag": "music",
+      "enabled": "true",
       "lines": [
         "the music is playing"
       ],
@@ -682,6 +725,7 @@
 
     {
       "tag": "opera",
+      "enabled": "true",
       "lines": [
         "the music is playing"
       ],
@@ -698,6 +742,7 @@
 
     {
       "tag": "orchestra",
+      "enabled": "true",
       "lines": [
         "the orchestra is playing"
       ],
@@ -714,6 +759,7 @@
 
     {
       "tag": "piano",
+      "enabled": "true",
       "lines": [
         "someone plays the piano"
       ],
@@ -730,6 +776,7 @@
 
     {
       "tag": "sing",
+      "enabled": "true",
       "lines": [
         "someone is singing"
       ],
@@ -746,6 +793,7 @@
 
     {
       "tag": "theatre",
+      "enabled": "true",
       "lines": [
         "the play is performed"
       ],
@@ -762,6 +810,7 @@
 
     {
       "tag": "violin",
+      "enabled": "true",
       "lines": [
         "someone plays the violin"
       ],
@@ -778,6 +827,7 @@
 
     {
       "tag": "exhibition",
+      "enabled": "true",
       "lines": [
         "the exhibition opens"
       ],
@@ -794,6 +844,7 @@
 
     {
       "tag": "gallery",
+      "enabled": "true",
       "lines": [
         "the gallery is open"
       ],
@@ -810,6 +861,7 @@
 
     {
       "tag": "jazz",
+      "enabled": "true",
       "lines": [
         "the jazz musicians play"
       ],
@@ -826,6 +878,7 @@
 
     {
       "tag": "museum",
+      "enabled": "true",
       "lines": [
         "the museum is open"
       ],
@@ -842,6 +895,7 @@
 
     {
       "tag": "exam",
+      "enabled": "true",
       "lines": [
         "the students take an exam"
       ],
@@ -858,6 +912,7 @@
 
     {
       "tag": "lecture",
+      "enabled": "true",
       "lines": [
         "the lecturer speaks to the students"
       ],
@@ -874,6 +929,7 @@
 
     {
       "tag": "nursery",
+      "enabled": "true",
       "lines": [
         "the children play in the nursery"
       ],
@@ -890,6 +946,7 @@
 
     {
       "tag": "library",
+      "enabled": "true",
       "lines": [
         "the book is borrowed",
         "the book is returned"
@@ -907,6 +964,7 @@
 
     {
       "tag": "party",
+      "enabled": "true",
       "lines": [
         "people are partying",
         "the party is loud"
@@ -924,6 +982,7 @@
 
     {
       "tag": "casino",
+      "enabled": "true",
       "lines": [
         "the gambler wins",
         "the house wins"
@@ -937,6 +996,7 @@
 
     {
       "tag": "dancer",
+      "enabled": "true",
       "lines": [
         "the dancer dances",
         "there is a dance recital"
@@ -954,6 +1014,7 @@
 
     {
       "tag": "radio",
+      "enabled": "true",
       "lines": [
         "the radio plays the news",
         "a song plays on the radio",
@@ -968,6 +1029,7 @@
 
     {
       "tag": "rehearsal",
+      "enabled": "true",
       "lines": [
         "the band rehearses",
         "the dancer rehearses"
@@ -985,6 +1047,7 @@
 
     {
       "tag": "football",
+      "enabled": "true",
       "lines": [
         "the team won",
         "the team lost",
@@ -1001,6 +1064,7 @@
 
     {
       "tag": "swimming",
+      "enabled": "true",
       "lines": [
         "the swimmers swim",
         "the divers dive"
@@ -1018,6 +1082,7 @@
 
     {
       "tag": "taichi",
+      "enabled": "true",
       "lines": [
         "someone does tai chi",
         "the woman does tai chi",
@@ -1036,6 +1101,7 @@
 
     {
       "tag": "yoga",
+      "enabled": "true",
       "lines": [
         "someone does yoga",
         "the woman does yoga",
@@ -1054,6 +1120,7 @@
 
     {
       "tag": "community",
+      "enabled": "true",
       "lines": [
         "the community meets",
         "there is a meeting of the community"
@@ -1071,6 +1138,7 @@
 
     {
       "tag": "foodbank",
+      "enabled": "true",
       "lines": [
         "the food bank is busy",
         "the food bank is open"
@@ -1088,6 +1156,7 @@
 
     {
       "tag": "park",
+      "enabled": "true",
       "lines": [
         "the park is busy",
         "the park is open"
@@ -1105,6 +1174,7 @@
 
     {
       "tag": "confession",
+      "enabled": "true",
       "lines": [
         "the man is at confession",
         "the woman is at confession",
@@ -1123,6 +1193,7 @@
 
     {
       "tag": "mass",
+      "enabled": "true",
       "lines": [
         "the people are at mass",
         "the priest gives mass"
@@ -1140,6 +1211,7 @@
 
     {
       "tag": "mosque",
+      "enabled": "true",
       "lines": [
         "the mosque is at prayer",
         "the people are the mosque are praying"
@@ -1157,6 +1229,7 @@
 
     {
       "tag": "sikh",
+      "enabled": "true",
       "lines": [
         "the temple is open",
         "the temple doors are open"
@@ -1170,6 +1243,7 @@
 
     {
       "tag": "bar",
+      "enabled": "true",
       "lines": [
         "the bar is open",
         "people are at the bar"
@@ -1187,6 +1261,7 @@
 
     {
       "tag": "burger",
+      "enabled": "true",
       "lines": [
         "the burger place is open",
         "the man eats a burger"
@@ -1204,6 +1279,7 @@
 
     {
       "tag": "cafe",
+      "enabled": "true",
       "lines": [
         "the coffee is served",
         "the coffee is refilled"
@@ -1221,6 +1297,7 @@
 
     {
       "tag": "drinks",
+      "enabled": "true",
       "lines": [
         "drinks are poured",
         "drinks are cheap"
@@ -1238,6 +1315,7 @@
 
     {
       "tag": "icecream",
+      "enabled": "true",
       "lines": [
         "someone eats an ice cream",
         "the ice cream is served"
@@ -1253,6 +1331,7 @@
 
     {
       "tag": "bank",
+      "enabled": "true",
       "lines": [
         "the bank opens",
         "the bank is open"
@@ -1270,6 +1349,7 @@
 
     {
       "tag": "market",
+      "enabled": "true",
       "lines": [
         "the market opens",
         "the market is open"
@@ -1287,6 +1367,7 @@
 
     {
       "tag": "office",
+      "enabled": "true",
       "lines": [
         "the office opens",
         "the office is open"
@@ -1304,6 +1385,7 @@
 
     {
       "tag": "shop",
+      "enabled": "true",
       "lines": [
         "the shop opens",
         "the shop is open"
@@ -1321,6 +1403,7 @@
 
     {
       "tag": "escalator",
+      "enabled": "true",
       "lines": [
         "the escalators go up",
         "the escalators go down"
@@ -1336,6 +1419,7 @@
 
     {
       "tag": "gardencentre",
+      "enabled": "true",
       "lines": [
         "the garden centre is open",
         "the garden centre is busy"
@@ -1353,6 +1437,7 @@
 
     {
       "tag": "hotel",
+      "enabled": "true",
       "lines": [
         "someone checks into the hotel",
         "someone stays in the hotel",
@@ -1372,6 +1457,7 @@
 
     {
       "tag": "wedding",
+      "enabled": "true",
       "lines": [
         "there is a wedding today",
         "the wedding is today"
@@ -1389,6 +1475,7 @@
 
     {
       "tag": "baby",
+      "enabled": "true",
       "lines": [
         "the baby is born",
         "the baby is due"
@@ -1402,6 +1489,7 @@
 
     {
       "tag": "blood",
+      "enabled": "true",
       "lines": [
         "someone donates blood",
         "there is a blood donation"
@@ -1419,6 +1507,7 @@
 
     {
       "tag": "shift",
+      "enabled": "true",
       "lines": [
         "the shift continues",
         "the shift changes"
@@ -1432,6 +1521,7 @@
 
     {
       "tag": "brewery",
+      "enabled": "true",
       "lines": [
         "the brewery is open",
         "drinks are brewing"
@@ -1449,6 +1539,7 @@
 
     {
       "tag": "NEWo2",
+      "enabled": "true",
       "lines": [
         "the o2 is high",
         "there is high o2"
@@ -1465,6 +1556,7 @@
 
     {
       "tag": "NEWhumidity",
+      "enabled": "true",
       "lines": [
         "the air is humid",
         "there is high humidity"
@@ -1481,6 +1573,7 @@
 
     {
       "tag": "NEWflightnoise",
+      "enabled": "true",
       "lines": [
         "the plane flies overhead",
         "there aircraft is landing"
@@ -1497,6 +1590,7 @@
 
     {
       "tag": "NEWjourneytime",
+      "enabled": "true",
       "lines": [
         "the journey is short",
         "there is a short journey"
@@ -1513,6 +1607,7 @@
 
     {
       "tag": "NEWrainduration",
+      "enabled": "true",
       "lines": [
         "it has rained for a while",
         "it hasn't rained for long"
@@ -1529,6 +1624,7 @@
 
     {
       "tag": "NEWparticlecount",
+      "enabled": "true",
       "lines": [
         "the pollution is high",
         "there are lots of particles"
@@ -1545,6 +1641,7 @@
 
     {
       "tag": "NEWsoilmoisture",
+      "enabled": "true",
       "lines": [
         "the soil moisture is high",
         "there ground is damp"
@@ -1561,6 +1658,7 @@
 
     {
       "tag": "NEWhiveactivity",
+      "enabled": "true",
       "lines": [
         "the bee hive is busy",
         "the been hive is buzzing"
@@ -1577,6 +1675,7 @@
 
     {
       "tag": "NEWwindspeed",
+      "enabled": "true",
       "lines": [
         "the wind is strong",
         "the wind is forceful"
@@ -1593,6 +1692,7 @@
 
     {
       "tag": "NEWcongestion",
+      "enabled": "true",
       "lines": [
         "the road is busy",
         "there is a lot of traffic"
@@ -1610,6 +1710,7 @@
 
     {
       "tag": "NEWaveragespeed",
+      "enabled": "true",
       "lines": [
         "the traffic is fast",
         "the traffic moves quickly"
@@ -1626,6 +1727,7 @@
 
     {
       "tag": "NEWwinddirection",
+      "enabled": "true",
       "lines": [
         "the wind blows north",
         "the wind blows south",
@@ -1644,6 +1746,7 @@
 
     {
       "tag": "NEWairpressure",
+      "enabled": "true",
       "lines": [
         "the air pressure is high",
         "the air pressure is up"
@@ -1660,6 +1763,7 @@
 
     {
       "tag": "NEWmaxsound",
+      "enabled": "true",
       "lines": [
         "the city is noisy",
         "the city is loud"
@@ -1676,6 +1780,7 @@
 
     {
       "tag": "NEWraskl",
+      "enabled": "true",
       "lines": [
         "the workshop is busy",
         "the workshop is working"
@@ -1692,6 +1797,7 @@
 
     {
       "tag": "NEWbridge",
+      "enabled": "true",
       "lines": [
         "the bridge is lowered",
         "the bridge is low"
@@ -1708,6 +1814,7 @@
 
     {
       "tag": "NEWaccident",
+      "enabled": "true",
       "lines": [
         "there is a collision",
         "the car brakes suddenly"
@@ -1724,6 +1831,7 @@
 
     {
       "tag": "NEWsynagogue",
+      "enabled": "true",
       "lines": [
         "the synagogue is open",
         "the synagogue is at prayer"
@@ -1740,6 +1848,7 @@
 
     {
       "tag": "NEWuni",
+      "enabled": "true",
       "lines": [
         "the university is open",
         "the university is busy"
@@ -1756,6 +1865,7 @@
 
     {
       "tag": "NEWnightclub",
+      "enabled": "true",
       "lines": [
         "the nightclub is open",
         "the nightclub is busy"
@@ -1772,6 +1882,7 @@
 
     {
       "tag": "NEWmetro",
+      "enabled": "true",
       "lines": [
         "the tram travels",
         "the tram arrives",
@@ -1789,6 +1900,7 @@
 
     {
       "tag": "NEWtrain",
+      "enabled": "true",
       "lines": [
         "the train travels",
         "the train arrives",
@@ -1806,6 +1918,7 @@
 
     {
       "tag": "NEWbus",
+      "enabled": "true",
       "lines": [
         "the bus travels",
         "the bus arrives",
@@ -1823,6 +1936,7 @@
 
     {
       "tag": "NEWbus",
+      "enabled": "true",
       "lines": [
         "the bus travels",
         "the bus arrives",
@@ -1840,6 +1954,7 @@
 
     {
       "tag": "NEWpollution",
+      "enabled": "true",
       "lines": [
         "the pollution is high",
         "the pollution is average"
