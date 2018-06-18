@@ -1674,9 +1674,8 @@
         "chance": "50"
       }
     },
-    {
+        {
       "tag": "yoga",
-      "enabled": "true",
       "lines": [
         "someone does yoga",
         "the woman does yoga",
@@ -1688,16 +1687,17 @@
         "the yoga class has started"
       ],
       "errors": [
-        "nobody is doing yoga"
-      ],
+       "nobody is doing yoga",
+     ],
       "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday"
-        ],
-        "start": "12:00",
-        "end": "13:00"
-      }
+   "type": "DAILY",
+      "days":["Monday"],
+      "start": "12:00", "end": "13:00",
+      "start": "18:00", "end": "21:00",
+      "days":["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "start": "10:00", "end": "13:00",
+      "start": "18:00", "end": "21:00",
+}
     },
     {
       "tag": "community",
@@ -1708,7 +1708,7 @@
       ],
       "errors": [
         "does the community meet?",
-        "the community aren't meeting today",
+        "the community isn't meeting today",
         "the community meets"
       ],
       "timing": {
@@ -1716,40 +1716,44 @@
         "chance": "50"
       }
     },
-    {
+       {
       "tag": "foodbank",
-      "enabled": "true",
       "lines": [
         "the food bank is busy",
-        "the food bank is open"
+        "the food bank is open",
+        "someone waits at the food bank",
+        "there is a queue at the food bank"
       ],
       "errors": [
-        "is the food bank open?",
-        "the food back is closed",
-        "the food bank is closed"
+       "the food bank is closed"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
-    {
+    "type": "DAILY",
+    "days":["Monday"],
+    "start": "12:00", "end": "12:00",
+    "days":["Tuesday", "Thursday", "Wednesday"],
+    "start": "10:00", "end": "16:00"
+        }
+      },
+ {
       "tag": "park",
-      "enabled": "true",
       "lines": [
         "the park is busy",
-        "the park is open"
+        "the park is open",
+        "someone walks through the park",
+        "someone sits on a bench",
+        "the man cycles through the park",
+        "the woman runs through the park",
+        "the man runs through the park"
       ],
-      "errors": [
-        "the park is quiet",
-        "nobody is at the park",
-        "the park is quiet"
-      ],
+      "errors": ["the park is quiet",
+      "the park is empty"],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
+      "type": "EVERYDAY",
+      "start": "6:30", "end": "23:00"
+          }
+        },
+
     {
       "tag": "confession",
       "enabled": "true",
@@ -1764,8 +1768,10 @@
         "confession is today"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+      "type": "DAILY",
+      "days":["Saturday"],
+      "start": "11:00", "end": "12:00",
+      "start": "17:15", "end": "17:45",
       }
     },
     {
@@ -1781,8 +1787,11 @@
         "mass is today"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+        "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"],
+        "start": "7:30", "end": "18:00",
+        "days":["Saturday"],
+        "start": "8:00", "end": "16:00"
+
       }
     },
     {
@@ -1815,26 +1824,34 @@
         "chance": "50"
       }
     },
-    {
+     {
       "tag": "bar",
-      "enabled": "true",
       "lines": [
         "the bar is open",
-        "people are at the bar"
+        "people are at the bar",
+        "the man orders a drink",
+        "the woman orders a drink",
+        "the bar is busy",
+        "the man is at the bar",
+        "the woman is at the bar"
+        "someone has a drink",
+        "the man has a drink",
+        "the woman has a drink"
       ],
-      "errors": [
-        "is the bar open?",
+        "errors": [
         "the bar is closed",
-        "is someone in the bar?"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+        "type": "DAILY",
+        "days":["Monday", "Tuesday", "Wednesday", "Sunday"],
+        "start": "9:00", "end": "24:00",
+        "days":["Thursday", "Friday", "Saturday"],
+        "start": "16:00", "end": "2:00"
       }
     },
-    {
+
+      {
       "tag": "burger",
-      "enabled": "true",
       "lines": [
         "the burger place is open",
         "the man eats a burger"
@@ -1845,91 +1862,121 @@
         "is someone in the burger place?"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"],
+      "start": "11:00", "end": "23:00",
+      "days":["Friday", "Saturday"],
+      "start": "11:00", "end": "23:30"
       }
     },
-    {
+        {
       "tag": "cafe",
-      "enabled": "true",
       "lines": [
         "the coffee is served",
-        "the coffee is refilled"
+        "the coffee is refilled",
+        "someone drinks a coffee",
+        "someone ordered a coffee",
+        "the cafe is open",
+        "the coffee is brewing",
+        "the man drinks a coffee",
+        "the woman orders a coffee"
       ],
       "errors": [
-        "is someone drinking coffee?",
-        "the cafe is closed",
-        "is someone in the cafe?"
-      ],
+       "the cafe is closed",
+     ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
-    {
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "start": "6:00", "end": "19:30",
+      "days":["Sunday"],
+      "start": "8:30", "end": "17:30"
+            }
+          },
+        {
       "tag": "drinks",
-      "enabled": "true",
       "lines": [
         "drinks are poured",
-        "drinks are cheap"
-      ],
+        "someone orders a drink",
+        "someone orders a pint",
+        "the man orders a pint",
+        "the woman orders a pint"
+     ],
       "errors": [
-        "is someone drinking coffee?",
-        "the cafe is closed",
-        "is someone in the cafe?"
-      ],
+       "the pub is closed"
+     ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday"],
+      "start": "11:00", "end": "23:00",
+      "days":["Thursday"],
+      "start": "11:00", "end": "24:00",
+      "days":["Friday", "Saturday"],
+      "start": "11:00", "end": "2:00",
+      "days":["Sunday"],
+      "start": "12:00", "end": "23:00",
       }
     },
-    {
+     {
       "tag": "icecream",
-      "enabled": "true",
       "lines": [
         "someone eats an ice cream",
-        "the ice cream is served"
+        "ice cream is served",
+        "the man eats ice cream",
+        "the woman eats ice cream",
+        "the boy eats ice cream",
+        "the girl eats ice cream",
+        "the ice cream place is open"
       ],
       "errors": [
-        "nobody eats an ice cream"
+        "the ice cream place is closed"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "start": "9:00", "end": "20:00",
+      "days":["Saturday"],
+      "start": "9:00", "end": "19:00",
+      "days":["Sunday"],
+      "start": "11:00", "end": "17:00",
       }
     },
-    {
+        {
       "tag": "bank",
-      "enabled": "true",
       "lines": [
         "the bank opens",
-        "the bank is open"
+        "the bank is open",
+        "someone transfers money",
+        "someone goes overdraft",
+        "someone makes a payment"
       ],
       "errors": [
         "the bank is closed",
-        "is the bank open?",
-        "the bank is closed"
-      ],
+     ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+      "type": "DAILY",
+       "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+       "start": "9:30", "end": "17:00",
+       "days":["Saturday"],
+       "start": "9:30", "end": "13:00"
       }
     },
     {
       "tag": "market",
-      "enabled": "true",
       "lines": [
-        "the market opens",
-        "the market is open"
+       "the market is open",
+      "the market is busy",
+      "someone is at the market",
+      "someone buys groceries",
+      "the man sells groceries",
+      "the woman sells groceries"
       ],
       "errors": [
         "the market is closed",
-        "is the market open?",
-        "the market is closed"
-      ],
+    ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "start": "9:30", "end": "17:30"
       }
     },
     {
@@ -1951,21 +1998,30 @@
     },
     {
       "tag": "shop",
-      "enabled": "true",
       "lines": [
-        "the shop opens",
-        "the shop is open"
+      "the shop opens",
+      "the shop is open",
+      "someone shops",
+      "the man shops",
+      "the woman shops",
+      "someone sells a product",
+      "the man sells a product",
+      "the woman sells a product"
       ],
       "errors": [
         "the shop is closed",
-        "is the shop open?",
-        "the shop is closed"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "start": "9:00", "end": "20:00",
+      "days":["Saturday"],
+      "start": "9:00", "end": "19:00",
+      "days":["Sunday"],
+      "start": "11:00", "end": "17:00"
+          }
+        },
+
     {
       "tag": "escalator",
       "enabled": "true",
@@ -2008,9 +2064,7 @@
         "the hotel is busy"
       ],
       "errors": [
-        "is someone staying at the hotel?",
         "the hotel is quiet",
-        "is someone staying at the hotel?"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2052,7 +2106,9 @@
       "enabled": "true",
       "lines": [
         "someone donates blood",
-        "there is a blood donation"
+        "there is a blood donation",
+        "the man donates blood",
+        "the woman donates blood"
       ],
       "errors": [
         "the blood bank is closed",
@@ -2060,8 +2116,10 @@
         "the blood bank is closed"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+      "timing": {
+      "type": "EVERYDAY",
+      "start": "8:00",
+      "end": "20:00"
       }
     },
     {
@@ -2321,54 +2379,65 @@
         "chance": "50"
       }
     },
-    {
+       {
       "tag": "NEWraskl",
-      "enabled": "false",
       "lines": [
         "the workshop is busy",
-        "the workshop is working"
+        "the workshop is working",
+        "someone is in the workshop",
+        "the machines are running"
       ],
       "errors": [
         "the workshop is quiet",
         "the workshop is closed"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "start": "8:00", "end": "17:00"
+          }
+        },
     {
       "tag": "NEWbridge",
-      "enabled": "false",
       "lines": [
-        "the bridge is lowered",
-        "the bridge is low"
+        "the bridge tilts",
+        "the bridge is open"
       ],
       "errors": [
-        "the bridge is raised",
-        "the bridge is high"
+        "the bridge is closed",
+        "people walk on the bridge"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
+        "type": "UNIQUE",
+	"times": [
+	  {"start":"2018-06-19 19:35", end:"2018-06-19 19:45"},
+	  {"start":"2018-06-21 20:00", end:"2018-06-21 20:10"},
+	  {"start":"2018-06-21 22:01", end:"2018-06-21 22:11"},
+	  {"start":"2018-06-22 18:00", end:"2018-06-22 18:10"},
+	  {"start":"2018-06-22 20:05", end:"2018-06-22 20:15"},
+	  {"start":"2018-06-22 22:01", end:"2018-06-22 22:11"},
+	  {"start":"2018-06-22 23:15", end:"2018-06-22 23:25"},
+	  {"start":"2018-06-23 19:35", end:"2018-06-23 19:45"},
+	  {"start":"2018-06-23 21:15", end:"2018-06-23 21:25"},
+	  {"start":"2018-06-24 19:10", end:"2018-06-24 19:20"},
+	  {"start":"2018-06-26 23:00", end:"2018-06-26 23:10"},
+	  {"start":"2018-06-28 10:35", end:"2018-06-28 10:45"},
+	  {"start":"2018-06-29 10:35", end:"2018-06-29 10:45"},
+	  {"start":"2018-06-29 20:05", end:"2018-06-29 20:15"},
+	  {"start":"2018-06-30 14:35", end:"2018-06-30 14:45"},
+	  {"start":"2018-06-30 19:35", end:"2018-06-30 19:45"},
+	  {"start":"2018-06-30 21:15", end:"2018-06-30 21:25"},
+	  {"start":"2018-07-14 10:30", end:"2018-07-14 10:40"},
+	  {"start":"2018-07-14 14:30", end:"2018-07-14 14:40"},
+	  {"start":"2018-07-23 19:05", end:"2018-07-23 19:15"},
+
+	"type": "EVERYDAY",
+	"start": "12:00",
+"end": "12:10"
+]
+     }
     },
-    {
-      "tag": "NEWaccident",
-      "enabled": "false",
-      "lines": [
-        "there is a collision",
-        "the car brakes suddenly"
-      ],
-      "errors": [
-        "the pedestrian crosses safely",
-        "the ambulance stays parked"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
+
     {
       "tag": "NEWsynagogue",
       "enabled": "false",
@@ -2401,20 +2470,23 @@
         "chance": "50"
       }
     },
-    {
-      "tag": "NEWnightclub",
-      "enabled": "false",
+         "tag": "NEWnightclub",
       "lines": [
-        "the nightclub is open",
-        "the nightclub is busy"
+        "the club is open",
+        "the club is busy",
+        "people are dancing",
+        "someone is dancing"
       ],
       "errors": [
-        "the nightclub is closed",
-        "the nightclub is quiet"
+        "the club is closed",
+        "the club is quiet"
       ],
       "timing": {
-        "type": "RANDOM",
-        "chance": "50"
+      "type": "DAILY",
+        "days":["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "start": "17:00", "end": "03:00",
+        "days":["Friday", "Saturday", "Sunday"],
+        "start": "13:00", "end": "03:00"
       }
     },
     {
@@ -2499,7 +2571,245 @@
       "timing": {
         "type": "RANDOM",
         "chance": "50"
+        }
+      },
+        {
+   
+      "tag": "NEWshabbat",
+      "lines": [
+        "the candles are lit",
+        "the woman lights the candles",
+        "the candles are burning"
+      ],
+      "errors": [
+        "the candles aren’t lit",
+        "the candles aren’t burning"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "50"
+        }
+       },
+    {
+      "tag": "NEWbookstore",
+      "lines": [
+        "the bookstore is open"
+     ],
+      "errors": [
+        "the bookstore is closed"
+     ],
+      "timing": {
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "start": "10:00", "end": "17:00",
+      "days":[ "Sunday"],
+      "start": "10:00", "end": "16:00"
+          }
+        },
+  {
+      "tag": "NEWsushi",
+      "lines": [
+        "the sushi place is open",
+        "the sushi belt turns",
+        "the sushi belt runs",
+        "the sushi is made"
+        "someone eats sushi",
+        "someone orders sushi"
+     ],
+      "errors": [
+        "the sushi belt is off"
+     ],
+      "timing": {
+      "type": "DAILY",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "start": "11:00", "end": "22:00",
+      "days":["Sunday"],
+      "start": "11:30", "end": "20:00"
+
+          }
+        },
+    {
+      "tag": "NEWarcade",
+      "lines": [
+        "the arcade is open"
+     ],
+      "errors": [
+        "the arcade is closed"
+     ],
+      "timing": {
+      "type": "EVERYDAY",
+      "start": "9:00",
+      "end": "17:00"
+          }
+        },
+    {
+      "tag": "NEWbarber",
+      "lines": [
+        "the barber is open",
+        "the man gets a haircut",
+        "the man gets a shave",
+        "the barber cuts",
+        "the barber shaves"
+     ],
+      "errors": [
+        "the barber is closed"
+     ],
+      "timing": {
+      "type": "DAILY",
+      "days":["Tuesday", "Wednesday", "Friday"],
+      "start": "10:00", "end": "18:00",
+      "days":["Thursday"],
+      "start": "10:00", "end": "20:00",
+      "days":["Saturday"],
+      "start": "09:00", "end": "15:00"
+          }
+        },
+         "tag": "NEWrestaurant",
+      "lines": [
+        "the restaurant is open"
+     ],
+      "errors": [
+        "the restaurant is closed"
+     ],
+      "timing": {
+      "type": "EVERYDAY",
+      "start": "11:00",
+      "end": "2:00"
+          }
+        },
+        {
+      "tag": "NEWferry",
+      "lines": [
+        "the ferry arrives"
+     ],
+      "errors": [
+        "the ferry has left"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+          }
+        },
+        {
+      "tag": "NEWperformance",
+      "lines": [
+        "the performance is on"
+     ],
+      "errors": [
+        "the performance is on"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+        }
+      },
+    {
+      "tag": "NEWsculpture",
+      "lines": [
+        "the sculpture is open"
+     ],
+      "errors": [
+        "the sculpture is closed"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+        }
+      },
+    {
+      "tag": "NEWhospital",
+      "lines": [
+        "the hospital is open"
+     ],
+      "errors": [
+        "the comedy club is closed"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+        }
+      },
+    {
+      "tag": "NEWmatch",
+      "lines": [
+        "the match is on"
+     ],
+      "errors": [
+        "the match is finished"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
       }
-    }
+    },
+    {
+      "tag": "NEWschool",
+      "lines": [
+        "the school is open"
+     ],
+      "errors": [
+        "the school is closed"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+      }
+    },
+    {
+      "tag": "NEWcastle",
+      "lines": [
+        "the castle is open"
+     ],
+      "errors": [
+        "the castle is closed"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+          }
+        },
+    {
+      "tag": "NEWcomedy",
+      "lines": [
+        "the comedy club is open"
+     ],
+      "errors": [
+        "the comedy club is closed"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+          }
+        },
+    {
+      "tag": "NEWarena",
+      "lines": [
+        "the arena is open"
+     ],
+      "errors": [
+        "the arena is closed"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+          }
+        },
+    {
+      "tag": "NEWarena",
+      "lines": [
+        "the arena is open"
+     ],
+      "errors": [
+        "the arena is closed"
+     ],
+      "timing": {
+      "type": "RANDOM",
+      "chance": "100%"
+          }
+        },
+
+
+    
+    
   ]
 }
