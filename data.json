@@ -2080,23 +2080,23 @@
 					"chance": "50"
 				}
 			},
-			{
-				"tag": "hotel",
-				"enabled": "true",
-				"lines": [
-					"someone checks into the hotel",
-					"someone stays in the hotel",
-					"the hotel is full",
-					"the hotel is busy"
-				],
-				"errors": [
-					"the hotel is quiet"
-				],
-				"timing": {
-					"type": "RANDOM",
-					"chance": "50"
-				}
-			},
+    {
+      "tag": "hotel",
+      "lines": [
+        "someone checks into the hotel",
+        "someone stays in the hotel",
+       "the hotel is busy"
+      ],
+      "errors": [
+       "the hotel is quiet",
+     ],
+      "timing": {
+	"type": "EVERYDAY",
+	"start": "08:00",
+"end": "21:00"
+
+      }
+    },
 			{
 				"tag": "wedding",
 				"enabled": "true",
@@ -2163,23 +2163,23 @@
 					"chance": "50"
 				}
 			},
-			{
-				"tag": "brewery",
-				"enabled": "true",
-				"lines": [
-					"the brewery is open",
-					"drinks are brewing"
-				],
-				"errors": [
-					"is the brewery open?",
-					"the brewery is closed",
-					"no drinks are brewing"
-				],
-				"timing": {
-					"type": "RANDOM",
-					"chance": "50"
-				}
-			},
+ {
+      "tag": "brewery",
+      "lines": [
+        "the brewery is open",
+        "beer is brewing"
+
+      ],
+      "errors": [
+       "the brewery is closed",
+        "no drinks are brewing"
+      ],
+      "timing": {
+        "type": "RANDOM",
+        "chance": "100"
+      }
+    },
+
 			{
 				"tag": "NEWo2",
 				"enabled": "false",
@@ -2770,18 +2770,30 @@
 							}
 						},
 						{
-							"tag": "NEWferry",
-							"lines": [
-								"the ferry arrives"
-							],
-							"errors": [
-								"the ferry has left"
-							],
-							"timing": {
-								"type": "RANDOM",
-								"chance": "100%"
-							}
-						},
+      "tag": "NEWferry",
+      "lines": [
+ "the ferry is at the port"
+"someone is boarding the ferry",
+"the car boards the ferry",
+"the ferry is ready for boarding",
+"the man boards the ferry",
+"the woman boards the ferry",
+"the ferry is busy"
+     ],
+      "errors": [
+"the ferry is on route",
+"there is no ferry at the port",
+"the man travels by ferry",
+"the woman travels by ferry",
+"someone travels by ferry"
+     ],
+   "timing": {
+ 	"type": "EVERYDAY",
+	"start": "14:30",
+"end": "17:00"
+ }
+    },
+
 						{
 							"tag": "NEWperformance",
 							"lines": [
@@ -2796,44 +2808,116 @@
 							}
 						},
 						{
-							"tag": "NEWsculpture",
-							"lines": [
-								"the sculpture is open"
-							],
-							"errors": [
-								"the sculpture is closed"
-							],
-							"timing": {
-								"type": "RANDOM",
-								"chance": "100%"
-							}
-						},
+      "tag": "NEWsculpture",
+      "lines": [
+        "the performance is on",
+"the water is rising",
+"the water is dancing",
+"the man watches the performance",
+"the woman watches the performance"
+
+     ],
+      "errors": [
+        "there is no performance",
+"the water isn’t rising"
+     ],
+      "timing": {
+	"type": "EVERYDAY",
+	"start": "10:00",	"end": "10:20",
+	"start": "11:00",	"end": "11:20", 
+	"start": "12:00"	"end": "12:20",
+	"start": "13:00",	"end": "13:20",
+	"start": "14:00",	"end": "14:20",
+	"start": "15:00",	"end": "15:20",
+	"start": "16:00",	"end": "16:20",
+	"start": "17:00",	"end": "17:20",
+	"start": "18:00",	"end": "18:20",
+	"start": "19:00",	"end": "19:20",
+	"start": "20:00",	"end": "20:20",
+	"start": "21:00",	"end": "21:20",
+	"start": "22:00",	"end": "22:20",
+	"start": "23:00",	"end": "23:20",
+
+
+      }
+    },
+
 						{
-							"tag": "NEWhospital",
-							"lines": [
-								"the hospital is open"
-							],
-							"errors": [
-								"the comedy club is closed"
-							],
-							"timing": {
-								"type": "RANDOM",
-								"chance": "100%"
-							}
-						},
+      "tag": "NEWhospital",
+      "lines": [
+        "the hospital is open"
+     ],
+      "errors": [
+        "the hospital is open"
+     ],
+      "timing": {
+	"type": "RANDOM",
+	"chance": "100%"
+
+
+      }
+    },
+
 						{
-							"tag": "NEWmatch",
-							"lines": [
-								"the match is on"
-							],
-							"errors": [
-								"the match is finished"
-							],
-							"timing": {
-								"type": "RANDOM",
-								"chance": "100%"
-							}
-						},
+      "tag": "NEWmatch",
+      "lines": [
+        "the match is on",
+"someone watches the match",
+"the man watches the match",
+"the woman watches the match"
+    ],
+      "errors": [
+        "the match is finished",
+"the other team won"
+     ],
+      "timing": {
+	"timing": {
+	"type": "UNIQUE",
+	"times": [
+	  {"start":"2018-06-18 19.00", "end":"2018-06-18 20.45"},
+	  {"start":"2018-06-20 13.00", "end":"2018-06-20 14.45"},
+	  {"start":"2018-06-20 16.00", "end":"2018-06-20 17.45"},
+	  {"start":"2018-06-20 19.00", "end":"2018-06-20 20.45"},
+	  {"start":"2018-06-21 13.00", "end":"2018-06-21 14.45"},
+	  {"start":"2018-06-21 16.00", "end":"2018-06-21 17.45"},
+	  {"start":"2018-06-21 19.00", "end":"2018-06-21 20.45"},
+	  {"start":"2018-06-22 13.00", "end":"2018-06-22 14.45"},
+	  {"start":"2018-06-22 16.00", "end":"2018-06-22 17.45"},
+	  {"start":"2018-06-22 19.00", "end":"2018-06-22 20.45"},
+	  {"start":"2018-06-23 13.00", "end":"2018-06-23 14.45"},
+	  {"start":"2018-06-23 16.00", "end":"2018-06-23 17.45"},
+	  {"start":"2018-06-23 19.00", "end":"2018-06-23 20.45"},
+	  {"start":"2018-06-24 13.00", "end":"2018-06-24 14.45"},
+	  {"start":"2018-06-24 16.00", "end":"2018-06-24 17.45"},
+	  {"start":"2018-06-24 19.00", "end":"2018-06-24 20.45"},
+	  {"start":"2018-06-25 15:00", "end":"2018-06-23 16.45"},
+	  {"start":"2018-06-25 19.00", "end":"2018-06-23 20.45"},
+	  {"start":"2018-06-26 15:00", "end":"2018-06-26 16.45"},
+	  {"start":"2018-06-26 19.00", "end":"2018-06-26 20.45"},
+	  {"start":"2018-06-30 10.00", "end":"2018-06-30 11.30"},
+
+	  {"start":"2018-07-15 15.00", "end":"2018-07-15 16.30"},
+	  {"start":"2018-07-17 19.45", "end":"2018-07-17 21.30"},
+	  {"start":"2018-07-22 15.00", "end":"2018-07-22 15.00"},
+	  {"start":"2018-07-24 19.45", "end":"2018-07-24 21.30"},
+	  {"start":"2018-07-28 19.30", "end":"2018-07-28 21.15"},
+	  {"start":"2018-08-01 19.30", "end":"2018-08-01 21.15"},
+	  {"start":"2018-08-04 15.00", "end":"2018-08-04 16.45"},
+	  {"start":"2018-08-11 15.00", "end":"2018-08-11 16.45"},
+	  {"start":"2018-08-18 15.00", "end":"2018-08-18 16.45"},
+	  {"start":"2018-08-24 19.45", "end":"2018-08-24 21.15"},
+	  {"start":"2018-08-25 15.00", "end":"2018-08-25 16.45"},
+	  {"start":"2018-09-01 15.00", "end":"2018-08-25 16.45"},
+	]
+
+
+
+      }
+
+
+      }
+    },
+
 						{
 							"tag": "NEWschool",
 							"lines": [
@@ -2848,57 +2932,151 @@
 							}
 						},
 						{
-							"tag": "NEWcastle",
-							"lines": [
-								"the castle is open"
-							],
-							"errors": [
-								"the castle is closed"
-							],
-							"timing": {
-								"type": "RANDOM",
-								"chance": "100%"
-							}
-						},
+      "tag": "NEWcastle",
+      "lines": [
+        "the castle is open",
+"someone visits the castle"
+     ],
+      "errors": [
+        "the castle is closed"
+     ],
+      "timing": {
+ 	"type": "EVERYDAY",
+	"start": "10:00",
+	"end": "17:00"
+
+
+
+      }
+    },
+
 						{
-							"tag": "NEWcomedy",
-							"lines": [
-								"the comedy club is open"
-							],
-							"errors": [
-								"the comedy club is closed"
-							],
-							"timing": {
-								"type": "RANDOM",
-								"chance": "100%"
-							}
-						},
+      "tag": "NEWcomedy",
+      "lines": [
+        "the comedy club is open",
+"someone is on stage",
+"someone is laughing",
+"the man is laughing",
+"the woman is laughing",
+
+
+"someone is listening",
+"the man is listening",
+"the woman is listening",
+     ],
+      "errors": [
+        "the comedy club is closed"
+     ],
+       "timing": {
+	"type": "UNIQUE",
+	"times": [
+	  {"start":"2018-06-19 19.00", "end":"2018-06-19 22.30"},
+	  {"start":"2018-06-20 19.00", "end":"2018-06-20 22.30"},
+	  {"start":"2018-06-21 19.00", "end":"2018-06-21 22.30"},
+	  {"start":"2018-06-22 19.00", "end":"2018-06-22 23.15"},
+	  {"start":"2018-06-23 19.00", "end":"2018-06-23 23.15"},
+	  {"start":"2018-06-24 12.00", "end":"2018-06-24 22.30"},
+	  {"start":"2018-06-25 19.00", "end":"2018-06-25 22.30"},
+	  {"start":"2018-06-26 19.00", "end":"2018-06-26 22.30"},
+	  {"start":"2018-06-27 19.00", "end":"2018-06-27 22.30"},
+	  {"start":"2018-06-28 19.00", "end":"2018-06-28 22.30"},
+	  {"start":"2018-06-29 19.00", "end":"2018-06-29 23.15"},
+	  {"start":"2018-06-30 19.00", "end":"2018-06-30 23.15"},
+
+	  {"start":"2018-07-01 16.00", "end":"2018-07-01 22.30"},
+	  {"start":"2018-07-02 19.00", "end":"2018-07-02 22.30"},
+	  {"start":"2018-07-03 19.00", "end":"2018-07-03 22.30"},
+	  {"start":"2018-07-04 19.00", "end":"2018-07-04 22.30"},
+	  {"start":"2018-07-05 19.00", "end":"2018-07-05 22.30"},
+	  {"start":"2018-07-06 19.00", "end":"2018-07-06 23.15"},
+	  {"start":"2018-07-07 19.00", "end":"2018-07-07 23.15"},
+	  {"start":"2018-07-08 12.00", "end":"2018-07-08 22.30"},
+	  {"start":"2018-07-09 19.00", "end":"2018-07-09 22.30"},
+	  {"start":"2018-07-11 19.00", "end":"2018-07-11 22.30"},
+	  {"start":"2018-07-12 19.00", "end":"2018-07-12 22.30"},
+	  {"start":"2018-07-13 19.00", "end":"2018-07-13 23.15"},
+	  {"start":"2018-07-14 19.00", "end":"2018-07-14 23.15"},
+	  {"start":"2018-07-15 19.00", "end":"2018-07-15 22.30"},
+	  {"start":"2018-07-16 19.00", "end":"2018-07-16 22.30"},
+	  {"start":"2018-07-17 19.00", "end":"2018-07-17 22.30"},
+	  {"start":"2018-07-18 19.00", "end":"2018-07-18 22.30"},
+	  {"start":"2018-07-19 19.00", "end":"2018-07-19 22.30"},
+	  {"start":"2018-07-20 19.00", "end":"2018-07-20 23.15"},
+	  {"start":"2018-07-21 19.00", "end":"2018-07-21 23.15"},
+	  {"start":"2018-07-22 12.00", "end":"2018-07-22 22.30"},
+	  {"start":"2018-07-25 19.00", "end":"2018-07-25 22.30"},
+	  {"start":"2018-07-26 19.00", "end":"2018-07-26 22.30"},
+	  {"start":"2018-07-27 19.00", "end":"2018-07-27 23.15"},
+	  {"start":"2018-07-28 19.00", "end":"2018-07-28 23.15"},
+	  {"start":"2018-07-29 19.00", "end":"2018-07-29 22.00"},
+
+	  {"start":"2018-08-01 19.00", "end":"2018-08-01 22.30"},
+	  {"start":"2018-08-02 19.00", "end":"2018-08-02 22.30"},
+	  {"start":"2018-08-03 19.00", "end":"2018-08-03 23.15"},
+	  {"start":"2018-08-04 19.00", "end":"2018-08-04 23.15"},
+	  {"start":"2018-08-05 16.30", "end":"2018-08-05 22.30"},
+	  {"start":"2018-08-06 19.00", "end":"2018-08-06 22.30"},
+	  {"start":"2018-08-08 19.00", "end":"2018-08-08 22.30"},
+	  {"start":"2018-08-09 19.00", "end":"2018-08-09 22.30"},
+	  {"start":"2018-08-10 19.00", "end":"2018-08-10 23.15"},
+	  {"start":"2018-08-11 19.00", "end":"2018-08-11 23.15"},
+	  {"start":"2018-08-12 12.00", "end":"2018-08-12 22.30"},
+	  {"start":"2018-08-13 19.00", "end":"2018-08-13 22.30"},
+	  {"start":"2018-08-14 17.30", "end":"2018-08-14 20.00"},
+	  {"start":"2018-08-15 19.00", "end":"2018-08-15 22.30"},
+	  {"start":"2018-08-16 19.00", "end":"2018-08-16 22.30"},
+	  {"start":"2018-08-17 19.00", "end":"2018-08-17 23.15"},
+	  {"start":"2018-08-18 19.00", "end":"2018-08-18 23.15"},
+	  {"start":"2018-08-20 19.00", "end":"2018-08-20 22.30"},
+	  {"start":"2018-08-22 19.00", "end":"2018-08-22 22.30"},
+	  {"start":"2018-08-23 19.00", "end":"2018-08-23 22.30"},
+	  {"start":"2018-08-24 19.00", "end":"2018-08-24 23.15"},
+	  {"start":"2018-08-25 19.00", "end":"2018-08-25 23.15"},
+	  {"start":"2018-08-26 12.00", "end":"2018-08-26 22.30"},
+	  {"start":"2018-08-29 19.00", "end":"2018-08-29 22.30"},
+	  {"start":"2018-08-30 19.00", "end":"2018-08-30 22.30"},
+	  {"start":"2018-08-31 19.00", "end":"2018-08-31 23.15"},
+	]
+      }
+    },
+
 						{
-							"tag": "NEWarena",
-							"lines": [
-								"the arena is open"
-							],
-							"errors": [
-								"the arena is closed"
-							],
-							"timing": {
-								"type": "RANDOM",
-								"chance": "100%"
-							}
-						},
-						{
-							"tag": "NEWarena",
-							"lines": [
-								"the arena is open"
-							],
-							"errors": [
-								"the arena is closed"
-							],
-							"timing": {
-								"type": "RANDOM",
-								"chance": "100%"
-							}
-						}
-					]
+
+      "tag": "NEWarena",
+      "lines": [
+        "the arena is open",
+"the show is on",
+"someone is at the arena",
+"the performer is on stage"
+     ],
+      "errors": [
+        "the arena is closed"
+     ],
+      "timing": {
+	"type": "UNIQUE",
+	"times": [
+	  {"start":"2018-06-25 19.30", "end":"2018-06-25 22.00"},
+	  {"start":"2018-07-04 09.00", "end":"2018-07-04 16.00"},
+	  {"start":"2018-07-05 09.00", "end":"2018-07-04 15.00"},
+	  {"start":"2018-07-20 19.00", "end":"2018-07-20 20.40"},
+	  {"start":"2018-07-21 11.00", "end":"2018-07-21 12.40"},
+	  {"start":"2018-07-21 15.00", "end":"2018-07-21 16.40"},
+	  {"start":"2018-07-21 19.00", "end":"2018-07-21 20.40"},
+	  {"start":"2018-07-22 11.00", "end":"2018-07-22 12.40"},
+	  {"start":"2018-07-22 15.00", "end":"2018-07-22 16.40"},
+	  {"start":"2018-07-22 19.00", "end":"2018-07-22 20.40"},
+	  {"start":"2018-07-31 19.30", "end":"2018-07-31 23.00"},
+	  {"start":"2018-08-02 10.00", "end":"2018-08-02 11.30"},
+	  {"start":"2018-08-02 13.30", "end":"2018-08–02 15.00"},
+	  {"start":"2018-08-02 16.30", "end":"2018-08-02 17.00"},
+	  {"start":"2018-08-02 16.30", "end":"2018-08-02 17.00"},
+	  {"start":"2018-08-29 20.00", "end":"2018-08-29 22.00"},
+	  {"start":"2018-08-30 20.00", "end":"2018-08-30 22.00"},
+	  {"start":"2018-08-31 20.00", "end":"2018-08-31 22.00"},
+	  {"start":"2018-09-01 16.00", "end":"2018-09-01 18.00"},
+	  {"start":"2018-09-01 20.00", "end":"2018-09-01 22.00"},
+	  {"start":"2018-09-02 13.00", "end":"2018-09-01 15.00"},
+	  {"start":"2018-09-02 17.00", "end":"2018-09-01 19.00"}
+	]
 				}
 			}
