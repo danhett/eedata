@@ -388,12 +388,12 @@
 				"tag": "queueing",
 				"enabled": "true",
 				"lines": [
-					"someone is queueing",
+					"someone is queuing",
 					"someone is waiting",
 					"someone joins the queue"
 				],
 				"errors": [
-					"nobody is queueing"
+					"nobody is queuing"
 				],
 				"timing": {
 					"type": "EVERYDAY",
