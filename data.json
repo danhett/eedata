@@ -141,7 +141,7 @@
             "the driver delivers the order"
          ],
          "errors":[
-
+            "the bike is still"
          ],
          "timing":{
             "type":"RANDOM",
@@ -165,7 +165,8 @@
             "the bus crosses the bridge"
          ],
          "errors":[
-
+            "the bus is at the depot",
+            "the bus is still"
          ],
          "timing":{
             "type":"RANDOM",
@@ -211,7 +212,8 @@
             "the car stops suddenly"
          ],
          "errors":[
-
+            "the car is parked",
+            "the car doesn't move"
          ],
          "timing":{
             "type":"RANDOM",
@@ -253,7 +255,9 @@
             "someone pushes a stroller"
          ],
          "errors":[
-
+            "the child sleeps",
+            "the child isn't here",
+            "the baby sleeps"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -511,7 +515,8 @@
             "the truck is unloaded"
          ],
          "errors":[
-
+            "the truck is parked",
+            "the truck doesn't move"
          ],
          "timing":{
             "type":"RANDOM",
@@ -527,7 +532,7 @@
             "the canal level is low"
          ],
          "errors":[
-            "is the canal level high?"
+            "the canal level is normal"
          ],
          "timing":{
             "type":"RANDOM",
@@ -596,7 +601,7 @@
             "petrol is cheaper"
          ],
          "errors":[
-
+            "petrol is normal"
          ],
          "timing":{
             "type":"RANDOM",
@@ -627,7 +632,7 @@
             "the rent goes up"
          ],
          "errors":[
-
+            "the rent doesn't change"
          ],
          "timing":{
             "type":"RANDOM",
@@ -644,7 +649,7 @@
             "the street lights are on"
          ],
          "errors":[
-
+            "the street lights are off"
          ],
          "timing":{
             "type":"RANDOM",
@@ -661,7 +666,7 @@
             "it is night time"
          ],
          "errors":[
-
+            "the weather is changing"
          ],
          "timing":{
             "type":"RANDOM",
@@ -679,7 +684,7 @@
             "it is a cold day"
          ],
          "errors":[
-
+            "the temperature changes"
          ],
          "timing":{
             "type":"RANDOM",
@@ -708,7 +713,7 @@
             "the bus is travelling"
          ],
          "errors":[
-
+            "the bus is not here"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1555,7 +1560,8 @@
             "the woman gambles"
          ],
          "errors":[
-
+            "the casino is closed",
+            "the casino is closing"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1596,7 +1602,7 @@
             "these is chat on the radio"
          ],
          "errors":[
-
+            "the radio is silent"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1882,7 +1888,8 @@
             "the temple doors are open"
          ],
          "errors":[
-
+            "the temple is closed",
+            "the temple doors are closed"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2250,7 +2257,7 @@
             "the baby is due"
          ],
          "errors":[
-
+            "the baby isn't due yet"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2285,7 +2292,7 @@
             "the shift changes"
          ],
          "errors":[
-
+            "the shift isn't over"
          ],
          "timing":{
             "type":"RANDOM",
