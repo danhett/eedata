@@ -111,7 +111,7 @@
          "enabled":"true",
          "lines":[
             "someone sits on the bench",
-            "two people sit on the bench",
+            "people sit on the bench",
             "someone walks past the bench",
             "a child sits on the bench",
             "a woman sits on the bench",
@@ -141,7 +141,7 @@
             "the driver delivers the order"
          ],
          "errors":[
-            "the bike is still"
+            "the bike is locked"
          ],
          "timing":{
             "type":"RANDOM",
@@ -166,7 +166,8 @@
          ],
          "errors":[
             "the bus is at the depot",
-            "the bus is still"
+            "the bus is still",
+            "the bus stops"
          ],
          "timing":{
             "type":"RANDOM",
@@ -179,6 +180,7 @@
          "lines":[
             "someone waits for the bus",
             "someone pays for a bus ticket",
+            "someone buys a ticket",
             "someone takes the bus",
             "the man takes the bus",
             "the woman takes the bus",
@@ -190,7 +192,8 @@
             "someone watches out of the window"
          ],
          "errors":[
-            "there are no buses here"
+            "the buses is gone",
+            "the bus leaves"
          ],
          "timing":{
             "type":"RANDOM",
@@ -205,15 +208,14 @@
             "the car turns right",
             "the car waits",
             "the car crosses the bridge",
-            "the man is driving the car",
-            "the woman is driving the car",
-            "someone sits in the passenger seat",
+            "the man drives the car",
+            "the woman drives the car",
             "the car waits at the lights",
             "the car stops suddenly"
          ],
          "errors":[
             "the car is parked",
-            "the car doesn't move"
+            "the car is still"
          ],
          "timing":{
             "type":"RANDOM",
@@ -224,13 +226,15 @@
          "tag":"cat",
          "enabled":"true",
          "lines":[
-            "someone is talking to a cat",
+            "someone talks to a cat",
             "the cat sits at the window",
             "the cat disappears",
-            "someone strokes the cat"
+            "someone strokes the cat",
+            "the cat is sleeping"
          ],
          "errors":[
-            "the cat disappears"
+            "the cat disappears",
+            "the cat is sleeping"
          ],
          "timing":{
             "type":"RANDOM",
@@ -241,10 +245,12 @@
          "tag":"child",
          "enabled":"true",
          "lines":[
-            "a child shouts",
+            "the child shouts",
             "someone carries a baby",
             "the child plays",
             "the child reads",
+            "the child laughs",
+            "the child runs"
             "the children are playing",
             "someone carries the baby",
             "someone feeds the baby",
@@ -256,7 +262,6 @@
          ],
          "errors":[
             "the child sleeps",
-            "the child isn't here",
             "the baby sleeps"
          ],
          "timing":{
@@ -269,12 +274,13 @@
          "tag":"dog",
          "enabled":"true",
          "lines":[
-            "someone walks a dog",
-            "a child walks a dog",
-            "a child walks the dog",
+            "someone walks the dog",
+            "the child walks the dog",
             "the dog barks",
             "the dog sleeps",
-            "the dog eats"
+            "the dog eats",
+            "the dog looks at food",
+            "the dog meets another dog"
          ],
          "errors":[
             "nobody walks the dog",
@@ -294,6 +300,8 @@
             "the meeting begins",
             "the meeting ends",
             "people shake hands",
+            "someone shakes hands",
+            "people talk",
             "someone sits at the table",
             "someone asks a question",
             "someone disagrees",
@@ -321,7 +329,7 @@
          "enabled":"true",
          "lines":[
             "someone sneezes",
-            "someone fastens their shoe laces",
+            "someone fastens their shoes",
             "someone coughs",
             "someone smokes",
             "someone drinks",
@@ -331,6 +339,10 @@
             "someone looks at the river",
             "the man walks down the street",
             "the woman walks down the street",
+            "the man stops",
+            "the woman stops",
+            "the man asks for change",
+            "the woman asks for change",
             "the man smokes",
             "the woman smokes",
             "the man drinks",
@@ -391,7 +403,8 @@
             "the boy takes a photo"
          ],
          "errors":[
-            "nobody takes a photo"
+            "no one takes a photo",
+            "the photo is deleted"
          ],
          "timing":{
             "type":"RANDOM",
@@ -404,7 +417,10 @@
          "lines":[
             "someone is queuing",
             "someone is waiting",
-            "someone joins the queue"
+            "someone joins the queue",
+            "the queue is long",
+            "the queue is short",
+            "someone stands in the queue"
          ],
          "errors":[
             "nobody is queuing"
@@ -427,10 +443,14 @@
             "someone pays by card",
             "someone leaves a tip",
             "someone collects points",
-            "someone uses their point card"
+            "someone uses their point card",
+            "the shop is open",
+            "the shop is busy",
+            "people are shopping"
          ],
          "errors":[
-            "nobody is shopping"
+            "the shop is empty",
+            "the shop is closed"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -443,10 +463,13 @@
          "enabled":"true",
          "lines":[
             "the squirrel climbs in the tree",
-            "the squirrel looks for food"
+            "the squirrel looks for food",
+            "the squirrel is hiding",
+            "the squirrel jumps"
          ],
          "errors":[
-            "the squirrel is disappears"
+            "the squirrel is disappears",
+            "the squirrel is hiding"
          ],
          "timing":{
             "type":"RANDOM",
@@ -458,20 +481,21 @@
          "enabled":"true",
          "lines":[
             "someone flags down a taxi",
-            "the taxi fare is paid",
             "someone calls the driver",
             "the taxis are waiting",
             "the driver is waiting",
-            "someone rates a driver",
-            "the driver rates a client",
+            "the taxi drives",
+            "the taxi stops",
+            "the taxi arrives",
+            "someone rates the driver",
+            "the driver rates the client",
             "the driver is approaching",
-            "someone arrives by taxi",
-            "the driver is on his way",
-            "the driver is on her way"
+            "the driver is on the way"
          ],
          "errors":[
             "there are no taxis",
             "the driver finished the shift"
+            "the driver takes a break"
          ],
          "timing":{
             "type":"RANDOM",
@@ -509,30 +533,13 @@
          "lines":[
             "the truck turns left",
             "the truck turns right",
-            "the truck waits",
             "the truck waits at the lights",
             "the truck is loaded",
-            "the truck is unloaded"
+            "the truck unloades",
+            "the truck drives"
          ],
          "errors":[
-            "the truck is parked",
-            "the truck doesn't move"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"canal",
-         "enabled":"true",
-         "lines":[
-            "the canal level is high",
-            "the canal level is normal",
-            "the canal level is low"
-         ],
-         "errors":[
-            "the canal level is normal"
+            "the truck is parked"
          ],
          "timing":{
             "type":"RANDOM",
@@ -590,18 +597,19 @@
                "Thursday",
                "Friday"
             ],
-            "start":"17:00",
-            "end":"18:00"
+            "start":"18:25",
+            "end":"18:40"
          }
       },
       {
          "tag":"petrol",
          "enabled":"true",
          "lines":[
-            "petrol is cheaper"
+            "petrol is cheaper",
+            "petrol is more expensive"
          ],
          "errors":[
-            "petrol is normal"
+            "someone pays for petrol"
          ],
          "timing":{
             "type":"RANDOM",
@@ -632,7 +640,7 @@
             "the rent goes up"
          ],
          "errors":[
-            "the rent doesn't change"
+            "the rent goes up"
          ],
          "timing":{
             "type":"RANDOM",
@@ -674,24 +682,6 @@
          }
       },
       {
-         "tag":"temparature",
-         "enabled":"true",
-         "lines":[
-            "it is a very hot day",
-            "it is a hot day",
-            "it is a warm day",
-            "it is a cool day",
-            "it is a cold day"
-         ],
-         "errors":[
-            "the temperature changes"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
          "tag":"weather",
          "enabled":"true",
          "lines":[
@@ -710,10 +700,13 @@
          "enabled":"true",
          "lines":[
             "the bus arrives",
-            "the bus is travelling"
+            "the bus is travelling",
+            "the bus is late",
+            "the bus is on time"
          ],
          "errors":[
-            "the bus is not here"
+            "the bus is travelling",
+            "the bus is at the depot"
          ],
          "timing":{
             "type":"RANDOM",
@@ -724,11 +717,14 @@
          "tag":"cyclists",
          "enabled":"true",
          "lines":[
-            "the cyclists are riding",
-            "no cyclists are riding"
+            "the cyclist is riding",
+            "the man cycles",
+            "the woman cycles"
+            "someone cycles"
          ],
          "errors":[
-            "are cyclists riding?"
+            "are bike is parked",
+            "the bike is locked"
          ],
          "timing":{
             "type":"RANDOM",
@@ -745,23 +741,7 @@
             "the train is delayed"
          ],
          "errors":[
-            "is the train arriving?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"airquality",
-         "enabled":"true",
-         "lines":[
-            "the air quality is good",
-            "the air quality is okay",
-            "the air quality is poor"
-         ],
-         "errors":[
-            "the air quality changes"
+            "the train isn't running"
          ],
          "timing":{
             "type":"RANDOM",
@@ -772,11 +752,12 @@
          "tag":"parking",
          "enabled":"true",
          "lines":[
-            "the cars can easily park",
-            "the cars can park"
+            "the car is parked",
+            "the car park is busy",
+            "the car park is full"
          ],
          "errors":[
-            "there is no space to park"
+            "the car park is empty"
          ],
          "timing":{
             "type":"RANDOM",
@@ -788,15 +769,14 @@
          "enabled":"true",
          "lines":[
             "the band plays",
-            "music is playing",
+            "the band plays a song",
             "people are listening to music",
             "the man is listening to music",
             "the woman is listening to music"
          ],
          "errors":[
-            "is the concert today?",
-            "there is no concert today",
-            "is someone at the concert?"
+            "the band stopped playing",
+            "no music is playing"
          ],
          "timing":{
             "type":"UNIQUE",
@@ -845,22 +825,6 @@
          }
       },
       {
-         "tag":"cello",
-         "enabled":"true",
-         "lines":[
-            "the cello plays"
-         ],
-         "errors":[
-            "is the cello playing?",
-            "the cello is silent",
-            "is the cello playing?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
          "tag":"cinema",
          "enabled":"true",
          "lines":[
@@ -899,40 +863,8 @@
             "the music is on"
          ],
          "errors":[
-            "is there a concert today?",
-            "is someone at the concert?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"opera",
-         "enabled":"true",
-         "lines":[
-            "the music is playing"
-         ],
-         "errors":[
-            "is the opera today?",
-            "no opera is sung today",
-            "is the opera today?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"orchestra",
-         "enabled":"true",
-         "lines":[
-            "the orchestra is playing"
-         ],
-         "errors":[
-            "does the orchestra play today?",
-            "the orchestra isn't playing",
-            "does the orchestra play today?"
+            "the music is turned off",
+            "no one is playing music"
          ],
          "timing":{
             "type":"RANDOM",
@@ -943,23 +875,29 @@
          "tag":"piano",
          "enabled":"true",
          "lines":[
-            "someone plays the piano"
+            "someone plays the piano",
+            "the man plays piano",
+            "the woman plays piano"
          ],
          "errors":[
-            "is someone playing the piano?",
             "the piano is silent",
-            "is someone playing the piano?"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"100"
+            "type":"EVERYDAY",
+            "start": "09:00",
+            "end": "22:30"
+ 
          }
       },
       {
          "tag":"sing",
          "enabled":"true",
          "lines":[
-            "someone is singing"
+            "someone is singing",
+            "the man sings",
+            "the woman sings",
+            "the boy sings",
+            "the girl sings"
          ],
          "errors":[
             "is someone singing today?",
@@ -967,8 +905,9 @@
             "is someone singing?"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"100"
+            "type":"EVERYDAY",
+            "start": "09:00",
+            "end": "20:30"
          }
       },
       {
@@ -985,9 +924,8 @@
             "the woman is at the theatre"
          ],
          "errors":[
-            "is the theatre open?",
             "the theatre is closed",
-            "is the theatre open?"
+            "the stage is empty"
          ],
          "timing":{
             "type":"UNIQUE",
@@ -1308,22 +1246,6 @@
          }
       },
       {
-         "tag":"violin",
-         "enabled":"true",
-         "lines":[
-            "someone plays the violin"
-         ],
-         "errors":[
-            "is someone playing the violin?",
-            "the violin is silent",
-            "is someone playing the violin?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
          "tag":"exhibition",
          "enabled":"true",
          "lines":[
@@ -1336,9 +1258,8 @@
             "someone leave the gallery"
          ],
          "errors":[
-            "is the exhibition today?",
-            "is someone at the exhibition?",
-            "is there an exhibition today?"
+            "the exhibition is closed",
+            "the exhibition is emptly"
          ],
          "timing":{
             "type":"DAILY",
@@ -1367,7 +1288,8 @@
             "someone leave the gallery"
          ],
          "errors":[
-            "the gallery is closed"
+            "the gallery is closed",
+            "the gallery is empty"
          ],
          "timing":{
             "type":"DAILY",
@@ -1408,47 +1330,16 @@
          }
       },
       {
-         "tag":"jazz",
-         "enabled":"true",
-         "lines":[
-            "the jazz musicians play"
-         ],
-         "errors":[
-            "do the jazz musicians play?",
-            "there is no jazz playing.",
-            "is someone listening to jazz?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
          "tag":"museum",
          "enabled":"true",
          "lines":[
-            "the museum is open"
+            "the museum is open",
+            "the museum is busy",
+            "people are at the museum"
          ],
          "errors":[
-            "is the museum open?",
-            "the museum is closed.",
-            "is someone at the museum?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"exam",
-         "enabled":"true",
-         "lines":[
-            "the students take an exam"
-         ],
-         "errors":[
-            "are the students taking an exam?",
-            "there are no exams today",
-            "is the exam being taken?"
+            "the museum is closed",
+            "the museum is empty"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1459,32 +1350,37 @@
          "tag":"lecture",
          "enabled":"true",
          "lines":[
-            "the lecturer speaks to the students"
+            "the teacher speaks to the students",
+            "the teacher talks"
          ],
          "errors":[
-            "is there a lecture?",
             "the lecture hall is quiet",
-            "is there a lecture?"
+            "the classroom is empty"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"100"
+         "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Friday"
+            ],
+            "start":"08:00",
+            "end":"17:00"
          }
       },
       {
          "tag":"nursery",
          "enabled":"true",
          "lines":[
-            "the children play in the nursery",
             "the boy plays",
             "the girl plays",
             "the children are playing",
-            "the nursery is open"
+            "the nursery is open",
          ],
          "errors":[
-            "is the nursery open?",
-            "the nursery is closed",
-            "are the babies in the nursery?"
+            "the nursery is closed"
          ],
          "timing":{
             "type":"DAILY",
@@ -1511,9 +1407,8 @@
             "the library is open"
          ],
          "errors":[
-            "is the library open?",
             "the library is closed",
-            "the library is closed"
+            "the library is empty"
          ],
          "timing":{
             "type":"DAILY",
@@ -1556,12 +1451,13 @@
             "the casino is open",
             "someone wins money",
             "someone loses money",
+            "someone wins",
+            "someone loses",
             "the man gambles",
             "the woman gambles"
          ],
          "errors":[
-            "the casino is closed",
-            "the casino is closing"
+            "the casino is closed"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1572,8 +1468,6 @@
          "tag":"dancer",
          "enabled":"true",
          "lines":[
-            "the dancer dances",
-            "there is a dance recital",
             "people are dancing",
             "the boy dances",
             "the girl dances",
@@ -1598,8 +1492,10 @@
          "enabled":"true",
          "lines":[
             "the radio plays the news",
-            "a song plays on the radio",
-            "these is chat on the radio"
+            "the radio plays a song",
+            "there is chat on the radio",
+            "the radio is on"
+            
          ],
          "errors":[
             "the radio is silent"
@@ -1614,16 +1510,23 @@
          "enabled":"true",
          "lines":[
             "the band rehearses",
-            "the dancer rehearses"
+            "the dancer rehearses",
+            "the performer rehearese"
          ],
          "errors":[
-            "is there a rehearsal?",
             "there is no rehearsal",
-            "is there a rehearsal?"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Friday"
+            ],
+            "start":"7:30",
+            "end":"18:00"
          }
       },
       {
@@ -1632,10 +1535,13 @@
          "lines":[
             "the team plays",
             "the team plays football",
-            "the player kicks the ball"
+            "the player kicks the ball",
+            "the team is on the field",
+            "the player train"
          ],
          "errors":[
-            "did the team win?"
+            "the field is empty",
+            "no one is training"
          ],
          "timing":{
             "type":"UNIQUE",
@@ -1668,12 +1574,11 @@
             "the woman swims",
             "someone is at the pool",
             "the pool is open",
-            "people are at the pool"
+            "people are swimming"
          ],
          "errors":[
-            "is someone swimming?",
-            "the pool is closed today",
-            "is someone swimming?"
+            "the pool is closed",
+            "the pool is empty"
          ],
          "timing":{
             "type":"DAILY",
@@ -1689,24 +1594,6 @@
          }
       },
       {
-         "tag":"taichi",
-         "enabled":"true",
-         "lines":[
-            "someone does tai chi",
-            "the woman does tai chi",
-            "the people do tai chi"
-         ],
-         "errors":[
-            "is the tai chi class today?",
-            "nobody is doing tai chi",
-            "is the tai chi class today?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-      {
          "tag":"yoga",
          "lines":[
             "someone does yoga",
@@ -1716,10 +1603,11 @@
             "the man sits in a yoga pose",
             "the people do yoga",
             "the yoga studio is open",
+            "the yoga studio is busy",
             "the yoga class has started"
          ],
          "errors":[
-            "nobody is doing yoga"
+            "the yoga studio is closed"
          ],
          "timing":{
             "type":"DAILY",
@@ -1748,19 +1636,42 @@
          "tag":"community",
          "enabled":"true",
          "lines":[
-            "the community meets",
-            "there is a meeting of the community"
+            "people are meeting",
+            "people are making things",
+            "volunteers are busy",
+            "the cinema is busy",
+            "the event is on"
          ],
          "errors":[
-            "does the community meet?",
-            "the community isn't meeting today",
-            "the community meets"
+            "the cinema is empty"
          ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
+ "timing": {
+       "type": "UNIQUE",
+	"times": [
+	  {"start":"2018-06-22 19:30", "end":"2018-06-23 01:00"},
+	  {"start":"2018-06-23 22:00", "end":"2018-06-24 03:00"},
+	  {"start":"2018-06-24 11:00", "end":"2018-06-24 22:00"},
+	  {"start":"2018-06-29 19:00", "end":"2018-06-29 00:00"},
+	  {"start":"2018-06-30 19:30", "end":"2018-06-29 00:00"},
+	  {"start":"2018-07-01 11:00", "end":"2018-07-01 11:00"},
+	  {"start":"2018-07-08 11:00", "end":"2018-07-08 11:00"},
+	  {"start":"2018-07-14 12:00", "end":"2018-07-14 00:00"},
+	  {"start":"2018-07-15 11:00", "end":"2018-07-15 11:00"},
+	  {"start":"2018-07-20 20:00", "end":"2018-07-20 23:00"},
+	  {"start":"2018-07-21 18:00", "end":"2018-07-21 21:00"},
+	  {"start":"2018-07-22 11:00", "end":"2018-07-22 16:00"},
+	  {"start":"2018-07-25 20:00", "end":"2018-07-25 23:00"},
+	  {"start":"2018-07-29 11:00", "end":"2018-07-29 16:00"},
+	  {"start":"2018-08-03 19:00", "end":"2018-08-03 22:00"},
+	  {"start":"2018-08-05 11:00", "end":"2018-08-05 16:00"},
+	  {"start":"2018-08-12 11:00", "end":"2018-08-12 16:00"},
+	  {"start":"2018-08-19 11:00", "end":"2018-08-19 16:00"},
+	  {"start":"2018-08-26 11:00", "end":"2018-08-26 16:00"},
+	  {"start":"2018-09-02 11:00", "end":"2018-09-02 16:00"},
+	  {"start":"2018-09-09 11:00", "end":"2018-09-09 16:00"}
+      }
+    },
+
       {
          "tag":"foodbank",
          "lines":[
@@ -1813,14 +1724,13 @@
          "tag":"confession",
          "enabled":"true",
          "lines":[
-            "the man is at confession",
-            "the woman is at confession",
-            "there is a confession"
+            "someone listens to sins",
+            "confessions are open",
+            "someone confesses"
          ],
          "errors":[
-            "is there a confession?",
-            "there is no confession",
-            "confession is today"
+            "no one confesses",
+            "there is no confession"
          ],
          "timing":{
             "type":"DAILY",
@@ -1837,13 +1747,12 @@
          "tag":"mass",
          "enabled":"true",
          "lines":[
-            "the people are at mass",
-            "the priest gives mass"
+            "the church is open",
+            "someone is at the church"
          ],
          "errors":[
-            "is there mass?",
-            "there is no mass today",
-            "mass is today"
+            "the church is empty",
+            "the church is closed"
          ],
          "timing":{
             "days":[
@@ -1868,11 +1777,10 @@
          "enabled":"true",
          "lines":[
             "the mosque is at prayer",
-            "the people are the mosque are praying"
+            "people are praying"
          ],
          "errors":[
-            "are there prayers now?",
-            "there are no prayers now",
+            "there is no prayer",
             "the mosque is not at prayer"
          ],
          "timing":{
@@ -1892,8 +1800,11 @@
             "the temple doors are closed"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type": "DAILY",
+            "days":["Friday"],
+            "start": "6:30", "end": "20:30",
+            "days2":["Sunday"],
+            "start2": "15:00", "end2": "18:30"
          }
       },
       {
@@ -2134,16 +2045,17 @@
          "enabled":"true",
          "lines":[
             "the office opens",
-            "the office is open"
+            "the office is open",
+            "the office is busy"
          ],
          "errors":[
             "the office is closed",
-            "is the office open?",
-            "the office is closed"
+            "the office is empty"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"07:00",
+            "end":"21:00"
          }
       },
       {
@@ -2200,23 +2112,6 @@
          }
       },
       {
-         "tag":"gardencentre",
-         "enabled":"true",
-         "lines":[
-            "the garden centre is open",
-            "the garden centre is busy"
-         ],
-         "errors":[
-            "is the garden centre open?",
-            "the garden centre is closed",
-            "is the garden centre open?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-      {
          "tag":"hotel",
          "lines":[
             "someone checks into the hotel",
@@ -2236,17 +2131,23 @@
          "tag":"wedding",
          "enabled":"true",
          "lines":[
-            "there is a wedding today",
-            "the wedding is today"
+            "the wedding is today",
+            "someone gets married"
          ],
          "errors":[
-            "is there a wedding today?",
             "there is no wedding today",
-            "there a wedding today?"
+            "the city hall is empty"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Wednesday",
+               "Thursday",
+               "Friday",
+               "Saturday"
+            ],
+            "start":"9:00",
+            "end":"16:00"
          }
       },
       {
@@ -2257,7 +2158,7 @@
             "the baby is due"
          ],
          "errors":[
-            "the baby isn't due yet"
+            "the baby is born"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2269,14 +2170,11 @@
          "enabled":"true",
          "lines":[
             "someone donates blood",
-            "there is a blood donation",
             "the man donates blood",
             "the woman donates blood"
          ],
          "errors":[
             "the blood bank is closed",
-            "does someone donate blood?",
-            "the blood bank is closed"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -2289,10 +2187,13 @@
          "enabled":"true",
          "lines":[
             "the shift continues",
-            "the shift changes"
+            "the shift changes",
+            "the shift starts",
+            "the shift ends"
          ],
          "errors":[
-            "the shift isn't over"
+            "the shift ends",
+            "the shift starts"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2322,7 +2223,6 @@
             "there is high o2"
          ],
          "errors":[
-            "is there high o2?",
             "the o2 is low"
          ],
          "timing":{
@@ -2335,10 +2235,9 @@
          "enabled":"false",
          "lines":[
             "the air is humid",
-            "there is high humidity"
+            "humidity is high "
          ],
          "errors":[
-            "is the air humid?",
             "the humidity is low"
          ],
          "timing":{
@@ -2563,7 +2462,7 @@
                "Friday"
             ],
             "start":"8:00",
-            "end":"17:00"
+            "end":"18:00"
          }
       },
       {
@@ -2663,22 +2562,6 @@
          }
       },
       {
-         "tag":"NEWsynagogue",
-         "enabled":"false",
-         "lines":[
-            "the synagogue is open",
-            "the synagogue is at prayer"
-         ],
-         "errors":[
-            "the synagogue is not at prayer",
-            "the synagogue is closed"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-      {
          "tag":"NEWuni",
          "enabled":"false",
          "lines":[
@@ -2690,8 +2573,16 @@
             "the university is quiet"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Friday"
+            ],
+            "start":"8:00",
+            "end":"18:00"
          }
       },
       {
@@ -2863,7 +2754,7 @@
             "someone orders sushi"
          ],
          "errors":[
-            "the sushi belt is off"
+            "the sushi belt is still"
          ],
          "timing":{
             "type":"DAILY",
@@ -3030,7 +2921,8 @@
       {
          "tag":"NEWhospital",
          "lines":[
-            "the hospital is open"
+            "the hospital is open",
+            "the hospital is busy"
          ],
          "errors":[
             "the hospital is open"
@@ -3199,8 +3091,16 @@
             "the school is closed"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"100%"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Friday"
+            ],
+            "start":"8:00",
+            "end":"16:00"
          }
       },
       {
