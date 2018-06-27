@@ -250,7 +250,7 @@
             "the child plays",
             "the child reads",
             "the child laughs",
-            "the child runs"
+            "the child runs",
             "the children are playing",
             "someone carries the baby",
             "someone feeds the baby",
@@ -494,7 +494,7 @@
          ],
          "errors":[
             "there are no taxis",
-            "the driver finished the shift"
+            "the driver finished the shift",
             "the driver takes a break"
          ],
          "timing":{
@@ -555,11 +555,7 @@
          ],
          "errors":[
             "the pound fluctuates"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
+         ]
       },
       {
          "tag":"fullmoon",
@@ -571,11 +567,7 @@
          ],
          "errors":[
             "is there a full moon tonight?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
+         ]
       },
       {
          "tag":"letterbox",
@@ -627,11 +619,7 @@
          ],
          "errors":[
             "is it going to rain?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
+         ]
       },
       {
          "tag":"rent",
@@ -675,11 +663,7 @@
          ],
          "errors":[
             "the weather is changing"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
+         ]
       },
       {
          "tag":"weather",
@@ -689,11 +673,7 @@
          ],
          "errors":[
             "what is the weather like?"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
+         ]
       },
       {
          "tag":"bustime",
@@ -719,7 +699,7 @@
          "lines":[
             "the cyclist is riding",
             "the man cycles",
-            "the woman cycles"
+            "the woman cycles",
             "someone cycles"
          ],
          "errors":[
@@ -880,13 +860,12 @@
             "the woman plays piano"
          ],
          "errors":[
-            "the piano is silent",
+            "the piano is silent"
          ],
          "timing":{
             "type":"EVERYDAY",
             "start": "09:00",
             "end": "22:30"
- 
          }
       },
       {
@@ -1377,7 +1356,7 @@
             "the boy plays",
             "the girl plays",
             "the children are playing",
-            "the nursery is open",
+            "the nursery is open"
          ],
          "errors":[
             "the nursery is closed"
@@ -1495,7 +1474,6 @@
             "the radio plays a song",
             "there is chat on the radio",
             "the radio is on"
-            
          ],
          "errors":[
             "the radio is silent"
@@ -1514,7 +1492,7 @@
             "the performer rehearese"
          ],
          "errors":[
-            "there is no rehearsal",
+            "there is no rehearsal"
          ],
          "timing":{
             "type":"DAILY",
@@ -1645,32 +1623,33 @@
          "errors":[
             "the cinema is empty"
          ],
- "timing": {
-       "type": "UNIQUE",
-	"times": [
-	  {"start":"2018-06-22 19:30", "end":"2018-06-23 01:00"},
-	  {"start":"2018-06-23 22:00", "end":"2018-06-24 03:00"},
-	  {"start":"2018-06-24 11:00", "end":"2018-06-24 22:00"},
-	  {"start":"2018-06-29 19:00", "end":"2018-06-29 00:00"},
-	  {"start":"2018-06-30 19:30", "end":"2018-06-29 00:00"},
-	  {"start":"2018-07-01 11:00", "end":"2018-07-01 11:00"},
-	  {"start":"2018-07-08 11:00", "end":"2018-07-08 11:00"},
-	  {"start":"2018-07-14 12:00", "end":"2018-07-14 00:00"},
-	  {"start":"2018-07-15 11:00", "end":"2018-07-15 11:00"},
-	  {"start":"2018-07-20 20:00", "end":"2018-07-20 23:00"},
-	  {"start":"2018-07-21 18:00", "end":"2018-07-21 21:00"},
-	  {"start":"2018-07-22 11:00", "end":"2018-07-22 16:00"},
-	  {"start":"2018-07-25 20:00", "end":"2018-07-25 23:00"},
-	  {"start":"2018-07-29 11:00", "end":"2018-07-29 16:00"},
-	  {"start":"2018-08-03 19:00", "end":"2018-08-03 22:00"},
-	  {"start":"2018-08-05 11:00", "end":"2018-08-05 16:00"},
-	  {"start":"2018-08-12 11:00", "end":"2018-08-12 16:00"},
-	  {"start":"2018-08-19 11:00", "end":"2018-08-19 16:00"},
-	  {"start":"2018-08-26 11:00", "end":"2018-08-26 16:00"},
-	  {"start":"2018-09-02 11:00", "end":"2018-09-02 16:00"},
-	  {"start":"2018-09-09 11:00", "end":"2018-09-09 16:00"}
-      }
-    },
+         "timing": {
+           "type": "UNIQUE",
+	         "times": [
+          	  {"start":"2018-06-22 19:30", "end":"2018-06-23 01:00"},
+          	  {"start":"2018-06-23 22:00", "end":"2018-06-24 03:00"},
+          	  {"start":"2018-06-24 11:00", "end":"2018-06-24 22:00"},
+          	  {"start":"2018-06-29 19:00", "end":"2018-06-29 00:00"},
+          	  {"start":"2018-06-30 19:30", "end":"2018-06-29 00:00"},
+          	  {"start":"2018-07-01 11:00", "end":"2018-07-01 11:00"},
+          	  {"start":"2018-07-08 11:00", "end":"2018-07-08 11:00"},
+          	  {"start":"2018-07-14 12:00", "end":"2018-07-14 00:00"},
+          	  {"start":"2018-07-15 11:00", "end":"2018-07-15 11:00"},
+          	  {"start":"2018-07-20 20:00", "end":"2018-07-20 23:00"},
+          	  {"start":"2018-07-21 18:00", "end":"2018-07-21 21:00"},
+          	  {"start":"2018-07-22 11:00", "end":"2018-07-22 16:00"},
+          	  {"start":"2018-07-25 20:00", "end":"2018-07-25 23:00"},
+          	  {"start":"2018-07-29 11:00", "end":"2018-07-29 16:00"},
+          	  {"start":"2018-08-03 19:00", "end":"2018-08-03 22:00"},
+          	  {"start":"2018-08-05 11:00", "end":"2018-08-05 16:00"},
+          	  {"start":"2018-08-12 11:00", "end":"2018-08-12 16:00"},
+          	  {"start":"2018-08-19 11:00", "end":"2018-08-19 16:00"},
+          	  {"start":"2018-08-26 11:00", "end":"2018-08-26 16:00"},
+          	  {"start":"2018-09-02 11:00", "end":"2018-09-02 16:00"},
+          	  {"start":"2018-09-09 11:00", "end":"2018-09-09 16:00"}
+            ]
+          }
+      },
 
       {
          "tag":"foodbank",
@@ -1782,11 +1761,7 @@
          "errors":[
             "there is no prayer",
             "the mosque is not at prayer"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"sikh",
@@ -2174,7 +2149,7 @@
             "the woman donates blood"
          ],
          "errors":[
-            "the blood bank is closed",
+            "the blood bank is closed"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -2224,11 +2199,7 @@
          ],
          "errors":[
             "the o2 is low"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWhumidity",
@@ -2239,11 +2210,7 @@
          ],
          "errors":[
             "the humidity is low"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWflightnoise",
@@ -2255,11 +2222,7 @@
          "errors":[
             "is there a flight overhead?",
             "the flight hasn't landed"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWjourneytime",
@@ -2271,11 +2234,7 @@
          "errors":[
             "the journey is long",
             "there is a long journey"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWrainduration",
@@ -2287,11 +2246,7 @@
          "errors":[
             "there isn't any rain",
             "no rain here now"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWparticlecount",
@@ -2303,11 +2258,7 @@
          "errors":[
             "the pollution is low",
             "there aren't many particles"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWsoilmoisture",
@@ -2319,11 +2270,7 @@
          "errors":[
             "the ground is dry",
             "there is no moisture in the ground"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWhiveactivity",
@@ -2335,11 +2282,7 @@
          "errors":[
             "the bee hive is quiet",
             "the been hive is at rest"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWwindspeed",
@@ -2351,11 +2294,7 @@
          "errors":[
             "the wind stops",
             "the air is still"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWcongestion",
@@ -2368,11 +2307,7 @@
             "the road is quiet",
             "the traffic is light",
             "there is not much traffic"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWaveragespeed",
@@ -2384,11 +2319,7 @@
          "errors":[
             "the traffic is slow",
             "the traffic moves slowly"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWwinddirection",
@@ -2402,11 +2333,7 @@
          "errors":[
             "the wind has stopped",
             "there is no wind"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWairpressure",
@@ -2418,11 +2345,7 @@
          "errors":[
             "the air pressure is low",
             "the air pressure is down"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWmaxsound",
@@ -2434,11 +2357,7 @@
          "errors":[
             "the city is quiet",
             "there isn't much noise"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWraskl",
@@ -2668,23 +2587,6 @@
          }
       },
       {
-         "tag":"NEWbus",
-         "enabled":"false",
-         "lines":[
-            "the bus travels",
-            "the bus arrives",
-            "the bus departs"
-         ],
-         "errors":[
-            "the bus is still",
-            "the bus is not running"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-      {
          "tag":"NEWpollution",
          "enabled":"false",
          "lines":[
@@ -2694,11 +2596,7 @@
          "errors":[
             "is the pollution high?",
             "the pollution is low"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
       {
          "tag":"NEWshabbat",
