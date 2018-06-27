@@ -107,6 +107,43 @@
          }
       },
       {
+         "tag":"testSplit",
+         "enabled":"true",
+         "lines":[
+            "this is a line of poetry",
+            "this is another line of poetry",
+            "another line of poetry"
+         ],
+         "errors":[
+            "the thing didn't work",
+            "this is an error",
+            "oh no, things are broken"
+         ],
+         "timing":{
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Friday"
+                ],
+                "start":"09:00",
+                "end":"22:00"
+              },
+              {
+                "days":[
+                   "Saturday",
+                   "Sunday"
+                ],
+                "start":"19:00",
+                "end":"22:00"
+              }
+            ]
+         }
+      },
+      {
          "tag":"bench",
          "enabled":"true",
          "lines":[
@@ -1588,26 +1625,52 @@
             "the yoga studio is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday"
-            ],
-            "start":"12:00",
-            "end":"13:00",
-            "start1":"18:00",
-            "end1":"21:00",
-            "days1":[
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday",
-               "Sunday"
-            ],
-            "start2":"10:00",
-            "end2":"13:00",
-            "start3":"18:00",
-            "end3":"21:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday"
+                ],
+                "start":"12:00",
+                "end":"13:00"
+              },
+              {
+                "days":[
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "start":"18:00",
+                "end":"21:00"
+              },
+              {
+                "days":[
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "start":"10:00",
+                "end":"13:00"
+              },
+              {
+                "days":[
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "start":"18:00",
+                "end":"21:00"
+              }
+            ]
          }
       },
       {
