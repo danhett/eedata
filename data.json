@@ -1726,19 +1726,25 @@
             "the food bank is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday"
-            ],
-            "start":"12:00",
-            "end":"12:00",
-            "days2":[
-               "Tuesday",
-               "Thursday",
-               "Wednesday"
-            ],
-            "start2":"10:00",
-            "end2":"16:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday"
+                ],
+                "start":"12:00",
+                "end":"12:00"
+              },
+              {
+                "days":[
+                   "Tuesday",
+                   "Thursday",
+                   "Wednesday"
+                ],
+                "start":"10:00",
+                "end":"16:00"
+              }
+            ]
          }
       },
       {
@@ -1775,14 +1781,23 @@
             "there is no confession"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Saturday"
-            ],
-            "start":"11:00",
-            "end":"12:00",
-            "start2":"17:15",
-            "end2":"17:45"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                  "Saturday"
+                ],
+                "start":"11:00",
+                "end":"12:00"
+              },
+              {
+                "days":[
+                  "Saturday"
+                ],
+                "start":"17:15",
+                "end":"17:45"
+              }
+            ]
          }
       },
       {
@@ -1797,21 +1812,28 @@
             "the church is closed"
          ],
          "timing":{
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Sunday"
-            ],
-            "start":"7:30",
-            "end":"18:00",
-            "days2":[
-               "Saturday"
-            ],
-            "start2":"8:00",
-            "end2":"16:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday",
+                   "Sunday"
+                ],
+                "start":"7:30",
+                "end":"18:00"
+              },
+              {
+                "days":[
+                   "Saturday"
+                ],
+                "start":"8:00",
+                "end":"16:00"
+              }
+            ]
          }
       },
       {
@@ -1838,11 +1860,17 @@
             "the temple doors are closed"
          ],
          "timing":{
-            "type": "DAILY",
-            "days":["Friday"],
-            "start": "6:30", "end": "20:30",
-            "days2":["Sunday"],
-            "start2": "15:00", "end2": "18:30"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":["Friday"],
+                "start": "6:30", "end": "20:30"
+              },
+              {
+                "days":["Sunday"],
+                "start": "15:00", "end": "18:30"
+              }
+            ]
          }
       },
       {
@@ -1863,22 +1891,28 @@
             "the bar is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Sunday"
-            ],
-            "start":"9:00",
-            "end":"24:00",
-            "days2":[
-               "Thursday",
-               "Friday",
-               "Saturday"
-            ],
-            "start2":"16:00",
-            "end2":"2:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Sunday"
+                ],
+                "start":"9:00",
+                "end":"24:00"
+              },
+              {
+                "days":[
+                   "Thursday",
+                   "Friday",
+                   "Saturday"
+                ],
+                "start":"16:00",
+                "end":"2:00"
+              }
+            ]
          }
       },
       {
@@ -1893,22 +1927,28 @@
             "is someone in the burger place?"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Sunday"
-            ],
-            "start":"11:00",
-            "end":"23:00",
-            "days2":[
-               "Friday",
-               "Saturday"
-            ],
-            "start2":"11:00",
-            "end2":"23:30"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Sunday"
+                ],
+                "start":"11:00",
+                "end":"23:00"
+              },
+              {
+                "days":[
+                   "Friday",
+                   "Saturday"
+                ],
+                "start":"11:00",
+                "end":"23:30"
+              }
+            ]
          }
       },
       {
@@ -1927,22 +1967,28 @@
             "the cafe is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday"
-            ],
-            "start":"6:00",
-            "end":"19:30",
-            "days2":[
-               "Sunday"
-            ],
-            "start2":"8:30",
-            "end2":"17:30"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday",
+                   "Saturday"
+                ],
+                "start":"6:00",
+                "end":"19:30"
+              },
+              {
+                "days":[
+                   "Sunday"
+                ],
+                "start":"8:30",
+                "end":"17:30"
+              }
+            ]
          }
       },
       {
@@ -1958,30 +2004,40 @@
             "the pub is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday"
-            ],
-            "start":"11:00",
-            "end":"23:00",
-            "days2":[
-               "Thursday"
-            ],
-            "start2":"11:00",
-            "end2":"24:00",
-            "days3":[
-               "Friday",
-               "Saturday"
-            ],
-            "start3":"11:00",
-            "end3":"2:00",
-            "days4":[
-               "Sunday"
-            ],
-            "start4":"12:00",
-            "end4":"23:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday"
+                ],
+                "start":"11:00",
+                "end":"23:00"
+              },
+              {
+                "days":[
+                   "Thursday"
+                ],
+                "start":"11:00",
+                "end":"24:00"
+              },
+              {
+                "days":[
+                   "Friday",
+                   "Saturday"
+                ],
+                "start":"11:00",
+                "end":"2:00"
+              },
+              {
+                "days":[
+                   "Sunday"
+                ],
+                "start":"12:00",
+                "end":"23:00"
+              }
+            ]
          }
       },
       {
@@ -1999,26 +2055,34 @@
             "the ice cream place is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday"
-            ],
-            "start":"9:00",
-            "end":"20:00",
-            "days2":[
-               "Saturday"
-            ],
-            "start2":"9:00",
-            "end2":"19:00",
-            "days3":[
-               "Sunday"
-            ],
-            "start3":"11:00",
-            "end3":"17:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday"
+                ],
+                "start":"9:00",
+                "end":"20:00"
+              },
+              {
+                "days":[
+                   "Saturday"
+                ],
+                "start":"9:00",
+                "end":"19:00"
+              },
+              {
+                "days":[
+                   "Sunday"
+                ],
+                "start":"11:00",
+                "end":"17:00"
+              }
+            ]
          }
       },
       {
@@ -2034,21 +2098,27 @@
             "the bank is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday"
-            ],
-            "start":"9:30",
-            "end":"17:00",
-            "days2":[
-               "Saturday"
-            ],
-            "start2":"9:30",
-            "end2":"13:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday"
+                ],
+                "start":"9:30",
+                "end":"17:00"
+              },
+              {
+                "days":[
+                   "Saturday"
+                ],
+                "start":"9:30",
+                "end":"13:00"
+              }
+            ]
          }
       },
       {
@@ -2112,26 +2182,34 @@
             "the shop is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday"
-            ],
-            "start":"9:00",
-            "end":"20:00",
-            "days2":[
-               "Saturday"
-            ],
-            "start2":"9:00",
-            "end2":"19:00",
-            "days3":[
-               "Sunday"
-            ],
-            "start3":"11:00",
-            "end3":"17:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday"
+                ],
+                "start":"9:00",
+                "end":"20:00"
+              },
+              {
+                "days":[
+                   "Saturday"
+                ],
+                "start":"9:00",
+                "end":"19:00"
+              },
+              {
+                "days":[
+                   "Sunday"
+                ],
+                "start":"11:00",
+                "end":"17:00"
+              }
+            ]
          }
       },
       {
@@ -2580,22 +2658,28 @@
             "the club is quiet"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday"
-            ],
-            "start":"17:00",
-            "end":"03:00",
-            "days2":[
-               "Friday",
-               "Saturday",
-               "Sunday"
-            ],
-            "start2":"13:00",
-            "end2":"03:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday"
+                ],
+                "start":"17:00",
+                "end":"03:00"
+              },
+              {
+                "days":[
+                   "Friday",
+                   "Saturday",
+                   "Sunday"
+                ],
+                "start":"13:00",
+                "end":"03:00"
+              }
+            ]
          }
       },
       {
@@ -2686,22 +2770,28 @@
             "the bookstore is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday"
-            ],
-            "start":"10:00",
-            "end":"17:00",
-            "days2":[
-               "Sunday"
-            ],
-            "start2":"10:00",
-            "end2":"16:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday",
+                   "Saturday"
+                ],
+                "start":"10:00",
+                "end":"17:00"
+              },
+              {
+                "days":[
+                   "Sunday"
+                ],
+                "start":"10:00",
+                "end":"16:00"
+              }
+            ]
          }
       },
       {
@@ -2718,22 +2808,28 @@
             "the sushi belt is still"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday"
-            ],
-            "start":"11:00",
-            "end":"22:00",
-            "days2":[
-               "Sunday"
-            ],
-            "start2":"11:30",
-            "end2":"20:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday",
+                   "Saturday"
+                ],
+                "start":"11:00",
+                "end":"22:00"
+              },
+              {
+                "days":[
+                   "Sunday"
+                ],
+                "start":"11:30",
+                "end":"20:00"
+              }
+            ]
          }
       },
       {
@@ -2763,24 +2859,32 @@
             "the barber is closed"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Tuesday",
-               "Wednesday",
-               "Friday"
-            ],
-            "start":"10:00",
-            "end":"18:00",
-            "days2":[
-               "Thursday"
-            ],
-            "start2":"10:00",
-            "end2":"20:00",
-            "days3":[
-               "Saturday"
-            ],
-            "start3":"09:00",
-            "end3":"15:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Tuesday",
+                   "Wednesday",
+                   "Friday"
+                ],
+                "start":"10:00",
+                "end":"18:00"
+              },
+              {
+                "days":[
+                   "Thursday"
+                ],
+                "start":"10:00",
+                "end":"20:00"
+              },
+              {
+                "days":[
+                   "Saturday"
+                ],
+                "start":"09:00",
+                "end":"15:00"
+              }
+            ]
          }
       },
       {
@@ -2848,35 +2952,65 @@
             "the water isn’t rising"
          ],
          "timing":{
-            "type":"EVERYDAY",
-            "start":"10:00",
-            "end":"10:20",
-            "start2":"11:00",
-            "end2":"11:20",
-            "start3":"12:00",
-            "end3":"12:20",
-            "start4":"13:00",
-            "end4":"13:20",
-            "start5":"14:00",
-            "end5":"14:20",
-            "start6":"15:00",
-            "end6":"15:20",
-            "start7":"16:00",
-            "end7":"16:20",
-            "start8":"17:00",
-            "end8":"17:20",
-            "start9":"18:00",
-            "end9":"18:20",
-            "start10":"19:00",
-            "end10":"19:20",
-            "start11":"20:00",
-            "end11":"20:20",
-            "start12":"21:00",
-            "end12":"21:20",
-            "start13":"22:00",
-            "end13":"22:20",
-            "start14":"23:00",
-            "end14":"23:20"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"10:00","end":"18:00"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"11:00", "end":"11:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"12:00", "end":"12:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"13:00", "end":"13:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"14:00", "end":"14:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"15:00", "end":"15:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"16:00", "end":"16:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"17:00", "end":"17:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"18:00", "end":"18:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"19:00", "end":"19:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"20:00", "end":"20:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"21:00", "end":"21:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"22:00", "end":"22:20"
+              },
+              {
+                "days":[ "Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday","Sunday" ],
+                "start":"23:00", "end":"23:20"
+              }
+            ]
          }
       },
       {
