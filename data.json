@@ -2332,6 +2332,17 @@
          }
       },
       {
+         "tag":"NEWaccident",
+         "enabled":"false",
+         "lines":[
+            "the ambulance is driving",
+            "the siren is on"
+         ],
+         "errors":[
+            "the siren is off"
+         ]
+      },
+      {
          "tag":"NEWo2",
          "enabled":"false",
          "lines":[
