@@ -2766,8 +2766,8 @@
             "the candles are burning"
          ],
          "errors":[
-            "the candles aren’t lit",
-            "the candles aren’t burning"
+            "the candles aren't lit",
+            "the candles aren't burning"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2962,7 +2962,7 @@
          ],
          "errors":[
             "there is no performance",
-            "the water isn’t rising"
+            "the water isn't rising"
          ],
          "timing":{
             "type":"SPLIT",
