@@ -155,7 +155,7 @@
             "a man sits on the bench"
          ],
          "errors":[
-            "nobody sits on the bench"
+            "no one sits on the bench"
          ],
          "timing":{
             "type":"RANDOM",
@@ -320,7 +320,7 @@
             "the dog meets another dog"
          ],
          "errors":[
-            "nobody walks the dog",
+            "no one walks the dog",
             "the dog sleeps"
          ],
          "timing":{
@@ -337,7 +337,6 @@
             "the meeting begins",
             "the meeting ends",
             "people shake hands",
-            "someone shakes hands",
             "people talk",
             "someone sits at the table",
             "someone asks a question",
@@ -460,7 +459,7 @@
             "someone stands in the queue"
          ],
          "errors":[
-            "nobody is queuing"
+            "no one is queuing"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -599,11 +598,10 @@
          "enabled":"true",
          "lines":[
             "there is a full moon tonight",
-            "there is a full moon soon",
-            "there isn't a full moon soon"
+            "there is a full moon soon"
          ],
          "errors":[
-            "is there a full moon tonight?"
+            "there is no full moon tonight"
          ]
       },
       {
@@ -652,10 +650,10 @@
             "there is heavy rain falling",
             "there is light rain falling",
             "it may rain soon",
-            "it isn't going to rain"
+            "it's going to rain"
          ],
          "errors":[
-            "is it going to rain?"
+            "it's not going to rain"
          ]
       },
       {
@@ -709,7 +707,7 @@
             "the weather is mild"
          ],
          "errors":[
-            "what is the weather like?"
+            "the weather is good"
          ]
       },
       {
@@ -846,14 +844,14 @@
          "enabled":"true",
          "lines":[
             "the film is showing",
-            "the man is watching the film",
-            "the woman is watching the film",
-            "the girl is watching the film",
-            "the boy is watching the film"
+            "the man is watching a film",
+            "the woman is watching a film",
+            "the girl is watching a film",
+            "the boy is watching a film"
          ],
          "errors":[
-            "no film is showing",
-            "is the film showing?"
+            "no film is showing"
+            "the cinema is closed"
          ],
          "timing":{
             "type":"DAILY",
@@ -916,9 +914,7 @@
             "the girl sings"
          ],
          "errors":[
-            "is someone singing today?",
-            "nobody is singing",
-            "is someone singing?"
+            "no one is singing"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -2752,7 +2748,6 @@
             "the pollution is average"
          ],
          "errors":[
-            "is the pollution high?",
             "the pollution is low"
          ]
       },
