@@ -1275,7 +1275,7 @@
          ],
          "errors":[
             "the exhibition is closed",
-            "the exhibition is emptly"
+            "the exhibition is empty"
          ],
          "timing":{
             "type":"DAILY",
@@ -1301,7 +1301,7 @@
             "the woman is looking at art",
             "someone enters the gallery",
             "the museum is open",
-            "someone leave the gallery"
+            "someone leaves the gallery"
          ],
          "errors":[
             "the gallery is closed",
@@ -1446,7 +1446,6 @@
             "people are dancing"
          ],
          "errors":[
-            "is there a party?",
             "there is no party tonight",
             "there might be a party tonight"
          ],
@@ -1492,7 +1491,7 @@
             "the woman dances"
          ],
          "errors":[
-            "is someone dancing?"
+            "no one is dancing"
          ],
          "timing":{
            "type":"DAILY",
@@ -1924,9 +1923,8 @@
             "the man eats a burger"
          ],
          "errors":[
-            "is the burger place open?",
-            "nobody is eating",
-            "is someone in the burger place?"
+            "no one orders a burger",
+            "the burger place is closed"
          ],
          "timing":{
             "type":"SPLIT",
@@ -1956,12 +1954,11 @@
       {
          "tag":"cafe",
          "lines":[
-            "the coffee is served",
-            "the coffee is refilled",
-            "someone drinks a coffee",
+            "coffee is served",
+            "someone drinks coffee",
             "someone ordered a coffee",
             "the cafe is open",
-            "the coffee is brewing",
+            "coffee is brewing",
             "the man drinks a coffee",
             "the woman orders a coffee"
          ],
@@ -2371,11 +2368,12 @@
          "enabled":"true",
          "lines":[
             "the plane flies overhead",
-            "there aircraft is landing"
+            "the plane is landing"
          ],
          "errors":[
-            "is there a flight overhead?",
-            "the flight hasn't landed"
+            "the flight hasn't landed",
+            "the plane has landed"
+
          ]
       },
       {
@@ -2430,12 +2428,12 @@
          "tag":"NEWhiveactivity",
          "enabled":"true",
          "lines":[
-            "the bee hive is busy",
-            "the been hive is buzzing"
+            "the beehive is busy",
+            "the beehive is buzzing"
          ],
          "errors":[
-            "the bee hive is quiet",
-            "the been hive is at rest"
+            "the beehive is quiet",
+            "the beehive is at rest"
          ]
       },
       {
