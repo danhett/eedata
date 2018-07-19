@@ -850,7 +850,7 @@
             "the boy is watching a film"
          ],
          "errors":[
-            "no film is showing"
+            "no film is showing",
             "the cinema is closed"
          ],
          "timing":{
