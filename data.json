@@ -3600,6 +3600,290 @@
                }
             ]
          }
+      },
+
+      {
+        "tag": "NEWgetnorth",
+        "lines": [
+          "the exhibition is on"
+        ],
+        "errors": [
+          "the exhibition is still on"
+        ],
+        "timing": {
+          "type": "RANDOM",
+          "chance": "100"
+        }
+      },
+
+      {
+        "tag": "NEWclosing",
+        "lines": [
+          "the exhibition is closing soon"
+        ],
+        "errors": [
+          "the exhibition is ending soon"
+        ],
+        "timing": {
+          "type": "RANDOM",
+          "chance": "100"
+        }
+      },
+
+      {
+        "tag": "NEWteam",
+        "lines": [
+          "the team is working",
+          "the team is meeting",
+          "the team helps each other",
+          "someone delegates the team",
+          "someone makes a decision"
+        ],
+        "errors": [
+          "the team is taking a break"
+        ],
+        "timing": {
+          "type": "DAILY",
+          "days": [
+            "Monday",
+            "Tueday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "start": "09:30",
+        "end": "20:30"
+        }
+      },
+
+      {
+        "tag": "NEWtv",
+        "lines": [
+          "the show is broadcasted",
+          "someone watches tv",
+          "the man reports",
+          "the woman reports",
+          "the show is on air"
+        ],
+        "errors": [
+          "no one watches tv"
+        ],
+        "timing": {
+          "type": "RANDOM",
+          "chance": "100"
+        }
+      },
+
+
+      {
+        "tag": "NEWtwitter",
+        "lines": [
+          "someone publishes a message",
+          "someone likes a message",
+          "someone publishes a picture",
+          "someone likes a picture",
+          "someone likes someone else's message",
+          "someone likes someone else's picture",
+          "someone uses a hashtag",
+          "someone uses many hashtags",
+          "someone follows you",
+          "someone follows someone else",
+          "someone uses their phone"
+        ],
+        "errors": [
+          "people send messages",
+          "people are publishing messages"
+        ],
+        "timing": {
+          "type": "RANDOM",
+          "chance": "100"
+        }
+      },
+
+      {
+        "tag": "NEWvolunteer",
+        "lines": [
+          "someone volunteers",
+          "someone asks for directions",
+          "someone explains the route",
+          "someone supports the show",
+          "someone welcomes a visitor",
+          "someone leads a group",
+          "someone greats a visitor"
+        ],
+        "errors": [
+          "no one volunteers"
+        ],
+        "timing": {
+          "type": "DAILY",
+          "days": [
+            "Monday",
+            "Tueday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "start": "09:30",
+          "end": "18:30"
+        }
+      },
+
+      {
+        "tag": "NEWvisitor",
+        "lines": [
+          "someone visits the exhibition",
+          "someone visits the city",
+          "someone visits the exhibition",
+          "someone visits the exhibition",
+          "the man is visiting",
+          "the woman is visiting",
+          "someone is visiting",
+          "the man travels",
+          "the woman travels",
+          "someone travels"
+        ],
+        "errors": [
+          "the visitor rests"
+        ],
+        "timing": {
+          "type": "DAILY",
+          "days": [
+            "Monday",
+            "Tueday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "start": "08:30",
+          "end": "23:30"
+        }
+      },
+
+      {
+        "tag": "NEWwork",
+        "lines": [
+          "the man works",
+          "the woman works",
+          "the girl works",
+          "the boy works",
+          "someone is at work",
+          "someone is still at work"
+        ],
+        "errors": [
+          "the worker rests"
+        ],
+        "timing": {
+          "type": "DAILY",
+          "days": [
+            "Monday",
+            "Tueday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "start": "08:30",
+          "end": "23:30"
+        }
+      },
+
+      {
+        "tag": "NEWinventor",
+        "lines": [
+          "the child draws",
+          "the boy invents",
+          "the girl invents",
+          "someone publishes an invention",
+          "someone has an idea",
+          "the boy has an idea",
+          "the girl has an idea",
+          "someone shares an idea"
+        ],
+        "errors": [
+          "someone talks about an idea",
+          "people share ideas"
+        ],
+        "timing": {
+          "type": "RANDOM",
+          "chance": "100"
+        }
+      },
+
+      {
+        "tag": "NEWrocket",
+        "lines": [
+          "someone visits the locomotive",
+          "people are visiting the locomotive",
+          "the man looks at the locomotive",
+          "the woman looks at the locomotive",
+          "the child looks at the locomotive",
+          "children are looking at the locomotive"
+        ],
+        "errors": [
+          "the museum is closed"
+        ],
+        "timing": {
+          "type": "DAILY",
+          "days": [
+            "Monday",
+            "Tueday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "start": "10:00",
+          "end": "18:00"
+        }
+      },
+
+      {
+        "tag": "NEWrun",
+        "lines": [
+          "the man is running",
+          "the woman is running",
+          "people are running",
+          "the boy is running",
+          "the girl is running",
+          "someone is running",
+          "someone runs faster"
+        ],
+        "errors": [
+          "someone is tired",
+          "the man rests",
+          "the woman rests",
+          "the boy rests",
+          "the girl rests",
+          "legs are hurting",
+          "muscles are aching"
+        ],
+        "timing": {
+          "type": "SPLIT",
+          "splittimes": [
+            {
+              "days": [
+                "Saturday"
+              ],
+              "start": "08:30",
+              "end": "17:45"
+            },
+            {
+              "days": [
+                "Sunday"
+              ],
+              "start": "10:10",
+              "end": "19:45"
+            }
+          ]
+        }
       }
    ]
 }
