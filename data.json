@@ -2375,12 +2375,12 @@
     {
       "tag": "SXSWAccident",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "an accident has happened",
+        "a car has crashed"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "someone drives a car",
+        "the car is driving"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2390,12 +2390,12 @@
     {
       "tag": "SXSWAir",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the air is clean",
+        "the air is fresh"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the air isn't clean",
+        "the air is polluted"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2578,17 +2578,13 @@
     {
       "tag": "SXSWCamera",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the camera films,",
+        "the camera is filming"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
+        "the camera is turned off",
+        "the camera isn't working"
+      ]
     },
     {
       "tag": "SXSWCapitol",
@@ -2629,12 +2625,14 @@
     {
       "tag": "SXSWCar",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "someone rents a car",
+        "someone is driving",
+        "someone drives the car"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "someone returns a car",
+        "the car is available",
+        "the car is waiting"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2659,12 +2657,11 @@
     {
       "tag": "SXSWCotton",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the price of cotton rises",
+        "the prince of cotton drops"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the price of cotton fluctuates"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2674,12 +2671,10 @@
     {
       "tag": "SXSWCrypto",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the crypto currency goes up"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the crypto currency goes down"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2689,12 +2684,13 @@
     {
       "tag": "SXSWCycling",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "someone rents a bike",
+        "someone cycles",
+        "people are cycling"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "someone returns a bike",
+        "the bike is in the station"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2721,12 +2717,16 @@
     {
       "tag": "SXSWDog",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "someone lost their dog",
+        "someone found a dog",
+        "someone found a cat",
+        "someone lost their cat",
+        "the dog has lost its owner",
+        "the cat has lost its owner"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "someone walks the dog",
+        "someone plays with the cat"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2736,12 +2736,11 @@
     {
       "tag": "SXSWDollar",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the dollar is weak",
+        "the dollar is strong"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the dollar fluctuates"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2783,17 +2782,13 @@
     {
       "tag": "SXSWFlightNoise",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the plane flies overhead",
+        "the plane is loud"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
+        "the flight hasn't landed",
+        "the plane has landed"
+      ]
     },
     {
       "tag": "SXSWFootball",
@@ -2878,12 +2873,12 @@
     {
       "tag": "SXSWGasoline",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the gasoline price rises"
+        "gasoline price is rising",
+        "gasoline is expensive"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the gasoline price drops"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2893,12 +2888,11 @@
     {
       "tag": "SXSWGold",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the price of gold rises",
+        "the prince of gold drops"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the price of gold fluctuates"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3009,12 +3003,11 @@
     {
       "tag": "SXSWHumidity",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the air is humid",
+        "humidity is high"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the humidity is low"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3152,12 +3145,12 @@
     {
       "tag": "SXSWKayak",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "poemline"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "no one is kayaking",
+        "the lake is quiet ",
+        "no one is on the water"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3167,12 +3160,10 @@
     {
       "tag": "SXSWLake",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the lake is full"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the lake isn't full"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3285,17 +3276,14 @@
     {
       "tag": "SXSWMetro",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the train travels",
+        "the train arrives",
+        "the train departs"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
+        "the metro is not running",
+        "people are waiting for the metro"
+      ]
     },
     {
       "tag": "SXSWMexican",
@@ -3315,12 +3303,10 @@
     {
       "tag": "SXSWMoon",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the moon is up",
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the sun shines"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3330,12 +3316,11 @@
     {
       "tag": "SXSWMoonLightTower",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the moonlight tower is on",
+        "the moonlight is bright"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the moonlight tower is off"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3425,12 +3410,11 @@
     {
       "tag": "SXSWParking",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the car is parked",
+        "the driver parks the car"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the parking spots are full"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3480,17 +3464,18 @@
     {
       "tag": "SXSWPlane",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the plane is taking off",
+        "the plane is landing",
+        "the plane flies",
+        "the plane is flying",
+        "people are boarding the plane",
+        "the airport is busy"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
+        "the plane is delayed",
+        "the plane has been cancelled",
+        "the plane isn't flying"
+      ]
     },
     {
       "tag": "SXSWPool",
@@ -3534,12 +3519,13 @@
     {
       "tag": "SXSWRoad",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the road is busy",
+        "there is a lot of traffic"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the road is quiet",
+        "the traffic is light",
+        "there is not much traffic"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3646,12 +3632,12 @@
     {
       "tag": "SXSWSun",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the sun rises",
+        "it is daytime",
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the sun sets",
+        "it is night time"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3661,12 +3647,15 @@
     {
       "tag": "SXSWTemp",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "it's warm today",
+        "it's hot today",
+        "the weather is good",
+        "the weather is mild",
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the weather is bad",
+        "it is cold",
+        "it is chilly"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3778,12 +3767,14 @@
     {
       "tag": "SXSWWaste",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the waste has been collected",
+        "the waste is collected",
+        "the bins are emptied",
+        "the bins are empty"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the waste hasn't been collected",
+        "the bins are full"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3793,12 +3784,11 @@
     {
       "tag": "SXSWWheat",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the price of wheat rises",
+        "the prince of wheat drops"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the price of wheat fluctuates"
       ],
       "timing": {
         "type": "RANDOM",
