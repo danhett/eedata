@@ -2423,12 +2423,14 @@
     {
       "tag": "SXSWBank",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the bank is open",
+        "someone transfers money",
+        "someone makes a payment",
+        "someone invests money",
+        "people are doing business"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the bank is closed"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2438,12 +2440,12 @@
     {
       "tag": "SXSWBarbeque",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the barbeque place is open",
+        "someone orders food",
+        "people are eating"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the barbeque place is closed"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2453,12 +2455,10 @@
     {
       "tag": "SXSWBaseball",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "poemline"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "errorline"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2563,12 +2563,10 @@
     {
       "tag": "SXSWBoat",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "poemline"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "errorline"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2642,12 +2640,11 @@
     {
       "tag": "SXSWCommerce",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the chamber is open",
+        "people are doing business"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the chamber is closed"
       ],
       "timing": {
         "type": "RANDOM",
@@ -2793,12 +2790,13 @@
     {
       "tag": "SXSWFootball",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "the team plays",
+        "someone plays football",
+        "the team is on the field"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "the field is empty",
+        "no one is training"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3074,12 +3072,10 @@
     {
       "tag": "SXSWIndian",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "poemline"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "errorline"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3288,12 +3284,10 @@
     {
       "tag": "SXSWMexican",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "poemline"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "errorline"
       ],
       "timing": {
         "type": "RANDOM",
@@ -3535,12 +3529,10 @@
     {
       "tag": "SXSWSchedule",
       "lines": [
-        "the brewery is open",
-        "beer is brewing"
+        "poemline"
       ],
       "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
+        "errorline"
       ],
       "timing": {
         "type": "RANDOM",
