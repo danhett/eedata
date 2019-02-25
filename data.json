@@ -1,4292 +1,4614 @@
 {
-  "poems": [
-    {
-      "tag": "emptyexample",
-      "enabled": "true",
-      "lines": [
-        "",
-        "",
-        ""
-      ],
-      "errors": [
-        "",
-        "",
-        ""
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
-    {
-      "tag": "testRandom",
-      "enabled": "true",
-      "lines": [
-        "this is a line of poetry",
-        "this is another line of poetry",
-        "another line of poetry"
-      ],
-      "errors": [
-        "the thing didn't work",
-        "this is an error",
-        "oh no, things are broken"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
-    {
-      "tag": "testEveryday",
-      "enabled": "true",
-      "lines": [
-        "this is a line of poetry",
-        "this is another line of poetry",
-        "another line of poetry"
-      ],
-      "errors": [
-        "the thing didn't work",
-        "this is an error",
-        "oh no, things are broken"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "20:00",
-        "end": "22:00"
-      }
-    },
-    {
-      "tag": "testDaily",
-      "enabled": "true",
-      "lines": [
-        "this is a line of poetry",
-        "this is another line of poetry",
-        "another line of poetry"
-      ],
-      "errors": [
-        "the thing didn't work",
-        "this is an error",
-        "oh no, things are broken"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Wednesday",
-          "Friday"
-        ],
-        "start": "19:00",
-        "end": "22:00"
-      }
-    },
-    {
-      "tag": "testUnique",
-      "enabled": "true",
-      "lines": [
-        "this is a line of poetry",
-        "this is another line of poetry",
-        "another line of poetry"
-      ],
-      "errors": [
-        "the thing didn't work",
-        "this is an error",
-        "oh no, things are broken"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2018-05-21 09:30",
-            "end": "2018-05-21 23:30"
-          },
-          {
-            "start": "2018-05-18 09:30",
-            "end": "2018-05-18 23:30"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "testSplit",
-      "enabled": "true",
-      "lines": [
-        "this is a line of poetry",
-        "this is another line of poetry",
-        "another line of poetry"
-      ],
-      "errors": [
-        "the thing didn't work",
-        "this is an error",
-        "oh no, things are broken"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Friday"
-            ],
-            "start": "09:00",
-            "end": "22:00"
-          },
-          {
-            "days": [
-              "Saturday",
-              "Sunday"
-            ],
-            "start": "19:00",
-            "end": "22:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "bench",
-      "enabled": "true",
-      "lines": [
-        "someone sits on the bench",
-        "people sit on the bench",
-        "someone walks past the bench",
-        "a child sits on the bench",
-        "a woman sits on the bench",
-        "a man sits on the bench"
-      ],
-      "errors": [
-        "no one sits on the bench"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
-    {
-      "tag": "bike",
-      "lines": [
-        "the bike turns left",
-        "the bike turns right",
-        "the bike waits",
-        "someone cycles",
-        "the cyclist turns left",
-        "the cyclist turns right",
-        "the driver waits",
-        "the driver is on the way",
-        "the driver picks up the food",
-        "the driver delivers the food",
-        "the driver delivers the order"
-      ],
-      "errors": [
-        "the bike is locked"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "busdriving",
-      "enabled": "true",
-      "lines": [
-        "the bus turns left",
-        "the bus turns right",
-        "the bus waits",
-        "the bus slows down",
-        "the bus stops",
-        "the man takes the bus",
-        "the woman takes the bus",
-        "the girl takes the bus",
-        "the boy takes the bus",
-        "people sit on the upper deck",
-        "the bus crosses the bridge"
-      ],
-      "errors": [
-        "the bus is at the depot",
-        "the bus is still",
-        "the bus stops"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "buswaiting",
-      "enabled": "true",
-      "lines": [
-        "someone waits for the bus",
-        "someone pays for a bus ticket",
-        "someone buys a ticket",
-        "someone takes the bus",
-        "the man takes the bus",
-        "the woman takes the bus",
-        "the man gets off the bus",
-        "the woman gets off the bus",
-        "someone gets off the bus",
-        "someone stands at the bus stop",
-        "the upper deck is empty",
-        "someone watches out of the window"
-      ],
-      "errors": [
-        "the buses is gone",
-        "the bus leaves"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "car",
-      "enabled": "true",
-      "lines": [
-        "the car turns left",
-        "the car turns right",
-        "the car waits",
-        "the car crosses the bridge",
-        "the man drives the car",
-        "the woman drives the car",
-        "the car waits at the lights",
-        "the car stops suddenly"
-      ],
-      "errors": [
-        "the car is parked",
-        "the car is still"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "cat",
-      "enabled": "true",
-      "lines": [
-        "someone talks to a cat",
-        "the cat sits at the window",
-        "the cat disappears",
-        "someone strokes the cat",
-        "the cat is sleeping"
-      ],
-      "errors": [
-        "the cat disappears",
-        "the cat is sleeping"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "child",
-      "enabled": "true",
-      "lines": [
-        "the child shouts",
-        "someone carries a baby",
-        "the child plays",
-        "the child reads",
-        "the child laughs",
-        "the child runs",
-        "the children are playing",
-        "someone carries the baby",
-        "someone feeds the baby",
-        "someone talks to the baby",
-        "the baby screams",
-        "the baby sleeps",
-        "the baby smiles",
-        "someone pushes a stroller"
-      ],
-      "errors": [
-        "the child sleeps",
-        "the baby sleeps"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:00",
-        "end": "20:00"
-      }
-    },
-    {
-      "tag": "dog",
-      "enabled": "true",
-      "lines": [
-        "someone walks the dog",
-        "the child walks the dog",
-        "the dog barks",
-        "the dog sleeps",
-        "the dog eats",
-        "the dog looks at food",
-        "the dog meets another dog"
-      ],
-      "errors": [
-        "no one walks the dog",
-        "the dog sleeps"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:00",
-        "end": "24:00"
-      }
-    },
-    {
-      "tag": "meeting",
-      "enabled": "true",
-      "lines": [
-        "someone travels to a meeting",
-        "the meeting begins",
-        "the meeting ends",
-        "people shake hands",
-        "people talk",
-        "someone sits at the table",
-        "someone asks a question",
-        "someone disagrees",
-        "someone agrees",
-        "the meeting runs over"
-      ],
-      "errors": [
-        "the meeting is cancelled"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "start": "9:00",
-        "end": "19:30"
-      }
-    },
-    {
-      "tag": "person",
-      "enabled": "true",
-      "lines": [
-        "someone sneezes",
-        "someone fastens their shoes",
-        "someone coughs",
-        "someone smokes",
-        "someone drinks",
-        "someone yawns",
-        "someone turns their head",
-        "someone crosses the bridge",
-        "someone looks at the river",
-        "the man walks down the street",
-        "the woman walks down the street",
-        "the man stops",
-        "the woman stops",
-        "the man asks for change",
-        "the woman asks for change",
-        "the man smokes",
-        "the woman smokes",
-        "the man drinks",
-        "the woman drinks"
-      ],
-      "errors": [
-        "someone is at home",
-        "the man is at home",
-        "the woman is at home"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "90"
-      }
-    },
-    {
-      "tag": "phone",
-      "enabled": "true",
-      "lines": [
-        "someone answers their phone",
-        "someone makes a call",
-        "someone sends a text",
-        "the man sends a text",
-        "the woman sends a text",
-        "the girl sends a text",
-        "the boy sends a text",
-        "someone talks on the phone",
-        "someone scrolls on their phone",
-        "someone likes a photo",
-        "someone sends a message",
-        "someone misses a call",
-        "someone looks for direction",
-        "someone finds their way"
-      ],
-      "errors": [
-        "someone forgot their phone",
-        "the man forgot his phone",
-        "the woman lost her phone"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "75"
-      }
-    },
-    {
-      "tag": "photo",
-      "enabled": "true",
-      "lines": [
-        "someone takes a photo",
-        "the woman takes a photo",
-        "the man takes a photo",
-        "someone posts a photo",
-        "the girl posts a photo",
-        "the boy posts a photo",
-        "someone likes the photo",
-        "someone edits a photo",
-        "the girl takes a photo",
-        "the boy takes a photo"
-      ],
-      "errors": [
-        "no one takes a photo",
-        "the photo is deleted"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "queueing",
-      "enabled": "true",
-      "lines": [
-        "someone is queuing",
-        "someone is waiting",
-        "someone joins the queue",
-        "the queue is long",
-        "the queue is short",
-        "someone stands in the queue"
-      ],
-      "errors": [
-        "no one is queuing"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:00",
-        "end": "24:00"
-      }
-    },
-    {
-      "tag": "shopping",
-      "enabled": "true",
-      "lines": [
-        "someone carries shopping bags",
-        "someone enters the shop",
-        "someone leaves the shop",
-        "someone buys their groceries",
-        "someone pays in cash",
-        "someone pays by card",
-        "someone leaves a tip",
-        "someone collects points",
-        "someone uses their point card",
-        "the shop is open",
-        "the shop is busy",
-        "people are shopping"
-      ],
-      "errors": [
-        "the shop is empty",
-        "the shop is closed"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:00",
-        "end": "24:00"
-      }
-    },
-    {
-      "tag": "squirrel",
-      "enabled": "true",
-      "lines": [
-        "the squirrel climbs in the tree",
-        "the squirrel looks for food",
-        "the squirrel is hiding",
-        "the squirrel jumps"
-      ],
-      "errors": [
-        "the squirrel is disappears",
-        "the squirrel is hiding"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "taxi",
-      "enabled": "true",
-      "lines": [
-        "someone flags down a taxi",
-        "someone calls the driver",
-        "the taxis are waiting",
-        "the driver is waiting",
-        "the taxi drives",
-        "the taxi stops",
-        "the taxi arrives",
-        "someone rates the driver",
-        "the driver rates the client",
-        "the driver is approaching",
-        "the driver is on the way"
-      ],
-      "errors": [
-        "there are no taxis",
-        "the driver finished the shift",
-        "the driver takes a break"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "time",
-      "enabled": "true",
-      "lines": [
-        "someone is on time",
-        "someone is late",
-        "someone is early",
-        "the man arrives late",
-        "the man arrives on time",
-        "the man arrives early",
-        "the woman arrives late",
-        "the woman arrives on time",
-        "the woman arrives too early",
-        "someone is on their way",
-        "someone is going home"
-      ],
-      "errors": [
-        "someone is on time"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:00",
-        "end": "24:00"
-      }
-    },
-    {
-      "tag": "truck",
-      "enabled": "true",
-      "lines": [
-        "the truck turns left",
-        "the truck turns right",
-        "the truck waits at the lights",
-        "the truck is loaded",
-        "the truck unloades",
-        "the truck drives"
-      ],
-      "errors": [
-        "the truck is parked"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "exchangerate",
-      "enabled": "true",
-      "lines": [
-        "the pound is weak",
-        "the pound is strong"
-      ],
-      "errors": [
-        "the pound fluctuates"
-      ]
-    },
-    {
-      "tag": "fullmoon",
-      "enabled": "true",
-      "lines": [
-        "there is a full moon tonight",
-        "there is a full moon soon"
-      ],
-      "errors": [
-        "there is no full moon tonight"
-      ]
-    },
-    {
-      "tag": "letterbox",
-      "enabled": "true",
-      "lines": [
-        "the letters are collected",
-        "the post box is emptied"
-      ],
-      "errors": [
-        "someone sends a letter",
-        "someone sends a postcard"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tueday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "start": "18:25",
-        "end": "18:40"
-      }
-    },
-    {
-      "tag": "petrol",
-      "enabled": "true",
-      "lines": [
-        "petrol is cheaper",
-        "petrol is more expensive"
-      ],
-      "errors": [
-        "someone pays for petrol"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "rain",
-      "enabled": "true",
-      "lines": [
-        "there is heavy rain falling",
-        "there is light rain falling",
-        "it may rain soon",
-        "it's going to rain"
-      ],
-      "errors": [
-        "it's not going to rain"
-      ]
-    },
-    {
-      "tag": "rent",
-      "enabled": "true",
-      "lines": [
-        "the rent goes up"
-      ],
-      "errors": [
-        "the rent goes up"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "streetlights",
-      "enabled": "true",
-      "lines": [
-        "the street lights turn off",
-        "the street lights are off",
-        "the street lights turn on",
-        "the street lights are on"
-      ],
-      "errors": [
-        "the street lights are off"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "sunrise",
-      "enabled": "true",
-      "lines": [
-        "the sun rises",
-        "it is daytime",
-        "the sun sets",
-        "it is night time"
-      ],
-      "errors": [
-        "the weather is changing"
-      ]
-    },
-    {
-      "tag": "weather",
-      "enabled": "true",
-      "lines": [
-        "the weather is mild"
-      ],
-      "errors": [
-        "the weather is good"
-      ]
-    },
-    {
-      "tag": "bustime",
-      "enabled": "true",
-      "lines": [
-        "the bus arrives",
-        "the bus is travelling",
-        "the bus is late",
-        "the bus is on time"
-      ],
-      "errors": [
-        "the bus is travelling",
-        "the bus is at the depot"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "cyclists",
-      "enabled": "true",
-      "lines": [
-        "the cyclist is riding",
-        "the man cycles",
-        "the woman cycles",
-        "someone cycles"
-      ],
-      "errors": [
-        "are bike is parked",
-        "the bike is locked"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "traintime",
-      "enabled": "true",
-      "lines": [
-        "the train departs",
-        "the train arrives",
-        "the train is late",
-        "the train is delayed"
-      ],
-      "errors": [
-        "the train isn't running"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "parking",
-      "enabled": "true",
-      "lines": [
-        "the car is parked",
-        "the car park is busy",
-        "the car park is full"
-      ],
-      "errors": [
-        "the car park is empty"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "band",
-      "enabled": "true",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2018-06-22 18:00",
-            "end": "2018-06-22 23:00"
-          },
-          {
-            "start": "2018-06-23 20:00",
-            "end": "2018-06-23 23:00"
-          },
-          {
-            "start": "2018-06-24 18:00",
-            "end": "2018-06-24 22:00"
-          },
-          {
-            "start": "2018-06-25 11:00",
-            "end": "2018-06-25 13:00"
-          },
-          {
-            "start": "2018-06-25 20:00",
-            "end": "2018-06-25 23:00"
-          },
-          {
-            "start": "2018-06-29 17:00",
-            "end": "2018-06-29 23:00"
-          },
-          {
-            "start": "2018-06-30 12:00",
-            "end": "2018-06-30 18:00"
-          },
-          {
-            "start": "2018-06-30 21:00",
-            "end": "2018-07-01 01:00"
-          },
-          {
-            "start": "2018-07-01 15:00",
-            "end": "2018-07-01 17:00"
-          },
-          {
-            "start": "2018-07-01 19:30",
-            "end": "2018-07-01 23:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "cinema",
-      "enabled": "true",
-      "lines": [
-        "the film is showing",
-        "the man is watching a film",
-        "the woman is watching a film",
-        "the girl is watching a film",
-        "the boy is watching a film"
-      ],
-      "errors": [
-        "no film is showing",
-        "the cinema is closed"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "start": "10:30",
-        "end": "00:00"
-      }
-    },
-    {
-      "tag": "music",
-      "enabled": "true",
-      "lines": [
-        "the music is playing",
-        "someone is playing music",
-        "someone is listening to music",
-        "the music is on"
-      ],
-      "errors": [
-        "the music is turned off",
-        "no one is playing music"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-11 20:00", "end": "2019-03-11 23:59" },
-          { "start": "2019-03-12 19:00", "end": "2019-03-12 23:59" },
-          { "start": "2019-03-13 13:00", "end": "2019-03-13 23:59" },
-          { "start": "2019-03-14 13:30", "end": "2019-03-14 23:59" },
-          { "start": "2019-03-16 19:15", "end": "2019-03-16 23:59" }
-        ]
-      }
-    },
-    {
-      "tag": "piano",
-      "enabled": "true",
-      "lines": [
-        "someone plays the piano",
-        "the man plays piano",
-        "the woman plays piano"
-      ],
-      "errors": [
-        "the piano is silent"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "09:00",
-        "end": "22:30"
-      }
-    },
-    {
-      "tag": "sing",
-      "enabled": "true",
-      "lines": [
-        "someone is singing",
-        "the man sings",
-        "the woman sings",
-        "the boy sings",
-        "the girl sings"
-      ],
-      "errors": [
-        "no one is singing"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "09:00",
-        "end": "20:30"
-      }
-    },
-    {
-      "tag": "theatre",
-      "enabled": "true",
-      "lines": [
-        "someone is performing a play",
-        "the actor is on stage",
-        "the play is on",
-        "the theatre is open",
-        "people are watching the play",
-        "tickets are sold",
-        "the man is at the theatre",
-        "the woman is at the theatre"
-      ],
-      "errors": [
-        "the theatre is closed",
-        "the stage is empty"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2018-06-22 19:30",
-            "end": "2018-06-22 22:30"
-          },
-          {
-            "start": "2018-06-23 14:30",
-            "end": "2018-06-23 17:30"
-          },
-          {
-            "start": "2018-06-23 19:30",
-            "end": "2018-06-23 22:30"
-          },
-          {
-            "start": "2018-06-25 19:30",
-            "end": "2018-06-25 22:30"
-          },
-          {
-            "start": "2018-06-26 19:30",
-            "end": "2018-06-26 22:30"
-          },
-          {
-            "start": "2018-06-27 19:30",
-            "end": "2018-06-21 22:30"
-          },
-          {
-            "start": "2018-06-28 14:00",
-            "end": "2018-06-21 17:00"
-          },
-          {
-            "start": "2018-06-28 19:30",
-            "end": "2018-06-21 22:30"
-          },
-          {
-            "start": "2018-06-29 19:30",
-            "end": "2018-06-29 22:30"
-          },
-          {
-            "start": "2018-06-30 14:30",
-            "end": "2018-06-30 17:30"
-          },
-          {
-            "start": "2018-06-30 19:30",
-            "end": "2018-06-30 22:30"
-          },
-          {
-            "start": "2018-07-02 19:30",
-            "end": "2018-07-02 22:30"
-          },
-          {
-            "start": "2018-07-03 19:30",
-            "end": "2018-07-03 22:30"
-          },
-          {
-            "start": "2018-07-04 19:30",
-            "end": "2018-07-04 22:30"
-          },
-          {
-            "start": "2018-07-05 14:00",
-            "end": "2018-07-05 17:00"
-          },
-          {
-            "start": "2018-07-05 19:30",
-            "end": "2018-07-05 22:30"
-          },
-          {
-            "start": "2018-07-06 19:30",
-            "end": "2018-07-06 22:30"
-          },
-          {
-            "start": "2018-07-07 14:30",
-            "end": "2018-07-07 17:30"
-          },
-          {
-            "start": "2018-07-07 19:30",
-            "end": "2018-07-07 22:30"
-          },
-          {
-            "start": "2018-07-10 13:30",
-            "end": "2018-07-10 16:00"
-          },
-          {
-            "start": "2018-07-10 15:30",
-            "end": "2018-07-10 18:00"
-          },
-          {
-            "start": "2018-07-11 10:30",
-            "end": "2018-07-11 13:00"
-          },
-          {
-            "start": "2018-07-11 13:30",
-            "end": "2018-07-11 15:00"
-          },
-          {
-            "start": "2018-07-17 19:30",
-            "end": "2018-07-17 22:30"
-          },
-          {
-            "start": "2018-07-18 14:00",
-            "end": "2018-07-18 17:00"
-          },
-          {
-            "start": "2018-07-19 14:00",
-            "end": "2018-07-19 17:00"
-          },
-          {
-            "start": "2018-07-19 19:30",
-            "end": "2018-07-19 22:30"
-          },
-          {
-            "start": "2018-07-20 19:30",
-            "end": "2018-07-20 22:30"
-          },
-          {
-            "start": "2018-07-21 14:30",
-            "end": "2018-07-21 17:30"
-          },
-          {
-            "start": "2018-07-21 14:30",
-            "end": "2018-07-21 17:00"
-          },
-          {
-            "start": "2018-07-21 19:30",
-            "end": "2018-07-21 22:30"
-          },
-          {
-            "start": "2018-07-24 19:00",
-            "end": "2018-07-24 22:00"
-          },
-          {
-            "start": "2018-07-25 19:00",
-            "end": "2018-07-25 22:00"
-          },
-          {
-            "start": "2018-07-26 14:00",
-            "end": "2018-07-26 17:00"
-          },
-          {
-            "start": "2018-07-26 19:00",
-            "end": "2018-07-26 22:00"
-          },
-          {
-            "start": "2018-07-27 14:00",
-            "end": "2018-07-27 17:00"
-          },
-          {
-            "start": "2018-07-27 19:00",
-            "end": "2018-07-27 22:00"
-          },
-          {
-            "start": "2018-07-28 14:00",
-            "end": "2018-07-28 17:00"
-          },
-          {
-            "start": "2018-07-28 19:00",
-            "end": "2018-07-28 22:00"
-          },
-          {
-            "start": "2018-07-31 19:30",
-            "end": "2018-07-31 22:30"
-          },
-          {
-            "start": "2018-08-01 14:00",
-            "end": "2018-08-01 17:00"
-          },
-          {
-            "start": "2018-08-01 19:30",
-            "end": "2018-08-01 22:30"
-          },
-          {
-            "start": "2018-08-02 14:00",
-            "end": "2018-08-02 17:00"
-          },
-          {
-            "start": "2018-08-02 19:30",
-            "end": "2018-08-02 22:30"
-          },
-          {
-            "start": "2018-08-03 19:30",
-            "end": "2018-08-03 22:30"
-          },
-          {
-            "start": "2018-08-04 14:30",
-            "end": "2018-08-04 17:30"
-          },
-          {
-            "start": "2018-08-04 19:30",
-            "end": "2018-08-04 22:30"
-          },
-          {
-            "start": "2018-08-06 19:30",
-            "end": "2018-08-06 22:30"
-          },
-          {
-            "start": "2018-08-07 19:30",
-            "end": "2018-08-07 22:30"
-          },
-          {
-            "start": "2018-08-08 19:30",
-            "end": "2018-08-08 22:30"
-          },
-          {
-            "start": "2018-08-09 14:00",
-            "end": "2018-08-09 17:00"
-          },
-          {
-            "start": "2018-08-09 19:30",
-            "end": "2018-08-09 22:30"
-          },
-          {
-            "start": "2018-08-10 19:30",
-            "end": "2018-08-10 22:30"
-          },
-          {
-            "start": "2018-08-11 14:30",
-            "end": "2018-08-11 17:30"
-          },
-          {
-            "start": "2018-08-11 19:30",
-            "end": "2018-08-11 22:30"
-          },
-          {
-            "start": "2018-08-13 19:30",
-            "end": "2018-08-13 22:30"
-          },
-          {
-            "start": "2018-08-14 19:30",
-            "end": "2018-08-14 22:30"
-          },
-          {
-            "start": "2018-08-15 19:30",
-            "end": "2018-08-15 22:30"
-          },
-          {
-            "start": "2018-08-16 14:00",
-            "end": "2018-08-16 17:00"
-          },
-          {
-            "start": "2018-08-16 19:30",
-            "end": "2018-08-16 22:30"
-          },
-          {
-            "start": "2018-08-17 14:00",
-            "end": "2018-08-17 17:00"
-          },
-          {
-            "start": "2018-08-17 19:30",
-            "end": "2018-08-17 22:30"
-          },
-          {
-            "start": "2018-08-18 14:30",
-            "end": "2018-08-18 17:30"
-          },
-          {
-            "start": "2018-08-18 19:30",
-            "end": "2018-08-18 22:30"
-          },
-          {
-            "start": "2018-08-22 10:00",
-            "end": "2018-08-22 12:00"
-          },
-          {
-            "start": "2018-08-22 13:00",
-            "end": "2018-08-22 15:00"
-          },
-          {
-            "start": "2018-08-22 16:00",
-            "end": "2018-08-22 18:00"
-          },
-          {
-            "start": "2018-08-23 10:00",
-            "end": "2018-08-23 12:00"
-          },
-          {
-            "start": "2018-08-23 13:00",
-            "end": "2018-08-23 15:00"
-          },
-          {
-            "start": "2018-08-23 16:00",
-            "end": "2018-08-23 18:00"
-          },
-          {
-            "start": "2018-08-28 20:00",
-            "end": "2018-08-28 23:00"
-          },
-          {
-            "start": "2018-08-29 20:00",
-            "end": "2018-08-29 23:00"
-          },
-          {
-            "start": "2018-08-30 20:00",
-            "end": "2018-08-30 23:00"
-          },
-          {
-            "start": "2018-08-31 20:00",
-            "end": "2018-08-31 23:00"
-          },
-          {
-            "start": "2018-09-01 20:00",
-            "end": "2018-09-01 23:00"
-          },
-          {
-            "start": "2018-09-07 19:30",
-            "end": "2018-09-07 22:30"
-          },
-          {
-            "start": "2018-09-08 14:30",
-            "end": "2018-09-08 17:30"
-          },
-          {
-            "start": "2018-09-08 19:30",
-            "end": "2018-09-08 22:30"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "exhibition",
-      "enabled": "true",
-      "lines": [
-        "the exhibition is open",
-        "people are looking at art",
-        "the man is looking at art",
-        "the woman is looking at art",
-        "someone enters the gallery",
-        "the museum is open",
-        "someone leaves the gallery"
-      ],
-      "errors": [
-        "the exhibition is closed",
-        "the exhibition is empty"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "10:00",
-            "end": "17:00"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "11:00",
-            "end": "17:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "13:00",
-            "end": "17:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "gallery",
-      "enabled": "true",
-      "lines": [
-        "the gallery is open",
-        "people are looking at art",
-        "the man is looking at art",
-        "the woman is looking at art",
-        "someone enters the gallery",
-        "the museum is open",
-        "someone leaves the gallery"
-      ],
-      "errors": [
-        "the gallery is closed",
-        "the gallery is empty"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday"
-        ],
-        "start": "10:00",
-        "end": "17:00"
-      }
-    },
-    {
-      "tag": "flag",
-      "lines": [
-        "the flag is raised",
-        "the flag flies"
-      ],
-      "errors": [
-        "the flag is taken down",
-        "the flag is down"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday"
-        ],
-        "start": "00:00",
-        "end": "24:00"
-      }
-    },
-    {
-      "tag": "museum",
-      "enabled": "true",
-      "lines": [
-        "the museum is open",
-        "the museum is busy",
-        "people are at the museum"
-      ],
-      "errors": [
-        "the museum is closed",
-        "the museum is empty"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "lecture",
-      "enabled": "true",
-      "lines": [
-        "the teacher speaks to the students",
-        "the teacher talks"
-      ],
-      "errors": [
-        "the lecture hall is quiet",
-        "the classroom is empty"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "start": "08:00",
-        "end": "17:00"
-      }
-    },
-    {
-      "tag": "nursery",
-      "enabled": "true",
-      "lines": [
-        "the boy plays",
-        "the girl plays",
-        "the children are playing",
-        "the nursery is open"
-      ],
-      "errors": [
-        "the nursery is closed"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "start": "7:30",
-        "end": "18:00"
-      }
-    },
-    {
-      "tag": "library",
-      "enabled": "true",
-      "lines": [
-        "the book is borrowed",
-        "the book is returned",
-        "someone borrows a book",
-        "someone returns a book",
-        "someones reads",
-        "the library is open"
-      ],
-      "errors": [
-        "the library is closed",
-        "the library is empty"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Wednesday"
-        ],
-        "start": "9:30",
-        "end": "19:00"
-      }
-    },
-    {
-      "tag": "party",
-      "enabled": "true",
-      "lines": [
-        "someone is dancing",
-        "the music is loud",
-        "the club is open",
-        "people are dancing"
-      ],
-      "errors": [
-        "there is no party tonight",
-        "there might be a party tonight"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Friday",
-          "Saturday"
-        ],
-        "start": "22:45",
-        "end": "3:30"
-      }
-    },
-    {
-      "tag": "casino",
-      "enabled": "true",
-      "lines": [
-        "the casino is open",
-        "someone wins money",
-        "someone loses money",
-        "someone wins",
-        "someone loses",
-        "the man gambles",
-        "the woman gambles"
-      ],
-      "errors": [
-        "the casino is closed"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "dancer",
-      "enabled": "true",
-      "lines": [
-        "people are dancing",
-        "the boy dances",
-        "the girl dances",
-        "the man dances",
-        "the woman dances"
-      ],
-      "errors": [
-        "no one is dancing"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Thursday",
-          "Friday"
-        ],
-        "start": "16:00",
-        "end": "21:00"
-      }
-    },
-    {
-      "tag": "radio",
-      "enabled": "true",
-      "lines": [
-        "the radio plays the news",
-        "the radio plays a song",
-        "there is chat on the radio",
-        "the radio is on"
-      ],
-      "errors": [
-        "the radio is silent"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "rehearsal",
-      "enabled": "true",
-      "lines": [
-        "the band rehearses",
-        "the dancer rehearses",
-        "the performer rehearese"
-      ],
-      "errors": [
-        "there is no rehearsal"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "start": "7:30",
-        "end": "18:00"
-      }
-    },
-    {
-      "tag": "football",
-      "enabled": "true",
-      "lines": [
-        "the team plays",
-        "the team plays football",
-        "the player kicks the ball",
-        "the team is on the field",
-        "the player train"
-      ],
-      "errors": [
-        "the field is empty",
-        "no one is training"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2018-07-17 19:45",
-            "end": "2018-07-17 21:30"
-          },
-          {
-            "start": "2018-07-24 19:45",
-            "end": "2018-07-24 21:30"
-          },
-          {
-            "start": "2018-07-28 19:30",
-            "end": "2018-07-28 21:15"
-          },
-          {
-            "start": "2018-08-04 15:00",
-            "end": "2018-08-04 16:45"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "swimming",
-      "enabled": "true",
-      "lines": [
-        "someone swims",
-        "the man swims",
-        "the woman swims",
-        "someone is at the pool",
-        "the pool is open",
-        "people are swimming"
-      ],
-      "errors": [
-        "the pool is closed",
-        "the pool is empty"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "start": "6:30",
-        "end": "22:00"
-      }
-    },
-    {
-      "tag": "yoga",
-      "lines": [
-        "someone does yoga",
-        "the woman does yoga",
-        "the man does yoga",
-        "the woman sits in a yoga pose",
-        "the man sits in a yoga pose",
-        "the people do yoga",
-        "the yoga studio is open",
-        "the yoga studio is busy",
-        "the yoga class has started"
-      ],
-      "errors": [
-        "the yoga studio is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday"
-            ],
-            "start": "06:00",
-            "end": "22:00"
-          },
-          {
-            "days": [
-              "Friday"
-            ],
-            "start": "06:00",
-            "end": "21:30"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "07:15",
-            "end": "19:15"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "09:00",
-            "end": "21:30"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "community",
-      "enabled": "true",
-      "lines": [
-        "people are meeting",
-        "people are making things",
-        "volunteers are busy",
-        "the community is busy",
-        "the community event is on"
-      ],
-      "errors": [
-        "the community isn't meeting"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2018-06-22 19:30",
-            "end": "2018-06-23 01:00"
-          },
-          {
-            "start": "2018-06-23 22:00",
-            "end": "2018-06-24 03:00"
-          },
-          {
-            "start": "2018-06-24 11:00",
-            "end": "2018-06-24 22:00"
-          },
-          {
-            "start": "2018-06-29 19:00",
-            "end": "2018-06-29 00:00"
-          },
-          {
-            "start": "2018-06-30 19:30",
-            "end": "2018-06-29 00:00"
-          },
-          {
-            "start": "2018-07-01 11:00",
-            "end": "2018-07-01 11:00"
-          },
-          {
-            "start": "2018-07-08 11:00",
-            "end": "2018-07-08 11:00"
-          },
-          {
-            "start": "2018-07-14 12:00",
-            "end": "2018-07-14 00:00"
-          },
-          {
-            "start": "2018-07-15 11:00",
-            "end": "2018-07-15 11:00"
-          },
-          {
-            "start": "2018-07-20 20:00",
-            "end": "2018-07-20 23:00"
-          },
-          {
-            "start": "2018-07-21 18:00",
-            "end": "2018-07-21 21:00"
-          },
-          {
-            "start": "2018-07-22 11:00",
-            "end": "2018-07-22 16:00"
-          },
-          {
-            "start": "2018-07-25 20:00",
-            "end": "2018-07-25 23:00"
-          },
-          {
-            "start": "2018-07-29 11:00",
-            "end": "2018-07-29 16:00"
-          },
-          {
-            "start": "2018-08-03 19:00",
-            "end": "2018-08-03 22:00"
-          },
-          {
-            "start": "2018-08-05 11:00",
-            "end": "2018-08-05 16:00"
-          },
-          {
-            "start": "2018-08-12 11:00",
-            "end": "2018-08-12 16:00"
-          },
-          {
-            "start": "2018-08-19 11:00",
-            "end": "2018-08-19 16:00"
-          },
-          {
-            "start": "2018-08-26 11:00",
-            "end": "2018-08-26 16:00"
-          },
-          {
-            "start": "2018-09-02 11:00",
-            "end": "2018-09-02 16:00"
-          },
-          {
-            "start": "2018-09-09 11:00",
-            "end": "2018-09-09 16:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "foodbank",
-      "lines": [
-        "the food bank is busy",
-        "the food bank is open",
-        "someone waits at the food bank",
-        "there is a queue at the food bank"
-      ],
-      "errors": [
-        "the food bank is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday"
-            ],
-            "start": "12:00",
-            "end": "12:00"
-          },
-          {
-            "days": [
-              "Tuesday",
-              "Thursday",
-              "Wednesday"
-            ],
-            "start": "10:00",
-            "end": "16:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "park",
-      "lines": [
-        "the park is busy",
-        "the park is open",
-        "someone walks through the park",
-        "someone sits on a bench",
-        "the man cycles through the park",
-        "the woman runs through the park",
-        "the man runs through the park"
-      ],
-      "errors": [
-        "the park is quiet",
-        "the park is empty"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "6:30",
-        "end": "23:00"
-      }
-    },
-    {
-      "tag": "confession",
-      "enabled": "true",
-      "lines": [
-        "someone listens to sins",
-        "confessions are open",
-        "someone confesses"
-      ],
-      "errors": [
-        "no one confesses",
-        "there is no confession"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "11:00",
-            "end": "12:00"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "17:15",
-            "end": "17:45"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "mass",
-      "enabled": "true",
-      "lines": [
-        "the church is open",
-        "someone is at the church"
-      ],
-      "errors": [
-        "the church is empty",
-        "the church is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday"
-            ],
-            "start": "09:30",
-            "end": "16:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "9:00",
-            "end": "14:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "mosque",
-      "enabled": "true",
-      "lines": [
-        "the mosque is at prayer",
-        "people are praying"
-      ],
-      "errors": [
-        "there is no prayer",
-        "the mosque is not at prayer"
-      ]
-    },
-    {
-      "tag": "hindu",
-      "enabled": "true",
-      "lines": [
-        "the temple is open"
-      ],
-      "errors": [
-        "the temple is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "09:30",
-            "end": "21:00"
-          },
-          {
-            "days": [
-              "Saturday",
-              "Sunday"
-            ],
-            "start": "09:00",
-            "end": "21:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "bar",
-      "lines": [
-        "the bar is open",
-        "people are at the bar",
-        "the man orders a drink",
-        "the woman orders a drink",
-        "the bar is busy",
-        "the man is at the bar",
-        "the woman is at the bar",
-        "someone has a drink",
-        "the man has a drink",
-        "the woman has a drink"
-      ],
-      "errors": [
-        "the bar is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Sunday"
-            ],
-            "start": "9:00",
-            "end": "24:00"
-          },
-          {
-            "days": [
-              "Thursday",
-              "Friday",
-              "Saturday"
-            ],
-            "start": "16:00",
-            "end": "2:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "burger",
-      "lines": [
-        "the burger place is open",
-        "the man eats a burger"
-      ],
-      "errors": [
-        "no one orders a burger",
-        "the burger place is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Sunday"
-            ],
-            "start": "11:00",
-            "end": "23:00"
-          },
-          {
-            "days": [
-              "Friday",
-              "Saturday"
-            ],
-            "start": "11:00",
-            "end": "23:30"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "cafe",
-      "lines": [
-        "coffee is served",
-        "someone drinks coffee",
-        "someone ordered a coffee",
-        "the cafe is open",
-        "coffee is brewing",
-        "the man drinks a coffee",
-        "the woman orders a coffee"
-      ],
-      "errors": [
-        "the cafe is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday"
-            ],
-            "start": "6:00",
-            "end": "19:30"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "8:30",
-            "end": "17:30"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "drinks",
-      "lines": [
-        "drinks are poured",
-        "someone orders a drink",
-        "someone orders a pint",
-        "the man orders a pint",
-        "the woman orders a pint"
-      ],
-      "errors": [
-        "the pub is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday"
-            ],
-            "start": "11:00",
-            "end": "23:00"
-          },
-          {
-            "days": [
-              "Thursday"
-            ],
-            "start": "11:00",
-            "end": "24:00"
-          },
-          {
-            "days": [
-              "Friday",
-              "Saturday"
-            ],
-            "start": "11:00",
-            "end": "2:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "12:00",
-            "end": "23:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "icecream",
-      "lines": [
-        "someone eats an ice cream",
-        "ice cream is served",
-        "the man eats ice cream",
-        "the woman eats ice cream",
-        "the boy eats ice cream",
-        "the girl eats ice cream",
-        "the ice cream place is open"
-      ],
-      "errors": [
-        "the ice cream place is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "9:00",
-            "end": "20:00"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "9:00",
-            "end": "19:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "11:00",
-            "end": "17:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "bank",
-      "lines": [
-        "the bank opens",
-        "the bank is open",
-        "someone transfers money",
-        "someone goes overdraft",
-        "someone makes a payment"
-      ],
-      "errors": [
-        "the bank is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday"
-            ],
-            "start": "9:00",
-            "end": "16:00"
-          },
-          {
-            "days": [
-              "Friday"
-            ],
-            "start": "9:00",
-            "end": "17:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "office",
-      "enabled": "true",
-      "lines": [
-        "the office opens",
-        "the office is open",
-        "the office is busy"
-      ],
-      "errors": [
-        "the office is closed",
-        "the office is empty"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:00",
-        "end": "21:00"
-      }
-    },
-    {
-      "tag": "shop",
-      "lines": [
-        "the shop opens",
-        "the shop is open",
-        "someone shops",
-        "the man shops",
-        "the woman shops",
-        "someone sells a product",
-        "the man sells a product",
-        "the woman sells a product"
-      ],
-      "errors": [
-        "the shop is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "9:00",
-            "end": "20:00"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "9:00",
-            "end": "19:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "11:00",
-            "end": "17:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "escalator",
-      "enabled": "true",
-      "lines": [
-        "the escalators go up",
-        "the escalators go down"
-      ],
-      "errors": [
-        "the escalators are still"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
-    {
-      "tag": "hotel",
-      "lines": [
-        "someone checks into the hotel",
-        "someone stays in the hotel",
-        "the hotel is busy"
-      ],
-      "errors": [
-        "the hotel is quiet"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "08:00",
-        "end": "21:00"
-      }
-    },
-    {
-      "tag": "wedding",
-      "enabled": "true",
-      "lines": [
-        "the wedding is today",
-        "someone gets married"
-      ],
-      "errors": [
-        "there is no wedding today",
-        "the city hall is empty"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday"
-        ],
-        "start": "9:00",
-        "end": "16:00"
-      }
-    },
-    {
-      "tag": "baby",
-      "enabled": "true",
-      "lines": [
-        "the baby is born",
-        "the baby is due"
-      ],
-      "errors": [
-        "the baby is born"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
-    {
-      "tag": "blood",
-      "enabled": "true",
-      "lines": [
-        "someone donates blood",
-        "the man donates blood",
-        "the woman donates blood"
-      ],
-      "errors": [
-        "the blood bank is closed"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "8:00",
-        "end": "20:00"
-      }
-    },
-    {
-      "tag": "shift",
-      "enabled": "true",
-      "lines": [
-        "the shift continues",
-        "the shift changes",
-        "the shift starts",
-        "the shift ends"
-      ],
-      "errors": [
-        "the shift ends",
-        "the shift starts"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "50"
-      }
-    },
-    {
-      "tag": "brewery",
-      "lines": [
-        "the brewery is open",
-        "beer is brewing"
-      ],
-      "errors": [
-        "the brewery is closed",
-        "no drinks are brewing"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWAccident",
-      "lines": [
-        "an accident has happened",
-        "a car has crashed"
-      ],
-      "errors": [
-        "someone drives a car",
-        "the car is driving"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWAir",
-      "lines": [
-        "the air is clean",
-        "the air is fresh"
-      ],
-      "errors": [
-        "the air isn't clean",
-        "the air is polluted"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWAntones",
-      "lines": [
-        "the club is open",
-        "the club is busy",
-        "people are dancing",
-        "someone is dancing"
-      ],
-      "errors": [
-        "the club is closed",
-        "the club is quiet"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "18:00",
-        "end": "23:59"
-      }
-    },
-    {
-      "tag": "SXSWBank",
-      "lines": [
-        "the bank is open",
-        "someone transfers money",
-        "someone makes a payment",
-        "someone invests money",
-        "people are doing business"
-      ],
-      "errors": [
-        "the bank is closed"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWBarbeque",
-      "lines": [
-        "the barbeque place is open",
-        "someone orders food",
-        "people are eating"
-      ],
-      "errors": [
-        "the barbeque place is closed"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWBaseball",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWBasketball",
-      "lines": [
-        "the team plays basketball",
-        "the player shoots the ball",
-        "the player passes the ball"
-      ],
-      "errors": [
-        "the match is over",
-        "the other team won"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-08 19:30",
-            "end": "2019-03-08 20:30"
-          },
-          {
-            "start": "2019-03-09 19:00",
-            "end": "2019-03-09 20:00"
-          },
-          {
-            "start": "2019-03-13 19:00",
-            "end": "2019-03-13 20:00"
-          },
-          {
-            "start": "2019-03-15 21:00",
-            "end": "2019-03-15 22:00"
-          },
-          {
-            "start": "2019-03-16 19:00",
-            "end": "2019-03-16 20:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWBats",
-      "lines": [
-        "bats are flying",
-        "a swarm of bats fly",
-        "the bat flies"
-      ],
-      "errors": [
-        "the bat sleeps",
-        "the bats are sleeping"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:30",
-        "end": "23:59"
-      }
-    },
-    {
-      "tag": "SXSWBlackStar",
-      "lines": [
-        "people are drinking beer",
-        "beer is brewing"
-      ],
-      "errors": [
-        "the brewery is closed",
-        "people are drinking beer"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday"
-            ],
-            "start": "16:00",
-            "end": "23:00"
-          },
-          {
-            "days": [
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Sunday"
-            ],
-            "start": "11:00",
-            "end": "23:00"
-          },
-          {
-            "days": [
-              "Saturday",
-              "Friday"
-            ],
-            "start": "11:00",
-            "end": "23:59"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWBoat",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWCamera",
-      "lines": [
-        "the camera films,",
-        "the camera is filming"
-      ],
-      "errors": [
-        "the camera is turned off",
-        "the camera isn't working"
-      ]
-    },
-    {
-      "tag": "SXSWCapitol",
-      "lines": [
-        "the capitol is open",
-        "someone at the capitol",
-        "the secretary is busy"
-      ],
-      "errors": [
-        "the capitol is closed",
-        "the capitol is quiet"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "07:00",
-            "end": "22:00"
-          },
-          {
-            "days": [
-              "Saturday",
-              "Sunday"
-            ],
-            "start": "09:00",
-            "end": "20:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWCar",
-      "lines": [
-        "someone rents a car",
-        "someone is driving",
-        "someone drives the car"
-      ],
-      "errors": [
-        "someone returns a car",
-        "the car is available",
-        "the car is waiting"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWCommerce",
-      "lines": [
-        "the chamber is open",
-        "people are doing business"
-      ],
-      "errors": [
-        "the chamber is closed"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWCotton",
-      "lines": [
-        "the price of cotton rises",
-        "the prince of cotton drops"
-      ],
-      "errors": [
-        "the price of cotton fluctuates"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWCrypto",
-      "lines": [
-        "the crypto currency goes up"
-      ],
-      "errors": [
-        "the crypto currency goes down"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWCycling",
-      "lines": [
-        "someone rents a bike",
-        "someone cycles",
-        "people are cycling"
-      ],
-      "errors": [
-        "someone returns a bike",
-        "the bike is in the station"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWDell",
-      "lines": [
-        "the office opens",
-        "the office is open",
-        "the office is busy"
-      ],
-      "errors": [
-        "the office is closed",
-        "the office is empty"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "01:00",
-        "end": "21:00"
-      }
-    },
-    {
-      "tag": "SXSWDog",
-      "lines": [
-        "someone lost their dog",
-        "someone found a dog",
-        "someone found a cat",
-        "someone lost their cat",
-        "the dog has lost its owner",
-        "the cat has lost its owner"
-      ],
-      "errors": [
-        "someone walks the dog",
-        "someone plays with the cat"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWDollar",
-      "lines": [
-        "the dollar is weak",
-        "the dollar is strong"
-      ],
-      "errors": [
-        "the dollar fluctuates"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWFarmer",
-      "lines": [
-        "the market is open",
-        "the market is busy",
-        "someone is at the market",
-        "someone buys groceries",
-        "the man sells groceries",
-        "the woman sells groceries"
-      ],
-      "errors": [
-        "the market is closed"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "08:00",
-        "end": "22:00"
-      }
-    },
-    {
-      "tag": "SXSWFire",
-      "lines": [
-        "fire station is open"
-      ],
-      "errors": [
-        "the fire station is quiet"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWFlightNoise",
-      "lines": [
-        "the plane flies overhead",
-        "the plane is loud"
-      ],
-      "errors": [
-        "the flight hasn't landed",
-        "the plane has landed"
-      ]
-    },
-    {
-      "tag": "SXSWFootball",
-      "lines": [
-        "the team plays",
-        "someone plays football",
-        "the team is on the field"
-      ],
-      "errors": [
-        "the field is empty",
-        "no one is training"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWFranklin",
-      "lines": [
-        "the barbeque is smoking",
-        "the restuarant is open",
-        "people are queueing",
-        "the barbeque is on"
-      ],
-      "errors": [
-        "the restaurant has sold out",
-        "the restaurant is closed"
-      ],
-      "timing": {
-        "type": "DAILY",
-        "days": [
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "start": "11:00",
-        "end": "15:00"
-      }
-    },
-    {
-      "tag": "SXSWGarden",
-      "lines": [
-        "the garden is open",
-        "people are watching plants",
-        "someone looks at a tree",
-        "the garden is busy",
-        "children are playing in the garden",
-        "people are walking in the garden"
-      ],
-      "errors": [
-        "the garden is closed",
-        "the garden is quiet"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Friday",
-              "Sunday"
-            ],
-            "start": "09:00",
-            "end": "17:00"
-          },
-          {
-            "days": [
-              "Thursday",
-              "Saturday"
-            ],
-            "start": "07:30",
-            "end": "17:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWGasoline",
-      "lines": [
-        "the gasoline price rises"
-        "gasoline price is rising",
-        "gasoline is expensive"
-      ],
-      "errors": [
-        "the gasoline price drops"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWGold",
-      "lines": [
-        "the price of gold rises",
-        "the prince of gold drops"
-      ],
-      "errors": [
-        "the price of gold fluctuates"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWHair",
-      "lines": [
-        "the hair salon is open",
-        "the man gets a haircut",
-        "the woman gets a haircut",
-        "the hair dresser cuts",
-        "someone gets a haircut"
-      ],
-      "errors": [
-        "the salon is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "08:30",
-            "end": "21:00"
-          },
-          {
-            "days": [
-              "Saturday",
-              "Sunday"
-            ],
-            "start": "08:30",
-            "end": "18:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWHarry",
-      "lines": [
-        "the center is open",
-        "people are looking at history",
-        "the man is researching",
-        "the woman is researching",
-        "someone enters the center",
-        "someone leaves the center"
-      ],
-      "errors": [
-        "the center is closed",
-        "the center is empty"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Friday"
-            ],
-            "start": "10:00",
-            "end": "17:00"
-          },
-          {
-            "days": [
-              "Thursday"
-            ],
-            "start": "10:00",
-            "end": "19:00"
-          },
-          {
-            "days": [
-              "Saturday",
-              "Sunday"
-            ],
-            "start": "12:00",
-            "end": "17:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWHilton",
-      "lines": [
-        "someone checks into the hotel",
-        "someone stays in the hotel",
-        "the hotel is busy",
-        "check-in is open",
-        "the front desk is busy",
-        "someone checks in"
-      ],
-      "errors": [
-        "the hotel is quiet"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "08:00",
-        "end": "22:00"
-      }
-    },
-    {
-      "tag": "SXSWHumidity",
-      "lines": [
-        "the air is humid",
-        "humidity is high"
-      ],
-      "errors": [
-        "the humidity is low"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWIBM",
-      "lines": [
-        "the research lab is open",
-        "the research lab is busy"
-      ],
-      "errors": [
-        "the research lab is closed",
-        "the research lab is empty"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:00",
-        "end": "21:00"
-      }
-    },
-    {
-      "tag": "SXSWIceHockey",
-      "lines": [
-        "the team plays hockey",
-        "the player hits the puck",
-        "the player scores a goal"
-      ],
-      "errors": [
-        "the team isn't playing",
-        "the team won"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-06 18:00",
-            "end": "2019-03-06 19:45"
-          },
-          {
-            "start": "2019-03-09 19:00",
-            "end": "2019-03-09 20:45"
-          },
-          {
-            "start": "2019-03-10 17:00",
-            "end": "2019-03-10 18:45"
-          },
-          {
-            "start": "2019-03-13 19:00",
-            "end": "2019-03-13 20:45"
-          },
-          {
-            "start": "2019-03-15 19:00",
-            "end": "2019-03-15 20:45"
-          },
-          {
-            "start": "2019-03-17 16:00",
-            "end": "2019-03-17 17:45"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWIndian",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWIronBear",
-      "lines": [
-        "the bar is open",
-        "people are at the bar",
-        "the man orders a drink",
-        "the bar is busy",
-        "the man is at the bar"
-      ],
-      "errors": [
-        "the bar is closed"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "15:00",
-        "end": "23:59"
-      }
-    },
-    {
-      "tag": "SXSWJesterking",
-      "lines": [
-        "the brewery is open",
-        "beer is brewing"
-      ],
-      "errors": [
-        "the brewery is closed",
-        "beer is brewing"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Thursday",
-              "Friday"
-            ],
-            "start": "16:00",
-            "end": "22:00"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "12:00",
-            "end": "22:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "12:00",
-            "end": "21:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWKayak",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "no one is kayaking",
-        "the lake is quiet ",
-        "no one is on the water"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWLake",
-      "lines": [
-        "the lake is full"
-      ],
-      "errors": [
-        "the lake isn't full"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWLibrary",
-      "lines": [
-        "the book is borrowed",
-        "the book is returned",
-        "someone borrows a book",
-        "someone returns a book",
-        "someones reads",
-        "the library is open"
-      ],
-      "errors": [
-        "the library is closed",
-        "the library is empty"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday"
-            ],
-            "start": "10:00",
-            "end": "21:00"
-          },
-          {
-            "days": [
-              "Friday",
-              "Saturday"
-            ],
-            "start": "10:00",
-            "end": "18:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "12:00",
-            "end": "18:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWLick",
-      "lines": [
-        "someone eats an ice cream",
-        "ice cream is served",
-        "the man eats ice cream",
-        "the woman eats ice cream",
-        "the boy eats ice cream",
-        "the girl eats ice cream",
-        "the ice cream place is open"
-      ],
-      "errors": [
-        "the ice cream place is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Sunday",
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday"
-            ],
-            "start": "12:30",
-            "end": "22:00"
-          },
-          {
-            "days": [
-              "Friday",
-              "Saturday"
-            ],
-            "start": "12:30",
-            "end": "23:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWMall",
-      "lines": [
-        "the man shops",
-        "the woman shops",
-        "the mall is open",
-        "the mall is busy",
-        "people are buying things"
-      ],
-      "errors": [
-        "the mall is empty",
-        "the mall is closed"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "10:00",
-        "end": "21:00"
-      }
-    },
-    {
-      "tag": "SXSWMetro",
-      "lines": [
-        "the train travels",
-        "the train arrives",
-        "the train departs"
-      ],
-      "errors": [
-        "the metro is not running",
-        "people are waiting for the metro"
-      ]
-    },
-    {
-      "tag": "SXSWMexican",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWMoon",
-      "lines": [
-        "the moon is up",
-      ],
-      "errors": [
-        "the sun shines"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWMoonLightTower",
-      "lines": [
-        "the moonlight tower is on",
-        "the moonlight is bright"
-      ],
-      "errors": [
-        "the moonlight tower is off"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWOasis",
-      "lines": [
-        "the terrasse is open",
-        "people are on the terrasse"
-      ],
-      "errors": [
-        "the terrasse is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday"
-            ],
-            "start": "11:30",
-            "end": "20:00"
-          },
-          {
-            "days": [
-              "Friday"
-            ],
-            "start": "11:30",
-            "end": "21:00"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "11:00",
-            "end": "21:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "11:00",
-            "end": "20:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWOilCans",
-      "lines": [
-        "people are drinking",
-        "someone is dancing"
-      ],
-      "errors": [
-        "the bar is quiet"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "14:00",
-            "end": "23:59"
-          },
-          {
-            "days": [
-              "Saturday",
-              "Sunday"
-            ],
-            "start": "12:00",
-            "end": "23:59"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWParking",
-      "lines": [
-        "the car is parked",
-        "the driver parks the car"
-      ],
-      "errors": [
-        "the parking spots are full"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWPepe",
-      "lines": [
-        "the restaurant is open",
-        "people are eating"
-      ],
-      "errors": [
-        "the kitchen is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday"
-            ],
-            "start": "11:00",
-            "end": "21:00"
-          },
-          {
-            "days": [
-              "Friday",
-              "Saturday"
-            ],
-            "start": "11:00",
-            "end": "22:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "11:00",
-            "end": "20:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWPlane",
-      "lines": [
-        "the plane is taking off",
-        "the plane is landing",
-        "the plane flies",
-        "the plane is flying",
-        "people are boarding the plane",
-        "the airport is busy"
-      ],
-      "errors": [
-        "the plane is delayed",
-        "the plane has been cancelled",
-        "the plane isn't flying"
-      ]
-    },
-    {
-      "tag": "SXSWPool",
-      "lines": [
-        "someone swims",
-        "the man swims",
-        "the woman swims",
-        "someone is at the pool",
-        "the pool is open",
-        "people are swimming"
-      ],
-      "errors": [
-        "the pool is closed",
-        "the pool is empty"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "09:00",
-            "end": "19:30"
-          },
-          {
-            "days": [
-              "Saturday",
-              "Sunday"
-            ],
-            "start": "09:00",
-            "end": "19:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWRoad",
-      "lines": [
-        "the road is busy",
-        "there is a lot of traffic"
-      ],
-      "errors": [
-        "the road is quiet",
-        "the traffic is light",
-        "there is not much traffic"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWSchedule",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWScreening",
-      "lines": [
-        "the film is showing",
-        "the man is watching a film",
-        "the woman is watching a film",
-        "the film is screening",
-        "the screening has started",
-        "people are watching the film",
-        "someone watches the film"
-      ],
-      "errors": [
-        "no film is showing",
-        "the screening is over"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-08 16:00", "end": "2019-03-08 23:59" },
-          { "start": "2019-03-09 10:00", "end": "2019-03-09 23:59" },
-          { "start": "2019-03-10 10:00", "end": "2019-03-10 23:59" },
-          { "start": "2019-03-11 10:00", "end": "2019-03-11 23:59" },
-          { "start": "2019-03-12 10:00", "end": "2019-03-12 23:59" },
-          { "start": "2019-03-13 10:00", "end": "2019-03-13 23:59" },
-          { "start": "2019-03-14 10:00", "end": "2019-03-14 23:59" },
-          { "start": "2019-03-15 10:00", "end": "2019-03-15 23:59" },
-          { "start": "2019-03-16 10:00", "end": "2019-03-16 23:59" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWSessions",
-      "lines": [
-        "the presentation has started",
-        "the audience is listening",
-        "the talk session is on",
-        "the audience listens",
-        "the woman presents",
-        "the man presents",
-        "someone is presenting",
-        "the projector is on"
-      ],
-      "errors": [
-        "the talk session has finished",
-        "the projector is off",
-        "the session is over"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-08 11:00", "end": "2019-03-08 18:00" },
-          { "start": "2019-03-09 09:30", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 09:30", "end": "2019-03-10 18:00" },
-          { "start": "2019-03-11 09:30", "end": "2019-03-11 18:00" },
-          { "start": "2019-03-12 09:30", "end": "2019-03-12 18:00" },
-          { "start": "2019-03-13 09:30", "end": "2019-03-13 18:00" },
-          { "start": "2019-03-14 09:30", "end": "2019-03-14 18:00" },
-          { "start": "2019-03-15 11:00", "end": "2019-03-15 18:00" },
-          { "start": "2019-03-16 11:00", "end": "2019-03-16 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWStarbucks",
-      "lines": [
-        "coffee is served",
-        "someone drinks coffee",
-        "someone ordered a coffee",
-        "the cafe is open",
-        "coffee is brewing",
-        "the man drinks a coffee",
-        "the woman orders a coffee"
-      ],
-      "errors": [
-        "the cafe is closed"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "06:00",
-        "end": "19:00"
-      }
-    },
-    {
-      "tag": "SXSWSun",
-      "lines": [
-        "the sun rises",
-        "it is daytime",
-      ],
-      "errors": [
-        "the sun sets",
-        "it is night time"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWTemp",
-      "lines": [
-        "it's warm today",
-        "it's hot today",
-        "the weather is good",
-        "the weather is mild",
-      ],
-      "errors": [
-        "the weather is bad",
-        "it is cold",
-        "it is chilly"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWTradingCompany",
-      "lines": [
-        "someone carries shopping bags",
-        "someone enters the shop",
-        "someone leaves the shop",
-        "someone pays in cash",
-        "someone pays by card",
-        "the shop is open",
-        "the shop is busy",
-        "people are shopping"
-      ],
-      "errors": [
-        "the shop is empty",
-        "the shop is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "11:00",
-            "end": "16:00"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "10:00",
-            "end": "18:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "11:00",
-            "end": "18:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWVisitor",
-      "lines": [
-        "someone is visiting",
-        "the city is busy",
-        "visitors are arriving",
-        "someone asks for the way",
-        "someone books a tour",
-        "someone reads a map"
-      ],
-      "errors": [
-        "the visitor center is closed"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday"
-            ],
-            "start": "09:00",
-            "end": "17:00"
-          },
-          {
-            "days": [
-              "Sunday"
-            ],
-            "start": "10:00",
-            "end": "17:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWUniversity",
-      "lines": [
-        "the university is open",
-        "someone is studying",
-        "the classroom is busy"
-      ],
-      "errors": [
-        "the university is closed",
-        "the university is quiet"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "07:00",
-        "end": "19:00"
-      }
-    },
-    {
-      "tag": "SXSWWaste",
-      "lines": [
-        "the waste has been collected",
-        "the waste is collected",
-        "the bins are emptied",
-        "the bins are empty"
-      ],
-      "errors": [
-        "the waste hasn't been collected",
-        "the bins are full"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWWheat",
-      "lines": [
-        "the price of wheat rises",
-        "the prince of wheat drops"
-      ],
-      "errors": [
-        "the price of wheat fluctuates"
-      ],
-      "timing": {
-        "type": "RANDOM",
-        "chance": "100"
-      }
-    },
-    {
-      "tag": "SXSWWomenWork",
-      "lines": [
-        "the gallery is open",
-        "people are visiting the gallery",
-        "the man visits the gallery ",
-        "the woman visits the gallery",
-        "someone enters the gallery",
-        "someone leaves the gallery"
-      ],
-      "errors": [
-        "the gallery is closed",
-        "the gallery is empty"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "10:00",
-            "end": "18:00"
-          },
-          {
-            "days": [
-              "Saturday"
-            ],
-            "start": "12:00",
-            "end": "18:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWZikler",
-      "lines": [
-        "the park is busy",
-        "the park is open",
-        "someone walks through the park",
-        "someone sits on a bench",
-        "the man cycles through the park",
-        "the woman runs through the park",
-        "the man runs through the park"
-      ],
-      "errors": [
-        "the park is quiet",
-        "the park is empty"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "05:00",
-        "end": "22:00"
-      }
-    },
-    {
-      "tag": "SXSWPsychic",
-      "lines": [
-        "someone is predicting the future",
-        "the future is being predicted",
-        "the man receives a reading",
-        "the woman receives a reading",
-        "someone is talking to a spirit"
-      ],
-      "errors": [
-        "no one predicts the future"
-      ],
-      "timing": {
-        "type": "SPLIT",
-        "splittimes": [
-          {
-            "days": [
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "start": "10:30",
-            "end": "17:00"
-          }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWRave",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-12 20:00", "end": "2019-03-12 23:59" },
-          { "start": "2019-03-13 00:01", "end": "2019-03-13 03:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWPoster",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-14 12:00", "end": "2019-03-14 18:00" },
-          { "start": "2019-03-15 11:00", "end": "2019-03-15 18:00" },
-          { "start": "2019-03-16 11:00", "end": "2019-03-16 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWSoundArt",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-08 09:30", "end": "2019-03-08 18:00" },
-          { "start": "2019-03-09 11:00", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 09:30", "end": "2019-03-10 18:00" },
-          { "start": "2019-03-11 09:30", "end": "2019-03-11 18:00" },
-          { "start": "2019-03-12 09:30", "end": "2019-03-12 18:00" },
-          { "start": "2019-03-13 11:00", "end": "2019-03-13 18:00" },
-          { "start": "2019-03-14 11:00", "end": "2019-03-14 18:00" },
-          { "start": "2019-03-15 11:00", "end": "2019-03-15 18:00" },
-          { "start": "2019-03-16 11:00", "end": "2019-03-16 14:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWGoogleLab",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-08 09:30", "end": "2019-03-08 18:00" },
-          { "start": "2019-03-09 11:00", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 09:30", "end": "2019-03-10 18:00" },
-          { "start": "2019-03-11 09:30", "end": "2019-03-11 18:00" },
-          { "start": "2019-03-12 09:30", "end": "2019-03-12 18:00" },
-          { "start": "2019-03-13 11:00", "end": "2019-03-13 18:00" },
-          { "start": "2019-03-14 11:00", "end": "2019-03-14 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWBlooming",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-09 11:00", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 09:30", "end": "2019-03-10 18:00" },
-          { "start": "2019-03-11 09:30", "end": "2019-03-11 18:00" },
-          { "start": "2019-03-12 09:30", "end": "2019-03-12 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWLight",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-08 09:30", "end": "2019-03-08 18:00" },
-          { "start": "2019-03-09 11:00", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 09:30", "end": "2019-03-10 18:00" },
-          { "start": "2019-03-11 09:30", "end": "2019-03-11 18:00" },
-          { "start": "2019-03-12 09:30", "end": "2019-03-12 18:00" },
-          { "start": "2019-03-13 11:00", "end": "2019-03-13 18:00" },
-          { "start": "2019-03-14 11:00", "end": "2019-03-14 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWIce",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-12 10:00", "end": "2019-03-12 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWPhoto",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-09 09:00", "end": "2019-03-09 15:00" },
-          { "start": "2019-03-10 09:00", "end": "2019-03-10 15:00" },
-          { "start": "2019-03-11 09:00", "end": "2019-03-11 15:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWWellness",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-09 11:00", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 11:00", "end": "2019-03-10 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWMarketplace",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-15 11:00", "end": "2019-03-15 18:00" },
-          { "start": "2019-03-16 11:00", "end": "2019-03-16 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWTradeShow",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-10 11:00", "end": "2019-03-10 18:00" },
-          { "start": "2019-03-11 11:00", "end": "2019-03-11 18:00" },
-          { "start": "2019-03-12 11:00", "end": "2019-03-12 18:00" },
-          { "start": "2019-03-13 11:00", "end": "2019-03-13 14:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWPokemon",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-15 11:00", "end": "2019-03-15 18:00" },
-          { "start": "2019-03-16 11:00", "end": "2019-03-16 18:00" },
-          { "start": "2019-03-17 11:00", "end": "2019-03-17 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWGamingExpo",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-15 11:00", "end": "2019-03-15 18:00" },
-          { "start": "2019-03-16 11:00", "end": "2019-03-16 18:00" },
-          { "start": "2019-03-17 11:00", "end": "2019-03-17 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWParties",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-08 14:30", "end": "2019-03-08 23:59" },
-          { "start": "2019-03-09 00:01", "end": "2019-03-09 01:00" },
-          { "start": "2019-03-09 11:00", "end": "2019-03-09 14:00" },
-          { "start": "2019-03-10 20:30", "end": "2019-03-10 23:59" },
-          { "start": "2019-03-11 18:00", "end": "2019-03-11 23:59" },
-          { "start": "2019-03-12 18:00", "end": "2019-03-12 21:00" },
-          { "start": "2019-03-13 22:00", "end": "2019-03-13 23:59" },
-          { "start": "2019-03-14 16:00", "end": "2019-03-14 18:00" },
-          { "start": "2019-03-15 20:00", "end": "2019-03-15 23:59" },
-          { "start": "2019-03-16 19:00", "end": "2019-03-16 21:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWBlood",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-07 12:00", "end": "2019-03-07 16:00" },
-          { "start": "2019-03-08 12:00", "end": "2019-03-08 18:00" },
-          { "start": "2019-03-09 12:00", "end": "2019-03-09 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWRegistration",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-07 09:00", "end": "2019-03-07 11:00" },
-          { "start": "2019-03-08 09:00", "end": "2019-03-08 11:00" },
-          { "start": "2019-03-09 09:00", "end": "2019-03-09 11:00" },
-          { "start": "2019-03-10 09:00", "end": "2019-03-10 21:00" },
-          { "start": "2019-03-11 09:00", "end": "2019-03-11 21:00" },
-          { "start": "2019-03-12 09:00", "end": "2019-03-12 21:00" },
-          { "start": "2019-03-13 09:00", "end": "2019-03-13 22:00" },
-          { "start": "2019-03-14 09:00", "end": "2019-03-14 19:00" },
-          { "start": "2019-03-15 09:00", "end": "2019-03-15 19:00" },
-          { "start": "2019-03-16 09:00", "end": "2019-03-16 19:00" },
-          { "start": "2019-03-17 09:00", "end": "2019-03-17 19:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWPitch",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-08 11:00", "end": "2019-03-08 13:30" },
-          { "start": "2019-03-08 17:00", "end": "2019-03-08 18:00" },
-          { "start": "2019-03-09 09:30", "end": "2019-03-09 13:30" },
-          { "start": "2019-03-09 15:30", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 09:30", "end": "2019-03-10 13:30" },
-          { "start": "2019-03-10 15:30", "end": "2019-03-10 20:00" },
-          { "start": "2019-03-11 11:00", "end": "2019-03-11 13:30" },
-          { "start": "2019-03-12 12:30", "end": "2019-03-12 13:30" },
-          { "start": "2019-03-13 12:30", "end": "2019-03-13 13:30" },
-          { "start": "2019-03-13 03:30", "end": "2019-03-13 18:00" },
-          { "start": "2019-03-16 16:00", "end": "2019-03-16 17:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWKeynote",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-08 11:00", "end": "2019-03-08 18:00" },
-          { "start": "2019-03-09 09:30", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 11:00", "end": "2019-03-10 18:00" },
-          { "start": "2019-03-11 09:30", "end": "2019-03-11 18:00" },
-          { "start": "2019-03-12 11:00", "end": "2019-03-12 16:30" },
-          { "start": "2019-03-13 11:00", "end": "2019-03-13 18:00" },
-          { "start": "2019-03-14 11:00", "end": "2019-03-14 16:30" },
-          { "start": "2019-03-15 11:00", "end": "2019-03-15 18:00" },
-          { "start": "2019-03-16 11:00", "end": "2019-03-16 15:00" },
-          { "start": "2019-03-16 17:00", "end": "2019-03-16 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWAwards",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-09 12:00", "end": "2019-03-09 18:00" },
-          { "start": "2019-03-10 10:00", "end": "2019-03-10 13:00" },
-          { "start": "2019-03-10 18:30", "end": "2019-03-10 20:00" },
-          { "start": "2019-03-11 18:00", "end": "2019-03-11 21:00" },
-          { "start": "2019-03-12 20:00", "end": "2019-03-12 21:00" },
-          { "start": "2019-03-13 13:30", "end": "2019-03-13 16:00" },
-          { "start": "2019-03-16 11:00", "end": "2019-03-16 12:30" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWCinema",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-11 11:00", "end": "2019-03-11 18:00" },
-          { "start": "2019-03-12 11:00", "end": "2019-03-12 18:00" },
-          { "start": "2019-03-13 11:00", "end": "2019-03-13 18:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWNetworking",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "UNIQUE",
-        "times": [
-          { "start": "2019-03-10 12:00", "end": "2019-03-10 13:00" }
-        ]
-      }
-    },
-    {
-      "tag": "SXSWShuttle",
-      "lines": [
-        "poemline"
-      ],
-      "errors": [
-        "errorline"
-      ],
-      "timing": {
-        "type": "EVERYDAY",
-        "start": "05:00",
-        "end": "22:00"
-      }
-    }
-  ]
+	"poems": [{
+			"tag": "emptyexample",
+			"enabled": "true",
+			"lines": [
+				"",
+				"",
+				""
+			],
+			"errors": [
+				"",
+				"",
+				""
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
+			}
+		},
+		{
+			"tag": "testRandom",
+			"enabled": "true",
+			"lines": [
+				"this is a line of poetry",
+				"this is another line of poetry",
+				"another line of poetry"
+			],
+			"errors": [
+				"the thing didn't work",
+				"this is an error",
+				"oh no, things are broken"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
+			}
+		},
+		{
+			"tag": "testEveryday",
+			"enabled": "true",
+			"lines": [
+				"this is a line of poetry",
+				"this is another line of poetry",
+				"another line of poetry"
+			],
+			"errors": [
+				"the thing didn't work",
+				"this is an error",
+				"oh no, things are broken"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "20:00",
+				"end": "22:00"
+			}
+		},
+		{
+			"tag": "testDaily",
+			"enabled": "true",
+			"lines": [
+				"this is a line of poetry",
+				"this is another line of poetry",
+				"another line of poetry"
+			],
+			"errors": [
+				"the thing didn't work",
+				"this is an error",
+				"oh no, things are broken"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Wednesday",
+					"Friday"
+				],
+				"start": "19:00",
+				"end": "22:00"
+			}
+		},
+		{
+			"tag": "testUnique",
+			"enabled": "true",
+			"lines": [
+				"this is a line of poetry",
+				"this is another line of poetry",
+				"another line of poetry"
+			],
+			"errors": [
+				"the thing didn't work",
+				"this is an error",
+				"oh no, things are broken"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2018-05-21 09:30",
+						"end": "2018-05-21 23:30"
+					},
+					{
+						"start": "2018-05-18 09:30",
+						"end": "2018-05-18 23:30"
+					}
+				]
+			}
+		},
+		{
+			"tag": "testSplit",
+			"enabled": "true",
+			"lines": [
+				"this is a line of poetry",
+				"this is another line of poetry",
+				"another line of poetry"
+			],
+			"errors": [
+				"the thing didn't work",
+				"this is an error",
+				"oh no, things are broken"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Friday"
+						],
+						"start": "09:00",
+						"end": "22:00"
+					},
+					{
+						"days": [
+							"Saturday",
+							"Sunday"
+						],
+						"start": "19:00",
+						"end": "22:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "bench",
+			"enabled": "true",
+			"lines": [
+				"someone sits on the bench",
+				"people sit on the bench",
+				"someone walks past the bench",
+				"a child sits on the bench",
+				"a woman sits on the bench",
+				"a man sits on the bench"
+			],
+			"errors": [
+				"no one sits on the bench"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
+			}
+		},
+		{
+			"tag": "bike",
+			"lines": [
+				"the bike turns left",
+				"the bike turns right",
+				"the bike waits",
+				"someone cycles",
+				"the cyclist turns left",
+				"the cyclist turns right",
+				"the driver waits",
+				"the driver is on the way",
+				"the driver picks up the food",
+				"the driver delivers the food",
+				"the driver delivers the order"
+			],
+			"errors": [
+				"the bike is locked"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "busdriving",
+			"enabled": "true",
+			"lines": [
+				"the bus turns left",
+				"the bus turns right",
+				"the bus waits",
+				"the bus slows down",
+				"the bus stops",
+				"the man takes the bus",
+				"the woman takes the bus",
+				"the girl takes the bus",
+				"the boy takes the bus",
+				"people sit on the upper deck",
+				"the bus crosses the bridge"
+			],
+			"errors": [
+				"the bus is at the depot",
+				"the bus is still",
+				"the bus stops"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "buswaiting",
+			"enabled": "true",
+			"lines": [
+				"someone waits for the bus",
+				"someone pays for a bus ticket",
+				"someone buys a ticket",
+				"someone takes the bus",
+				"the man takes the bus",
+				"the woman takes the bus",
+				"the man gets off the bus",
+				"the woman gets off the bus",
+				"someone gets off the bus",
+				"someone stands at the bus stop",
+				"the upper deck is empty",
+				"someone watches out of the window"
+			],
+			"errors": [
+				"the buses is gone",
+				"the bus leaves"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "car",
+			"enabled": "true",
+			"lines": [
+				"the car turns left",
+				"the car turns right",
+				"the car waits",
+				"the car crosses the bridge",
+				"the man drives the car",
+				"the woman drives the car",
+				"the car waits at the lights",
+				"the car stops suddenly"
+			],
+			"errors": [
+				"the car is parked",
+				"the car is still"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "cat",
+			"enabled": "true",
+			"lines": [
+				"someone talks to a cat",
+				"the cat sits at the window",
+				"the cat disappears",
+				"someone strokes the cat",
+				"the cat is sleeping"
+			],
+			"errors": [
+				"the cat disappears",
+				"the cat is sleeping"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "child",
+			"enabled": "true",
+			"lines": [
+				"the child shouts",
+				"someone carries a baby",
+				"the child plays",
+				"the child reads",
+				"the child laughs",
+				"the child runs",
+				"the children are playing",
+				"someone carries the baby",
+				"someone feeds the baby",
+				"someone talks to the baby",
+				"the baby screams",
+				"the baby sleeps",
+				"the baby smiles",
+				"someone pushes a stroller"
+			],
+			"errors": [
+				"the child sleeps",
+				"the baby sleeps"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "20:00"
+			}
+		},
+		{
+			"tag": "dog",
+			"enabled": "true",
+			"lines": [
+				"someone walks the dog",
+				"the child walks the dog",
+				"the dog barks",
+				"the dog sleeps",
+				"the dog eats",
+				"the dog looks at food",
+				"the dog meets another dog"
+			],
+			"errors": [
+				"no one walks the dog",
+				"the dog sleeps"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "24:00"
+			}
+		},
+		{
+			"tag": "meeting",
+			"enabled": "true",
+			"lines": [
+				"someone travels to a meeting",
+				"the meeting begins",
+				"the meeting ends",
+				"people shake hands",
+				"people talk",
+				"someone sits at the table",
+				"someone asks a question",
+				"someone disagrees",
+				"someone agrees",
+				"the meeting runs over"
+			],
+			"errors": [
+				"the meeting is cancelled"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "9:00",
+				"end": "19:30"
+			}
+		},
+		{
+			"tag": "person",
+			"enabled": "true",
+			"lines": [
+				"someone sneezes",
+				"someone fastens their shoes",
+				"someone coughs",
+				"someone smokes",
+				"someone drinks",
+				"someone yawns",
+				"someone turns their head",
+				"someone crosses the bridge",
+				"someone looks at the river",
+				"the man walks down the street",
+				"the woman walks down the street",
+				"the man stops",
+				"the woman stops",
+				"the man asks for change",
+				"the woman asks for change",
+				"the man smokes",
+				"the woman smokes",
+				"the man drinks",
+				"the woman drinks"
+			],
+			"errors": [
+				"someone is at home",
+				"the man is at home",
+				"the woman is at home"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "90"
+			}
+		},
+		{
+			"tag": "phone",
+			"enabled": "true",
+			"lines": [
+				"someone answers their phone",
+				"someone makes a call",
+				"someone sends a text",
+				"the man sends a text",
+				"the woman sends a text",
+				"the girl sends a text",
+				"the boy sends a text",
+				"someone talks on the phone",
+				"someone scrolls on their phone",
+				"someone likes a photo",
+				"someone sends a message",
+				"someone misses a call",
+				"someone looks for direction",
+				"someone finds their way"
+			],
+			"errors": [
+				"someone forgot their phone",
+				"the man forgot his phone",
+				"the woman lost her phone"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "75"
+			}
+		},
+		{
+			"tag": "photo",
+			"enabled": "true",
+			"lines": [
+				"someone takes a photo",
+				"the woman takes a photo",
+				"the man takes a photo",
+				"someone posts a photo",
+				"the girl posts a photo",
+				"the boy posts a photo",
+				"someone likes the photo",
+				"someone edits a photo",
+				"the girl takes a photo",
+				"the boy takes a photo"
+			],
+			"errors": [
+				"no one takes a photo",
+				"the photo is deleted"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "queueing",
+			"enabled": "true",
+			"lines": [
+				"someone is queuing",
+				"someone is waiting",
+				"someone joins the queue",
+				"the queue is long",
+				"the queue is short",
+				"someone stands in the queue"
+			],
+			"errors": [
+				"no one is queuing"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "24:00"
+			}
+		},
+		{
+			"tag": "shopping",
+			"enabled": "true",
+			"lines": [
+				"someone carries shopping bags",
+				"someone enters the shop",
+				"someone leaves the shop",
+				"someone buys their groceries",
+				"someone pays in cash",
+				"someone pays by card",
+				"someone leaves a tip",
+				"someone collects points",
+				"someone uses their point card",
+				"the shop is open",
+				"the shop is busy",
+				"people are shopping"
+			],
+			"errors": [
+				"the shop is empty",
+				"the shop is closed"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "24:00"
+			}
+		},
+		{
+			"tag": "squirrel",
+			"enabled": "true",
+			"lines": [
+				"the squirrel climbs in the tree",
+				"the squirrel looks for food",
+				"the squirrel is hiding",
+				"the squirrel jumps"
+			],
+			"errors": [
+				"the squirrel is disappears",
+				"the squirrel is hiding"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "taxi",
+			"enabled": "true",
+			"lines": [
+				"someone flags down a taxi",
+				"someone calls the driver",
+				"the taxis are waiting",
+				"the driver is waiting",
+				"the taxi drives",
+				"the taxi stops",
+				"the taxi arrives",
+				"someone rates the driver",
+				"the driver rates the client",
+				"the driver is approaching",
+				"the driver is on the way"
+			],
+			"errors": [
+				"there are no taxis",
+				"the driver finished the shift",
+				"the driver takes a break"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "time",
+			"enabled": "true",
+			"lines": [
+				"someone is on time",
+				"someone is late",
+				"someone is early",
+				"the man arrives late",
+				"the man arrives on time",
+				"the man arrives early",
+				"the woman arrives late",
+				"the woman arrives on time",
+				"the woman arrives too early",
+				"someone is on their way",
+				"someone is going home"
+			],
+			"errors": [
+				"someone is on time"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "24:00"
+			}
+		},
+		{
+			"tag": "truck",
+			"enabled": "true",
+			"lines": [
+				"the truck turns left",
+				"the truck turns right",
+				"the truck waits at the lights",
+				"the truck is loaded",
+				"the truck unloades",
+				"the truck drives"
+			],
+			"errors": [
+				"the truck is parked"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "exchangerate",
+			"enabled": "true",
+			"lines": [
+				"the pound is weak",
+				"the pound is strong"
+			],
+			"errors": [
+				"the pound fluctuates"
+			]
+		},
+		{
+			"tag": "fullmoon",
+			"enabled": "true",
+			"lines": [
+				"there is a full moon tonight",
+				"there is a full moon soon"
+			],
+			"errors": [
+				"there is no full moon tonight"
+			]
+		},
+		{
+			"tag": "letterbox",
+			"enabled": "true",
+			"lines": [
+				"the letters are collected",
+				"the post box is emptied"
+			],
+			"errors": [
+				"someone sends a letter",
+				"someone sends a postcard"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tueday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "18:25",
+				"end": "18:40"
+			}
+		},
+		{
+			"tag": "petrol",
+			"enabled": "true",
+			"lines": [
+				"petrol is cheaper",
+				"petrol is more expensive"
+			],
+			"errors": [
+				"someone pays for petrol"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "rain",
+			"enabled": "true",
+			"lines": [
+				"there is heavy rain falling",
+				"there is light rain falling",
+				"it may rain soon",
+				"it's going to rain"
+			],
+			"errors": [
+				"it's not going to rain"
+			]
+		},
+		{
+			"tag": "rent",
+			"enabled": "true",
+			"lines": [
+				"the rent goes up"
+			],
+			"errors": [
+				"the rent goes up"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "streetlights",
+			"enabled": "true",
+			"lines": [
+				"the street lights turn off",
+				"the street lights are off",
+				"the street lights turn on",
+				"the street lights are on"
+			],
+			"errors": [
+				"the street lights are off"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "sunrise",
+			"enabled": "true",
+			"lines": [
+				"the sun rises",
+				"it is daytime",
+				"the sun sets",
+				"it is night time"
+			],
+			"errors": [
+				"the weather is changing"
+			]
+		},
+		{
+			"tag": "weather",
+			"enabled": "true",
+			"lines": [
+				"the weather is mild"
+			],
+			"errors": [
+				"the weather is good"
+			]
+		},
+		{
+			"tag": "bustime",
+			"enabled": "true",
+			"lines": [
+				"the bus arrives",
+				"the bus is travelling",
+				"the bus is late",
+				"the bus is on time"
+			],
+			"errors": [
+				"the bus is travelling",
+				"the bus is at the depot"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "cyclists",
+			"enabled": "true",
+			"lines": [
+				"the cyclist is riding",
+				"the man cycles",
+				"the woman cycles",
+				"someone cycles"
+			],
+			"errors": [
+				"are bike is parked",
+				"the bike is locked"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "traintime",
+			"enabled": "true",
+			"lines": [
+				"the train departs",
+				"the train arrives",
+				"the train is late",
+				"the train is delayed"
+			],
+			"errors": [
+				"the train isn't running"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "parking",
+			"enabled": "true",
+			"lines": [
+				"the car is parked",
+				"the car park is busy",
+				"the car park is full"
+			],
+			"errors": [
+				"the car park is empty"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "band",
+			"enabled": "true",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2018-06-22 18:00",
+						"end": "2018-06-22 23:00"
+					},
+					{
+						"start": "2018-06-23 20:00",
+						"end": "2018-06-23 23:00"
+					},
+					{
+						"start": "2018-06-24 18:00",
+						"end": "2018-06-24 22:00"
+					},
+					{
+						"start": "2018-06-25 11:00",
+						"end": "2018-06-25 13:00"
+					},
+					{
+						"start": "2018-06-25 20:00",
+						"end": "2018-06-25 23:00"
+					},
+					{
+						"start": "2018-06-29 17:00",
+						"end": "2018-06-29 23:00"
+					},
+					{
+						"start": "2018-06-30 12:00",
+						"end": "2018-06-30 18:00"
+					},
+					{
+						"start": "2018-06-30 21:00",
+						"end": "2018-07-01 01:00"
+					},
+					{
+						"start": "2018-07-01 15:00",
+						"end": "2018-07-01 17:00"
+					},
+					{
+						"start": "2018-07-01 19:30",
+						"end": "2018-07-01 23:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "cinema",
+			"enabled": "true",
+			"lines": [
+				"the film is showing",
+				"the man is watching a film",
+				"the woman is watching a film",
+				"the girl is watching a film",
+				"the boy is watching a film"
+			],
+			"errors": [
+				"no film is showing",
+				"the cinema is closed"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday",
+					"Sunday"
+				],
+				"start": "10:30",
+				"end": "00:00"
+			}
+		},
+		{
+			"tag": "music",
+			"enabled": "true",
+			"lines": [
+				"the music is playing",
+				"someone is playing music",
+				"someone is listening to music",
+				"the music is on"
+			],
+			"errors": [
+				"the music is turned off",
+				"no one is playing music"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-11 20:00",
+						"end": "2019-03-11 23:59"
+					},
+					{
+						"start": "2019-03-12 19:00",
+						"end": "2019-03-12 23:59"
+					},
+					{
+						"start": "2019-03-13 13:00",
+						"end": "2019-03-13 23:59"
+					},
+					{
+						"start": "2019-03-14 13:30",
+						"end": "2019-03-14 23:59"
+					},
+					{
+						"start": "2019-03-16 19:15",
+						"end": "2019-03-16 23:59"
+					}
+				]
+			}
+		},
+		{
+			"tag": "piano",
+			"enabled": "true",
+			"lines": [
+				"someone plays the piano",
+				"the man plays piano",
+				"the woman plays piano"
+			],
+			"errors": [
+				"the piano is silent"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "09:00",
+				"end": "22:30"
+			}
+		},
+		{
+			"tag": "sing",
+			"enabled": "true",
+			"lines": [
+				"someone is singing",
+				"the man sings",
+				"the woman sings",
+				"the boy sings",
+				"the girl sings"
+			],
+			"errors": [
+				"no one is singing"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "09:00",
+				"end": "20:30"
+			}
+		},
+		{
+			"tag": "theatre",
+			"enabled": "true",
+			"lines": [
+				"someone is performing a play",
+				"the actor is on stage",
+				"the play is on",
+				"the theatre is open",
+				"people are watching the play",
+				"tickets are sold",
+				"the man is at the theatre",
+				"the woman is at the theatre"
+			],
+			"errors": [
+				"the theatre is closed",
+				"the stage is empty"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2018-06-22 19:30",
+						"end": "2018-06-22 22:30"
+					},
+					{
+						"start": "2018-06-23 14:30",
+						"end": "2018-06-23 17:30"
+					},
+					{
+						"start": "2018-06-23 19:30",
+						"end": "2018-06-23 22:30"
+					},
+					{
+						"start": "2018-06-25 19:30",
+						"end": "2018-06-25 22:30"
+					},
+					{
+						"start": "2018-06-26 19:30",
+						"end": "2018-06-26 22:30"
+					},
+					{
+						"start": "2018-06-27 19:30",
+						"end": "2018-06-21 22:30"
+					},
+					{
+						"start": "2018-06-28 14:00",
+						"end": "2018-06-21 17:00"
+					},
+					{
+						"start": "2018-06-28 19:30",
+						"end": "2018-06-21 22:30"
+					},
+					{
+						"start": "2018-06-29 19:30",
+						"end": "2018-06-29 22:30"
+					},
+					{
+						"start": "2018-06-30 14:30",
+						"end": "2018-06-30 17:30"
+					},
+					{
+						"start": "2018-06-30 19:30",
+						"end": "2018-06-30 22:30"
+					},
+					{
+						"start": "2018-07-02 19:30",
+						"end": "2018-07-02 22:30"
+					},
+					{
+						"start": "2018-07-03 19:30",
+						"end": "2018-07-03 22:30"
+					},
+					{
+						"start": "2018-07-04 19:30",
+						"end": "2018-07-04 22:30"
+					},
+					{
+						"start": "2018-07-05 14:00",
+						"end": "2018-07-05 17:00"
+					},
+					{
+						"start": "2018-07-05 19:30",
+						"end": "2018-07-05 22:30"
+					},
+					{
+						"start": "2018-07-06 19:30",
+						"end": "2018-07-06 22:30"
+					},
+					{
+						"start": "2018-07-07 14:30",
+						"end": "2018-07-07 17:30"
+					},
+					{
+						"start": "2018-07-07 19:30",
+						"end": "2018-07-07 22:30"
+					},
+					{
+						"start": "2018-07-10 13:30",
+						"end": "2018-07-10 16:00"
+					},
+					{
+						"start": "2018-07-10 15:30",
+						"end": "2018-07-10 18:00"
+					},
+					{
+						"start": "2018-07-11 10:30",
+						"end": "2018-07-11 13:00"
+					},
+					{
+						"start": "2018-07-11 13:30",
+						"end": "2018-07-11 15:00"
+					},
+					{
+						"start": "2018-07-17 19:30",
+						"end": "2018-07-17 22:30"
+					},
+					{
+						"start": "2018-07-18 14:00",
+						"end": "2018-07-18 17:00"
+					},
+					{
+						"start": "2018-07-19 14:00",
+						"end": "2018-07-19 17:00"
+					},
+					{
+						"start": "2018-07-19 19:30",
+						"end": "2018-07-19 22:30"
+					},
+					{
+						"start": "2018-07-20 19:30",
+						"end": "2018-07-20 22:30"
+					},
+					{
+						"start": "2018-07-21 14:30",
+						"end": "2018-07-21 17:30"
+					},
+					{
+						"start": "2018-07-21 14:30",
+						"end": "2018-07-21 17:00"
+					},
+					{
+						"start": "2018-07-21 19:30",
+						"end": "2018-07-21 22:30"
+					},
+					{
+						"start": "2018-07-24 19:00",
+						"end": "2018-07-24 22:00"
+					},
+					{
+						"start": "2018-07-25 19:00",
+						"end": "2018-07-25 22:00"
+					},
+					{
+						"start": "2018-07-26 14:00",
+						"end": "2018-07-26 17:00"
+					},
+					{
+						"start": "2018-07-26 19:00",
+						"end": "2018-07-26 22:00"
+					},
+					{
+						"start": "2018-07-27 14:00",
+						"end": "2018-07-27 17:00"
+					},
+					{
+						"start": "2018-07-27 19:00",
+						"end": "2018-07-27 22:00"
+					},
+					{
+						"start": "2018-07-28 14:00",
+						"end": "2018-07-28 17:00"
+					},
+					{
+						"start": "2018-07-28 19:00",
+						"end": "2018-07-28 22:00"
+					},
+					{
+						"start": "2018-07-31 19:30",
+						"end": "2018-07-31 22:30"
+					},
+					{
+						"start": "2018-08-01 14:00",
+						"end": "2018-08-01 17:00"
+					},
+					{
+						"start": "2018-08-01 19:30",
+						"end": "2018-08-01 22:30"
+					},
+					{
+						"start": "2018-08-02 14:00",
+						"end": "2018-08-02 17:00"
+					},
+					{
+						"start": "2018-08-02 19:30",
+						"end": "2018-08-02 22:30"
+					},
+					{
+						"start": "2018-08-03 19:30",
+						"end": "2018-08-03 22:30"
+					},
+					{
+						"start": "2018-08-04 14:30",
+						"end": "2018-08-04 17:30"
+					},
+					{
+						"start": "2018-08-04 19:30",
+						"end": "2018-08-04 22:30"
+					},
+					{
+						"start": "2018-08-06 19:30",
+						"end": "2018-08-06 22:30"
+					},
+					{
+						"start": "2018-08-07 19:30",
+						"end": "2018-08-07 22:30"
+					},
+					{
+						"start": "2018-08-08 19:30",
+						"end": "2018-08-08 22:30"
+					},
+					{
+						"start": "2018-08-09 14:00",
+						"end": "2018-08-09 17:00"
+					},
+					{
+						"start": "2018-08-09 19:30",
+						"end": "2018-08-09 22:30"
+					},
+					{
+						"start": "2018-08-10 19:30",
+						"end": "2018-08-10 22:30"
+					},
+					{
+						"start": "2018-08-11 14:30",
+						"end": "2018-08-11 17:30"
+					},
+					{
+						"start": "2018-08-11 19:30",
+						"end": "2018-08-11 22:30"
+					},
+					{
+						"start": "2018-08-13 19:30",
+						"end": "2018-08-13 22:30"
+					},
+					{
+						"start": "2018-08-14 19:30",
+						"end": "2018-08-14 22:30"
+					},
+					{
+						"start": "2018-08-15 19:30",
+						"end": "2018-08-15 22:30"
+					},
+					{
+						"start": "2018-08-16 14:00",
+						"end": "2018-08-16 17:00"
+					},
+					{
+						"start": "2018-08-16 19:30",
+						"end": "2018-08-16 22:30"
+					},
+					{
+						"start": "2018-08-17 14:00",
+						"end": "2018-08-17 17:00"
+					},
+					{
+						"start": "2018-08-17 19:30",
+						"end": "2018-08-17 22:30"
+					},
+					{
+						"start": "2018-08-18 14:30",
+						"end": "2018-08-18 17:30"
+					},
+					{
+						"start": "2018-08-18 19:30",
+						"end": "2018-08-18 22:30"
+					},
+					{
+						"start": "2018-08-22 10:00",
+						"end": "2018-08-22 12:00"
+					},
+					{
+						"start": "2018-08-22 13:00",
+						"end": "2018-08-22 15:00"
+					},
+					{
+						"start": "2018-08-22 16:00",
+						"end": "2018-08-22 18:00"
+					},
+					{
+						"start": "2018-08-23 10:00",
+						"end": "2018-08-23 12:00"
+					},
+					{
+						"start": "2018-08-23 13:00",
+						"end": "2018-08-23 15:00"
+					},
+					{
+						"start": "2018-08-23 16:00",
+						"end": "2018-08-23 18:00"
+					},
+					{
+						"start": "2018-08-28 20:00",
+						"end": "2018-08-28 23:00"
+					},
+					{
+						"start": "2018-08-29 20:00",
+						"end": "2018-08-29 23:00"
+					},
+					{
+						"start": "2018-08-30 20:00",
+						"end": "2018-08-30 23:00"
+					},
+					{
+						"start": "2018-08-31 20:00",
+						"end": "2018-08-31 23:00"
+					},
+					{
+						"start": "2018-09-01 20:00",
+						"end": "2018-09-01 23:00"
+					},
+					{
+						"start": "2018-09-07 19:30",
+						"end": "2018-09-07 22:30"
+					},
+					{
+						"start": "2018-09-08 14:30",
+						"end": "2018-09-08 17:30"
+					},
+					{
+						"start": "2018-09-08 19:30",
+						"end": "2018-09-08 22:30"
+					}
+				]
+			}
+		},
+		{
+			"tag": "exhibition",
+			"enabled": "true",
+			"lines": [
+				"the exhibition is open",
+				"people are looking at art",
+				"the man is looking at art",
+				"the woman is looking at art",
+				"someone enters the gallery",
+				"the museum is open",
+				"someone leaves the gallery"
+			],
+			"errors": [
+				"the exhibition is closed",
+				"the exhibition is empty"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "10:00",
+						"end": "17:00"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "11:00",
+						"end": "17:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "13:00",
+						"end": "17:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "gallery",
+			"enabled": "true",
+			"lines": [
+				"the gallery is open",
+				"people are looking at art",
+				"the man is looking at art",
+				"the woman is looking at art",
+				"someone enters the gallery",
+				"the museum is open",
+				"someone leaves the gallery"
+			],
+			"errors": [
+				"the gallery is closed",
+				"the gallery is empty"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday"
+				],
+				"start": "10:00",
+				"end": "17:00"
+			}
+		},
+		{
+			"tag": "flag",
+			"lines": [
+				"the flag is raised",
+				"the flag flies"
+			],
+			"errors": [
+				"the flag is taken down",
+				"the flag is down"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday"
+				],
+				"start": "00:00",
+				"end": "24:00"
+			}
+		},
+		{
+			"tag": "museum",
+			"enabled": "true",
+			"lines": [
+				"the museum is open",
+				"the museum is busy",
+				"people are at the museum"
+			],
+			"errors": [
+				"the museum is closed",
+				"the museum is empty"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "lecture",
+			"enabled": "true",
+			"lines": [
+				"the teacher speaks to the students",
+				"the teacher talks"
+			],
+			"errors": [
+				"the lecture hall is quiet",
+				"the classroom is empty"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "08:00",
+				"end": "17:00"
+			}
+		},
+		{
+			"tag": "nursery",
+			"enabled": "true",
+			"lines": [
+				"the boy plays",
+				"the girl plays",
+				"the children are playing",
+				"the nursery is open"
+			],
+			"errors": [
+				"the nursery is closed"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "7:30",
+				"end": "18:00"
+			}
+		},
+		{
+			"tag": "library",
+			"enabled": "true",
+			"lines": [
+				"the book is borrowed",
+				"the book is returned",
+				"someone borrows a book",
+				"someone returns a book",
+				"someones reads",
+				"the library is open"
+			],
+			"errors": [
+				"the library is closed",
+				"the library is empty"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Wednesday"
+				],
+				"start": "9:30",
+				"end": "19:00"
+			}
+		},
+		{
+			"tag": "party",
+			"enabled": "true",
+			"lines": [
+				"someone is dancing",
+				"the music is loud",
+				"the club is open",
+				"people are dancing"
+			],
+			"errors": [
+				"there is no party tonight",
+				"there might be a party tonight"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Friday",
+					"Saturday"
+				],
+				"start": "22:45",
+				"end": "3:30"
+			}
+		},
+		{
+			"tag": "casino",
+			"enabled": "true",
+			"lines": [
+				"the casino is open",
+				"someone wins money",
+				"someone loses money",
+				"someone wins",
+				"someone loses",
+				"the man gambles",
+				"the woman gambles"
+			],
+			"errors": [
+				"the casino is closed"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "dancer",
+			"enabled": "true",
+			"lines": [
+				"people are dancing",
+				"the boy dances",
+				"the girl dances",
+				"the man dances",
+				"the woman dances"
+			],
+			"errors": [
+				"no one is dancing"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "16:00",
+				"end": "21:00"
+			}
+		},
+		{
+			"tag": "radio",
+			"enabled": "true",
+			"lines": [
+				"the radio plays the news",
+				"the radio plays a song",
+				"there is chat on the radio",
+				"the radio is on"
+			],
+			"errors": [
+				"the radio is silent"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "rehearsal",
+			"enabled": "true",
+			"lines": [
+				"the band rehearses",
+				"the dancer rehearses",
+				"the performer rehearese"
+			],
+			"errors": [
+				"there is no rehearsal"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "7:30",
+				"end": "18:00"
+			}
+		},
+		{
+			"tag": "football",
+			"enabled": "true",
+			"lines": [
+				"the team plays",
+				"the team plays football",
+				"the player kicks the ball",
+				"the team is on the field",
+				"the player train"
+			],
+			"errors": [
+				"the field is empty",
+				"no one is training"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2018-07-17 19:45",
+						"end": "2018-07-17 21:30"
+					},
+					{
+						"start": "2018-07-24 19:45",
+						"end": "2018-07-24 21:30"
+					},
+					{
+						"start": "2018-07-28 19:30",
+						"end": "2018-07-28 21:15"
+					},
+					{
+						"start": "2018-08-04 15:00",
+						"end": "2018-08-04 16:45"
+					}
+				]
+			}
+		},
+		{
+			"tag": "swimming",
+			"enabled": "true",
+			"lines": [
+				"someone swims",
+				"the man swims",
+				"the woman swims",
+				"someone is at the pool",
+				"the pool is open",
+				"people are swimming"
+			],
+			"errors": [
+				"the pool is closed",
+				"the pool is empty"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "6:30",
+				"end": "22:00"
+			}
+		},
+		{
+			"tag": "yoga",
+			"lines": [
+				"someone does yoga",
+				"the woman does yoga",
+				"the man does yoga",
+				"the woman sits in a yoga pose",
+				"the man sits in a yoga pose",
+				"the people do yoga",
+				"the yoga studio is open",
+				"the yoga studio is busy",
+				"the yoga class has started"
+			],
+			"errors": [
+				"the yoga studio is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday"
+						],
+						"start": "06:00",
+						"end": "22:00"
+					},
+					{
+						"days": [
+							"Friday"
+						],
+						"start": "06:00",
+						"end": "21:30"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "07:15",
+						"end": "19:15"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "09:00",
+						"end": "21:30"
+					}
+				]
+			}
+		},
+		{
+			"tag": "community",
+			"enabled": "true",
+			"lines": [
+				"people are meeting",
+				"people are making things",
+				"volunteers are busy",
+				"the community is busy",
+				"the community event is on"
+			],
+			"errors": [
+				"the community isn't meeting"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2018-06-22 19:30",
+						"end": "2018-06-23 01:00"
+					},
+					{
+						"start": "2018-06-23 22:00",
+						"end": "2018-06-24 03:00"
+					},
+					{
+						"start": "2018-06-24 11:00",
+						"end": "2018-06-24 22:00"
+					},
+					{
+						"start": "2018-06-29 19:00",
+						"end": "2018-06-29 00:00"
+					},
+					{
+						"start": "2018-06-30 19:30",
+						"end": "2018-06-29 00:00"
+					},
+					{
+						"start": "2018-07-01 11:00",
+						"end": "2018-07-01 11:00"
+					},
+					{
+						"start": "2018-07-08 11:00",
+						"end": "2018-07-08 11:00"
+					},
+					{
+						"start": "2018-07-14 12:00",
+						"end": "2018-07-14 00:00"
+					},
+					{
+						"start": "2018-07-15 11:00",
+						"end": "2018-07-15 11:00"
+					},
+					{
+						"start": "2018-07-20 20:00",
+						"end": "2018-07-20 23:00"
+					},
+					{
+						"start": "2018-07-21 18:00",
+						"end": "2018-07-21 21:00"
+					},
+					{
+						"start": "2018-07-22 11:00",
+						"end": "2018-07-22 16:00"
+					},
+					{
+						"start": "2018-07-25 20:00",
+						"end": "2018-07-25 23:00"
+					},
+					{
+						"start": "2018-07-29 11:00",
+						"end": "2018-07-29 16:00"
+					},
+					{
+						"start": "2018-08-03 19:00",
+						"end": "2018-08-03 22:00"
+					},
+					{
+						"start": "2018-08-05 11:00",
+						"end": "2018-08-05 16:00"
+					},
+					{
+						"start": "2018-08-12 11:00",
+						"end": "2018-08-12 16:00"
+					},
+					{
+						"start": "2018-08-19 11:00",
+						"end": "2018-08-19 16:00"
+					},
+					{
+						"start": "2018-08-26 11:00",
+						"end": "2018-08-26 16:00"
+					},
+					{
+						"start": "2018-09-02 11:00",
+						"end": "2018-09-02 16:00"
+					},
+					{
+						"start": "2018-09-09 11:00",
+						"end": "2018-09-09 16:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "foodbank",
+			"lines": [
+				"the food bank is busy",
+				"the food bank is open",
+				"someone waits at the food bank",
+				"there is a queue at the food bank"
+			],
+			"errors": [
+				"the food bank is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday"
+						],
+						"start": "12:00",
+						"end": "12:00"
+					},
+					{
+						"days": [
+							"Tuesday",
+							"Thursday",
+							"Wednesday"
+						],
+						"start": "10:00",
+						"end": "16:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "park",
+			"lines": [
+				"the park is busy",
+				"the park is open",
+				"someone walks through the park",
+				"someone sits on a bench",
+				"the man cycles through the park",
+				"the woman runs through the park",
+				"the man runs through the park"
+			],
+			"errors": [
+				"the park is quiet",
+				"the park is empty"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "6:30",
+				"end": "23:00"
+			}
+		},
+		{
+			"tag": "confession",
+			"enabled": "true",
+			"lines": [
+				"someone listens to sins",
+				"confessions are open",
+				"someone confesses"
+			],
+			"errors": [
+				"no one confesses",
+				"there is no confession"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Saturday"
+						],
+						"start": "11:00",
+						"end": "12:00"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "17:15",
+						"end": "17:45"
+					}
+				]
+			}
+		},
+		{
+			"tag": "mass",
+			"enabled": "true",
+			"lines": [
+				"the church is open",
+				"someone is at the church"
+			],
+			"errors": [
+				"the church is empty",
+				"the church is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday"
+						],
+						"start": "09:30",
+						"end": "16:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "9:00",
+						"end": "14:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "mosque",
+			"enabled": "true",
+			"lines": [
+				"the mosque is at prayer",
+				"people are praying"
+			],
+			"errors": [
+				"there is no prayer",
+				"the mosque is not at prayer"
+			]
+		},
+		{
+			"tag": "hindu",
+			"enabled": "true",
+			"lines": [
+				"the temple is open"
+			],
+			"errors": [
+				"the temple is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "09:30",
+						"end": "21:00"
+					},
+					{
+						"days": [
+							"Saturday",
+							"Sunday"
+						],
+						"start": "09:00",
+						"end": "21:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "bar",
+			"lines": [
+				"the bar is open",
+				"people are at the bar",
+				"the man orders a drink",
+				"the woman orders a drink",
+				"the bar is busy",
+				"the man is at the bar",
+				"the woman is at the bar",
+				"someone has a drink",
+				"the man has a drink",
+				"the woman has a drink"
+			],
+			"errors": [
+				"the bar is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Sunday"
+						],
+						"start": "9:00",
+						"end": "24:00"
+					},
+					{
+						"days": [
+							"Thursday",
+							"Friday",
+							"Saturday"
+						],
+						"start": "16:00",
+						"end": "2:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "burger",
+			"lines": [
+				"the burger place is open",
+				"the man eats a burger"
+			],
+			"errors": [
+				"no one orders a burger",
+				"the burger place is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Sunday"
+						],
+						"start": "11:00",
+						"end": "23:00"
+					},
+					{
+						"days": [
+							"Friday",
+							"Saturday"
+						],
+						"start": "11:00",
+						"end": "23:30"
+					}
+				]
+			}
+		},
+		{
+			"tag": "cafe",
+			"lines": [
+				"coffee is served",
+				"someone drinks coffee",
+				"someone ordered a coffee",
+				"the cafe is open",
+				"coffee is brewing",
+				"the man drinks a coffee",
+				"the woman orders a coffee"
+			],
+			"errors": [
+				"the cafe is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday"
+						],
+						"start": "6:00",
+						"end": "19:30"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "8:30",
+						"end": "17:30"
+					}
+				]
+			}
+		},
+		{
+			"tag": "drinks",
+			"lines": [
+				"drinks are poured",
+				"someone orders a drink",
+				"someone orders a pint",
+				"the man orders a pint",
+				"the woman orders a pint"
+			],
+			"errors": [
+				"the pub is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday"
+						],
+						"start": "11:00",
+						"end": "23:00"
+					},
+					{
+						"days": [
+							"Thursday"
+						],
+						"start": "11:00",
+						"end": "24:00"
+					},
+					{
+						"days": [
+							"Friday",
+							"Saturday"
+						],
+						"start": "11:00",
+						"end": "2:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "12:00",
+						"end": "23:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "icecream",
+			"lines": [
+				"someone eats an ice cream",
+				"ice cream is served",
+				"the man eats ice cream",
+				"the woman eats ice cream",
+				"the boy eats ice cream",
+				"the girl eats ice cream",
+				"the ice cream place is open"
+			],
+			"errors": [
+				"the ice cream place is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "9:00",
+						"end": "20:00"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "9:00",
+						"end": "19:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "11:00",
+						"end": "17:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "bank",
+			"lines": [
+				"the bank opens",
+				"the bank is open",
+				"someone transfers money",
+				"someone goes overdraft",
+				"someone makes a payment"
+			],
+			"errors": [
+				"the bank is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday"
+						],
+						"start": "9:00",
+						"end": "16:00"
+					},
+					{
+						"days": [
+							"Friday"
+						],
+						"start": "9:00",
+						"end": "17:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "office",
+			"enabled": "true",
+			"lines": [
+				"the office opens",
+				"the office is open",
+				"the office is busy"
+			],
+			"errors": [
+				"the office is closed",
+				"the office is empty"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "21:00"
+			}
+		},
+		{
+			"tag": "shop",
+			"lines": [
+				"the shop opens",
+				"the shop is open",
+				"someone shops",
+				"the man shops",
+				"the woman shops",
+				"someone sells a product",
+				"the man sells a product",
+				"the woman sells a product"
+			],
+			"errors": [
+				"the shop is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "9:00",
+						"end": "20:00"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "9:00",
+						"end": "19:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "11:00",
+						"end": "17:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "escalator",
+			"enabled": "true",
+			"lines": [
+				"the escalators go up",
+				"the escalators go down"
+			],
+			"errors": [
+				"the escalators are still"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
+			}
+		},
+		{
+			"tag": "hotel",
+			"lines": [
+				"someone checks into the hotel",
+				"someone stays in the hotel",
+				"the hotel is busy"
+			],
+			"errors": [
+				"the hotel is quiet"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "08:00",
+				"end": "21:00"
+			}
+		},
+		{
+			"tag": "wedding",
+			"enabled": "true",
+			"lines": [
+				"the wedding is today",
+				"someone gets married"
+			],
+			"errors": [
+				"there is no wedding today",
+				"the city hall is empty"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday"
+				],
+				"start": "9:00",
+				"end": "16:00"
+			}
+		},
+		{
+			"tag": "baby",
+			"enabled": "true",
+			"lines": [
+				"the baby is born",
+				"the baby is due"
+			],
+			"errors": [
+				"the baby is born"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
+			}
+		},
+		{
+			"tag": "blood",
+			"enabled": "true",
+			"lines": [
+				"someone donates blood",
+				"the man donates blood",
+				"the woman donates blood"
+			],
+			"errors": [
+				"the blood bank is closed"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "8:00",
+				"end": "20:00"
+			}
+		},
+		{
+			"tag": "shift",
+			"enabled": "true",
+			"lines": [
+				"the shift continues",
+				"the shift changes",
+				"the shift starts",
+				"the shift ends"
+			],
+			"errors": [
+				"the shift ends",
+				"the shift starts"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
+			}
+		},
+		{
+			"tag": "brewery",
+			"lines": [
+				"the brewery is open",
+				"beer is brewing"
+			],
+			"errors": [
+				"the brewery is closed",
+				"no drinks are brewing"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWAccident",
+			"lines": [
+				"an accident has happened",
+				"a car has crashed"
+			],
+			"errors": [
+				"someone drives a car",
+				"the car is driving"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWAir",
+			"lines": [
+				"the air is clean",
+				"the air is fresh"
+			],
+			"errors": [
+				"the air isn't clean",
+				"the air is polluted"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWAntones",
+			"lines": [
+				"the club is open",
+				"the club is busy",
+				"people are dancing",
+				"someone is dancing"
+			],
+			"errors": [
+				"the club is closed",
+				"the club is quiet"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "18:00",
+				"end": "23:59"
+			}
+		},
+		{
+			"tag": "SXSWBank",
+			"lines": [
+				"the bank is open",
+				"someone transfers money",
+				"someone makes a payment",
+				"someone invests money",
+				"people are doing business"
+			],
+			"errors": [
+				"the bank is closed"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWBarbeque",
+			"lines": [
+				"the barbeque place is open",
+				"someone orders food",
+				"people are eating"
+			],
+			"errors": [
+				"the barbeque place is closed"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWBaseball",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWBasketball",
+			"lines": [
+				"the team plays basketball",
+				"the player shoots the ball",
+				"the player passes the ball"
+			],
+			"errors": [
+				"the match is over",
+				"the other team won"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 19:30",
+						"end": "2019-03-08 20:30"
+					},
+					{
+						"start": "2019-03-09 19:00",
+						"end": "2019-03-09 20:00"
+					},
+					{
+						"start": "2019-03-13 19:00",
+						"end": "2019-03-13 20:00"
+					},
+					{
+						"start": "2019-03-15 21:00",
+						"end": "2019-03-15 22:00"
+					},
+					{
+						"start": "2019-03-16 19:00",
+						"end": "2019-03-16 20:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWBats",
+			"lines": [
+				"bats are flying",
+				"a swarm of bats fly",
+				"the bat flies"
+			],
+			"errors": [
+				"the bat sleeps",
+				"the bats are sleeping"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:30",
+				"end": "23:59"
+			}
+		},
+		{
+			"tag": "SXSWBlackStar",
+			"lines": [
+				"people are drinking beer",
+				"beer is brewing"
+			],
+			"errors": [
+				"the brewery is closed",
+				"people are drinking beer"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday"
+						],
+						"start": "16:00",
+						"end": "23:00"
+					},
+					{
+						"days": [
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Sunday"
+						],
+						"start": "11:00",
+						"end": "23:00"
+					},
+					{
+						"days": [
+							"Saturday",
+							"Friday"
+						],
+						"start": "11:00",
+						"end": "23:59"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWBoat",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWCamera",
+			"lines": [
+				"the camera films,",
+				"the camera is filming"
+			],
+			"errors": [
+				"the camera is turned off",
+				"the camera isn't working"
+			]
+		},
+		{
+			"tag": "SXSWCapitol",
+			"lines": [
+				"the capitol is open",
+				"someone at the capitol",
+				"the secretary is busy"
+			],
+			"errors": [
+				"the capitol is closed",
+				"the capitol is quiet"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "07:00",
+						"end": "22:00"
+					},
+					{
+						"days": [
+							"Saturday",
+							"Sunday"
+						],
+						"start": "09:00",
+						"end": "20:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWCar",
+			"lines": [
+				"someone rents a car",
+				"someone is driving",
+				"someone drives the car"
+			],
+			"errors": [
+				"someone returns a car",
+				"the car is available",
+				"the car is waiting"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWCommerce",
+			"lines": [
+				"the chamber is open",
+				"people are doing business"
+			],
+			"errors": [
+				"the chamber is closed"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWCotton",
+			"lines": [
+				"the price of cotton rises",
+				"the prince of cotton drops"
+			],
+			"errors": [
+				"the price of cotton fluctuates"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWCrypto",
+			"lines": [
+				"the crypto currency goes up"
+			],
+			"errors": [
+				"the crypto currency goes down"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWCycling",
+			"lines": [
+				"someone rents a bike",
+				"someone cycles",
+				"people are cycling"
+			],
+			"errors": [
+				"someone returns a bike",
+				"the bike is in the station"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWDell",
+			"lines": [
+				"the office opens",
+				"the office is open",
+				"the office is busy"
+			],
+			"errors": [
+				"the office is closed",
+				"the office is empty"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "01:00",
+				"end": "21:00"
+			}
+		},
+		{
+			"tag": "SXSWDog",
+			"lines": [
+				"someone lost their dog",
+				"someone found a dog",
+				"someone found a cat",
+				"someone lost their cat",
+				"the dog has lost its owner",
+				"the cat has lost its owner"
+			],
+			"errors": [
+				"someone walks the dog",
+				"someone plays with the cat"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWDollar",
+			"lines": [
+				"the dollar is weak",
+				"the dollar is strong"
+			],
+			"errors": [
+				"the dollar fluctuates"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWFarmer",
+			"lines": [
+				"the market is open",
+				"the market is busy",
+				"someone is at the market",
+				"someone buys groceries",
+				"the man sells groceries",
+				"the woman sells groceries"
+			],
+			"errors": [
+				"the market is closed"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "08:00",
+				"end": "22:00"
+			}
+		},
+		{
+			"tag": "SXSWFire",
+			"lines": [
+				"fire station is open"
+			],
+			"errors": [
+				"the fire station is quiet"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWFlightNoise",
+			"lines": [
+				"the plane flies overhead",
+				"the plane is loud"
+			],
+			"errors": [
+				"the flight hasn't landed",
+				"the plane has landed"
+			]
+		},
+		{
+			"tag": "SXSWFootball",
+			"lines": [
+				"the team plays",
+				"someone plays football",
+				"the team is on the field"
+			],
+			"errors": [
+				"the field is empty",
+				"no one is training"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWFranklin",
+			"lines": [
+				"the barbeque is smoking",
+				"the restuarant is open",
+				"people are queueing",
+				"the barbeque is on"
+			],
+			"errors": [
+				"the restaurant has sold out",
+				"the restaurant is closed"
+			],
+			"timing": {
+				"type": "DAILY",
+				"days": [
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday",
+					"Sunday"
+				],
+				"start": "11:00",
+				"end": "15:00"
+			}
+		},
+		{
+			"tag": "SXSWGarden",
+			"lines": [
+				"the garden is open",
+				"people are watching plants",
+				"someone looks at a tree",
+				"the garden is busy",
+				"children are playing in the garden",
+				"people are walking in the garden"
+			],
+			"errors": [
+				"the garden is closed",
+				"the garden is quiet"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Friday",
+							"Sunday"
+						],
+						"start": "09:00",
+						"end": "17:00"
+					},
+					{
+						"days": [
+							"Thursday",
+							"Saturday"
+						],
+						"start": "07:30",
+						"end": "17:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWGasoline",
+			"lines": [
+				"the gasoline price rises",
+				"gasoline price is rising",
+				"gasoline is expensive"
+			],
+			"errors": [
+				"the gasoline price drops"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWGold",
+			"lines": [
+				"the price of gold rises",
+				"the prince of gold drops"
+			],
+			"errors": [
+				"the price of gold fluctuates"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWHair",
+			"lines": [
+				"the hair salon is open",
+				"the man gets a haircut",
+				"the woman gets a haircut",
+				"the hair dresser cuts",
+				"someone gets a haircut"
+			],
+			"errors": [
+				"the salon is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "08:30",
+						"end": "21:00"
+					},
+					{
+						"days": [
+							"Saturday",
+							"Sunday"
+						],
+						"start": "08:30",
+						"end": "18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWHarry",
+			"lines": [
+				"the center is open",
+				"people are looking at history",
+				"the man is researching",
+				"the woman is researching",
+				"someone enters the center",
+				"someone leaves the center"
+			],
+			"errors": [
+				"the center is closed",
+				"the center is empty"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Friday"
+						],
+						"start": "10:00",
+						"end": "17:00"
+					},
+					{
+						"days": [
+							"Thursday"
+						],
+						"start": "10:00",
+						"end": "19:00"
+					},
+					{
+						"days": [
+							"Saturday",
+							"Sunday"
+						],
+						"start": "12:00",
+						"end": "17:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWHilton",
+			"lines": [
+				"someone checks into the hotel",
+				"someone stays in the hotel",
+				"the hotel is busy",
+				"check-in is open",
+				"the front desk is busy",
+				"someone checks in"
+			],
+			"errors": [
+				"the hotel is quiet"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "08:00",
+				"end": "22:00"
+			}
+		},
+		{
+			"tag": "SXSWHumidity",
+			"lines": [
+				"the air is humid",
+				"humidity is high"
+			],
+			"errors": [
+				"the humidity is low"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWIBM",
+			"lines": [
+				"the research lab is open",
+				"the research lab is busy"
+			],
+			"errors": [
+				"the research lab is closed",
+				"the research lab is empty"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "21:00"
+			}
+		},
+		{
+			"tag": "SXSWIceHockey",
+			"lines": [
+				"the team plays hockey",
+				"the player hits the puck",
+				"the player scores a goal"
+			],
+			"errors": [
+				"the team isn't playing",
+				"the team won"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-06 18:00",
+						"end": "2019-03-06 19:45"
+					},
+					{
+						"start": "2019-03-09 19:00",
+						"end": "2019-03-09 20:45"
+					},
+					{
+						"start": "2019-03-10 17:00",
+						"end": "2019-03-10 18:45"
+					},
+					{
+						"start": "2019-03-13 19:00",
+						"end": "2019-03-13 20:45"
+					},
+					{
+						"start": "2019-03-15 19:00",
+						"end": "2019-03-15 20:45"
+					},
+					{
+						"start": "2019-03-17 16:00",
+						"end": "2019-03-17 17:45"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWIndian",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWIronBear",
+			"lines": [
+				"the bar is open",
+				"people are at the bar",
+				"the man orders a drink",
+				"the bar is busy",
+				"the man is at the bar"
+			],
+			"errors": [
+				"the bar is closed"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "15:00",
+				"end": "23:59"
+			}
+		},
+		{
+			"tag": "SXSWJesterking",
+			"lines": [
+				"the brewery is open",
+				"beer is brewing"
+			],
+			"errors": [
+				"the brewery is closed",
+				"beer is brewing"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Thursday",
+							"Friday"
+						],
+						"start": "16:00",
+						"end": "22:00"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "12:00",
+						"end": "22:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "12:00",
+						"end": "21:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWKayak",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"no one is kayaking",
+				"the lake is quiet ",
+				"no one is on the water"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWLake",
+			"lines": [
+				"the lake is full"
+			],
+			"errors": [
+				"the lake isn't full"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWLibrary",
+			"lines": [
+				"the book is borrowed",
+				"the book is returned",
+				"someone borrows a book",
+				"someone returns a book",
+				"someones reads",
+				"the library is open"
+			],
+			"errors": [
+				"the library is closed",
+				"the library is empty"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday"
+						],
+						"start": "10:00",
+						"end": "21:00"
+					},
+					{
+						"days": [
+							"Friday",
+							"Saturday"
+						],
+						"start": "10:00",
+						"end": "18:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "12:00",
+						"end": "18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWLick",
+			"lines": [
+				"someone eats an ice cream",
+				"ice cream is served",
+				"the man eats ice cream",
+				"the woman eats ice cream",
+				"the boy eats ice cream",
+				"the girl eats ice cream",
+				"the ice cream place is open"
+			],
+			"errors": [
+				"the ice cream place is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Sunday",
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday"
+						],
+						"start": "12:30",
+						"end": "22:00"
+					},
+					{
+						"days": [
+							"Friday",
+							"Saturday"
+						],
+						"start": "12:30",
+						"end": "23:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWMall",
+			"lines": [
+				"the man shops",
+				"the woman shops",
+				"the mall is open",
+				"the mall is busy",
+				"people are buying things"
+			],
+			"errors": [
+				"the mall is empty",
+				"the mall is closed"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "10:00",
+				"end": "21:00"
+			}
+		},
+		{
+			"tag": "SXSWMetro",
+			"lines": [
+				"the train travels",
+				"the train arrives",
+				"the train departs"
+			],
+			"errors": [
+				"the metro is not running",
+				"people are waiting for the metro"
+			]
+		},
+		{
+			"tag": "SXSWMexican",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWMoon",
+			"lines": [
+				"the moon is up"
+			],
+			"errors": [
+				"the sun shines"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWMoonLightTower",
+			"lines": [
+				"the moonlight tower is on",
+				"the moonlight is bright"
+			],
+			"errors": [
+				"the moonlight tower is off"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWOasis",
+			"lines": [
+				"the terrasse is open",
+				"people are on the terrasse"
+			],
+			"errors": [
+				"the terrasse is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday"
+						],
+						"start": "11:30",
+						"end": "20:00"
+					},
+					{
+						"days": [
+							"Friday"
+						],
+						"start": "11:30",
+						"end": "21:00"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "11:00",
+						"end": "21:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "11:00",
+						"end": "20:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWOilCans",
+			"lines": [
+				"people are drinking",
+				"someone is dancing"
+			],
+			"errors": [
+				"the bar is quiet"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "14:00",
+						"end": "23:59"
+					},
+					{
+						"days": [
+							"Saturday",
+							"Sunday"
+						],
+						"start": "12:00",
+						"end": "23:59"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWParking",
+			"lines": [
+				"the car is parked",
+				"the driver parks the car"
+			],
+			"errors": [
+				"the parking spots are full"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWPepe",
+			"lines": [
+				"the restaurant is open",
+				"people are eating"
+			],
+			"errors": [
+				"the kitchen is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday"
+						],
+						"start": "11:00",
+						"end": "21:00"
+					},
+					{
+						"days": [
+							"Friday",
+							"Saturday"
+						],
+						"start": "11:00",
+						"end": "22:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "11:00",
+						"end": "20:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWPlane",
+			"lines": [
+				"the plane is taking off",
+				"the plane is landing",
+				"the plane flies",
+				"the plane is flying",
+				"people are boarding the plane",
+				"the airport is busy"
+			],
+			"errors": [
+				"the plane is delayed",
+				"the plane has been cancelled",
+				"the plane isn't flying"
+			]
+		},
+		{
+			"tag": "SXSWPool",
+			"lines": [
+				"someone swims",
+				"the man swims",
+				"the woman swims",
+				"someone is at the pool",
+				"the pool is open",
+				"people are swimming"
+			],
+			"errors": [
+				"the pool is closed",
+				"the pool is empty"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "09:00",
+						"end": "19:30"
+					},
+					{
+						"days": [
+							"Saturday",
+							"Sunday"
+						],
+						"start": "09:00",
+						"end": "19:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWRoad",
+			"lines": [
+				"the road is busy",
+				"there is a lot of traffic"
+			],
+			"errors": [
+				"the road is quiet",
+				"the traffic is light",
+				"there is not much traffic"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWSchedule",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWScreening",
+			"lines": [
+				"the film is showing",
+				"the man is watching a film",
+				"the woman is watching a film",
+				"the film is screening",
+				"the screening has started",
+				"people are watching the film",
+				"someone watches the film"
+			],
+			"errors": [
+				"no film is showing",
+				"the screening is over"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 16:00",
+						"end": "2019-03-08 23:59"
+					},
+					{
+						"start": "2019-03-09 10:00",
+						"end": "2019-03-09 23:59"
+					},
+					{
+						"start": "2019-03-10 10:00",
+						"end": "2019-03-10 23:59"
+					},
+					{
+						"start": "2019-03-11 10:00",
+						"end": "2019-03-11 23:59"
+					},
+					{
+						"start": "2019-03-12 10:00",
+						"end": "2019-03-12 23:59"
+					},
+					{
+						"start": "2019-03-13 10:00",
+						"end": "2019-03-13 23:59"
+					},
+					{
+						"start": "2019-03-14 10:00",
+						"end": "2019-03-14 23:59"
+					},
+					{
+						"start": "2019-03-15 10:00",
+						"end": "2019-03-15 23:59"
+					},
+					{
+						"start": "2019-03-16 10:00",
+						"end": "2019-03-16 23:59"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWSessions",
+			"lines": [
+				"the presentation has started",
+				"the audience is listening",
+				"the talk session is on",
+				"the audience listens",
+				"the woman presents",
+				"the man presents",
+				"someone is presenting",
+				"the projector is on"
+			],
+			"errors": [
+				"the talk session has finished",
+				"the projector is off",
+				"the session is over"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 11:00",
+						"end": "2019-03-08 18:00"
+					},
+					{
+						"start": "2019-03-09 09:30",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 09:30",
+						"end": "2019-03-10 18:00"
+					},
+					{
+						"start": "2019-03-11 09:30",
+						"end": "2019-03-11 18:00"
+					},
+					{
+						"start": "2019-03-12 09:30",
+						"end": "2019-03-12 18:00"
+					},
+					{
+						"start": "2019-03-13 09:30",
+						"end": "2019-03-13 18:00"
+					},
+					{
+						"start": "2019-03-14 09:30",
+						"end": "2019-03-14 18:00"
+					},
+					{
+						"start": "2019-03-15 11:00",
+						"end": "2019-03-15 18:00"
+					},
+					{
+						"start": "2019-03-16 11:00",
+						"end": "2019-03-16 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWStarbucks",
+			"lines": [
+				"coffee is served",
+				"someone drinks coffee",
+				"someone ordered a coffee",
+				"the cafe is open",
+				"coffee is brewing",
+				"the man drinks a coffee",
+				"the woman orders a coffee"
+			],
+			"errors": [
+				"the cafe is closed"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "06:00",
+				"end": "19:00"
+			}
+		},
+		{
+			"tag": "SXSWSun",
+			"lines": [
+				"the sun rises",
+				"it is daytime"
+			],
+			"errors": [
+				"the sun sets",
+				"it is night time"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWTemp",
+			"lines": [
+				"it's warm today",
+				"it's hot today",
+				"the weather is good",
+				"the weather is mild"
+			],
+			"errors": [
+				"the weather is bad",
+				"it is cold",
+				"it is chilly"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWTradingCompany",
+			"lines": [
+				"someone carries shopping bags",
+				"someone enters the shop",
+				"someone leaves the shop",
+				"someone pays in cash",
+				"someone pays by card",
+				"the shop is open",
+				"the shop is busy",
+				"people are shopping"
+			],
+			"errors": [
+				"the shop is empty",
+				"the shop is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "11:00",
+						"end": "16:00"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "10:00",
+						"end": "18:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "11:00",
+						"end": "18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWVisitor",
+			"lines": [
+				"someone is visiting",
+				"the city is busy",
+				"visitors are arriving",
+				"someone asks for the way",
+				"someone books a tour",
+				"someone reads a map"
+			],
+			"errors": [
+				"the visitor center is closed"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday"
+						],
+						"start": "09:00",
+						"end": "17:00"
+					},
+					{
+						"days": [
+							"Sunday"
+						],
+						"start": "10:00",
+						"end": "17:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWUniversity",
+			"lines": [
+				"the university is open",
+				"someone is studying",
+				"the classroom is busy"
+			],
+			"errors": [
+				"the university is closed",
+				"the university is quiet"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "19:00"
+			}
+		},
+		{
+			"tag": "SXSWWaste",
+			"lines": [
+				"the waste has been collected",
+				"the waste is collected",
+				"the bins are emptied",
+				"the bins are empty"
+			],
+			"errors": [
+				"the waste hasn't been collected",
+				"the bins are full"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWWheat",
+			"lines": [
+				"the price of wheat rises",
+				"the prince of wheat drops"
+			],
+			"errors": [
+				"the price of wheat fluctuates"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWWomenWork",
+			"lines": [
+				"the gallery is open",
+				"people are visiting the gallery",
+				"the man visits the gallery ",
+				"the woman visits the gallery",
+				"someone enters the gallery",
+				"someone leaves the gallery"
+			],
+			"errors": [
+				"the gallery is closed",
+				"the gallery is empty"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday"
+						],
+						"start": "10:00",
+						"end": "18:00"
+					},
+					{
+						"days": [
+							"Saturday"
+						],
+						"start": "12:00",
+						"end": "18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWZikler",
+			"lines": [
+				"the park is busy",
+				"the park is open",
+				"someone walks through the park",
+				"someone sits on a bench",
+				"the man cycles through the park",
+				"the woman runs through the park",
+				"the man runs through the park"
+			],
+			"errors": [
+				"the park is quiet",
+				"the park is empty"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "05:00",
+				"end": "22:00"
+			}
+		},
+		{
+			"tag": "SXSWPsychic",
+			"lines": [
+				"someone is predicting the future",
+				"the future is being predicted",
+				"the man receives a reading",
+				"the woman receives a reading",
+				"someone is talking to a spirit"
+			],
+			"errors": [
+				"no one predicts the future"
+			],
+			"timing": {
+				"type": "SPLIT",
+				"splittimes": [{
+					"days": [
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"start": "10:30",
+					"end": "17:00"
+				}]
+			}
+		},
+		{
+			"tag": "SXSWRave",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-12 20:00",
+						"end": "2019-03-12 23:59"
+					},
+					{
+						"start": "2019-03-13 00:01",
+						"end": "2019-03-13 03:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWPoster",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-14 12:00",
+						"end": "2019-03-14 18:00"
+					},
+					{
+						"start": "2019-03-15 11:00",
+						"end": "2019-03-15 18:00"
+					},
+					{
+						"start": "2019-03-16 11:00",
+						"end": "2019-03-16 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWSoundArt",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 09:30",
+						"end": "2019-03-08 18:00"
+					},
+					{
+						"start": "2019-03-09 11:00",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 09:30",
+						"end": "2019-03-10 18:00"
+					},
+					{
+						"start": "2019-03-11 09:30",
+						"end": "2019-03-11 18:00"
+					},
+					{
+						"start": "2019-03-12 09:30",
+						"end": "2019-03-12 18:00"
+					},
+					{
+						"start": "2019-03-13 11:00",
+						"end": "2019-03-13 18:00"
+					},
+					{
+						"start": "2019-03-14 11:00",
+						"end": "2019-03-14 18:00"
+					},
+					{
+						"start": "2019-03-15 11:00",
+						"end": "2019-03-15 18:00"
+					},
+					{
+						"start": "2019-03-16 11:00",
+						"end": "2019-03-16 14:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWGoogleLab",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 09:30",
+						"end": "2019-03-08 18:00"
+					},
+					{
+						"start": "2019-03-09 11:00",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 09:30",
+						"end": "2019-03-10 18:00"
+					},
+					{
+						"start": "2019-03-11 09:30",
+						"end": "2019-03-11 18:00"
+					},
+					{
+						"start": "2019-03-12 09:30",
+						"end": "2019-03-12 18:00"
+					},
+					{
+						"start": "2019-03-13 11:00",
+						"end": "2019-03-13 18:00"
+					},
+					{
+						"start": "2019-03-14 11:00",
+						"end": "2019-03-14 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWBlooming",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-09 11:00",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 09:30",
+						"end": "2019-03-10 18:00"
+					},
+					{
+						"start": "2019-03-11 09:30",
+						"end": "2019-03-11 18:00"
+					},
+					{
+						"start": "2019-03-12 09:30",
+						"end": "2019-03-12 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWLight",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 09:30",
+						"end": "2019-03-08 18:00"
+					},
+					{
+						"start": "2019-03-09 11:00",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 09:30",
+						"end": "2019-03-10 18:00"
+					},
+					{
+						"start": "2019-03-11 09:30",
+						"end": "2019-03-11 18:00"
+					},
+					{
+						"start": "2019-03-12 09:30",
+						"end": "2019-03-12 18:00"
+					},
+					{
+						"start": "2019-03-13 11:00",
+						"end": "2019-03-13 18:00"
+					},
+					{
+						"start": "2019-03-14 11:00",
+						"end": "2019-03-14 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWIce",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+					"start": "2019-03-12 10:00",
+					"end": "2019-03-12 18:00"
+				}]
+			}
+		},
+		{
+			"tag": "SXSWPhoto",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-09 09:00",
+						"end": "2019-03-09 15:00"
+					},
+					{
+						"start": "2019-03-10 09:00",
+						"end": "2019-03-10 15:00"
+					},
+					{
+						"start": "2019-03-11 09:00",
+						"end": "2019-03-11 15:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWWellness",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-09 11:00",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 11:00",
+						"end": "2019-03-10 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWMarketplace",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-15 11:00",
+						"end": "2019-03-15 18:00"
+					},
+					{
+						"start": "2019-03-16 11:00",
+						"end": "2019-03-16 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWTradeShow",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-10 11:00",
+						"end": "2019-03-10 18:00"
+					},
+					{
+						"start": "2019-03-11 11:00",
+						"end": "2019-03-11 18:00"
+					},
+					{
+						"start": "2019-03-12 11:00",
+						"end": "2019-03-12 18:00"
+					},
+					{
+						"start": "2019-03-13 11:00",
+						"end": "2019-03-13 14:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWPokemon",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-15 11:00",
+						"end": "2019-03-15 18:00"
+					},
+					{
+						"start": "2019-03-16 11:00",
+						"end": "2019-03-16 18:00"
+					},
+					{
+						"start": "2019-03-17 11:00",
+						"end": "2019-03-17 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWGamingExpo",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-15 11:00",
+						"end": "2019-03-15 18:00"
+					},
+					{
+						"start": "2019-03-16 11:00",
+						"end": "2019-03-16 18:00"
+					},
+					{
+						"start": "2019-03-17 11:00",
+						"end": "2019-03-17 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWParties",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 14:30",
+						"end": "2019-03-08 23:59"
+					},
+					{
+						"start": "2019-03-09 00:01",
+						"end": "2019-03-09 01:00"
+					},
+					{
+						"start": "2019-03-09 11:00",
+						"end": "2019-03-09 14:00"
+					},
+					{
+						"start": "2019-03-10 20:30",
+						"end": "2019-03-10 23:59"
+					},
+					{
+						"start": "2019-03-11 18:00",
+						"end": "2019-03-11 23:59"
+					},
+					{
+						"start": "2019-03-12 18:00",
+						"end": "2019-03-12 21:00"
+					},
+					{
+						"start": "2019-03-13 22:00",
+						"end": "2019-03-13 23:59"
+					},
+					{
+						"start": "2019-03-14 16:00",
+						"end": "2019-03-14 18:00"
+					},
+					{
+						"start": "2019-03-15 20:00",
+						"end": "2019-03-15 23:59"
+					},
+					{
+						"start": "2019-03-16 19:00",
+						"end": "2019-03-16 21:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWBlood",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-07 12:00",
+						"end": "2019-03-07 16:00"
+					},
+					{
+						"start": "2019-03-08 12:00",
+						"end": "2019-03-08 18:00"
+					},
+					{
+						"start": "2019-03-09 12:00",
+						"end": "2019-03-09 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWRegistration",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-07 09:00",
+						"end": "2019-03-07 11:00"
+					},
+					{
+						"start": "2019-03-08 09:00",
+						"end": "2019-03-08 11:00"
+					},
+					{
+						"start": "2019-03-09 09:00",
+						"end": "2019-03-09 11:00"
+					},
+					{
+						"start": "2019-03-10 09:00",
+						"end": "2019-03-10 21:00"
+					},
+					{
+						"start": "2019-03-11 09:00",
+						"end": "2019-03-11 21:00"
+					},
+					{
+						"start": "2019-03-12 09:00",
+						"end": "2019-03-12 21:00"
+					},
+					{
+						"start": "2019-03-13 09:00",
+						"end": "2019-03-13 22:00"
+					},
+					{
+						"start": "2019-03-14 09:00",
+						"end": "2019-03-14 19:00"
+					},
+					{
+						"start": "2019-03-15 09:00",
+						"end": "2019-03-15 19:00"
+					},
+					{
+						"start": "2019-03-16 09:00",
+						"end": "2019-03-16 19:00"
+					},
+					{
+						"start": "2019-03-17 09:00",
+						"end": "2019-03-17 19:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWPitch",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 11:00",
+						"end": "2019-03-08 13:30"
+					},
+					{
+						"start": "2019-03-08 17:00",
+						"end": "2019-03-08 18:00"
+					},
+					{
+						"start": "2019-03-09 09:30",
+						"end": "2019-03-09 13:30"
+					},
+					{
+						"start": "2019-03-09 15:30",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 09:30",
+						"end": "2019-03-10 13:30"
+					},
+					{
+						"start": "2019-03-10 15:30",
+						"end": "2019-03-10 20:00"
+					},
+					{
+						"start": "2019-03-11 11:00",
+						"end": "2019-03-11 13:30"
+					},
+					{
+						"start": "2019-03-12 12:30",
+						"end": "2019-03-12 13:30"
+					},
+					{
+						"start": "2019-03-13 12:30",
+						"end": "2019-03-13 13:30"
+					},
+					{
+						"start": "2019-03-13 03:30",
+						"end": "2019-03-13 18:00"
+					},
+					{
+						"start": "2019-03-16 16:00",
+						"end": "2019-03-16 17:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWKeynote",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 11:00",
+						"end": "2019-03-08 18:00"
+					},
+					{
+						"start": "2019-03-09 09:30",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 11:00",
+						"end": "2019-03-10 18:00"
+					},
+					{
+						"start": "2019-03-11 09:30",
+						"end": "2019-03-11 18:00"
+					},
+					{
+						"start": "2019-03-12 11:00",
+						"end": "2019-03-12 16:30"
+					},
+					{
+						"start": "2019-03-13 11:00",
+						"end": "2019-03-13 18:00"
+					},
+					{
+						"start": "2019-03-14 11:00",
+						"end": "2019-03-14 16:30"
+					},
+					{
+						"start": "2019-03-15 11:00",
+						"end": "2019-03-15 18:00"
+					},
+					{
+						"start": "2019-03-16 11:00",
+						"end": "2019-03-16 15:00"
+					},
+					{
+						"start": "2019-03-16 17:00",
+						"end": "2019-03-16 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWAwards",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-09 12:00",
+						"end": "2019-03-09 18:00"
+					},
+					{
+						"start": "2019-03-10 10:00",
+						"end": "2019-03-10 13:00"
+					},
+					{
+						"start": "2019-03-10 18:30",
+						"end": "2019-03-10 20:00"
+					},
+					{
+						"start": "2019-03-11 18:00",
+						"end": "2019-03-11 21:00"
+					},
+					{
+						"start": "2019-03-12 20:00",
+						"end": "2019-03-12 21:00"
+					},
+					{
+						"start": "2019-03-13 13:30",
+						"end": "2019-03-13 16:00"
+					},
+					{
+						"start": "2019-03-16 11:00",
+						"end": "2019-03-16 12:30"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWCinema",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-11 11:00",
+						"end": "2019-03-11 18:00"
+					},
+					{
+						"start": "2019-03-12 11:00",
+						"end": "2019-03-12 18:00"
+					},
+					{
+						"start": "2019-03-13 11:00",
+						"end": "2019-03-13 18:00"
+					}
+				]
+			}
+		},
+		{
+			"tag": "SXSWNetworking",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "UNIQUE",
+				"times": [{
+					"start": "2019-03-10 12:00",
+					"end": "2019-03-10 13:00"
+				}]
+			}
+		},
+		{
+			"tag": "SXSWShuttle",
+			"lines": [
+				"poemline"
+			],
+			"errors": [
+				"errorline"
+			],
+			"timing": {
+				"type": "EVERYDAY",
+				"start": "05:00",
+				"end": "22:00"
+			}
+		}
+	]
 }
