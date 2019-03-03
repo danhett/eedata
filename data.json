@@ -2637,17 +2637,13 @@
 			}
 		},
 		{
-			"tag": "SXSWCrypto",
+			"tag": "SXSXCrypto",
 			"lines": [
 				"the crypto currency goes up"
 			],
 			"errors": [
 				"the crypto currency goes down"
-			],
-			"timing": {
-				"type": "RANDOM",
-				"chance": "100"
-			}
+			]
 		},
 		{
 			"tag": "SXSWCycling",
@@ -3866,7 +3862,7 @@
 			"tag": "SXSWWheat",
 			"lines": [
 				"the price of wheat rises",
-				"the prince of wheat drops"
+				"the price of wheat drops"
 			],
 			"errors": [
 				"the price of wheat fluctuates"
