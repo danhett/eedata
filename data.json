@@ -777,60 +777,6 @@
 			}
 		},
 		{
-			"tag": "band",
-			"enabled": "true",
-			"lines": [
-				"poemline"
-			],
-			"errors": [
-				"errorline"
-			],
-			"timing": {
-				"type": "UNIQUE",
-				"times": [{
-						"start": "2018-06-22 18:00",
-						"end": "2018-06-22 23:00"
-					},
-					{
-						"start": "2018-06-23 20:00",
-						"end": "2018-06-23 23:00"
-					},
-					{
-						"start": "2018-06-24 18:00",
-						"end": "2018-06-24 22:00"
-					},
-					{
-						"start": "2018-06-25 11:00",
-						"end": "2018-06-25 13:00"
-					},
-					{
-						"start": "2018-06-25 20:00",
-						"end": "2018-06-25 23:00"
-					},
-					{
-						"start": "2018-06-29 17:00",
-						"end": "2018-06-29 23:00"
-					},
-					{
-						"start": "2018-06-30 12:00",
-						"end": "2018-06-30 18:00"
-					},
-					{
-						"start": "2018-06-30 21:00",
-						"end": "2018-07-01 01:00"
-					},
-					{
-						"start": "2018-07-01 15:00",
-						"end": "2018-07-01 17:00"
-					},
-					{
-						"start": "2018-07-01 19:30",
-						"end": "2018-07-01 23:00"
-					}
-				]
-			}
-		},
-		{
 			"tag": "cinema",
 			"enabled": "true",
 			"lines": [
@@ -863,14 +809,15 @@
 			"tag": "music",
 			"enabled": "true",
 			"lines": [
-				"the music is playing",
-				"someone is playing music",
-				"someone is listening to music",
-				"the music is on"
+				"someone is dancing",
+				"the music is loud",
+				"the gig has started",
+				"people are dancing",
+				"the artist is performing"
 			],
 			"errors": [
-				"the music is turned off",
-				"no one is playing music"
+				"the gig is over",
+				"the stage is empty"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -2317,23 +2264,6 @@
 			}
 		},
 		{
-			"tag": "blood",
-			"enabled": "true",
-			"lines": [
-				"someone donates blood",
-				"the man donates blood",
-				"the woman donates blood"
-			],
-			"errors": [
-				"the blood bank is closed"
-			],
-			"timing": {
-				"type": "EVERYDAY",
-				"start": "8:00",
-				"end": "20:00"
-			}
-		},
-		{
 			"tag": "shift",
 			"enabled": "true",
 			"lines": [
@@ -2449,14 +2379,53 @@
 		{
 			"tag": "SXSWBaseball",
 			"lines": [
-				"poemline"
+				"the team plays baseball",
+				"the player hits the ball",
+				"the player is running"
 			],
 			"errors": [
-				"errorline"
+				"the baseball team isn't playing",
+				"the stadium is empty"
 			],
 			"timing": {
-				"type": "RANDOM",
-				"chance": "100"
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 13:10",
+						"end": "2019-03-08 17:00"
+					},
+					{
+						"start": "2019-03-09 13:05",
+						"end": "2019-03-09 17:15"
+					},
+					{
+						"start": "2019-03-10 13:05",
+						"end": "2019-03-10 18:15"
+					},
+					{
+						"start": "2019-03-11 13:05",
+						"end": "2019-03-11 18:15"
+					},
+					{
+						"start": "2019-03-12 18:40",
+						"end": "2019-03-12 21:30"
+					},
+					{
+						"start": "2019-03-13 19:00",
+						"end": "2019-03-13 20:00"
+					},
+					{
+						"start": "2019-03-14 13:05",
+						"end": "2019-03-14 16:15"
+					},
+					{
+						"start": "2019-03-15 13:05",
+						"end": "2019-03-15 16:15"
+					},
+					{
+						"start": "2019-03-16 13:05",
+						"end": "2019-03-16 16:15"
+					}
+				]
 			}
 		},
 		{
@@ -2555,14 +2524,17 @@
 		{
 			"tag": "SXSWBoat",
 			"lines": [
-				"poemline"
+				"people are on the water",
+				"someone rents a boat",
+				"people are at the lake"
 			],
 			"errors": [
-				"errorline"
+				"the boat rental is closed"
 			],
 			"timing": {
-				"type": "RANDOM",
-				"chance": "100"
+				"type": "EVERYDAY",
+				"start": "08:30",
+				"end": "20:30"
 			}
 		},
 		{
@@ -2638,8 +2610,16 @@
 				"the chamber is closed"
 			],
 			"timing": {
-				"type": "RANDOM",
-				"chance": "100"
+				"type": "DAILY",
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "08:00",
+				"end": "17:00"
 			}
 		},
 		{
@@ -2781,17 +2761,45 @@
 		{
 			"tag": "SXSWFootball",
 			"lines": [
-				"the team plays",
-				"someone plays football",
-				"the team is on the field"
+				"the trainer is on the field",
+				"the team is on the field",
+				"the team is training"
 			],
 			"errors": [
 				"the field is empty",
 				"no one is training"
 			],
 			"timing": {
-				"type": "RANDOM",
-				"chance": "100"
+				"type": "UNIQUE",
+				"times": [{
+						"start": "2019-03-08 06:00",
+						"end": "2019-03-08 13:00"
+					},
+					{
+						"start": "2019-03-09 07:30",
+						"end": "2019-03-09 14:00"
+					},
+					{
+						"start": "2019-03-11 06:00",
+						"end": "2019-03-11 19:30"
+					},
+					{
+						"start": "2019-03-12 06:30",
+						"end": "2019-03-12 19:30"
+					},
+					{
+						"start": "2019-03-13 06:30",
+						"end": "2019-03-13 19:30"
+					},
+					{
+						"start": "2019-03-14 06:30",
+						"end": "2019-03-14 19:30"
+					},
+					{
+						"start": "2019-03-15 06:00",
+						"end": "2019-03-15 14:00"
+					}
+				]
 			}
 		},
 		{
@@ -3059,14 +3067,17 @@
 		{
 			"tag": "SXSWIndian",
 			"lines": [
-				"poemline"
+				"the community is active",
+				"people are chatting",
+				"the community is meeting"
 			],
 			"errors": [
-				"errorline"
+				"the forum is quiet"
 			],
 			"timing": {
-				"type": "RANDOM",
-				"chance": "100"
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "23:00"
 			}
 		},
 		{
@@ -3127,7 +3138,9 @@
 		{
 			"tag": "SXSWKayak",
 			"lines": [
-				"poemline"
+				"people are on the lake",
+				"someone rents a kayak",
+				"someone sits on a boat"
 			],
 			"errors": [
 				"no one is kayaking",
@@ -3268,15 +3281,40 @@
 		{
 			"tag": "SXSWMexican",
 			"lines": [
-				"poemline"
+				"people are meeting",
+				"the community is busy",
+				"the community event is on"
 			],
 			"errors": [
-				"errorline"
+				"the community hall is empty",
+				"the community hall is closed"
 			],
-			"timing": {
-				"type": "RANDOM",
-				"chance": "100"
-			}
+			"splittimes": [{
+				"days": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"start": "10:00",
+				"end": "18:00"
+				},
+				{
+					"days": [
+						"Saturday"
+					],
+					"start": "10:00",
+					"end": "17:30"
+				},
+				{
+					"days": [
+						"Sunday"
+					],
+					"start": "10:00",
+					"end": "16:00"
+				}
+			]
 		},
 		{
 			"tag": "SXSWMoon",
@@ -3509,14 +3547,21 @@
 		{
 			"tag": "SXSWSchedule",
 			"lines": [
-				"poemline"
+				"the festival is on",
+				"people are at the festival",
+				"the festival is busy",
+				"the city is full of visitors",
+				"the hall is busy"
 			],
 			"errors": [
-				"errorline"
+				"todays programme has finished",
+				"the visitors have left",
+				"the hall is empty"
 			],
 			"timing": {
-				"type": "RANDOM",
-				"chance": "100"
+				"type": "EVERYDAY",
+				"start": "07:00",
+				"end": "23:59"
 			}
 		},
 		{
@@ -3904,10 +3949,14 @@
 		{
 			"tag": "SXSWRave",
 			"lines": [
-				"poemline"
+				"the artist is coding",
+				"the crowd is dancing",
+				"the visuals are moving",
+				"the artist writes code"
 			],
 			"errors": [
-				"errorline"
+				"the artist prepares",
+				"people are queueing"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -3925,10 +3974,13 @@
 		{
 			"tag": "SXSWPoster",
 			"lines": [
-				"poemline"
+				"people look at posters",
+				"people are looking at prints",
+				"the exhibition is open",
+				"the exhibition is busy"
 			],
 			"errors": [
-				"errorline"
+				"the exhibition is closed"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -3950,10 +4002,12 @@
 		{
 			"tag": "SXSWSoundArt",
 			"lines": [
-				"poemline"
+				"the generators are running",
+				"people are listening to music",
+				"the sound installation runs"
 			],
 			"errors": [
-				"errorline"
+				"the generators are off"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -3999,40 +4053,20 @@
 		{
 			"tag": "SXSWGoogleLab",
 			"lines": [
-				"poemline"
+				"the house is talking",
+				"the house is listening",
+				"the voice recognition isn't working"
 			],
 			"errors": [
-				"errorline"
+				"the house is silent",
+				"the voice recognition is turned off"
 			],
 			"timing": {
 				"type": "UNIQUE",
-				"times": [{
-						"start": "2019-03-08 09:30",
-						"end": "2019-03-08 18:00"
-					},
+				"times": [
 					{
-						"start": "2019-03-09 11:00",
-						"end": "2019-03-09 18:00"
-					},
-					{
-						"start": "2019-03-10 09:30",
+						"start": "2019-03-10 12:00",
 						"end": "2019-03-10 18:00"
-					},
-					{
-						"start": "2019-03-11 09:30",
-						"end": "2019-03-11 18:00"
-					},
-					{
-						"start": "2019-03-12 09:30",
-						"end": "2019-03-12 18:00"
-					},
-					{
-						"start": "2019-03-13 11:00",
-						"end": "2019-03-13 18:00"
-					},
-					{
-						"start": "2019-03-14 11:00",
-						"end": "2019-03-14 18:00"
 					}
 				]
 			}
@@ -4040,10 +4074,12 @@
 		{
 			"tag": "SXSWBlooming",
 			"lines": [
-				"poemline"
+				"the tree is blooming",
+				"people look at the cherry blossom"
 			],
 			"errors": [
-				"errorline"
+				"the installation is turned off",
+				"the installation isn't running"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4069,10 +4105,11 @@
 		{
 			"tag": "SXSWLight",
 			"lines": [
-				"poemline"
+				"the light installation is on",
+				"people watch the light"
 			],
 			"errors": [
-				"errorline"
+				"the light is turned off"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4110,10 +4147,11 @@
 		{
 			"tag": "SXSWIce",
 			"lines": [
-				"poemline"
+				"the ice is melting",
+				"the ice melts"
 			],
 			"errors": [
-				"errorline"
+				"the ice isn't melting"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4126,10 +4164,12 @@
 		{
 			"tag": "SXSWPhoto",
 			"lines": [
-				"poemline"
+				"people are looking at photos",
+				"the gallery is busy",
+				"someone talks about technology"
 			],
 			"errors": [
-				"errorline"
+				"the venue is closed"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4151,10 +4191,11 @@
 		{
 			"tag": "SXSWWellness",
 			"lines": [
-				"poemline"
+				"someone talks about well being",
+				"the brand sells its products"
 			],
 			"errors": [
-				"errorline"
+				"the expo isn't on"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4172,10 +4213,12 @@
 		{
 			"tag": "SXSWMarketplace",
 			"lines": [
-				"poemline"
+				"brands are showing their products",
+				"the brand sells",
+				"someone buys a product"
 			],
 			"errors": [
-				"errorline"
+				"the market isn't on"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4193,10 +4236,13 @@
 		{
 			"tag": "SXSWTradeShow",
 			"lines": [
-				"poemline"
+				"the company sells their service",
+				"visitors are talking about business",
+				"the startup is looking for investment",
+				"the startup presents a product"
 			],
 			"errors": [
-				"errorline"
+				"people are talking about business"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4222,10 +4268,13 @@
 		{
 			"tag": "SXSWPokemon",
 			"lines": [
-				"poemline"
+				"someone is looking for cards",
+				"someone sells cards",
+				"someone shows a collection",
+				"game cards are being traded"
 			],
 			"errors": [
-				"errorline"
+				"the stand is set up"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4247,10 +4296,14 @@
 		{
 			"tag": "SXSWGamingExpo",
 			"lines": [
-				"poemline"
+				"the demo is shown",
+				"someone tests a game",
+				"people talk about games",
+				"games are shown",
+				"someone is playing a game"
 			],
 			"errors": [
-				"errorline"
+				"the expo is closed"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4272,10 +4325,13 @@
 		{
 			"tag": "SXSWParties",
 			"lines": [
-				"poemline"
+				"people are celebrating",
+				"the party is on",
+				"the party has started"
 			],
 			"errors": [
-				"errorline"
+				"there is no party tonight",
+				"there might be a party tonight"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4325,10 +4381,12 @@
 		{
 			"tag": "SXSWBlood",
 			"lines": [
-				"poemline"
+				"someone donates blood",
+				"the man donates blood",
+				"the woman donates blood"
 			],
 			"errors": [
-				"errorline"
+				"the blood bank is closed"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4350,10 +4408,12 @@
 		{
 			"tag": "SXSWRegistration",
 			"lines": [
-				"poemline"
+				"the registration is open",
+				"visitors are picking up passes",
+				"someone collects their pass"
 			],
 			"errors": [
-				"errorline"
+				"the registration desk is closed"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4407,10 +4467,15 @@
 		{
 			"tag": "SXSWPitch",
 			"lines": [
-				"poemline"
+				"a project is being pitched",
+				"a project is pitched",
+				"someone pitches",
+				"people are looking for investors",
+				"investors are looking for projects"
 			],
 			"errors": [
-				"errorline"
+				"people are chatting",
+				"the pitch is over"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4464,10 +4529,13 @@
 		{
 			"tag": "SXSWKeynote",
 			"lines": [
-				"poemline"
+				"the speaker is on stage",
+				"someone is on stage",
+				"someone is presenting"
 			],
 			"errors": [
-				"errorline"
+				"the presentation isn't on",
+				"there are many presentations today"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4517,10 +4585,12 @@
 		{
 			"tag": "SXSWAwards",
 			"lines": [
-				"poemline"
+				"someone gets an award",
+				"the award ceremony has begun"
 			],
 			"errors": [
-				"errorline"
+				"someone got an award",
+				"the jury has made a decision"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4558,10 +4628,12 @@
 		{
 			"tag": "SXSWCinema",
 			"lines": [
-				"poemline"
+				"someone wears a headset",
+				"the man wears a headset",
+				"the woman wears a headset"
 			],
 			"errors": [
-				"errorline"
+				"the headsets are turned off"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4583,10 +4655,10 @@
 		{
 			"tag": "SXSWNetworking",
 			"lines": [
-				"poemline"
+				"people are networking"
 			],
 			"errors": [
-				"errorline"
+				"people are not networking"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4599,15 +4671,17 @@
 		{
 			"tag": "SXSWShuttle",
 			"lines": [
-				"poemline"
+				"the shuttle is running",
+				"people are waiting for the shuttle",
+				"the shuttle is en route"
 			],
 			"errors": [
-				"errorline"
+				"the shuttle has finished for today"
 			],
 			"timing": {
 				"type": "EVERYDAY",
-				"start": "05:00",
-				"end": "22:00"
+				"start": "09:00",
+				"end": "23:59"
 			}
 		}
 	]
