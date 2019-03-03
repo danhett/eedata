@@ -3778,6 +3778,20 @@
 			}
 		},
 		{
+			"tag": "SXSWTrump",
+			"lines": [
+				"the president is tweeting",
+				"the president sends a tweet"
+			],
+			"errors": [
+				"the president might tweet soon"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
+			}
+		},
+		{
 			"tag": "SXSWVisitor",
 			"lines": [
 				"someone is visiting",
