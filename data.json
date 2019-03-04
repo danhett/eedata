@@ -3452,7 +3452,7 @@
 			],
 			"timing": {
 				"type": "RANDOM",
-				"chance": "100"
+				"chance": "70"
 			}
 		},
 		{
