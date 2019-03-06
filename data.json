@@ -148,8 +148,8 @@
 				"people sit on the bench",
 				"someone walks past the bench",
 				"a child sits on the bench",
-				"a woman sits on the bench",
-				"a man sits on the bench"
+				"the woman sits on the bench",
+				"the man sits on the bench"
 			],
 			"errors": [
 				"no one sits on the bench"
@@ -226,7 +226,7 @@
 				"someone watches out of the window"
 			],
 			"errors": [
-				"the buses is gone",
+				"the bus is gone",
 				"the bus leaves"
 			],
 			"timing": {
@@ -450,6 +450,8 @@
 			"lines": [
 				"someone is queuing",
 				"someone is waiting",
+				"the man is queuing",
+				"the woman is queuing",
 				"someone joins the queue",
 				"the queue is long",
 				"the queue is short",
@@ -568,7 +570,7 @@
 				"the truck turns right",
 				"the truck waits at the lights",
 				"the truck is loaded",
-				"the truck unloades",
+				"the truck unloads",
 				"the truck drives"
 			],
 			"errors": [
@@ -616,7 +618,7 @@
 				"type": "DAILY",
 				"days": [
 					"Monday",
-					"Tueday",
+					"Tuesday",
 					"Wednesday",
 					"Thursday",
 					"Friday"
@@ -712,12 +714,12 @@
 			"enabled": "true",
 			"lines": [
 				"the bus arrives",
-				"the bus is travelling",
+				"the bus is traveling",
 				"the bus is late",
 				"the bus is on time"
 			],
 			"errors": [
-				"the bus is travelling",
+				"the bus is traveling",
 				"the bus is at the depot"
 			],
 			"timing": {
@@ -1387,7 +1389,8 @@
 				"the book is returned",
 				"someone borrows a book",
 				"someone returns a book",
-				"someones reads",
+				"the man reads",
+				"the woman reads",
 				"the library is open"
 			],
 			"errors": [
@@ -1495,7 +1498,7 @@
 			"lines": [
 				"the band rehearses",
 				"the dancer rehearses",
-				"the performer rehearese"
+				"the performer rehearses"
 			],
 			"errors": [
 				"there is no rehearsal"
@@ -1521,7 +1524,7 @@
 				"the team plays football",
 				"the player kicks the ball",
 				"the team is on the field",
-				"the player train"
+				"the players play"
 			],
 			"errors": [
 				"the field is empty",
@@ -1770,6 +1773,7 @@
 				"someone walks through the park",
 				"someone sits on a bench",
 				"the man cycles through the park",
+				"the woman cycles",
 				"the woman runs through the park",
 				"the man runs through the park"
 			],
@@ -1937,7 +1941,16 @@
 			"tag": "burger",
 			"lines": [
 				"the burger place is open",
-				"the man eats a burger"
+				"the man eats a burger",
+				"the woman eats a burger",
+				"someone eats a burger",
+				"someone orders a burger",
+				"the burger is flipped",
+				"someone flips the burger"
+
+
+
+
 			],
 			"errors": [
 				"no one orders a burger",
@@ -2010,9 +2023,9 @@
 			"lines": [
 				"drinks are poured",
 				"someone orders a drink",
-				"someone orders a pint",
-				"the man orders a pint",
-				"the woman orders a pint"
+				"someone orders a beer",
+				"the man orders a beer",
+				"the woman orders a beer"
 			],
 			"errors": [
 				"the pub is closed"
@@ -3101,8 +3114,11 @@
 				"the bar is open",
 				"people are at the bar",
 				"the man orders a drink",
+				"the woman orders a drink",
 				"the bar is busy",
-				"the man is at the bar"
+				"the man is at the bar",
+				"the woman is at the bar"
+
 			],
 			"errors": [
 				"the bar is closed"
@@ -3187,7 +3203,8 @@
 				"the book is returned",
 				"someone borrows a book",
 				"someone returns a book",
-				"someones reads",
+				"the man reads ",
+				"the woman reads",
 				"the library is open"
 			],
 			"errors": [
@@ -3310,15 +3327,15 @@
 				"the community hall is closed"
 			],
 			"splittimes": [{
-				"days": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday"
-				],
-				"start": "10:00",
-				"end": "18:00"
+					"days": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"start": "10:00",
+					"end": "18:00"
 				},
 				{
 					"days": [
@@ -3366,11 +3383,11 @@
 		{
 			"tag": "SXSWOasis",
 			"lines": [
-				"the terrasse is open",
-				"people are on the terrasse"
+				"the terrace is open",
+				"people are on the terrace"
 			],
 			"errors": [
-				"the terrasse is closed"
+				"the terrace is closed"
 			],
 			"timing": {
 				"type": "SPLIT",
@@ -3574,7 +3591,7 @@
 				"the hall is busy"
 			],
 			"errors": [
-				"todays programme has finished",
+				"todays program has finished",
 				"the visitors have left",
 				"the hall is empty"
 			],
@@ -4097,12 +4114,10 @@
 			],
 			"timing": {
 				"type": "UNIQUE",
-				"times": [
-					{
-						"start": "2019-03-10 12:00",
-						"end": "2019-03-10 18:00"
-					}
-				]
+				"times": [{
+					"start": "2019-03-10 12:00",
+					"end": "2019-03-10 18:00"
+				}]
 			}
 		},
 		{
