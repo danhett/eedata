@@ -194,9 +194,7 @@
 				"the man takes the bus",
 				"the woman takes the bus",
 				"the girl takes the bus",
-				"the boy takes the bus",
-				"people sit on the upper deck",
-				"the bus crosses the bridge"
+				"the boy takes the bus"
 			],
 			"errors": [
 				"the bus is at the depot",
@@ -222,7 +220,6 @@
 				"the woman gets off the bus",
 				"someone gets off the bus",
 				"someone stands at the bus stop",
-				"the upper deck is empty",
 				"someone watches out of the window"
 			],
 			"errors": [
@@ -313,6 +310,7 @@
 				"the dog barks",
 				"the dog sleeps",
 				"the dog eats",
+				"the dog does its business",
 				"the dog looks at food",
 				"the dog meets another dog"
 			],
@@ -2321,7 +2319,7 @@
 			],
 			"timing": {
 				"type": "RANDOM",
-				"chance": "100"
+				"chance": "20"
 			}
 		},
 		{
@@ -2481,7 +2479,7 @@
 			"tag": "SXSWBats",
 			"lines": [
 				"bats are flying",
-				"a swarm of bats fly",
+				"a swarm of bats flies",
 				"the bat flies"
 			],
 			"errors": [
@@ -2764,11 +2762,13 @@
 		},
 		{
 			"tag": "SXSWFire",
-			"lines": [
-				"fire station is open"
+			"lines": ["the fire station is open ",
+				"the fire station is active",
+				"fire station has a shift change"
+
 			],
 			"errors": [
-				"the fire station is quiet"
+				"the fire station is open"
 			],
 			"timing": {
 				"type": "RANDOM",
@@ -2834,7 +2834,7 @@
 			"tag": "SXSWFranklin",
 			"lines": [
 				"the barbeque is smoking",
-				"the restuarant is open",
+				"the restaurant is open",
 				"people are queueing",
 				"the barbeque is on"
 			],
@@ -2963,7 +2963,7 @@
 			"tag": "SXSWHarry",
 			"lines": [
 				"the center is open",
-				"people are looking at history",
+				"people are learning about history",
 				"the man is researching",
 				"the woman is researching",
 				"someone enters the center",
@@ -3169,9 +3169,9 @@
 		{
 			"tag": "SXSWKayak",
 			"lines": [
-				"people are on the lake",
+				"people are at the lake",
 				"someone rents a kayak",
-				"someone sits on a boat"
+				"someone kayaks"
 			],
 			"errors": [
 				"no one is kayaking",
@@ -3306,8 +3306,8 @@
 				"the train departs"
 			],
 			"errors": [
-				"the metro is not running",
-				"people are waiting for the metro"
+				"the train is not running",
+				"people are waiting for the train"
 			],
 			"timing": {
 				"type": "EVERYDAY",
@@ -4200,7 +4200,7 @@
 				"the ice melts"
 			],
 			"errors": [
-				"the ice isn't melting"
+				"the installation is ready"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4218,7 +4218,7 @@
 				"someone talks about technology"
 			],
 			"errors": [
-				"the venue is closed"
+				"the algorithm is running"
 			],
 			"timing": {
 				"type": "UNIQUE",
@@ -4243,9 +4243,7 @@
 				"someone talks about well being",
 				"the brand sells its products"
 			],
-			"errors": [
-				"the expo isn't on"
-			],
+			"errors": ["the venue is set up"],
 			"timing": {
 				"type": "UNIQUE",
 				"times": [{
@@ -4266,9 +4264,7 @@
 				"the brand sells",
 				"someone buys a product"
 			],
-			"errors": [
-				"the market isn't on"
-			],
+			"errors": ["someone prepares their slides"],
 			"timing": {
 				"type": "UNIQUE",
 				"times": [{
@@ -4291,7 +4287,7 @@
 				"the startup presents a product"
 			],
 			"errors": [
-				"people are talking about business"
+				"people are talking business"
 			],
 			"timing": {
 				"type": "UNIQUE",
