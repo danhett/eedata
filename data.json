@@ -3147,9 +3147,34 @@
 				"the bar is closed"
 			],
 			"timing": {
-				"type": "EVERYDAY",
-				"start": "15:00",
-				"end": "23:59"
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday",
+							"Sunday"
+						],
+						"start": "15:00",
+						"end": "23:59"
+					},
+					{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday",
+							"Sunday"
+						],
+						"start": "00:01",
+						"end": "02:00"
+					}
+				]
 			}
 		},
 		{
