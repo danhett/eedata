@@ -2485,9 +2485,34 @@
 				"the bats are sleeping"
 			],
 			"timing": {
-				"type": "EVERYDAY",
-				"start": "07:30",
-				"end": "23:59"
+				"type": "SPLIT",
+				"splittimes": [{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday",
+							"Sunday"
+						],
+						"start": "19:30",
+						"end": "23:59"
+					},
+					{
+						"days": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday",
+							"Sunday"
+						],
+						"start": "00:00",
+						"end": "02:00"
+					}
+				]
 			}
 		},
 		{
