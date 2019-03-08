@@ -3599,6 +3599,24 @@
 			}
 		},
 		{
+			"tag": "SXSWScooter",
+			"lines": [
+				"someone rents a scooter",
+				"someone rides a scooter",
+				"the man rides a scooter",
+				"the woman rides a scooter",
+				"people ride scooters"
+			],
+			"errors": [
+				"the scooter is parked",
+				"the scooters are parked"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
+			}
+		},
+		{
 			"tag": "SXSWScreening",
 			"lines": [
 				"the film is showing",
@@ -3897,6 +3915,22 @@
 			"timing": {
 				"type": "RANDOM",
 				"chance": "100"
+			}
+		},
+		{
+			"tag": "SXSWWater",
+			"lines": [
+				"the water is clean", 
+				"the water quality if good",
+				"tap water is clean"
+			],
+			"errors": [
+				"the water isn’t clean",
+				"the water quality is bad"
+			],
+			"timing": {
+				"type": "RANDOM",
+				"chance": "50"
 			}
 		},
 		{
