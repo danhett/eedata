@@ -152,7 +152,7 @@
 				"the man sits on the bench"
 			],
 			"errors": [
-				"no one sits on the bench"
+				"the bench is empty"
 			],
 			"timing": {
 				"type": "RANDOM",
@@ -315,7 +315,7 @@
 				"the dog meets another dog"
 			],
 			"errors": [
-				"no one walks the dog",
+				"someone pets the dog",
 				"the dog sleeps"
 			],
 			"timing": {
@@ -434,7 +434,7 @@
 				"the boy takes a photo"
 			],
 			"errors": [
-				"no one takes a photo",
+				"the photo is uploaded",
 				"the photo is deleted"
 			],
 			"timing": {
@@ -455,9 +455,7 @@
 				"the queue is short",
 				"someone stands in the queue"
 			],
-			"errors": [
-				"no one is queuing"
-			],
+			"errors": ["there is no queue"],
 			"timing": {
 				"type": "EVERYDAY",
 				"start": "07:00",
@@ -788,7 +786,7 @@
 			],
 			"errors": [
 				"no film is showing",
-				"the cinema is closed"
+				"the screening has ended"
 			],
 			"timing": {
 				"type": "DAILY",
@@ -1951,7 +1949,7 @@
 
 			],
 			"errors": [
-				"no one orders a burger",
+				"the burger place is empty",
 				"the burger place is closed"
 			],
 			"timing": {
@@ -2380,7 +2378,7 @@
 				"people are eating"
 			],
 			"errors": [
-				"the barbeque place is closed"
+				"the barbeque isn’t burning"
 			],
 			"timing": {
 				"type": "RANDOM",
@@ -2499,7 +2497,7 @@
 				"beer is brewing"
 			],
 			"errors": [
-				"the brewery is closed",
+				"beer is brewing",
 				"people are drinking beer"
 			],
 			"timing": {
@@ -3290,7 +3288,7 @@
 			],
 			"errors": [
 				"the mall is empty",
-				"the mall is closed"
+				"the cleaning shift has started"
 			],
 			"timing": {
 				"type": "EVERYDAY",
@@ -3323,7 +3321,7 @@
 				"the community event is on"
 			],
 			"errors": [
-				"the community hall is empty",
+				"the community hall is quiet",
 				"the community hall is closed"
 			],
 			"splittimes": [{
@@ -3387,7 +3385,7 @@
 				"people are on the terrace"
 			],
 			"errors": [
-				"the terrace is closed"
+				"the terrace is quiet"
 			],
 			"timing": {
 				"type": "SPLIT",
@@ -3538,7 +3536,6 @@
 				"people are swimming"
 			],
 			"errors": [
-				"the pool is closed",
 				"the pool is empty"
 			],
 			"timing": {
@@ -3593,7 +3590,7 @@
 			"errors": [
 				"todays program has finished",
 				"the visitors have left",
-				"the hall is empty"
+				"the hall is quiet"
 			],
 			"timing": {
 				"type": "EVERYDAY",
@@ -3671,7 +3668,7 @@
 			],
 			"errors": [
 				"the talk session has finished",
-				"the projector is off",
+				"the projector is turned off",
 				"the session is over"
 			],
 			"timing": {
@@ -3782,7 +3779,7 @@
 			],
 			"errors": [
 				"the shop is empty",
-				"the shop is closed"
+				"the shop is quiet"
 			],
 			"timing": {
 				"type": "SPLIT",
@@ -3839,7 +3836,10 @@
 				"someone reads a map"
 			],
 			"errors": [
-				"the visitor center is closed"
+				"the tickets are sold",
+				"the tour is booked"
+
+
 			],
 			"timing": {
 				"type": "SPLIT",
@@ -4703,7 +4703,7 @@
 				"people are networking"
 			],
 			"errors": [
-				"people are not networking"
+				"people are networking"
 			],
 			"timing": {
 				"type": "UNIQUE",
