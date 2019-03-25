@@ -5197,14 +5197,12 @@
 		{
       "tag": "BristolInstallation",
       "lines": [
-        "people are drinking",
-				"someone drinks coffee",
-				"someone drinks coffee",
-				"someone is eating"
+        "people are listening to talks",
+				"someone is presenting"
       ],
       "errors": [  
-				"people are listening to talks",
-				"someone is presenting"
+        "the talk is finished", 
+        "nobody is presenting"
       ],
       "timing": {
         "type": "UNIQUE",
