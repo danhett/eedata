@@ -4943,29 +4943,17 @@
     {
       "tag": "SXSWCinema",
       "lines": [
-        "someone wears a headset",
-        "the man wears a headset",
-        "the woman wears a headset"
+        "the cinema is open",
+        "the film is screening",
+        "people are watching a movie"
       ],
       "errors": [
-        "the headsets are turned off"
+        "the cinema is closed"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-11 11:00",
-            "end": "2019-03-11 18:00"
-          },
-          {
-            "start": "2019-03-12 11:00",
-            "end": "2019-03-12 18:00"
-          },
-          {
-            "start": "2019-03-13 11:00",
-            "end": "2019-03-13 18:00"
-          }
-        ]
+        "type": "EVERYDAY",
+        "start": "13:30",
+        "end": "22:00"
       }
     },
     {
@@ -5043,13 +5031,9 @@
         "the museum is closed"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
-          }
-        ]
+        "type": "EVERYDAY",
+        "start": "10:00",
+        "end": "17:00"
       }
 		},
 		
@@ -5136,11 +5120,25 @@
 				"the museum is empty"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
+        "type": "SPLIT",
+        "splittimes": [
           {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
+            "days": [
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "start": "09:00",
+            "end": "18:00"
+          },
+          {
+            "days": [
+              "Saturday",
+              "Sunday"
+            ],
+            "start": "10:00",
+            "end": "18:00"
           }
         ]
       }
@@ -5157,13 +5155,9 @@
 				"the ferry arrives"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
-          }
-        ]
+        "type": "EVERYDAY",
+        "start": "10:00",
+        "end": "18:15"
       }
 		},
 		
@@ -5198,13 +5192,9 @@
 				"the harbour is quiet"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
-          }
-        ]
+        "type": "EVERYDAY",
+        "start": "08:00",
+        "end": "21:00"
       }
 		},
 		
@@ -5224,8 +5214,20 @@
         "type": "UNIQUE",
         "times": [
           {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
+            "start": "2019-03-26 09:00",
+            "end": "2019-03-26 10:00"
+          },
+          {
+            "start": "2019-03-26 10:40",
+            "end": "2019-03-26 11:10"
+          },
+          {
+            "start": "2019-03-26 13:00",
+            "end": "2019-03-26 14:00"
+          },
+          {
+            "start": "2019-03-26 16:00",
+            "end": "2019-03-26 16:30"
           }
         ]
       }
@@ -5242,13 +5244,9 @@
 				"the research lab is empty"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
-          }
-        ]
+        "type": "EVERYDAY",
+        "start": "08:00",
+        "end": "22:00"
       }
 		},
 		
@@ -5268,8 +5266,16 @@
         "type": "UNIQUE",
         "times": [
           {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
+            "start": "2019-03-26 10:00",
+            "end": "2019-03-26 10:40"
+          },
+          {
+            "start": "2019-03-26 11:00",
+            "end": "2019-03-26 13:00"
+          },
+          {
+            "start": "2019-03-26 14:00",
+            "end": "2019-03-26 16:00"
           }
         ]
       }
@@ -5287,8 +5293,8 @@
         "type": "UNIQUE",
         "times": [
           {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
+            "start": "2019-03-26 09:00",
+            "end": "2019-03-26 20:00"
           }
         ]
       }
@@ -5309,8 +5315,8 @@
         "type": "UNIQUE",
         "times": [
           {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
+            "start": "2019-03-26 16:30",
+            "end": "2019-03-26 17:30"
           }
         ]
       }
@@ -5347,13 +5353,9 @@
 				"the recycling centre is closed"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
-          }
-        ]
+        "type": "EVERYDAY",
+        "start": "08:00",
+        "end": "16:15"
       }
 		},
 		
@@ -5370,11 +5372,29 @@
 				"the restaurant is closed"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
+        "type": "SPLIT",
+        "splittimes": [
           {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
+            "days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "start": "12:00",
+            "end": "15:00"
+          },
+          {
+            "days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "start": "18:00",
+            "end": "22:30"
           }
         ]
       }
