@@ -5053,13 +5053,9 @@
 				"the plane isn't flying"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
-          }
-        ]
+        "type": "EVERYDAY",
+        "start": "04:00",
+        "end": "23:45"
       }
 		},
 		
@@ -5433,13 +5429,8 @@
 				"there is not much traffic"
       ],
       "timing": {
-        "type": "UNIQUE",
-        "times": [
-          {
-            "start": "2019-03-10 12:00",
-            "end": "2019-03-10 18:00"
-          }
-        ]
+        "type": "RANDOM",
+        "chance": "50"
       }
     }
   ]
