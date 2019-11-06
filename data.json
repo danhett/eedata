@@ -206,7 +206,7 @@
             "someone watches out of the window/الترجمة مفقودة"
          ],
          "errors":[
-            "the buses is gone/الترجمة مفقودة",
+            "the bus is gone/الترجمة مفقودة",
             "the bus leaves/الترجمة مفقودة"
          ],
          "timing":{
@@ -277,12 +277,9 @@
          "tag":"dog",
          "enabled":"true",
          "lines":[
-            "someone walks the dog/الترجمة مفقودة",
-            "the child walks the dog/الترجمة مفقودة",
-            "the dog barks/الترجمة مفقودة",
             "the dog sleeps/الترجمة مفقودة",
             "the dog eats/الترجمة مفقودة",
-            "the dog looks at food/الترجمة مفقودة",
+            "the dog looks for food/الترجمة مفقودة",
             "the dog meets another dog/الترجمة مفقودة"
          ],
          "errors":[
@@ -383,7 +380,8 @@
          "errors":[
             "someone forgot their phone/الترجمة مفقودة",
             "the man forgot his phone/الترجمة مفقودة",
-            "the woman lost her phone/الترجمة مفقودة"
+            "the woman lost her phone/الترجمة مفقودة",
+            "someone lost their phone/الترجمة مفقودة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -406,8 +404,9 @@
             "the boy takes a photo/الترجمة مفقودة"
          ],
          "errors":[
-            "no one takes a photo",
-            "the photo is deleted"
+            "no one takes a photo/الترجمة مفقودة",
+            "someone deleted a photo/الترجمة مفقودة",
+            "the battery is empty/الترجمة مفقودة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -422,11 +421,11 @@
             "someone is waiting/الترجمة مفقودة",
             "someone joins the queue/الترجمة مفقودة",
             "the queue is long/الترجمة مفقودة",
-            "the queue is short/الترجمة مفقودة",
             "someone stands in the queue/الترجمة مفقودة"
          ],
          "errors":[
-            "nobody is queuing/الترجمة مفقودة"
+            "no one is queuing/الترجمة مفقودة",
+            "the queue is short/الترجمة مفقودة"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -484,21 +483,17 @@
          "enabled":"true",
          "lines":[
             "someone flags down a taxi/الترجمة مفقودة",
-            "someone calls the driver/الترجمة مفقودة",
+            "someone orders a taxi/الترجمة مفقودة",
+            "the taxi is ordered/الترجمة مفقودة",
             "the taxis are waiting/الترجمة مفقودة",
-            "the driver is waiting/الترجمة مفقودة",
             "the taxi drives/الترجمة مفقودة",
             "the taxi stops/الترجمة مفقودة",
-            "the taxi arrives/الترجمة مفقودة",
-            "someone rates the driver/الترجمة مفقودة",
-            "the driver rates the client/الترجمة مفقودة",
-            "the driver is approaching/الترجمة مفقودة",
-            "the driver is on the way/الترجمة مفقودة"
+            "the taxi arrives/الترجمة مفقودة"
          ],
          "errors":[
-            "there are no taxis/الترجمة مفقودة",
-            "the driver finished the shift/الترجمة مفقودة",
-            "the driver takes a break/الترجمة مفقودة"
+            "the taxi is late/الترجمة مفقودة",
+            "the taxis are busy/الترجمة مفقودة",
+            "someone looks for a taxi/الترجمة مفقودة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -511,13 +506,8 @@
          "lines":[
             "someone is on time/الترجمة مفقودة",
             "someone is late/الترجمة مفقودة",
-            "someone is early/الترجمة مفقودة",
             "the man arrives late/الترجمة مفقودة",
-            "the man arrives on time/الترجمة مفقودة",
-            "the man arrives early/الترجمة مفقودة",
             "the woman arrives late/الترجمة مفقودة",
-            "the woman arrives on time/الترجمة مفقودة",
-            "the woman arrives too early/الترجمة مفقودة",
             "someone is on their way/الترجمة مفقودة",
             "someone is going home/الترجمة مفقودة"
          ],
@@ -538,7 +528,7 @@
             "the truck turns right/الترجمة مفقودة",
             "the truck waits at the lights/الترجمة مفقودة",
             "the truck is loaded/الترجمة مفقودة",
-            "the truck unloades/الترجمة مفقودة",
+            "the truck unloads/الترجمة مفقودة",
             "the truck drives/الترجمة مفقودة"
          ],
          "errors":[
@@ -1715,7 +1705,6 @@
             "the park is busy/الترجمة مفقودة",
             "the park is open/الترجمة مفقودة",
             "someone walks through the park/الترجمة مفقودة",
-            "someone sits on a bench/الترجمة مفقودة",
             "the man cycles through the park/الترجمة مفقودة",
             "the woman runs through the park/الترجمة مفقودة",
             "the man runs through the park/الترجمة مفقودة"
@@ -2132,7 +2121,10 @@
             "someone pays in cash/الترجمة مفقودة",
             "the shop is open/الترجمة مفقودة",
             "the shop is busy/الترجمة مفقودة",
-            "people are shopping/الترجمة مفقودة"
+            "the man shops/الترجمة مفقودة",
+            "the woman shops/الترجمة مفقودة",
+            "people are shopping/الترجمة مفقودة",
+            "people are buying things/الترجمة مفقودة"
          ],
          "errors":[
             "the shop is empty/الترجمة مفقودة",
@@ -2177,7 +2169,8 @@
             "the escalators go down/الترجمة مفقودة"
          ],
          "errors":[
-            "the escalators are still/الترجمة مفقودة"
+            "the escalators are still/الترجمة مفقودة",
+            "the escalator arrives/الترجمة مفقودة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2544,7 +2537,6 @@
             "someone is looking for a captain/الترجمة مفقودة",
             "the captain has arrived/الترجمة مفقودة",
             "the captain is en route/الترجمة مفقودة",
-            "someone is looking for a captain/الترجمة مفقودة",
             "the captain is on the way/الترجمة مفقودة",
             "someone pays the captain/الترجمة مفقودة"
          ],
@@ -2674,6 +2666,23 @@
          ],
          "errors":[
             "the cricket ground is empty/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"RANDOM",
+            "chance":"50"
+         }
+      },
+
+      {
+         "tag":"doha-dhow",
+         "enabled":"true",
+         "lines":[
+            "someone boards the dhow/الترجمة مفقودة",
+            "the dhow is sailing/الترجمة مفقودة",
+            "the captain is sailing/الترجمة مفقودة"
+         ],
+         "errors":[
+            "the dhow is parked/الترجمة مفقودة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2860,6 +2869,26 @@
       },
 
       {
+         "tag":"doha-hospital",
+         "enabled":"true",
+         "lines":[
+            "the hospital is busy/الترجمة مفقودة",
+            "the doctor is consulting/الترجمة مفقودة",
+            "doctors are consulting/الترجمة مفقودة",
+            "the nurse is busy/الترجمة مفقودة"
+         ],
+         "errors":[
+            "the hospital is busy/الترجمة مفقودة",
+            "the waiting room is busy/الترجمة مفقودة",
+            "the ambulance is driving/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"RANDOM",
+            "chance":"50"
+         }
+      },
+
+      {
          "tag":"doha-humidity",
          "enabled":"true",
          "lines":[
@@ -2920,13 +2949,12 @@
       {
          "tag":"doha-mall",
          "enabled":"true",
-         "lines":[
-            "the man shops/الترجمة مفقودة",
-            "the woman shops/الترجمة مفقودة",
+         "lines":[           
             "the mall is open/الترجمة مفقودة",
             "the mall is busy/الترجمة مفقودة",
-            "people are buying things/الترجمة مفقودة",
-            "people are at the mall/الترجمة مفقودة"
+            "people are at the mall/الترجمة مفقودة",
+            "the man walks through the mall/الترجمة مفقودة",
+            "the woman walks through the mall/الترجمة مفقودة"
          ],
          "errors":[
             "the mall is empty/الترجمة مفقودة",
@@ -3023,6 +3051,23 @@
             "the gas price drops/الترجمة مفقودة",
             "gas prices are dropping/الترجمة مفقودة",
             "gas is getting cheaper/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"RANDOM",
+            "chance":"50"
+         }
+      },
+
+      {
+         "tag":"doha-newcar",
+         "enabled":"true",
+         "lines":[
+            "the car is new/الترجمة مفقودة",
+            "the car is clean/الترجمة مفقودة"
+         ],
+         "errors":[
+            "someone looks out of the car window",
+            "someone cleans a car"
          ],
          "timing":{
             "type":"RANDOM",
@@ -3189,6 +3234,41 @@
       },
 
       {
+         "tag":"doha-rooftop",
+         "enabled":"true",
+         "lines":[
+            "the rooftop is open/الترجمة مفقودة",
+            "people are on the rooftop/الترجمة مفقودة"
+         ],
+         "errors":[
+            "the rooftop is closed/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"RANDOM",
+            "chance":"50"
+         }
+      },
+
+      {
+         "tag":"doha-salon",
+         "enabled":"true",
+         "lines":[
+            "the hair salon is open/الترجمة مفقودة",
+            "the man gets a haircut/الترجمة مفقودة",
+            "the woman gets a haircut/الترجمة مفقودة",
+            "the hairdresser cuts/الترجمة مفقودة",
+            "someone gets a haircut/الترجمة مفقودة"
+         ],
+         "errors":[
+            "the hair salon is closed/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"RANDOM",
+            "chance":"50"
+         }
+      },
+
+      {
          "tag":"doha-sheraton",
          "enabled":"true",
          "lines":[
@@ -3201,6 +3281,25 @@
          "errors":[
             "the hotel is quiet/الترجمة مفقودة",
             "the lobby is empty/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"RANDOM",
+            "chance":"50"
+         }
+      },
+
+      {
+         "tag":"doha-school",
+         "enabled":"true",
+         "lines":[
+            "children are learning/الترجمة مفقودة",
+            "the boy is at school/الترجمة مفقودة",
+            "the girl is at school/الترجمة مفقودة",
+            "the school is open/الترجمة مفقودة"
+         ],
+         "errors":[
+            "the school is empty/الترجمة مفقودة",
+            "the classroom is empty/الترجمة مفقودة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -3360,7 +3459,7 @@
          "tag":"doha-tourist",
          "enabled":"true",
          "lines":[
-            "people is visiting/الترجمة مفقودة",
+            "people are visiting/الترجمة مفقودة",
             "the city is busy/الترجمة مفقودة",
             "visitors are arriving/الترجمة مفقودة",
             "someone asks for the way/الترجمة مفقودة",
@@ -3520,6 +3619,25 @@
          "errors":[
             "the yacht is in the harbor/الترجمة مفقودة",
             "the yacht is parked/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"RANDOM",
+            "chance":"50"
+         }
+      },
+
+      {
+         "tag":"doha-zakat",
+         "enabled":"true",
+         "lines":[
+            "someone donates money/الترجمة مفقودة",
+            "someone makes a donation/الترجمة مفقودة",
+            "people donate money/الترجمة مفقودة"
+         ],
+         "errors":[
+            "someone donates/الترجمة مفقودة",
+            "the man makes a donation/الترجمة مفقودة",
+            "the woman makes a donation/الترجمة مفقودة"
          ],
          "timing":{
             "type":"RANDOM",
