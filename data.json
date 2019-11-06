@@ -1,145 +1,6 @@
 {
    "poems":[
       {
-         "tag":"emptyexample",
-         "enabled":"true",
-         "lines":[
-            "the thing works/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the thing does not work/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-      {
-         "tag":"testRandom",
-         "enabled":"true",
-         "lines":[
-            "this is a line of poetry/الترجمة مفقودة",
-            "this is another line of poetry/الترجمة مفقودة",
-            "another line of poetry/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the thing didn't work/الترجمة مفقودة",
-            "this is an error/الترجمة مفقودة",
-            "oh no, things are broken/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-      {
-         "tag":"testEveryday",
-         "enabled":"true",
-         "lines":[
-            "this is a line of poetry/الترجمة مفقودة",
-            "this is another line of poetry/الترجمة مفقودة",
-            "another line of poetry/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the thing didn't work/الترجمة مفقودة",
-            "this is an error/الترجمة مفقودة",
-            "oh no, things are broken/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"20:00",
-            "end":"22:00"
-         }
-      },
-      {
-         "tag":"testDaily",
-         "enabled":"true",
-         "lines":[
-            "this is a line of poetry/الترجمة مفقودة",
-            "this is another line of poetry/الترجمة مفقودة",
-            "another line of poetry/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the thing didn't work/الترجمة مفقودة",
-            "this is an error/الترجمة مفقودة",
-            "oh no, things are broken/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Wednesday",
-               "Friday"
-            ],
-            "start":"19:00",
-            "end":"22:00"
-         }
-      },
-      {
-         "tag":"testUnique",
-         "enabled":"true",
-         "lines":[
-            "this is a line of poetry/الترجمة مفقودة",
-            "this is another line of poetry/الترجمة مفقودة",
-            "another line of poetry/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the thing didn't work",
-            "this is an error",
-            "oh no, things are broken"
-         ],
-         "timing":{
-            "type":"UNIQUE",
-            "times":[
-               {
-                  "start":"2018-05-21 09:30",
-                  "end":"2018-05-21 23:30"
-               },
-               {
-                  "start":"2018-05-18 09:30",
-                  "end":"2018-05-18 23:30"
-               }
-            ]
-         }
-      },
-      {
-         "tag":"testSplit",
-         "enabled":"true",
-         "lines":[
-            "this is a line of poetry/الترجمة مفقودة",
-            "this is another line of poetry/الترجمة مفقودة",
-            "another line of poetry/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the thing didn't work/الترجمة مفقودة",
-            "this is an error/الترجمة مفقودة",
-            "oh no, things are broken/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Friday"
-                ],
-                "start":"09:00",
-                "end":"22:00"
-              },
-              {
-                "days":[
-                   "Saturday",
-                   "Sunday"
-                ],
-                "start":"19:00",
-                "end":"22:00"
-              }
-            ]
-         }
-      },
-      {
          "tag":"bench",
          "enabled":"true",
          "lines":[
@@ -151,8 +12,9 @@
             "no one sits on the bench/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"12:00",
+            "end":"23:59"
          }
       },
       {
@@ -169,7 +31,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
+            "chance":"75"
          }
       },
       {
@@ -192,7 +54,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
+            "chance":"75"
          }
       },
       {
@@ -211,7 +73,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
+            "chance":"50"
          }
       },
       {
@@ -233,7 +95,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
+            "chance":"75"
          }
       },
       {
@@ -252,7 +114,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
+            "chance":"50"
          }
       },
       {
@@ -270,7 +132,7 @@
          "timing":{
             "type":"EVERYDAY",
             "start":"07:00",
-            "end":"20:00"
+            "end":"21:00"
          }
       },
       {
@@ -289,7 +151,7 @@
          "timing":{
             "type":"EVERYDAY",
             "start":"07:00",
-            "end":"24:00"
+            "end":"23:59"
          }
       },
       {
@@ -318,9 +180,9 @@
                "Tuesday",
                "Wednesday",
                "Thursday",
-               "Friday"
+               "Sunday"
             ],
-            "start":"9:00",
+            "start":"8:00",
             "end":"19:30"
          }
       },
@@ -410,7 +272,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
+            "chance":"90"
          }
       },
       {
@@ -430,7 +292,7 @@
          "timing":{
             "type":"EVERYDAY",
             "start":"07:00",
-            "end":"24:00"
+            "end":"23:59"
          }
       },
       {
@@ -457,25 +319,7 @@
          "timing":{
             "type":"EVERYDAY",
             "start":"07:00",
-            "end":"24:00"
-         }
-      },
-      {
-         "tag":"squirrel",
-         "enabled":"true",
-         "lines":[
-            "the squirrel climbs in the tree/الترجمة مفقودة",
-            "the squirrel looks for food/الترجمة مفقودة",
-            "the squirrel is hiding/الترجمة مفقودة",
-            "the squirrel jumps/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the squirrel is disappears/الترجمة مفقودة",
-            "the squirrel is hiding/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
+            "end":"23:59"
          }
       },
       {
@@ -496,8 +340,35 @@
             "someone looks for a taxi/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"100"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday",
+                   "Saturday",
+                   "Sunday"
+                ],
+                "start":"6:00",
+                "end":"23:59"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"00:00",
+               "end":"02:00"
+             }
+            ]
          }
       },
       {
@@ -517,7 +388,7 @@
          "timing":{
             "type":"EVERYDAY",
             "start":"07:00",
-            "end":"24:00"
+            "end":"23:59"
          }
       },
       {
@@ -536,7 +407,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
+            "chance":"50"
          }
       },
       {
@@ -563,45 +434,6 @@
          ]
       },
       {
-         "tag":"letterbox",
-         "enabled":"true",
-         "lines":[
-            "the letters are collected/الترجمة مفقودة",
-            "the post box is emptied/الترجمة مفقودة"
-         ],
-         "errors":[
-            "someone sends a letter/الترجمة مفقودة",
-            "someone sends a postcard/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tueday",
-               "Wednesday",
-               "Thursday",
-               "Friday"
-            ],
-            "start":"18:25",
-            "end":"18:40"
-         }
-      },
-      {
-         "tag":"petrol",
-         "enabled":"true",
-         "lines":[
-            "petrol is cheaper/الترجمة مفقودة",
-            "petrol is more expensive/الترجمة مفقودة"
-         ],
-         "errors":[
-            "someone pays for petrol/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
          "tag":"rain",
          "enabled":"true",
          "lines":[
@@ -613,37 +445,6 @@
          "errors":[
             "is it going to rain?/الترجمة مفقودة"
          ]
-      },
-      {
-         "tag":"rent",
-         "enabled":"true",
-         "lines":[
-            "the rent goes up/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the rent goes up/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"streetlights",
-         "enabled":"true",
-         "lines":[
-            "the street lights turn off/الترجمة مفقودة",
-            "the street lights are off/الترجمة مفقودة",
-            "the street lights turn on/الترجمة مفقودة",
-            "the street lights are on/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the street lights are off/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
       },
       {
          "tag":"sunrise",
@@ -683,42 +484,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"cyclists",
-         "enabled":"true",
-         "lines":[
-            "the cyclist is riding/الترجمة مفقودة",
-            "the man cycles/الترجمة مفقودة",
-            "the woman cycles/الترجمة مفقودة",
-            "someone cycles/الترجمة مفقودة"
-         ],
-         "errors":[
-            "are bike is parked/الترجمة مفقودة",
-            "the bike is locked/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"traintime",
-         "enabled":"true",
-         "lines":[
-            "the train departs/الترجمة مفقودة",
-            "the train arrives/الترجمة مفقودة",
-            "the train is late/الترجمة مفقودة",
-            "the train is delayed/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the train isn't running/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
+            "chance":"90"
          }
       },
       {
@@ -734,96 +500,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"band",
-         "enabled":"true",
-         "lines":[
-            "the band plays/الترجمة مفقودة",
-            "the band plays a song/الترجمة مفقودة",
-            "people are listening to music/الترجمة مفقودة",
-            "the man is listening to music/الترجمة مفقودة",
-            "the woman is listening to music/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the band stopped playing/الترجمة مفقودة",
-            "no music is playing/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"UNIQUE",
-            "times":[
-               {
-                  "start":"2018-06-22 18:00",
-                  "end":"2018-06-22 23:00"
-               },
-               {
-                  "start":"2018-06-23 20:00",
-                  "end":"2018-06-23 23:00"
-               },
-               {
-                  "start":"2018-06-24 18:00",
-                  "end":"2018-06-24 22:00"
-               },
-               {
-                  "start":"2018-06-25 11:00",
-                  "end":"2018-06-25 13:00"
-               },
-               {
-                  "start":"2018-06-25 20:00",
-                  "end":"2018-06-25 23:00"
-               },
-               {
-                  "start":"2018-06-29 17:00",
-                  "end":"2018-06-29 23:00"
-               },
-               {
-                  "start":"2018-06-30 12:00",
-                  "end":"2018-06-30 18:00"
-               },
-               {
-                  "start":"2018-06-30 21:00",
-                  "end":"2018-07-01 01:00"
-               },
-               {
-                  "start":"2018-07-01 15:00",
-                  "end":"2018-07-01 17:00"
-               },
-               {
-                  "start":"2018-07-01 19:30",
-                  "end":"2018-07-01 23:00"
-               }
-            ]
-         }
-      },
-      {
-         "tag":"cinema",
-         "enabled":"true",
-         "lines":[
-            "the film is showing/الترجمة مفقودة",
-            "the man is watching the film/الترجمة مفقودة",
-            "the woman is watching the film/الترجمة مفقودة",
-            "the girl is watching the film/الترجمة مفقودة",
-            "the boy is watching the film/الترجمة مفقودة"
-         ],
-         "errors":[
-            "no film is showing/الترجمة مفقودة",
-            "is the film showing?/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday",
-               "Sunday"
-            ],
-            "start":"10:30",
-            "end":"00:00"
+            "chance":"90"
          }
       },
       {
@@ -841,24 +518,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"piano",
-         "enabled":"true",
-         "lines":[
-            "someone plays the piano/الترجمة مفقودة",
-            "the man plays piano/الترجمة مفقودة",
-            "the woman plays piano/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the piano is silent/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start": "09:00",
-            "end": "22:30"
+            "chance":"90"
          }
       },
       {
@@ -880,341 +540,6 @@
             "type":"EVERYDAY",
             "start": "09:00",
             "end": "20:30"
-         }
-      },
-      {
-         "tag":"theatre",
-         "enabled":"true",
-         "lines":[
-            "someone is performing a play/الترجمة مفقودة",
-            "the actor is on stage/الترجمة مفقودة",
-            "the play is on/الترجمة مفقودة",
-            "the theatre is open/الترجمة مفقودة",
-            "people are watching the play/الترجمة مفقودة",
-            "tickets are sold/الترجمة مفقودة",
-            "the man is at the theatre/الترجمة مفقودة",
-            "the woman is at the theatre/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the theatre is closed/الترجمة مفقودة",
-            "the stage is empty/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"UNIQUE",
-            "times":[
-               {
-                  "start":"2018-06-22 19:30",
-                  "end":"2018-06-22 22:30"
-               },
-               {
-                  "start":"2018-06-23 14:30",
-                  "end":"2018-06-23 17:30"
-               },
-               {
-                  "start":"2018-06-23 19:30",
-                  "end":"2018-06-23 22:30"
-               },
-               {
-                  "start":"2018-06-25 19:30",
-                  "end":"2018-06-25 22:30"
-               },
-               {
-                  "start":"2018-06-26 19:30",
-                  "end":"2018-06-26 22:30"
-               },
-               {
-                  "start":"2018-06-27 19:30",
-                  "end":"2018-06-21 22:30"
-               },
-               {
-                  "start":"2018-06-28 14:00",
-                  "end":"2018-06-21 17:00"
-               },
-               {
-                  "start":"2018-06-28 19:30",
-                  "end":"2018-06-21 22:30"
-               },
-               {
-                  "start":"2018-06-29 19:30",
-                  "end":"2018-06-29 22:30"
-               },
-               {
-                  "start":"2018-06-30 14:30",
-                  "end":"2018-06-30 17:30"
-               },
-               {
-                  "start":"2018-06-30 19:30",
-                  "end":"2018-06-30 22:30"
-               },
-               {
-                  "start":"2018-07-02 19:30",
-                  "end":"2018-07-02 22:30"
-               },
-               {
-                  "start":"2018-07-03 19:30",
-                  "end":"2018-07-03 22:30"
-               },
-               {
-                  "start":"2018-07-04 19:30",
-                  "end":"2018-07-04 22:30"
-               },
-               {
-                  "start":"2018-07-05 14:00",
-                  "end":"2018-07-05 17:00"
-               },
-               {
-                  "start":"2018-07-05 19:30",
-                  "end":"2018-07-05 22:30"
-               },
-               {
-                  "start":"2018-07-06 19:30",
-                  "end":"2018-07-06 22:30"
-               },
-               {
-                  "start":"2018-07-07 14:30",
-                  "end":"2018-07-07 17:30"
-               },
-               {
-                  "start":"2018-07-07 19:30",
-                  "end":"2018-07-07 22:30"
-               },
-               {
-                  "start":"2018-07-10 13:30",
-                  "end":"2018-07-10 16:00"
-               },
-               {
-                  "start":"2018-07-10 15:30",
-                  "end":"2018-07-10 18:00"
-               },
-               {
-                  "start":"2018-07-11 10:30",
-                  "end":"2018-07-11 13:00"
-               },
-               {
-                  "start":"2018-07-11 13:30",
-                  "end":"2018-07-11 15:00"
-               },
-               {
-                  "start":"2018-07-17 19:30",
-                  "end":"2018-07-17 22:30"
-               },
-               {
-                  "start":"2018-07-18 14:00",
-                  "end":"2018-07-18 17:00"
-               },
-               {
-                  "start":"2018-07-19 14:00",
-                  "end":"2018-07-19 17:00"
-               },
-               {
-                  "start":"2018-07-19 19:30",
-                  "end":"2018-07-19 22:30"
-               },
-               {
-                  "start":"2018-07-20 19:30",
-                  "end":"2018-07-20 22:30"
-               },
-               {
-                  "start":"2018-07-21 14:30",
-                  "end":"2018-07-21 17:30"
-               },
-               {
-                  "start":"2018-07-21 14:30",
-                  "end":"2018-07-21 17:00"
-               },
-               {
-                  "start":"2018-07-21 19:30",
-                  "end":"2018-07-21 22:30"
-               },
-               {
-                  "start":"2018-07-24 19:00",
-                  "end":"2018-07-24 22:00"
-               },
-               {
-                  "start":"2018-07-25 19:00",
-                  "end":"2018-07-25 22:00"
-               },
-               {
-                  "start":"2018-07-26 14:00",
-                  "end":"2018-07-26 17:00"
-               },
-               {
-                  "start":"2018-07-26 19:00",
-                  "end":"2018-07-26 22:00"
-               },
-               {
-                  "start":"2018-07-27 14:00",
-                  "end":"2018-07-27 17:00"
-               },
-               {
-                  "start":"2018-07-27 19:00",
-                  "end":"2018-07-27 22:00"
-               },
-               {
-                  "start":"2018-07-28 14:00",
-                  "end":"2018-07-28 17:00"
-               },
-               {
-                  "start":"2018-07-28 19:00",
-                  "end":"2018-07-28 22:00"
-               },
-               {
-                  "start":"2018-07-31 19:30",
-                  "end":"2018-07-31 22:30"
-               },
-               {
-                  "start":"2018-08-01 14:00",
-                  "end":"2018-08-01 17:00"
-               },
-               {
-                  "start":"2018-08-01 19:30",
-                  "end":"2018-08-01 22:30"
-               },
-               {
-                  "start":"2018-08-02 14:00",
-                  "end":"2018-08-02 17:00"
-               },
-               {
-                  "start":"2018-08-02 19:30",
-                  "end":"2018-08-02 22:30"
-               },
-               {
-                  "start":"2018-08-03 19:30",
-                  "end":"2018-08-03 22:30"
-               },
-               {
-                  "start":"2018-08-04 14:30",
-                  "end":"2018-08-04 17:30"
-               },
-               {
-                  "start":"2018-08-04 19:30",
-                  "end":"2018-08-04 22:30"
-               },
-               {
-                  "start":"2018-08-06 19:30",
-                  "end":"2018-08-06 22:30"
-               },
-               {
-                  "start":"2018-08-07 19:30",
-                  "end":"2018-08-07 22:30"
-               },
-               {
-                  "start":"2018-08-08 19:30",
-                  "end":"2018-08-08 22:30"
-               },
-               {
-                  "start":"2018-08-09 14:00",
-                  "end":"2018-08-09 17:00"
-               },
-               {
-                  "start":"2018-08-09 19:30",
-                  "end":"2018-08-09 22:30"
-               },
-               {
-                  "start":"2018-08-10 19:30",
-                  "end":"2018-08-10 22:30"
-               },
-               {
-                  "start":"2018-08-11 14:30",
-                  "end":"2018-08-11 17:30"
-               },
-               {
-                  "start":"2018-08-11 19:30",
-                  "end":"2018-08-11 22:30"
-               },
-               {
-                  "start":"2018-08-13 19:30",
-                  "end":"2018-08-13 22:30"
-               },
-               {
-                  "start":"2018-08-14 19:30",
-                  "end":"2018-08-14 22:30"
-               },
-               {
-                  "start":"2018-08-15 19:30",
-                  "end":"2018-08-15 22:30"
-               },
-               {
-                  "start":"2018-08-16 14:00",
-                  "end":"2018-08-16 17:00"
-               },
-               {
-                  "start":"2018-08-16 19:30",
-                  "end":"2018-08-16 22:30"
-               },
-               {
-                  "start":"2018-08-17 14:00",
-                  "end":"2018-08-17 17:00"
-               },
-               {
-                  "start":"2018-08-17 19:30",
-                  "end":"2018-08-17 22:30"
-               },
-               {
-                  "start":"2018-08-18 14:30",
-                  "end":"2018-08-18 17:30"
-               },
-               {
-                  "start":"2018-08-18 19:30",
-                  "end":"2018-08-18 22:30"
-               },
-               {
-                  "start":"2018-08-22 10:00",
-                  "end":"2018-08-22 12:00"
-               },
-               {
-                  "start":"2018-08-22 13:00",
-                  "end":"2018-08-22 15:00"
-               },
-               {
-                  "start":"2018-08-22 16:00",
-                  "end":"2018-08-22 18:00"
-               },
-               {
-                  "start":"2018-08-23 10:00",
-                  "end":"2018-08-23 12:00"
-               },
-               {
-                  "start":"2018-08-23 13:00",
-                  "end":"2018-08-23 15:00"
-               },
-               {
-                  "start":"2018-08-23 16:00",
-                  "end":"2018-08-23 18:00"
-               },
-               {
-                  "start":"2018-08-28 20:00",
-                  "end":"2018-08-28 23:00"
-               },
-               {
-                  "start":"2018-08-29 20:00",
-                  "end":"2018-08-29 23:00"
-               },
-               {
-                  "start":"2018-08-30 20:00",
-                  "end":"2018-08-30 23:00"
-               },
-               {
-                  "start":"2018-08-31 20:00",
-                  "end":"2018-08-31 23:00"
-               },
-               {
-                  "start":"2018-09-01 20:00",
-                  "end":"2018-09-01 23:00"
-               },
-               {
-                  "start":"2018-09-07 19:30",
-                  "end":"2018-09-07 22:30"
-               },
-               {
-                  "start":"2018-09-08 14:30",
-                  "end":"2018-09-08 17:30"
-               },
-               {
-                  "start":"2018-09-08 19:30",
-                  "end":"2018-09-08 22:30"
-               }
-            ]
          }
       },
       {
@@ -1278,30 +603,6 @@
          }
       },
       {
-         "tag":"flag",
-         "lines":[
-            "the flag is raised/الترجمة مفقودة",
-            "the flag flies/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the flag is taken down/الترجمة مفقودة",
-            "the flag is down/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday"
-            ],
-            "start":"00:00",
-            "end":"24:00"
-         }
-      },
-      {
          "tag":"museum",
          "enabled":"true",
          "lines":[
@@ -1315,7 +616,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
+            "chance":"90"
          }
       },
       {
@@ -1359,10 +660,10 @@
                "Tuesday",
                "Wednesday",
                "Thursday",
-               "Friday"
+               "Sunday"
             ],
-            "start":"7:30",
-            "end":"18:00"
+            "start":"06:30",
+            "end":"16:30"
          }
       },
       {
@@ -1381,82 +682,28 @@
             "the library is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Wednesday"
-            ],
-            "start":"9:30",
-            "end":"19:00"
-         }
-      },
-      {
-         "tag":"party",
-         "enabled":"true",
-         "lines":[
-            "someone is dancing/الترجمة مفقودة",
-            "the music is loud/الترجمة مفقودة",
-            "the club is open/الترجمة مفقودة",
-            "people are dancing/الترجمة مفقودة"
-         ],
-         "errors":[
-            "is there a party?/الترجمة مفقودة",
-            "there is no party tonight/الترجمة مفقودة",
-            "there might be a party tonight/الترجمة مفقودة"
-         ],
-         "timing":{
-           "type":"DAILY",
-            "days":[
-               "Monday",
-               "Friday",
-               "Saturday"
-            ],
-            "start":"22:45",
-            "end":"3:30"
-         }
-      },
-      {
-         "tag":"casino",
-         "enabled":"true",
-         "lines":[
-            "the casino is open/الترجمة مفقودة",
-            "someone wins money/الترجمة مفقودة",
-            "someone loses money/الترجمة مفقودة",
-            "someone wins/الترجمة مفقودة",
-            "someone loses/الترجمة مفقودة",
-            "the man gambles/الترجمة مفقودة",
-            "the woman gambles/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the casino is closed/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"dancer",
-         "enabled":"true",
-         "lines":[
-            "people are dancing/الترجمة مفقودة",
-            "the boy dances/الترجمة مفقودة",
-            "the girl dances/الترجمة مفقودة",
-            "the man dances/الترجمة مفقودة",
-            "the woman dances/الترجمة مفقودة"
-         ],
-         "errors":[
-            "is someone dancing?/الترجمة مفقودة"
-         ],
-         "timing":{
-           "type":"DAILY",
-            "days":[
-               "Monday",
-               "Thursday",
-               "Friday"
-            ],
-            "start":"16:00",
-            "end":"21:00"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Saturday",
+                   "Sunday"
+                ],
+                "start":"08:00",
+                "end":"20:00"
+              },
+              {
+               "days":[
+                  "Friday"
+               ],
+               "start":"16:00",
+               "end":"20:00"
+             }
+            ]
          }
       },
       {
@@ -1473,31 +720,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"100"
-         }
-      },
-      {
-         "tag":"rehearsal",
-         "enabled":"true",
-         "lines":[
-            "the band rehearses/الترجمة مفقودة",
-            "the dancer rehearses/الترجمة مفقودة",
-            "the performer rehearese/الترجمة مفقودة"
-         ],
-         "errors":[
-            "there is no rehearsal/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday"
-            ],
-            "start":"7:30",
-            "end":"18:00"
+            "chance":"90"
          }
       },
       {
@@ -1582,47 +805,23 @@
             "splittimes": [
               {
                 "days":[
-                   "Monday"
+                   "Friday"
                 ],
-                "start":"12:00",
-                "end":"13:00"
+                "start":"09:30",
+                "end":"12:30"
               },
               {
-                "days":[
+               "days":[
+                  "Monday",
                   "Tuesday",
                   "Wednesday",
                   "Thursday",
-                  "Friday",
                   "Saturday",
                   "Sunday"
-                ],
-                "start":"18:00",
-                "end":"21:00"
-              },
-              {
-                "days":[
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "start":"10:00",
-                "end":"13:00"
-              },
-              {
-                "days":[
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "start":"18:00",
-                "end":"21:00"
-              }
+               ],
+               "start":"09:00",
+               "end":"21:00"
+             }
             ]
          }
       },
@@ -1638,67 +837,13 @@
             "the community is planning/الترجمة مفقودة",
             "people are connecting/الترجمة مفقودة"
          ],
-         "timing": {
-           "type": "UNIQUE",
-	         "times": [
-          	  {"start":"2018-06-22 19:30", "end":"2018-06-23 01:00"},
-          	  {"start":"2018-06-23 22:00", "end":"2018-06-24 03:00"},
-          	  {"start":"2018-06-24 11:00", "end":"2018-06-24 22:00"},
-          	  {"start":"2018-06-29 19:00", "end":"2018-06-29 00:00"},
-          	  {"start":"2018-06-30 19:30", "end":"2018-06-29 00:00"},
-          	  {"start":"2018-07-01 11:00", "end":"2018-07-01 11:00"},
-          	  {"start":"2018-07-08 11:00", "end":"2018-07-08 11:00"},
-          	  {"start":"2018-07-14 12:00", "end":"2018-07-14 00:00"},
-          	  {"start":"2018-07-15 11:00", "end":"2018-07-15 11:00"},
-          	  {"start":"2018-07-20 20:00", "end":"2018-07-20 23:00"},
-          	  {"start":"2018-07-21 18:00", "end":"2018-07-21 21:00"},
-          	  {"start":"2018-07-22 11:00", "end":"2018-07-22 16:00"},
-          	  {"start":"2018-07-25 20:00", "end":"2018-07-25 23:00"},
-          	  {"start":"2018-07-29 11:00", "end":"2018-07-29 16:00"},
-          	  {"start":"2018-08-03 19:00", "end":"2018-08-03 22:00"},
-          	  {"start":"2018-08-05 11:00", "end":"2018-08-05 16:00"},
-          	  {"start":"2018-08-12 11:00", "end":"2018-08-12 16:00"},
-          	  {"start":"2018-08-19 11:00", "end":"2018-08-19 16:00"},
-          	  {"start":"2018-08-26 11:00", "end":"2018-08-26 16:00"},
-          	  {"start":"2018-09-02 11:00", "end":"2018-09-02 16:00"},
-          	  {"start":"2018-09-09 11:00", "end":"2018-09-09 16:00"}
-            ]
-          }
-      },
-
-      {
-         "tag":"foodbank",
-         "lines":[
-            "the food bank is busy/الترجمة مفقودة",
-            "the food bank is open/الترجمة مفقودة",
-            "someone waits at the food bank/الترجمة مفقودة",
-            "there is a queue at the food bank/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the food bank is closed/الترجمة مفقودة"
-         ],
          "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday"
-                ],
-                "start":"12:00",
-                "end":"12:00"
-              },
-              {
-                "days":[
-                   "Tuesday",
-                   "Thursday",
-                   "Wednesday"
-                ],
-                "start":"10:00",
-                "end":"16:00"
-              }
-            ]
+            "type":"EVERYDAY",
+            "start":"17:00",
+            "end":"22:00"
          }
       },
+
       {
          "tag":"park",
          "lines":[
@@ -1715,76 +860,8 @@
          ],
          "timing":{
             "type":"EVERYDAY",
-            "start":"6:30",
-            "end":"23:00"
-         }
-      },
-      {
-         "tag":"confession",
-         "enabled":"true",
-         "lines":[
-            "someone listens to sins/الترجمة مفقودة",
-            "confessions are open/الترجمة مفقودة",
-            "someone confesses/الترجمة مفقودة"
-         ],
-         "errors":[
-            "no one confesses/الترجمة مفقودة",
-            "there is no confession/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                  "Saturday"
-                ],
-                "start":"11:00",
-                "end":"12:00"
-              },
-              {
-                "days":[
-                  "Saturday"
-                ],
-                "start":"17:15",
-                "end":"17:45"
-              }
-            ]
-         }
-      },
-      {
-         "tag":"mass",
-         "enabled":"true",
-         "lines":[
-            "the church is open/الترجمة مفقودة",
-            "someone is at the church/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the church is empty/الترجمة مفقودة",
-            "the church is closed/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Thursday",
-                   "Friday",
-                   "Sunday"
-                ],
-                "start":"7:30",
-                "end":"18:00"
-              },
-              {
-                "days":[
-                   "Saturday"
-                ],
-                "start":"8:00",
-                "end":"16:00"
-              }
-            ]
+            "start":"08:00",
+            "end":"23:59"
          }
       },
       {
@@ -1798,31 +875,11 @@
          ],
          "errors":[
             "the mosque is quiet/الترجمة مفقودة"
-         ]
-      },
-      {
-         "tag":"sikh",
-         "enabled":"true",
-         "lines":[
-            "the temple is open/الترجمة مفقودة",
-            "the temple doors are open/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the temple is closed/الترجمة مفقودة",
-            "the temple doors are closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":["Friday"],
-                "start": "6:30", "end": "20:30"
-              },
-              {
-                "days":["Sunday"],
-                "start": "15:00", "end": "18:30"
-              }
-            ]
+            "type":"EVERYDAY",
+            "start":"04:00",
+            "end":"19:00"
          }
       },
       {
@@ -1841,60 +898,31 @@
             "type":"SPLIT",
             "splittimes": [
               {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Sunday"
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
                 ],
-                "start":"9:00",
-                "end":"24:00"
+                "start":"18:00",
+                "end":"23:59"
               },
               {
-                "days":[
-                   "Thursday",
-                   "Friday",
-                   "Saturday"
-                ],
-                "start":"16:00",
-                "end":"2:00"
-              }
-            ]
-         }
-      },
-      {
-         "tag":"burger",
-         "lines":[
-            "the burger place is open/الترجمة مفقودة",
-            "the man eats a burger/الترجمة مفقودة"
-         ],
-         "errors":[
-            "is the burger place open?/الترجمة مفقودة",
-            "nobody is eating/الترجمة مفقودة",
-            "is someone in the burger place?/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Thursday",
-                   "Sunday"
-                ],
-                "start":"11:00",
-                "end":"23:00"
-              },
-              {
-                "days":[
-                   "Friday",
-                   "Saturday"
-                ],
-                "start":"11:00",
-                "end":"23:30"
-              }
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"00:00",
+               "end":"02:00"
+               }
             ]
          }
       },
@@ -1922,68 +950,19 @@
                    "Tuesday",
                    "Wednesday",
                    "Thursday",
-                   "Friday",
-                   "Saturday"
-                ],
-                "start":"6:00",
-                "end":"19:30"
-              },
-              {
-                "days":[
+                   "Saturday",
                    "Sunday"
                 ],
-                "start":"8:30",
-                "end":"17:30"
-              }
-            ]
-         }
-      },
-      {
-         "tag":"drinks",
-         "lines":[
-            "drinks are poured/الترجمة مفقودة",
-            "someone orders a drink/الترجمة مفقودة",
-            "someone orders a pint/الترجمة مفقودة",
-            "the man orders a pint/الترجمة مفقودة",
-            "the woman orders a pint/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the pub is closed"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday"
-                ],
-                "start":"11:00",
-                "end":"23:00"
+                "start":"00:00",
+                "end":"23:59"
               },
               {
-                "days":[
-                   "Thursday"
-                ],
-                "start":"11:00",
-                "end":"24:00"
-              },
-              {
-                "days":[
-                   "Friday",
-                   "Saturday"
-                ],
-                "start":"11:00",
-                "end":"2:00"
-              },
-              {
-                "days":[
-                   "Sunday"
-                ],
-                "start":"12:00",
-                "end":"23:00"
-              }
+               "days":[
+                  "Friday"
+               ],
+               "start":"12:00",
+               "end":"23:59"
+             }
             ]
          }
       },
@@ -2001,34 +980,9 @@
             "the ice cream is in the freezer/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Thursday",
-                   "Friday"
-                ],
-                "start":"9:00",
-                "end":"20:00"
-              },
-              {
-                "days":[
-                   "Saturday"
-                ],
-                "start":"9:00",
-                "end":"19:00"
-              },
-              {
-                "days":[
-                   "Sunday"
-                ],
-                "start":"11:00",
-                "end":"17:00"
-              }
-            ]
+            "type":"EVERYDAY",
+            "start":"16:00",
+            "end":"22:00"
          }
       },
       {
@@ -2044,54 +998,16 @@
             "the bank is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Thursday",
-                   "Friday"
-                ],
-                "start":"9:30",
-                "end":"17:00"
-              },
-              {
-                "days":[
-                   "Saturday"
-                ],
-                "start":"9:30",
-                "end":"13:00"
-              }
-            ]
-         }
-      },
-      {
-         "tag":"market",
-         "lines":[
-            "the market is open/الترجمة مفقودة",
-            "the market is busy/الترجمة مفقودة",
-            "someone is at the market/الترجمة مفقودة",
-            "someone buys groceries/الترجمة مفقودة",
-            "the man sells groceries/الترجمة مفقودة",
-            "the woman sells groceries/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the market is closed/الترجمة مفقودة"
-         ],
-         "timing":{
             "type":"DAILY",
             "days":[
                "Monday",
                "Tuesday",
                "Wednesday",
                "Thursday",
-               "Friday",
-               "Saturday"
+               "Sunday"
             ],
-            "start":"9:30",
-            "end":"17:30"
+            "start":"07:30",
+            "end":"13:30"
          }
       },
       {
@@ -2108,8 +1024,8 @@
          ],
          "timing":{
             "type":"EVERYDAY",
-            "start":"07:00",
-            "end":"21:00"
+            "start":"09:00",
+            "end":"19:00"
          }
       },
       {
@@ -2135,28 +1051,28 @@
             "splittimes": [
               {
                 "days":[
+                   "Saturday",
+                   "Sunday",
                    "Monday",
                    "Tuesday",
-                   "Wednesday",
-                   "Thursday",
+                   "Wednesday"
+                ],
+                "start":"10:00",
+                "end":"22:00"
+              },
+              {
+                "days":[
+                   "Thursday"
+                ],
+                "start":"10:00",
+                "end":"23:59"
+              },
+              {
+                "days":[
                    "Friday"
                 ],
-                "start":"9:00",
-                "end":"20:00"
-              },
-              {
-                "days":[
-                   "Saturday"
-                ],
-                "start":"9:00",
-                "end":"19:00"
-              },
-              {
-                "days":[
-                   "Sunday"
-                ],
-                "start":"11:00",
-                "end":"17:00"
+                "start":"13:30",
+                "end":"23:59"
               }
             ]
          }
@@ -2232,24 +1148,8 @@
             "the baby sleeps/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-      {
-         "tag":"blood",
-         "enabled":"true",
-         "lines":[
-            "someone donates blood/الترجمة مفقودة",
-            "the man donates blood/الترجمة مفقودة",
-            "the woman donates blood/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the blood bank is closed/الترجمة مفقودة"
-         ],
-         "timing":{
             "type":"EVERYDAY",
-            "start":"8:00",
+            "start":"07:00",
             "end":"20:00"
          }
       },
@@ -2269,21 +1169,6 @@
          "timing":{
             "type":"RANDOM",
             "chance":"50"
-         }
-      },
-      {
-         "tag":"brewery",
-         "lines":[
-            "the brewery is open/الترجمة مفقودة",
-            "beer is brewing/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the brewery is closed/الترجمة مفقودة",
-            "no drinks are brewing/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"100"
          }
       },
 
@@ -2306,8 +1191,9 @@
             "the base is quiet/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"07:00",
+            "end":"21:00"
          }
       },
 
@@ -2324,7 +1210,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"90"
          }
       },
 
@@ -2402,8 +1288,84 @@
             "the museum is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Friday"
+                ],
+                "start":"13:30",
+                "end":"19:00"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"09:00",
+               "end":"19:00"
+             }
+            ]
+         }
+      },
+
+      {
+         "tag":"doha-ayalscreening",
+         "enabled":"true",
+         "lines":[
+            "the film is showing/الترجمة مفقودة",
+            "the man is watching a film/الترجمة مفقودة",
+            "the woman is watching a film/الترجمة مفقودة",
+            "the film is screening/الترجمة مفقودة",
+            "the screening has started/الترجمة مفقودة",
+            "people are watching the film/الترجمة مفقودة",
+            "someone watches the film/الترجمة مفقودة"
+         ],
+         "errors":[
+            "the screening is over/الترجمة مفقودة",
+            "the audience has left/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"UNIQUE",
+            "times":[
+               { "start":"2019-11-18 20:00", "end":"2019-11-18 22:30" },
+               { "start":"2019-11-19 17:30", "end":"2019-11-19 23:30" },
+               { "start":"2019-11-20 17:30", "end":"2019-11-20 23:30" },
+               { "start":"2019-11-21 18:00", "end":"2019-11-21 23:30" },
+               { "start":"2019-11-22 14:30", "end":"2019-11-22 23:30" },
+               { "start":"2019-11-23 11:30", "end":"2019-11-23 23:00" }
+            ]
+         }
+      },
+
+      {
+         "tag":"doha-ayalgeekdom",
+         "enabled":"true",
+         "lines":[
+            "someone plays a game/الترجمة مفقودة",
+            "games are played/الترجمة مفقودة",
+            "the boys plays a videogame/الترجمة مفقودة",
+            "the girl plays a videogame/الترجمة مفقودة",
+            "the boys wears a VR headset/الترجمة مفقودة",
+            "the girl wears a VR headset/الترجمة مفقودة"
+         ],
+         "errors":[
+            "the game is over/الترجمة مفقودة"
+         ],
+         "timing":{
+            "type":"UNIQUE",
+            "times":[
+               { "start":"2019-11-18 10:00", "end":"2019-11-18 22:00" },
+               { "start":"2019-11-19 10:00", "end":"2019-11-19 22:00" },
+               { "start":"2019-11-20 10:00", "end":"2019-11-20 22:00" },
+               { "start":"2019-11-21 10:00", "end":"2019-11-21 22:00" },
+               { "start":"2019-11-22 14:00", "end":"2019-11-22 22:00" },
+               { "start":"2019-11-23 10:00", "end":"2019-11-23 22:00" }
+            ]
          }
       },
 
@@ -2418,8 +1380,9 @@
             "the beach is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"15:00",
+            "end":"23:59"
          }
       },
 
@@ -2438,7 +1401,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"75"
          }
       },
 
@@ -2453,8 +1416,9 @@
             "the boat rental is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"14:00",
+            "end":"23:00"
          }
       },
 
@@ -2490,8 +1454,9 @@
             "the camel race is over/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"09:00",
+            "end":"11:00"
          }
       },
 
@@ -2507,8 +1472,9 @@
             "cameras are filming the car park/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"09:00",
+            "end":"23:00"
          }
       },
 
@@ -2525,8 +1491,16 @@
             "the council is quiet/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Sunday"
+            ],
+            "start":"07:30",
+            "end":"17:30"
          }
       },
 
@@ -2546,7 +1520,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"75"
          }
       },
 
@@ -2563,8 +1537,9 @@
             "the car park is quiet/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"09:00",
+            "end":"23:00"
          }
       },
 
@@ -2581,8 +1556,35 @@
             "the theatre is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "start":"10:00",
+                "end":"23:59"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"00:00",
+               "end":"02:00"
+               }
+            ]
          }
       },
 
@@ -2598,7 +1600,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"70"
          }
       },
 
@@ -2616,8 +1618,35 @@
             "the club is quiet/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "start":"22:00",
+                "end":"23:59"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"00:00",
+               "end":"02:00"
+               }
+            ]
          }
       },
 
@@ -2634,7 +1663,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"70"
          }
       },
 
@@ -2652,7 +1681,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"90"
          }
       },
 
@@ -2685,8 +1714,9 @@
             "the dhow is parked/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"14:00",
+            "end":"23:00"
          }
       },
 
@@ -2701,8 +1731,17 @@
             "the falcon is sleeping/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Saturday",
+               "Sunday"
+            ],
+            "start":"07:00",
+            "end":"14:00"
          }
       },
 
@@ -2721,8 +1760,15 @@
             "the event space is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"UNIQUE",
+            "times":[
+               { "start":"2019-11-18 10:00", "end":"2019-11-18 22:00" },
+               { "start":"2019-11-19 10:00", "end":"2019-11-19 22:00" },
+               { "start":"2019-11-20 10:00", "end":"2019-11-20 22:00" },
+               { "start":"2019-11-21 10:00", "end":"2019-11-21 22:00" },
+               { "start":"2019-11-22 10:00", "end":"2019-11-22 22:00" },
+               { "start":"2019-11-23 10:00", "end":"2019-11-23 22:00" }
+            ]
          }
       },
 
@@ -2738,8 +1784,28 @@
             "the entrance hall is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Friday"
+                ],
+                "start":"13:30",
+                "end":"19:00"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"09:00",
+               "end":"19:00"
+             }
+            ]
          }
       },
 
@@ -2775,7 +1841,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"90"
          }
       },
 
@@ -2795,8 +1861,9 @@
             "the garden is quiet/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"09:00",
+            "end":"20:00"
          }
       },
 
@@ -2831,8 +1898,40 @@
             "no one buys gold/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                  "days":[
+                     "Friday"
+                  ],
+                  "start":"16:00",
+                  "end":"22:00"
+              },
+              {
+                  "days":[
+                     "Monday",
+                     "Tuesday",
+                     "Wednesday",
+                     "Thursday",
+                     "Saturday",
+                     "Sunday"
+                  ],
+                  "start":"09:00",
+                  "end":"13:00"
+               },
+               {
+                  "days":[
+                     "Monday",
+                     "Tuesday",
+                     "Wednesday",
+                     "Thursday",
+                     "Saturday",
+                     "Sunday"
+                  ],
+                  "start":"16:00",
+                  "end":"22:00"
+               }
+            ]
          }
       },
 
@@ -2864,7 +1963,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"90"
          }
       },
 
@@ -2920,8 +2019,28 @@
             "the exhibition is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Friday"
+                ],
+                "start":"13:30",
+                "end":"19:00"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"09:00",
+               "end":"19:00"
+             }
+            ]
          }
       },
 
@@ -2941,8 +2060,28 @@
             "the gallery is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Friday"
+                ],
+                "start":"17:00",
+                "end":"21:00"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"11:00",
+               "end":"21:00"
+             }
+            ]
          }
       },
 
@@ -2961,8 +2100,41 @@
             "the mall is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+               {
+                  "days":[
+                     "Monday",
+                     "Tuesday",
+                     "Wednesday",
+                     "Saturday",
+                     "Sunday"
+                  ],
+                  "start":"10:00",
+                  "end":"23:00"
+               },
+               {
+                  "days":[
+                     "Thursday"
+                  ],
+                  "start":"10:00",
+                  "end":"23:59"
+               },
+               {
+                  "days":[
+                     "Friday"
+                  ],
+                  "start":"10:00",
+                  "end":"11:30"
+               },
+               {
+                  "days":[
+                     "Friday"
+                  ],
+                  "start":"13:00",
+                  "end":"23:59"
+               }
+            ]
          }
       },
 
@@ -2979,8 +2151,28 @@
             "people are waiting for the metro/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                  "days":[
+                     "Friday"
+                  ],
+                  "start":"14:00",
+                  "end":"23:00"
+              },
+              {
+                  "days":[
+                     "Monday",
+                     "Tuesday",
+                     "Wednesday",
+                     "Thursday",
+                     "Saturday",
+                     "Sunday"
+                  ],
+                  "start":"06:00",
+                  "end":"23:00"
+               }
+            ]
          }
       },
 
@@ -3015,8 +2207,17 @@
             "the nanny is off work/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Saturday",
+               "Sunday"
+            ],
+            "start":"07:00",
+            "end":"19:30"
          }
       },
 
@@ -3034,8 +2235,28 @@
             "the venue is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Friday"
+                ],
+                "start":"13:30",
+                "end":"19:00"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"09:00",
+               "end":"19:00"
+             }
+            ]
          }
       },
 
@@ -3160,8 +2381,16 @@
             "the Quran class is over/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Sunday"
+            ],
+            "start":"08:00",
+            "end":"21:00"
          }
       },
 
@@ -3177,8 +2406,9 @@
             "the roads are busy/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"03:00",
+            "end":"07:00"
          }
       },
 
@@ -3212,8 +2442,9 @@
             "the research lab is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"09:00",
+            "end":"19:00"
          }
       },
 
@@ -3244,8 +2475,35 @@
             "the rooftop is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                  "days":[
+                     "Monday",
+                     "Tuesday",
+                     "Wednesday",
+                     "Thursday",
+                     "Friday",
+                     "Saturday",
+                     "Sunday"
+                ],
+                "start":"17:00",
+                "end":"23:59"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"00:00",
+               "end":"02:00"
+               }
+            ]
          }
       },
 
@@ -3263,8 +2521,33 @@
             "the hair salon is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+               "days":[
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+               ],
+               "start":"10:00",
+               "end":"19:00"
+             },
+             {
+               "days":[
+                  "Friday"
+               ],
+               "start":"11:00",
+               "end":"22:00"
+             },
+             {
+               "days":[
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"10:00",
+               "end":"19:00"
+             }
+            ]
          }
       },
 
@@ -3283,8 +2566,35 @@
             "the lobby is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday",
+                   "Saturday",
+                   "Sunday"
+                ],
+                "start":"12:00",
+                "end":"23:59"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"00:00",
+               "end":"01:00"
+             }
+            ]
          }
       },
 
@@ -3302,8 +2612,16 @@
             "the classroom is empty/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Sunday",
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday"
+            ],
+            "start":"07:00",
+            "end":"16:00"
          }
       },
 
@@ -3323,7 +2641,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"90"
          }
       },
 
@@ -3343,8 +2661,9 @@
             "the shops are closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"22:00",
+            "end":"23:59"
          }
       },
 
@@ -3361,7 +2680,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"90"
          }
       },
 
@@ -3377,8 +2696,35 @@
             "the supermarket is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+               "days":[
+                  "Friday"
+               ],
+               "start":"08:00",
+               "end":"10:30"
+             },
+             {
+               "days":[
+                  "Friday"
+               ],
+               "start":"12:30",
+               "end":"23:59"
+             },
+             {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"08:00",
+               "end":"23:59"
+             }
+            ]
          }
       },
 
@@ -3394,8 +2740,23 @@
             "the restaurant is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Saturday"
+                ],
+                "start":"08:30",
+                "end":"23:59"
+              },
+              {
+               "days":[
+                  "Sunday"
+               ],
+               "start":"00:00",
+               "end":"01:30"
+             }
+            ]
          }
       },
 
@@ -3412,8 +2773,16 @@
             "no one is training/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Sunday"
+            ],
+            "start":"07:30",
+            "end":"17:30"
          }
       },
 
@@ -3471,8 +2840,9 @@
             "someone leaves/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"09:00",
+            "end":"23:00"
          }
       },
 
@@ -3508,8 +2878,47 @@
             "the kitchen is closed/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Friday"
+                ],
+                "start":"12:30",
+                "end":"23:59"
+              },
+              {
+               "days":[
+                  "Friday"
+               ],
+               "start":"00:00",
+               "end":"01:00"
+             },
+             {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"11:00",
+               "end":"23:59"
+             },
+             {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"00:00",
+               "end":"01:00"
+             }
+            ]
          }
       },
 
@@ -3530,7 +2939,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"75"
          }
       },
 
@@ -3547,8 +2956,16 @@
             "the university is quiet/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Sunday"
+            ],
+            "start":"07:30",
+            "end":"17:30"
          }
       },
 
@@ -3564,8 +2981,35 @@
             "the village is quiet/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"SPLIT",
+            "splittimes": [
+              {
+                "days":[
+                   "Monday",
+                   "Tuesday",
+                   "Wednesday",
+                   "Thursday",
+                   "Friday",
+                   "Saturday",
+                   "Sunday"
+                ],
+                "start":"11:00",
+                "end":"14:00"
+              },
+              {
+               "days":[
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+               ],
+               "start":"17:00",
+               "end":"23:00"
+             }
+            ]
          }
       },
 
@@ -3583,7 +3027,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"90"
          }
       },
 
@@ -3602,8 +3046,17 @@
             "the man is resting/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"DAILY",
+            "days":[
+               "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Saturday",
+               "Sunday"
+            ],
+            "start":"07:00",
+            "end":"19:30"
          }
       },
 
@@ -3621,8 +3074,9 @@
             "the yacht is parked/الترجمة مفقودة"
          ],
          "timing":{
-            "type":"RANDOM",
-            "chance":"50"
+            "type":"EVERYDAY",
+            "start":"14:00",
+            "end":"23:00"
          }
       },
 
@@ -3641,7 +3095,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"90"
          }
       }
    ]
