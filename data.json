@@ -435,66 +435,6 @@
          }
       },
       {
-         "tag":"exhibition",
-         "enabled":"true",
-         "lines":[
-            "the exhibition is open/TRANSLATE",
-            "people are looking at art/TRANSLATE",
-            "the man is looking at art/TRANSLATE",
-            "the woman is looking at art/TRANSLATE",
-            "someone enters the gallery/TRANSLATE",
-            "the museum is open/TRANSLATE",
-            "someone leave the gallery/TRANSLATE"
-         ],
-         "errors":[
-            "the exhibition is closed/TRANSLATE",
-            "the exhibition is emptly/TRANSLATE"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday",
-               "Sunday"
-            ],
-            "start":"10:00",
-            "end":"18:00"
-         }
-      },
-      {
-         "tag":"gallery",
-         "enabled":"true",
-         "lines":[
-            "the gallery is open/TRANSLATE",
-            "people are looking at art/TRANSLATE",
-            "the man is looking at art/TRANSLATE",
-            "the woman is looking at art/TRANSLATE",
-            "someone enters the gallery/TRANSLATE",
-            "the museum is open/TRANSLATE",
-            "someone leave the gallery/TRANSLATE"
-         ],
-         "errors":[
-            "the gallery is closed/TRANSLATE",
-            "the gallery is empty/TRANSLATE"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday"
-            ],
-            "start":"10:00",
-            "end":"17:00"
-         }
-      },
-      {
          "tag":"lecture",
          "enabled":"true",
          "lines":[
@@ -571,7 +511,18 @@
          "errors":[
             "the team isn't playing/الفريق لا يلعب",
             "the football pitch is empty/ملعب كرة القدم فارغ"
-         ]
+         ],
+         "timing":{
+            "type":"UNIQUE",
+            "times":[
+               { "start":"2019-11-14 16:30", "end":"2019-11-14 19:30" },
+               { "start":"2019-11-19 14:00", "end":"2019-11-19 17:00" },
+               { "start":"2019-11-24 16:30", "end":"2019-11-24 19:30" },
+               { "start":"2019-11-27 16:30", "end":"2019-11-27 19:30" },
+               { "start":"2019-12-03 16:30", "end":"2019-12-03 19:30" },
+               { "start":"2019-12-06 15:30", "end":"2019-12-06 18:30" }
+            ]
+         }
       },
       {
          "tag":"swimming",
@@ -1055,19 +1006,13 @@
          "tag":"doha-aljazeera",
          "enabled":"true",
          "lines":[
-            "news is being reported/يتم تداول الاخبار",
-            "news is published/تم نشر الأخبار",
             "people are reading the news/الناس يقرؤون الأخبار",
             "people are listening to the news/الناس يستمعون إلى الأخبار"
          ],
          "errors":[
-            "people are reading the news/الناس يقرؤون الأخبار",
-            "people are listening to the news/الناس يستمعون إلى الأخبار"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+            "news is being reported/يتم تداول الاخبار",
+            "news is published/تم نشر الأخبار"
+         ]
       },
 
       {
@@ -1769,16 +1714,12 @@
          "tag":"doha-goldprice",
          "enabled":"true",
          "lines":[
-            "the price of gold rises/سعر الذهب يرتفع",
-            "the prince of gold drops/سعر الذهب ينخفض"
+            "the price of gold rises/سعر الذهب يرتفع"
          ],
          "errors":[
-            "the price of gold fluctuates/أسعار الذهب تتقلب"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+            "the price of gold fluctuates/أسعار الذهب تتقلب",
+            "the prince of gold drops/سعر الذهب ينخفض"
+         ]
       },
 
       {
@@ -2100,11 +2041,7 @@
             "the gas price drops/أسعار الغاز تنخفض",
             "gas prices are dropping/أسعار الغاز تنخفض",
             "gas is getting cheaper/الغاز اصبح ارخص"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
 
       {
@@ -2152,11 +2089,7 @@
          "errors":[
             "the oil price drops/أسعار النفط انخفضت",
             "oil prices are dropping/أسعار النفط تنخفض"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
+         ]
       },
 
       {
@@ -2193,7 +2126,7 @@
          ],
          "timing":{
             "type":"RANDOM",
-            "chance":"50"
+            "chance":"80"
          }
       },
 
@@ -2280,7 +2213,6 @@
          "tag":"doha-riyal",
          "enabled":"true",
          "lines":[
-            "the riyal is weak/الريال ضعيف",
             "the riyal is strong/الريال قوي"
          ],
          "errors":[
@@ -2627,24 +2559,6 @@
             "the weather is bad/الطقس رديء",
             "it's cold/ان الجو بارد",
             "it's chilly/انها باردة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-tide",
-         "enabled":"true",
-         "lines":[
-            "the tide is high/المد مرتفع",
-            "the tide is low/المد منخفض"
-         ],
-         "errors":[
-            "the next tide is soon/المد القادم قريبًا",
-            "the next high tide is soon/المد العالي التالي مقبل قريبًا",
-            "the next low tide is soon/المد المنخفض التالي مقبل قريبًا"
          ],
          "timing":{
             "type":"RANDOM",
