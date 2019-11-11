@@ -4,12 +4,12 @@
          "tag":"bench",
          "enabled":"true",
          "lines":[
-            "someone sits in the shade/الترجمة مفقودة",
-            "people sit on the bench/الترجمة مفقودة",
-            "the man sits on the bench/الترجمة مفقودة"
+            "someone sits in the shade/شخص ما يجلس في الظل",
+            "people sit on the bench/يجلس الناس على المقعد",
+            "the man sits on the bench/الرجل يجلس على المقعد"
          ],
          "errors":[
-            "no one sits on the bench/الترجمة مفقودة"
+            "no one sits on the bench/لا أحد يجلس على المقعد"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -20,14 +20,14 @@
       {
          "tag":"bike",
          "lines":[
-            "the bike turns left/الترجمة مفقودة",
-            "the bike turns right/الترجمة مفقودة",
-            "the bike waits/الترجمة مفقودة",
-            "the biker turns left/الترجمة مفقودة",
-            "the biker turns right/الترجمة مفقودة"
+            "the bike turns left/تلتف الدراجة إلى اليسار",
+            "the bike turns right/الدراجة تلتف إلى اليمين",
+            "the bike waits/الدراجة تنتظر",
+            "the biker turns left/يلتف السائق الي اليسار",
+            "the biker turns right/السائق يلتف إلى اليمين"
          ],
          "errors":[
-            "the bike is parked/الترجمة مفقودة"
+            "the bike is parked/الدراجة متوقفة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -38,19 +38,19 @@
          "tag":"busdriving",
          "enabled":"true",
          "lines":[
-            "the bus turns left/الترجمة مفقودة",
-            "the bus turns right/الترجمة مفقودة",
-            "the bus waits/الترجمة مفقودة",
-            "the bus slows down/الترجمة مفقودة",
-            "the bus stops/الترجمة مفقودة",
-            "the man takes the bus/الترجمة مفقودة",
-            "the boy takes the bus/الترجمة مفقودة",
-            "people are taking the bus/الترجمة مفقودة"
+            "the bus turns left/تلتف الحافلة إلى اليسار",
+            "the bus turns right/تلتف الحافلة إلى اليمين",
+            "the bus waits/الحافلة تنتظر",
+            "the bus slows down/الحافلة تبطئ",
+            "the bus stops/تتوقف الحافلة",
+            "the man takes the bus/يستقل الرجل الحافلة",
+            "the boy takes the bus/الصبي يستقل الحافلة",
+            "people are taking the bus/الناس يستقلون الحافلة"
          ],
          "errors":[
-            "the bus is parked/الترجمة مفقودة",
-            "the bus stops/الترجمة مفقودة",
-            "the bus waits/الترجمة مفقودة"
+            "the bus is parked/الحافلة متوقفة",
+            "the bus stops/الحافلة توقفت",
+            "the bus waits/الحافلة تنتظر"
          ],
          "timing":{
             "type":"RANDOM",
@@ -61,15 +61,15 @@
          "tag":"buswaiting",
          "enabled":"true",
          "lines":[
-            "someone waits for the bus/الترجمة مفقودة",
-            "the man takes the bus/الترجمة مفقودة",
-            "the man gets off the bus/الترجمة مفقودة",
-            "men are sitting in buses/الترجمة مفقودة",
-            "someone watches out of the window/الترجمة مفقودة"
+            "someone waits for the bus/شخص ما ينتظر الحافلة",
+            "the man takes the bus/يستقل الرجل الحافلة",
+            "the man gets off the bus/الرجل ينزل من الحافلة",
+            "men are sitting in buses/الرجال يجلسون في الحافلات",
+            "someone watches out of the window/شخص ما يراقب من النافذة"
          ],
          "errors":[
-            "the bus is gone/الترجمة مفقودة",
-            "the bus leaves/الترجمة مفقودة"
+            "the bus is gone/لقد غادرت الحافلات",
+            "the bus leaves/لقد غادرت الحافلة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -80,18 +80,18 @@
          "tag":"car",
          "enabled":"true",
          "lines":[
-            "the car turns left/الترجمة مفقودة",
-            "the car turns right/الترجمة مفقودة",
-            "the car waits/الترجمة مفقودة",
-            "the car crosses the bridge/الترجمة مفقودة",
-            "the man drives the car/الترجمة مفقودة",
-            "the woman drives the car/الترجمة مفقودة",
-            "the car waits at the lights/الترجمة مفقودة",
-            "the car stops suddenly/الترجمة مفقودة"
+            "the car turns left/تلتف السيارة إلى اليسار",
+            "the car turns right/تلتف السيارة إلى اليمين",
+            "the car waits/السيارة تنتظر",
+            "the car crosses the bridge/السيارة تعبر الجسر",
+            "the man drives the car/الرجل يقود السيارة",
+            "the woman drives the car/المرأة تقود السيارة",
+            "the car waits at the lights/السيارة تنتظر الأشارة الضوئية",
+            "the car stops suddenly/تتوقف السيارة فجأة"
          ],
          "errors":[
-            "the car is parked/الترجمة مفقودة",
-            "the car is still/الترجمة مفقودة"
+            "the car is parked/السيارة متوقفة",
+            "the car is still/السيارة متوقفة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -102,14 +102,14 @@
          "tag":"cat",
          "enabled":"true",
          "lines":[
-            "someone talks to a cat/الترجمة مفقودة",
-            "the cat sits in the shade/الترجمة مفقودة",
-            "cats are sleeping/الترجمة مفقودة"
+            "someone talks to a cat/شخص ما يتحدث إلى قطة",
+            "the cat sits in the shade/القطة تجلس في الظل",
+            "cats are sleeping/القطط نائمة"
          ],
          "errors":[
-            "the cat disappears/الترجمة مفقودة",
-            "the cat is sleeping/الترجمة مفقودة",
-            "the cat is hiding/الترجمة مفقودة"
+            "the cat disappears/القط يختفي",
+            "the cat is sleeping/القط نائم",
+            "the cat is hiding/القط يختبئ"
 
          ],
          "timing":{
@@ -121,13 +121,13 @@
          "tag":"child",
          "enabled":"true",
          "lines":[
-            "children are shouting/الترجمة مفقودة",
-            "children are crying/الترجمة مفقودة",
-            "children are laughing/الترجمة مفقودة",
-            "the children are playing/الترجمة مفقودة"
+            "children are shouting/الأطفال يصرخون",
+            "children are crying/الأطفال يبكون",
+            "children are laughing/الأطفال يضحكون",
+            "the children are playing/الاطفال يلعبون"
          ],
          "errors":[
-            "children are sleeping/الترجمة مفقودة"
+            "children are sleeping/الأطفال نائمين"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -139,14 +139,14 @@
          "tag":"dog",
          "enabled":"true",
          "lines":[
-            "the dog sleeps/الترجمة مفقودة",
-            "the dog eats/الترجمة مفقودة",
-            "the dog looks for food/الترجمة مفقودة",
-            "the dog meets another dog/الترجمة مفقودة"
+            "the dog sleeps/الكلب ينام",
+            "the dog eats/الكلب يأكل",
+            "the dog looks for food/الكلب يبحث عن الطعام",
+            "the dog meets another dog/الكلب يقابل كلبًا آخر"
          ],
          "errors":[
-            "nobody walks the dog/الترجمة مفقودة",
-            "the dog sleeps/الترجمة مفقودة"
+            "nobody walks the dog/لا أحد يُمشي الكلب",
+            "the dog sleeps/ينام الكلب"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -158,20 +158,19 @@
          "tag":"meeting",
          "enabled":"true",
          "lines":[
-            "someone travels to a meeting/الترجمة مفقودة",
-            "the meeting begins/الترجمة مفقودة",
-            "the meeting ends/الترجمة مفقودة",
-            "people shake hands/الترجمة مفقودة",
-            "someone shakes hands/الترجمة مفقودة",
-            "people talk/الترجمة مفقودة",
-            "someone sits at the table/الترجمة مفقودة",
-            "someone asks a question/الترجمة مفقودة",
-            "someone disagrees/الترجمة مفقودة",
-            "someone agrees/الترجمة مفقودة",
-            "the meeting runs over/الترجمة مفقودة"
+            "someone travels to a meeting/شخص ما يسافر إلى اجتماع",
+            "the meeting begins/يبدأ الاجتماع",
+            "the meeting ends/ينتهي الاجتماع",
+            "people shake hands/الناس يتصافحون",
+            "people talk/الناس يتحدثون",
+            "someone sits at the table/يجلس شخص ما على الطاولة",
+            "someone asks a question/يسأل شخص ما سؤال",
+            "someone disagrees/شخص ما يعارض",
+            "someone agrees/يوافق شخص ما",
+            "the meeting runs over/انتهى الاجتماع"
          ],
          "errors":[
-            "the meeting is cancelled/الترجمة مفقودة"
+            "the meeting is cancelled/تم إلغاء الاجتماع"
          ],
          "timing":{
             "type":"DAILY",
@@ -190,30 +189,30 @@
          "tag":"person",
          "enabled":"true",
          "lines":[
-            "someone sneezes/الترجمة مفقودة",
-            "someone fastens their shoes/الترجمة مفقودة",
-            "someone coughs/الترجمة مفقودة",
-            "someone smokes/الترجمة مفقودة",
-            "someone drinks/الترجمة مفقودة",
-            "someone yawns/الترجمة مفقودة",
-            "someone turns their head/الترجمة مفقودة",
-            "someone crosses the bridge/الترجمة مفقودة",
-            "someone looks at the river/الترجمة مفقودة",
-            "the man walks down the street/الترجمة مفقودة",
-            "the woman walks down the street/الترجمة مفقودة",
-            "the man stops/الترجمة مفقودة",
-            "the woman stops/الترجمة مفقودة",
-            "the man asks for change/الترجمة مفقودة",
-            "the woman asks for change/الترجمة مفقودة",
-            "the man smokes/الترجمة مفقودة",
-            "the woman smokes/الترجمة مفقودة",
-            "the man drinks/الترجمة مفقودة",
-            "the woman drinks/الترجمة مفقودة"
+            "someone sneezes/شخص يعطس",
+            "someone fastens their shoes/شخص ما يربط أحذيته",
+            "someone coughs/شخص ما يسعل",
+            "someone smokes/شخص ما يدخن",
+            "someone drinks/شخص ما يشرب",
+            "someone yawns/شخص ما يتثاءب",
+            "someone turns their head/اشخاص ما يدير رؤوسهم",
+            "someone crosses the bridge/شخص ما يعبر الجسر",
+            "someone looks at the river/شخص ما ينظر إلى النهر",
+            "the man walks down the street/الرجل يسير في الشارع",
+            "the woman walks down the street/المرأة تسير في الشارع",
+            "the man stops/الرجل يتوقف",
+            "the woman stops/المرأة تتوقف",
+            "the man asks for change/الرجل يطلب التغيير",
+            "the woman asks for change/المرأة تطلب التغيير",
+            "the man smokes/الرجل يدخن",
+            "the woman smokes/المرأة تدخن",
+            "the man drinks/الرجل يشرب",
+            "the woman drinks/المرأة تشرب"
          ],
          "errors":[
-            "someone is at home/الترجمة مفقودة",
-            "the man is at home/الترجمة مفقودة",
-            "the woman is at home/الترجمة مفقودة"
+            "someone is at home/شخص ما في المنزل",
+            "the man is at home/الرجل في المنزل",
+            "the woman is at home/المرأة في المنزل"
          ],
          "timing":{
             "type":"RANDOM",
@@ -224,26 +223,26 @@
          "tag":"phone",
          "enabled":"true",
          "lines":[
-            "someone answers their phone/الترجمة مفقودة",
-            "someone makes a call/الترجمة مفقودة",
-            "someone sends a text/الترجمة مفقودة",
-            "the man sends a text/الترجمة مفقودة",
-            "the woman sends a text/الترجمة مفقودة",
-            "the girl sends a text/الترجمة مفقودة",
-            "the boy sends a text/الترجمة مفقودة",
-            "someone talks on the phone/الترجمة مفقودة",
-            "someone scrolls on their phone/الترجمة مفقودة",
-            "someone likes a photo/الترجمة مفقودة",
-            "someone sends a message/الترجمة مفقودة",
-            "someone misses a call/الترجمة مفقودة",
-            "someone looks for direction/الترجمة مفقودة",
-            "someone finds their way/الترجمة مفقودة"
+            "someone answers their phone/يجيب شخص ما على هاتفه",
+            "someone makes a call/شخص ما يجري مكالمة",
+            "someone sends a text/شخص ما يرسل رسالة نصية",
+            "the man sends a text/الرجل يرسل رسالة نصية",
+            "the woman sends a text/المرأة ترسل رسالة نصية",
+            "the girl sends a text/الفتاة ترسل رسالة نصية",
+            "the boy sends a text/يرسل الولد رسالة نصية",
+            "someone talks on the phone/شخص ما يتحدث على الهاتف",
+            "someone scrolls on their phone/يقوم شخص بالتمرير على هواتفه",
+            "someone likes a photo/شخص ما يحب صورة",
+            "someone sends a message/شخص ما يرسل رسالة",
+            "someone misses a call/شخص ما يفتقد مكالمة",
+            "someone looks for direction/شخص ما يبحث عن الاتجاه",
+            "someone finds their way/شخص ما يجد طريقه"
          ],
          "errors":[
-            "someone forgot their phone/الترجمة مفقودة",
-            "the man forgot his phone/الترجمة مفقودة",
-            "the woman lost her phone/الترجمة مفقودة",
-            "someone lost their phone/الترجمة مفقودة"
+            "someone forgot their phone/أشخاص ما نسيو هواتفهم",
+            "the man forgot his phone/الرجل نسي هاتفه",
+            "the woman lost her phone/فقدت المرأة هاتفها",
+            "someone lost their phone/شخص ما فقد هاتفه"
          ],
          "timing":{
             "type":"RANDOM",
@@ -254,21 +253,21 @@
          "tag":"photo",
          "enabled":"true",
          "lines":[
-            "someone takes a photo/الترجمة مفقودة",
-            "the woman takes a photo/الترجمة مفقودة",
-            "the man takes a photo/الترجمة مفقودة",
-            "someone posts a photo/الترجمة مفقودة",
-            "the girl posts a photo/الترجمة مفقودة",
-            "the boy posts a photo/الترجمة مفقودة",
-            "someone likes the photo/الترجمة مفقودة",
-            "someone edits a photo/الترجمة مفقودة",
-            "the girl takes a photo/الترجمة مفقودة",
-            "the boy takes a photo/الترجمة مفقودة"
+            "someone takes a photo/شخص ما يلتقط صورة",
+            "the woman takes a photo/المرأة تلتقط صورة",
+            "the man takes a photo/الرجل يلتقط صورة",
+            "someone posts a photo/شخص ما ينشر صورة",
+            "the girl posts a photo/تنشر الفتاة صورة",
+            "the boy posts a photo/الصبي ينشر صورة",
+            "someone likes the photo/شخص ما يحب الصورة",
+            "someone edits a photo/شخص ما يحرر صورة",
+            "the girl takes a photo/الفتاة تلتقط صورة",
+            "the boy takes a photo/الفتى يلتقط صورة"
          ],
          "errors":[
-            "no one takes a photo/الترجمة مفقودة",
-            "someone deleted a photo/الترجمة مفقودة",
-            "the battery is empty/الترجمة مفقودة"
+            "no one takes a photo/لا أحد يلتقط صورة",
+            "someone deleted a photo/شخص ما حذف صورة",
+            "the battery is empty/البطارية فارغة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -279,42 +278,15 @@
          "tag":"queueing",
          "enabled":"true",
          "lines":[
-            "someone is queuing/الترجمة مفقودة",
-            "someone is waiting/الترجمة مفقودة",
-            "someone joins the queue/الترجمة مفقودة",
-            "the queue is long/الترجمة مفقودة",
-            "someone stands in the queue/الترجمة مفقودة"
+            "someone is queuing/شخص ما يصطف في الطابور",
+            "someone is waiting/شخص ما ينتظر",
+            "someone joins the queue/شخص ما ينضم إلى الطابو",
+            "the queue is long/الطابور طويل",
+            "someone stands in the queue/شخص ما يقف في قائمة الانتظار"
          ],
          "errors":[
-            "no one is queuing/الترجمة مفقودة",
-            "the queue is short/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"07:00",
-            "end":"23:59"
-         }
-      },
-      {
-         "tag":"shopping",
-         "enabled":"true",
-         "lines":[
-            "someone carries shopping bags/الترجمة مفقودة",
-            "someone enters the shop/الترجمة مفقودة",
-            "someone leaves the shop/الترجمة مفقودة",
-            "someone buys their groceries/الترجمة مفقودة",
-            "someone pays in cash/الترجمة مفقودة",
-            "someone pays by card/الترجمة مفقودة",
-            "someone leaves a tip/الترجمة مفقودة",
-            "someone collects points/الترجمة مفقودة",
-            "someone uses their point card/الترجمة مفقودة",
-            "the shop is open/الترجمة مفقودة",
-            "the shop is busy/الترجمة مفقودة",
-            "people are shopping/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the shop is empty/الترجمة مفقودة",
-            "the shop is closed/الترجمة مفقودة"
+            "no one is queuing/لا أحد يصطف في الطابور",
+            "the queue is short/قائمة الانتظار قصيرة"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -326,18 +298,18 @@
          "tag":"taxi",
          "enabled":"true",
          "lines":[
-            "someone flags down a taxi/الترجمة مفقودة",
-            "someone orders a taxi/الترجمة مفقودة",
-            "the taxi is ordered/الترجمة مفقودة",
-            "the taxis are waiting/الترجمة مفقودة",
-            "the taxi drives/الترجمة مفقودة",
-            "the taxi stops/الترجمة مفقودة",
-            "the taxi arrives/الترجمة مفقودة"
+            "someone flags down a taxi/شخص ما يأشر لسيارة أجرة",
+            "someone orders a taxi/شخص ما يطلب سيارة أجرة",
+            "the taxi is ordered/سيارة الأجرة مرتبة",
+            "the taxis are waiting/سيارات الأجرة ينتظرون",
+            "the taxi drives/سيارات الأجرة",
+            "the taxi stops/سيارة الزجرة توقفت",
+            "the taxi arrives/سيارة الأجرة تصل"
          ],
          "errors":[
-            "the taxi is late/الترجمة مفقودة",
-            "the taxis are busy/الترجمة مفقودة",
-            "someone looks for a taxi/الترجمة مفقودة"
+            "the taxi is late/سيارة الأجرة متأخرة ",
+            "the taxis are busy/سيارات الأجرة مشغولة ",
+            "someone looks for a taxi/شخص ما يبحث عن سيارة أجرة"
          ],
          "timing":{
             "type":"SPLIT",
@@ -375,15 +347,15 @@
          "tag":"time",
          "enabled":"true",
          "lines":[
-            "someone is on time/الترجمة مفقودة",
-            "someone is late/الترجمة مفقودة",
-            "the man arrives late/الترجمة مفقودة",
-            "the woman arrives late/الترجمة مفقودة",
-            "someone is on their way/الترجمة مفقودة",
-            "someone is going home/الترجمة مفقودة"
+            "someone is on time/شخص ما في الوقت المحدد",
+            "someone is late/شخص ما متأخر",
+            "the man arrives late/الرجل يصل متأخرا",
+            "the woman arrives late/المرأة تصل متأخرة",
+            "someone is on their way/شخص ما في طريقه",
+            "someone is going home/شخص ما يذهب إلى المنزل"
          ],
          "errors":[
-            "someone is on time/الترجمة مفقودة"
+            "someone is on time/شخص ما في الوقت المحدد"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -395,15 +367,15 @@
          "tag":"truck",
          "enabled":"true",
          "lines":[
-            "the truck turns left/الترجمة مفقودة",
-            "the truck turns right/الترجمة مفقودة",
-            "the truck waits at the lights/الترجمة مفقودة",
-            "the truck is loaded/الترجمة مفقودة",
-            "the truck unloads/الترجمة مفقودة",
-            "the truck drives/الترجمة مفقودة"
+            "the truck turns left/الشاحنة تلتف إلى اليسار",
+            "the truck turns right/الشاحنة تلتف إلى اليمين",
+            "the truck waits at the lights/الشاحنة تنتظر الأضواء",
+            "the truck is loaded/الشاحنة محملة",
+            "the truck unloads/الشاحنة تقوم بالتفريغ",
+            "the truck drives/محرك الشاحنة"
          ],
          "errors":[
-            "the truck is parked/الترجمة مفقودة"
+            "the truck is parked/الشاحنة متوقفة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -411,110 +383,30 @@
          }
       },
       {
-         "tag":"exchangerate",
-         "enabled":"true",
-         "lines":[
-            "the pound is weak/الترجمة مفقودة",
-            "the pound is strong/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the pound fluctuates/الترجمة مفقودة"
-         ]
-      },
-      {
-         "tag":"fullmoon",
-         "enabled":"true",
-         "lines":[
-            "there is a full moon tonight/الترجمة مفقودة",
-            "there is a full moon soon/الترجمة مفقودة",
-            "there isn't a full moon soon/الترجمة مفقودة"
-         ],
-         "errors":[
-            "is there a full moon tonight?/الترجمة مفقودة"
-         ]
-      },
-      {
-         "tag":"rain",
-         "enabled":"true",
-         "lines":[
-            "there is heavy rain falling/الترجمة مفقودة",
-            "there is light rain falling/الترجمة مفقودة",
-            "it may rain soon/الترجمة مفقودة",
-            "it isn't going to rain/الترجمة مفقودة"
-         ],
-         "errors":[
-            "is it going to rain?/الترجمة مفقودة"
-         ]
-      },
-      {
          "tag":"sunrise",
          "enabled":"true",
          "lines":[
-            "the sun rises/الترجمة مفقودة",
-            "it is daytime/الترجمة مفقودة"
+            "the sun rises/تشرق الشمس",
+            "it is daytime/إنه وقت النهار"
 
          ],
          "errors":[
-            "the sun sets/الترجمة مفقودة",
-            "it is night time/الترجمة مفقودة"
+            "the sun sets/غروب الشمس",
+            "it is night time/انه وقت الليل"
          ]
-      },
-      {
-         "tag":"weather",
-         "enabled":"true",
-         "lines":[
-            "the weather is mild/الترجمة مفقودة"
-         ],
-         "errors":[
-            "what is the weather like?/الترجمة مفقودة"
-         ]
-      },
-      {
-         "tag":"bustime",
-         "enabled":"true",
-         "lines":[
-            "the bus arrives/الترجمة مفقودة",
-            "the bus is travelling/الترجمة مفقودة",
-            "the bus is late/الترجمة مفقودة",
-            "the bus is on time/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the bus is travelling/الترجمة مفقودة",
-            "the bus is at the depot/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-      {
-         "tag":"parking",
-         "enabled":"true",
-         "lines":[
-            "the car is parked/الترجمة مفقودة",
-            "the car park is busy/الترجمة مفقودة",
-            "the car park is full/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the car park is empty/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
       },
       {
          "tag":"music",
          "enabled":"true",
          "lines":[
-            "the music is playing/الترجمة مفقودة",
-            "someone is playing music/الترجمة مفقودة",
-            "someone is listening to music/الترجمة مفقودة",
-            "the music is on/الترجمة مفقودة"
+            "the music is playing/TRANSLATE",
+            "someone is playing music/TRANSLATE",
+            "someone is listening to music/TRANSLATE",
+            "the music is on/TRANSLATE"
          ],
          "errors":[
-            "the music is turned off/الترجمة مفقودة",
-            "no one is playing music/الترجمة مفقودة"
+            "the music is turned off/TRANSLATE",
+            "no one is playing music/TRANSLATE"
          ],
          "timing":{
             "type":"RANDOM",
@@ -525,16 +417,16 @@
          "tag":"sing",
          "enabled":"true",
          "lines":[
-            "someone is singing/الترجمة مفقودة",
-            "the man sings/الترجمة مفقودة",
-            "the woman sings/الترجمة مفقودة",
-            "the boy sings/الترجمة مفقودة",
-            "the girl sings/الترجمة مفقودة"
+            "someone is singing/TRANSLATE",
+            "the man sings/TRANSLATE",
+            "the woman sings/TRANSLATE",
+            "the boy sings/TRANSLATE",
+            "the girl sings/TRANSLATE"
          ],
          "errors":[
-            "is someone singing today?/الترجمة مفقودة",
-            "nobody is singing/الترجمة مفقودة",
-            "is someone singing?/الترجمة مفقودة"
+            "is someone singing today?/TRANSLATE",
+            "nobody is singing/TRANSLATE",
+            "is someone singing?/TRANSLATE"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -546,17 +438,17 @@
          "tag":"exhibition",
          "enabled":"true",
          "lines":[
-            "the exhibition is open/الترجمة مفقودة",
-            "people are looking at art/الترجمة مفقودة",
-            "the man is looking at art/الترجمة مفقودة",
-            "the woman is looking at art/الترجمة مفقودة",
-            "someone enters the gallery/الترجمة مفقودة",
-            "the museum is open/الترجمة مفقودة",
-            "someone leave the gallery/الترجمة مفقودة"
+            "the exhibition is open/TRANSLATE",
+            "people are looking at art/TRANSLATE",
+            "the man is looking at art/TRANSLATE",
+            "the woman is looking at art/TRANSLATE",
+            "someone enters the gallery/TRANSLATE",
+            "the museum is open/TRANSLATE",
+            "someone leave the gallery/TRANSLATE"
          ],
          "errors":[
-            "the exhibition is closed/الترجمة مفقودة",
-            "the exhibition is emptly/الترجمة مفقودة"
+            "the exhibition is closed/TRANSLATE",
+            "the exhibition is emptly/TRANSLATE"
          ],
          "timing":{
             "type":"DAILY",
@@ -576,17 +468,17 @@
          "tag":"gallery",
          "enabled":"true",
          "lines":[
-            "the gallery is open/الترجمة مفقودة",
-            "people are looking at art/الترجمة مفقودة",
-            "the man is looking at art/الترجمة مفقودة",
-            "the woman is looking at art/الترجمة مفقودة",
-            "someone enters the gallery/الترجمة مفقودة",
-            "the museum is open/الترجمة مفقودة",
-            "someone leave the gallery/الترجمة مفقودة"
+            "the gallery is open/TRANSLATE",
+            "people are looking at art/TRANSLATE",
+            "the man is looking at art/TRANSLATE",
+            "the woman is looking at art/TRANSLATE",
+            "someone enters the gallery/TRANSLATE",
+            "the museum is open/TRANSLATE",
+            "someone leave the gallery/TRANSLATE"
          ],
          "errors":[
-            "the gallery is closed/الترجمة مفقودة",
-            "the gallery is empty/الترجمة مفقودة"
+            "the gallery is closed/TRANSLATE",
+            "the gallery is empty/TRANSLATE"
          ],
          "timing":{
             "type":"DAILY",
@@ -603,32 +495,15 @@
          }
       },
       {
-         "tag":"museum",
-         "enabled":"true",
-         "lines":[
-            "the museum is open/الترجمة مفقودة",
-            "the museum is busy/الترجمة مفقودة",
-            "people are at the museum/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the museum is closed/الترجمة مفقودة",
-            "the museum is empty/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-      {
          "tag":"lecture",
          "enabled":"true",
          "lines":[
-            "the teacher speaks to the students/الترجمة مفقودة",
-            "the teacher talks/الترجمة مفقودة"
+            "the teacher speaks to the students/TRANSLATE",
+            "the teacher talks/TRANSLATE"
          ],
          "errors":[
-            "the lecture hall is quiet/الترجمة مفقودة",
-            "the classroom is empty/الترجمة مفقودة"
+            "the lecture hall is quiet/TRANSLATE",
+            "the classroom is empty/TRANSLATE"
          ],
          "timing":{
          "type":"DAILY",
@@ -647,11 +522,11 @@
          "tag":"nursery",
          "enabled":"true",
          "lines":[
-            "children are playing/الترجمة مفقودة",
-            "the nursery is open/الترجمة مفقودة"
+            "children are playing/الأطفال يلعبون",
+            "the nursery is open/الحضانة مفتوحة"
          ],
          "errors":[
-            "the nursery is closed/الترجمة مفقودة"
+            "the nursery is closed/الحضانة مغلقة"
          ],
          "timing":{
             "type":"DAILY",
@@ -667,56 +542,16 @@
          }
       },
       {
-         "tag":"library",
-         "enabled":"true",
-         "lines":[
-            "the book is borrowed/الترجمة مفقودة",
-            "the book is returned/الترجمة مفقودة",
-            "someone borrows a book/الترجمة مفقودة",
-            "someone returns a book/الترجمة مفقودة",
-            "someones reads/الترجمة مفقودة",
-            "the library is open/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the library is closed/الترجمة مفقودة",
-            "the library is empty/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Thursday",
-                   "Saturday",
-                   "Sunday"
-                ],
-                "start":"08:00",
-                "end":"20:00"
-              },
-              {
-               "days":[
-                  "Friday"
-               ],
-               "start":"16:00",
-               "end":"20:00"
-             }
-            ]
-         }
-      },
-      {
          "tag":"radio",
          "enabled":"true",
          "lines":[
-            "the radio plays the news/الترجمة مفقودة",
-            "the radio plays a song/الترجمة مفقودة",
-            "there is chat on the radio/الترجمة مفقودة",
-            "the radio is on/الترجمة مفقودة"
+            "the radio plays the news/TRANSLATE",
+            "the radio plays a song/TRANSLATE",
+            "there is chat on the radio/TRANSLATE",
+            "the radio is on/TRANSLATE"
          ],
          "errors":[
-            "the radio is silent/الترجمة مفقودة"
+            "the radio is silent/TRANSLATE"
          ],
          "timing":{
             "type":"RANDOM",
@@ -727,52 +562,31 @@
          "tag":"football",
          "enabled":"true",
          "lines":[
-            "the team plays/الترجمة مفقودة",
-            "the team plays football/الترجمة مفقودة",
-            "the player kicks the ball/الترجمة مفقودة",
-            "the team is on the field/الترجمة مفقودة",
-            "the player train/الترجمة مفقودة"
+            "the player kicks the ball/اللاعب يركل الكرة",
+            "the team is playing/الفريق يلعب",
+            "the team is winning/الفريق يفوز",
+            "the fans are watching/الجماهير تشاهد",
+            "people watch football/الناس يشاهدون كرة القدم"
          ],
          "errors":[
-            "the field is empty/الترجمة مفقودة",
-            "no one is training/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"UNIQUE",
-            "times":[
-               {
-                  "start":"2018-07-17 19:45",
-                  "end":"2018-07-17 21:30"
-               },
-               {
-                  "start":"2018-07-24 19:45",
-                  "end":"2018-07-24 21:30"
-               },
-               {
-                  "start":"2018-07-28 19:30",
-                  "end":"2018-07-28 21:15"
-               },
-               {
-                  "start":"2018-08-04 15:00",
-                  "end":"2018-08-04 16:45"
-               }
-            ]
-         }
+            "the team isn't playing/الفريق لا يلعب",
+            "the football pitch is empty/ملعب كرة القدم فارغ"
+         ]
       },
       {
          "tag":"swimming",
          "enabled":"true",
          "lines":[
-            "someone swims/الترجمة مفقودة",
-            "the man swims/الترجمة مفقودة",
-            "the woman swims/الترجمة مفقودة",
-            "someone is at the pool/الترجمة مفقودة",
-            "the pool is open/الترجمة مفقودة",
-            "people are swimming/الترجمة مفقودة"
+            "someone swims/TRANSLATE",
+            "the man swims/TRANSLATE",
+            "the woman swims/TRANSLATE",
+            "someone is at the pool/TRANSLATE",
+            "the pool is open/TRANSLATE",
+            "people are swimming/TRANSLATE"
          ],
          "errors":[
-            "the pool is closed/الترجمة مفقودة",
-            "the pool is empty/الترجمة مفقودة"
+            "the pool is closed/TRANSLATE",
+            "the pool is empty/TRANSLATE"
          ],
          "timing":{
             "type":"DAILY",
@@ -790,15 +604,15 @@
       {
          "tag":"yoga",
          "lines":[
-            "someone does yoga/الترجمة مفقودة",
-            "the woman sits in a yoga pose/الترجمة مفقودة",
-            "the man sits in a yoga pose/الترجمة مفقودة",
-            "people are doing yoga/الترجمة مفقودة",
-            "the yoga studio is open/الترجمة مفقودة",
-            "the yoga studio is busy/الترجمة مفقودة"
+            "someone does yoga/شخص ما يفعل اليوغا",
+            "the woman sits in a yoga pose/المرأة تجلس في وضع اليوغا",
+            "the man sits in a yoga pose/الرجل يجلس فيوضع اليوغا",
+            "people are doing yoga/الناس يقومون اليوغا",
+            "the yoga studio is open/استوديو اليوغا مفتوح",
+            "the yoga studio is busy/استوديو اليوغا مشغول"
          ],
          "errors":[
-            "the yoga studio is closed/الترجمة مفقودة"
+            "the yoga studio is closed/استوديو اليوغا مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -829,13 +643,13 @@
          "tag":"community",
          "enabled":"true",
          "lines":[
-            "people are meeting/الترجمة مفقودة",
-            "the community is meeting/الترجمة مفقودة",
-            "the community event is on/الترجمة مفقودة"
+            "people are meeting/الناس يجتمعون",
+            "the community is meeting/المجتمع يلتقي",
+            "the community event is on/فعالية المجتمع تبدأ"
          ],
          "errors":[
-            "the community is planning/الترجمة مفقودة",
-            "people are connecting/الترجمة مفقودة"
+            "the community is planning/المجتمع يخطط",
+            "people are connecting/الناس يترابطون"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -847,16 +661,16 @@
       {
          "tag":"park",
          "lines":[
-            "the park is busy/الترجمة مفقودة",
-            "the park is open/الترجمة مفقودة",
-            "someone walks through the park/الترجمة مفقودة",
-            "the man cycles through the park/الترجمة مفقودة",
-            "the woman runs through the park/الترجمة مفقودة",
-            "the man runs through the park/الترجمة مفقودة"
+            "the park is busy/الحديقة مشغولة",
+            "the park is open/الحديقة مفتوحة",
+            "someone walks through the park/شخص ما يمشي في الحديقة",
+            "the man cycles through the park/الرجل يقود الدراجة في الحديقة",
+            "the woman runs through the park/المرأة تجري عبر الحديقة",
+            "the man runs through the park/الرجل يجري عبر الحديقة"
          ],
          "errors":[
-            "the park is quiet/الترجمة مفقودة",
-            "the park is empty/الترجمة مفقودة"
+            "the park is quiet/الحديقة هادئة",
+            "the park is empty/الحديقة فارغة"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -868,13 +682,13 @@
          "tag":"mosque",
          "enabled":"true",
          "lines":[
-            "the mosque is busy/الترجمة مفقودة",
-            "people are at the mosque/الترجمة مفقودة",
-            "someone takes off their shoes/الترجمة مفقودة",
-            "someone kneels down/الترجمة مفقودة"
+            "the mosque is busy/المسجد مشغول",
+            "people are at the mosque/الناس في المسجد",
+            "someone takes off their shoes/شخص ما يخلع أحذيته",
+            "someone kneels down/شخص ما يركع"
          ],
          "errors":[
-            "the mosque is quiet/الترجمة مفقودة"
+            "the mosque is quiet/المسجد هادئ"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -885,14 +699,14 @@
       {
          "tag":"bar",
          "lines":[
-            "the bar is open/الترجمة مفقودة",
-            "people are at the bar/الترجمة مفقودة",
-            "someone orders a drink/الترجمة مفقودة",
-            "the bar is busy/الترجمة مفقودة",
-            "the man is at the bar/الترجمة مفقودة"
+            "the bar is open/المقهى مفتوح",
+            "people are at the bar/الناس في المقهى",
+            "someone orders a drink/شخص ما يطلب شراب",
+            "the bar is busy/المقهى مشغول",
+            "the man is at the bar/الرجل في المقهى"
          ],
          "errors":[
-            "the bar is closed/الترجمة مفقودة"
+            "the bar is closed/المقهى مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -929,17 +743,17 @@
       {
          "tag":"cafe",
          "lines":[
-            "tea is served/الترجمة مفقودة",
-            "someone drinks tea/الترجمة مفقودة",
-            "someone ordered a tea/الترجمة مفقودة",
-            "the cafe is open/الترجمة مفقودة",
-            "tea is brewing/الترجمة مفقودة",
-            "the man drinks tea/الترجمة مفقودة",
-            "the woman orders tea/الترجمة مفقودة"
+            "tea is served/يتم تقديم الشاي",
+            "someone drinks tea/شخص ما يشرب الشاي",
+            "someone ordered a tea/شخص ما طلب الشاي",
+            "the cafe is open/المقهى مفتوح",
+            "tea is brewing/الشاي يتخمر",
+            "the man drinks tea/الرجل يشرب الشاي",
+            "the woman orders tea/المرأة تطلب الشاي"
          ],
          "errors":[
-            "the cafe is closed/الترجمة مفقودة",
-            "people are drinking tea/الترجمة مفقودة"
+            "the cafe is closed/المقهى مغلق",
+            "people are drinking tea/الناس يشربون الشاي"
          ],
          "timing":{
             "type":"SPLIT",
@@ -969,15 +783,15 @@
       {
          "tag":"icecream",
          "lines":[
-            "someone eats an ice cream/الترجمة مفقودة",
-            "ice cream is served/الترجمة مفقودة",
-            "the boy eats ice cream/الترجمة مفقودة",
-            "the girl eats ice cream/الترجمة مفقودة",
-            "the ice cream stand is open/الترجمة مفقودة"
+            "someone eats an ice cream/شخص ما يأكل الآيس كريم",
+            "ice cream is served/يتم تقديم الآيس كريم",
+            "the boy eats ice cream/الصبي يأكل الآيس كريم",
+            "the girl eats ice cream/الفتاة تأكل الآيس كريم",
+            "the ice cream stand is open/محل الآيس كريم مفتوح"
          ],
          "errors":[
-            "the ice cream stand is closed/الترجمة مفقودة",
-            "the ice cream is in the freezer/الترجمة مفقودة"
+            "the ice cream stand is closed/محل الآيس كريم مغلق",
+            "the ice cream is in the freezer/الآيس كريم في الثلاجة"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -988,14 +802,14 @@
       {
          "tag":"bank",
          "lines":[
-            "the bank is open/الترجمة مفقودة",
-            "someone transfers money/الترجمة مفقودة",
-            "someone makes a payment/الترجمة مفقودة",
-            "someone invests money/الترجمة مفقودة",
-            "people are doing business/الترجمة مفقودة"
+            "the bank is open/البنك مفتوح",
+            "someone transfers money/شخص يحول الأموال",
+            "someone makes a payment/شخص ما يجعل الدفع",
+            "someone invests money/شخص يستثمر المال",
+            "people are doing business/الناس يمارسون الأعمال"
          ],
          "errors":[
-            "the bank is closed/الترجمة مفقودة"
+            "the bank is closed/البنك مغلق"
          ],
          "timing":{
             "type":"DAILY",
@@ -1014,13 +828,13 @@
          "tag":"office",
          "enabled":"true",
          "lines":[
-            "the office opens/الترجمة مفقودة",
-            "the office is open/الترجمة مفقودة",
-            "the office is busy/الترجمة مفقودة"
+            "the office opens/يفتح المكتب ",
+            "the office is open/المكتب مفتوح ",
+            "the office is busy/المكتب مشغول"
          ],
          "errors":[
-            "the office is closed/الترجمة مفقودة",
-            "the office is empty/الترجمة مفقودة"
+            "the office is closed/المكتب مغلق",
+            "the office is empty/المكتب فارغ"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1031,20 +845,20 @@
       {
          "tag":"shop",
          "lines":[
-            "someone carries shopping bags/الترجمة مفقودة",
-            "someone enters the shop/الترجمة مفقودة",
-            "someone leaves the shop/الترجمة مفقودة",
-            "someone pays in cash/الترجمة مفقودة",
-            "the shop is open/الترجمة مفقودة",
-            "the shop is busy/الترجمة مفقودة",
-            "the man shops/الترجمة مفقودة",
-            "the woman shops/الترجمة مفقودة",
-            "people are shopping/الترجمة مفقودة",
-            "people are buying things/الترجمة مفقودة"
+            "someone carries shopping bags/شخص ما يحمل أكياس التسوق",
+            "someone enters the shop/شخص ما يدخل المحل",
+            "someone leaves the shop/شخص ما يغادر المحل",
+            "someone pays in cash/شخص ما يدفع نقدا",
+            "the shop is open/المحل مفتوح",
+            "the shop is busy/المحل مشغول",
+            "the man shops/الرجل يتسوق",
+            "the woman shops/المرأة تتسوق",
+            "people are shopping/الناس يتسوقون",
+            "people are buying things/الناس يشترون الأشياء"
          ],
          "errors":[
-            "the shop is empty/الترجمة مفقودة",
-            "the shop is closed/الترجمة مفقودة"
+            "the shop is empty/المحل فارغ",
+            "the shop is closed/المتجر مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -1081,12 +895,12 @@
          "tag":"escalator",
          "enabled":"true",
          "lines":[
-            "the escalators go up/الترجمة مفقودة",
-            "the escalators go down/الترجمة مفقودة"
+            "the escalators go up/السلالم المتحركة ترتفع",
+            "the escalators go down/السلالم المتحركة تنخفض"
          ],
          "errors":[
-            "the escalators are still/الترجمة مفقودة",
-            "the escalator arrives/الترجمة مفقودة"
+            "the escalators are still/السلالم المتحركة لا تزال",
+            "the escalator arrives/يصل المصعد"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1094,31 +908,15 @@
          }
       },
       {
-         "tag":"hotel",
-         "lines":[
-            "someone checks into the hotel/الترجمة مفقودة",
-            "someone stays in the hotel/الترجمة مفقودة",
-            "the hotel is busy/الترجمة مفقودة"
-         ],
-         "errors":[
-            "the hotel is quiet/الترجمة مفقودة"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"08:00",
-            "end":"21:00"
-         }
-      },
-      {
          "tag":"wedding",
          "enabled":"true",
          "lines":[
-            "the wedding is today/الترجمة مفقودة",
-            "someone gets married/الترجمة مفقودة"
+            "the wedding is today/TRANSLATE",
+            "someone gets married/TRANSLATE"
          ],
          "errors":[
-            "there is no wedding today/الترجمة مفقودة",
-            "the city hall is empty/الترجمة مفقودة"
+            "there is no wedding today/TRANSLATE",
+            "the city hall is empty/TRANSLATE"
          ],
          "timing":{
             "type":"DAILY",
@@ -1136,16 +934,16 @@
          "tag":"baby",
          "enabled":"true",
          "lines":[
-            "someone carries a baby/الترجمة مفقودة",
-            "someone feeds the baby/الترجمة مفقودة",
-            "someone talks to the baby/الترجمة مفقودة",
-            "the baby screams/الترجمة مفقودة",
-            "the baby sleeps/الترجمة مفقودة",
-            "the baby smiles/الترجمة مفقودة",
-            "someone pushes a stroller/الترجمة مفقودة"
+            "someone carries a baby/شخص ما يحمل طفلاً",
+            "someone feeds the baby/شخص ما يطعم الطفل",
+            "someone talks to the baby/شخص ما يتحدث إلى الطفل",
+            "the baby screams/الطفل يصرخ",
+            "the baby sleeps/الطفل ينام",
+            "the baby smiles/الطفل يبتسم",
+            "someone pushes a stroller/شخص ما يدفع عربة"
          ],
          "errors":[
-            "the baby sleeps/الترجمة مفقودة"
+            "the baby sleeps/الطفل نائم"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1157,14 +955,14 @@
          "tag":"shift",
          "enabled":"true",
          "lines":[
-            "the shift continues/الترجمة مفقودة",
-            "the shift changes/الترجمة مفقودة",
-            "the shift starts/الترجمة مفقودة",
-            "the shift ends/الترجمة مفقودة"
+            "the shift continues/تستمر فترة العمل",
+            "the shift changes/تتغير فترة العمل",
+            "the shift starts/تبدأ فترة العمل",
+            "the shift ends/فترة العمل تنتهي"
          ],
          "errors":[
-            "the shift ends/الترجمة مفقودة",
-            "the shift starts/الترجمة مفقودة"
+            "the shift ends/فترة العمل تنتهي",
+            "the shift starts/فترة العمل تبدأ"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1181,14 +979,14 @@
          "tag":"doha-airbase",
          "enabled":"true",
          "lines":[
-            "the soldier is training/الترجمة مفقودة",
-            "soldiers are training/الترجمة مفقودة",
-            "the base is busy/الترجمة مفقودة",
-            "people are working at the base/الترجمة مفقودة"
+            "the soldier is training/الجندي يتدرب",
+            "soldiers are training/الجنود يتدربون",
+            "the base is busy/القاعدة مشغولة",
+            "people are working at the base/الناس يعملون في القاعدة"
          ],
          "errors":[
-            "the camp is quiet/الترجمة مفقودة",
-            "the base is quiet/الترجمة مفقودة"
+            "the camp is quiet/المخيم هادئ",
+            "the base is quiet/القاعدة هادئة"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1201,12 +999,12 @@
          "tag":"doha-aircon",
          "enabled":"true",
          "lines":[
-            "the air conditioning is running/الترجمة مفقودة",
-            "the air conditioning is on/الترجمة مفقودة",
-            "the air con is running/الترجمة مفقودة"
+            "the air conditioning is running/تكييف الهواء يعمل",
+            "the air conditioning is on/تكييف الهواء يشتغل",
+            "the air con is running/المكيفات الهوائية تعمل"
          ],
          "errors":[
-            "the air conditioning is off/الترجمة مفقودة"
+            "the air conditioning is off/تكييف الهواء مغلق"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1218,17 +1016,17 @@
          "tag":"doha-airport",
          "enabled":"true",
          "lines":[
-            "the plane is taking off/الترجمة مفقودة",
-            "the plane is landing/الترجمة مفقودة",
-            "the plane flies/الترجمة مفقودة",
-            "the plane is flying/الترجمة مفقودة",
-            "people are boarding the plane/الترجمة مفقودة",
-            "the airport is busy/الترجمة مفقودة"
+            "the plane is taking off/والطائرة تقلع",
+            "the plane is landing/الطائرة تهبط",
+            "the plane flies/الطائرة تطير",
+            "the plane is flying/الطائرة تطير",
+            "people are boarding the plane/الناس يستقلون الطائرة",
+            "the airport is busy/لمطار مشغول"
          ],
          "errors":[
-            "the plane is delayed/الترجمة مفقودة",
-            "the plane has been cancelled/الترجمة مفقودة",
-            "the plane isn't flying/الترجمة مفقودة"
+            "the plane is delayed/الطائرة تأخرت",
+            "the plane has been cancelled/تم إلغاء الطائرة",
+            "the plane isn't flying/الطائرة لا تحلق"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1240,12 +1038,12 @@
          "tag":"doha-airquality",
          "enabled":"true",
          "lines":[
-            "the air is clean/الترجمة مفقودة",
-            "the air is fresh/الترجمة مفقودة"
+            "the air is clean/الهواء نقي",
+            "the air is fresh/الهواء منعش"
          ],
          "errors":[
-            "the air isn't clean/الترجمة مفقودة",
-            "the air is polluted/الترجمة مفقودة"
+            "the air isn't clean/الهواء ليس نظيفًا",
+            "the air is polluted/الهواء ملوث"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1257,14 +1055,14 @@
          "tag":"doha-aljazeera",
          "enabled":"true",
          "lines":[
-            "news is being reported/الترجمة مفقودة",
-            "news is published/الترجمة مفقودة",
-            "people are reading the news/الترجمة مفقودة",
-            "people are listening to the news/الترجمة مفقودة"
+            "news is being reported/يتم تداول الاخبار",
+            "news is published/تم نشر الأخبار",
+            "people are reading the news/الناس يقرؤون الأخبار",
+            "people are listening to the news/الناس يستمعون إلى الأخبار"
          ],
          "errors":[
-            "people are reading the news/الترجمة مفقودة",
-            "people are listening to the news/الترجمة مفقودة"
+            "people are reading the news/الناس يقرؤون الأخبار",
+            "people are listening to the news/الناس يستمعون إلى الأخبار"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1276,16 +1074,16 @@
          "tag":"doha-artmuseum",
          "enabled":"true",
          "lines":[
-            "people are looking at art/الترجمة مفقودة",
-            "the man is looking at art/الترجمة مفقودة",
-            "the woman is looking at art/الترجمة مفقودة",
-            "someone enters the gallery/الترجمة مفقودة",
-            "the galleries are open/الترجمة مفقودة",
-            "someone leaves the museum/الترجمة مفقودة"
+            "people are looking at art/الناس ينظرون إلى الفن ",
+            "the man is looking at art/الرجل ينظر إلى الفن ",
+            "the woman is looking at art/المرأة تنظر إلى الفن ",
+            "someone enters the gallery/شخص ما يدخل المعرض ",
+            "the galleries are open/صالات العرض مفتوحة ",
+            "someone leaves the museum/شخص ما يغادر المتحف"
          ],
          "errors":[
-            "the museum is empty/الترجمة مفقودة",
-            "the museum is closed/الترجمة مفقودة"
+            "the museum is empty/المتحف فارغ",
+            "the museum is closed/المتحف مغلق "
          ],
          "timing":{
             "type":"SPLIT",
@@ -1317,17 +1115,17 @@
          "tag":"doha-ayalscreening",
          "enabled":"true",
          "lines":[
-            "the film is showing/الترجمة مفقودة",
-            "the man is watching a film/الترجمة مفقودة",
-            "the woman is watching a film/الترجمة مفقودة",
-            "the film is screening/الترجمة مفقودة",
-            "the screening has started/الترجمة مفقودة",
-            "people are watching the film/الترجمة مفقودة",
-            "someone watches the film/الترجمة مفقودة"
+            "the film is showing/الفيلم يعرض",
+            "the man is watching a film/الرجل يشاهد فيلمًا",
+            "the woman is watching a film/المرأة تشاهد فيلمًا",
+            "the film is screening/الفيلم يعرض",
+            "the screening has started/بدأ الفيلم",
+            "people are watching the film/الناس يشاهدون الفيلم",
+            "someone watches the film/شخص ما يشاهد الفيلم"
          ],
          "errors":[
-            "the screening is over/الترجمة مفقودة",
-            "the audience has left/الترجمة مفقودة"
+            "the screening is over/انتهى الفيلم",
+            "the audience has left/غادر الجمهور"
          ],
          "timing":{
             "type":"UNIQUE",
@@ -1346,15 +1144,15 @@
          "tag":"doha-ayalgeekdom",
          "enabled":"true",
          "lines":[
-            "someone plays a game/الترجمة مفقودة",
-            "games are played/الترجمة مفقودة",
-            "the boys plays a videogame/الترجمة مفقودة",
-            "the girl plays a videogame/الترجمة مفقودة",
-            "the boys wears a VR headset/الترجمة مفقودة",
-            "the girl wears a VR headset/الترجمة مفقودة"
+            "someone plays a game/شخص ما يلعب لعبة",
+            "games are played/يتم لعب الألعاب",
+            "the boys plays a videogame/الأولاد يلعبون لعبة فيديو",
+            "the girl plays a videogame/الفتاة تلعب لعبة فيديو ",
+            "the boys wears a VR headset/الأولاد يرتدون سماعة الواقع الافتراضي",
+            "the girl wears a VR headset/الفتاة ترتدي سماعة الواقع الافتراضي"
          ],
          "errors":[
-            "the game is over/الترجمة مفقودة"
+            "the game is over/انتهت اللعبة"
          ],
          "timing":{
             "type":"UNIQUE",
@@ -1370,14 +1168,45 @@
       },
 
       {
+         "tag":"doha-ayalcampaign",
+         "enabled":"true",
+         "lines":[
+            "someone finds adventure/شخص ما يجد المغامرة",
+            "someone finds love/شخص ما يجد الحب",
+            "someone finds compassion/شخص يجد التعاطف",
+            "someone finds passion/شخص ما يجد شغفًا",
+            "someone finds perspectives/شخص ما يجد وجهات نظر",
+            "someone finds feelings/شخص ما يجد مشاعر",
+            "someone finds purpose/شخص ما يجد الغرض",
+            "someone finds dreams/شخص ما يجد الأحلام",
+            "someone finds popcorn/شخص ما يجد الفشار"
+         ],
+         "errors":[
+            "someone finds friendship/شخص ما يجد الصداقة",
+            "someone finds survival/شخص ما يجد النجاة",
+            "someone finds imagination/شخص ما يجد الخيال",
+            "someone finds loneliness/شخص ما يجد الوحدة",
+            "someone finds magic/شخص ما يجد السحر",
+            "someone finds mystery/شخص ما يجد الغموض",
+            "someone finds sisterhood/شخص ما يجد الأخوة",
+            "someone finds brotherhood/شخص ما يجد الأخوة",
+            "someone finds stories/شخص ما يجد القصص"
+         ],
+         "timing":{
+            "type":"RANDOM",
+            "chance":"50"
+         }
+      },
+
+      {
          "tag":"doha-beach",
          "enabled":"true",
          "lines":[
-            "the sea is blue/الترجمة مفقودة",
-            "people sit at the beach/الترجمة مفقودة"
+            "the sea is blue/البحر أزرق",
+            "people sit at the beach/الناس يجلسون على الشاطئ"
          ],
          "errors":[
-            "the beach is empty/الترجمة مفقودة"
+            "the beach is empty/الشاطئ فارغ"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1390,14 +1219,14 @@
          "tag":"doha-bird",
          "enabled":"true",
          "lines":[
-            "birds sit in the shade/الترجمة مفقودة",
-            "birds are looking for food/الترجمة مفقودة",
-            "birds are flying/الترجمة مفقودة",
-            "birds are flying in the sky/الترجمة مفقودة"
+            "birds sits in the shade/تجلس الطيور في الظل",
+            "birds are looking for food/الطيور تبحث عن الطعام",
+            "birds are flying/الطيور تطير",
+            "birds are flying in the sky/الطيور تطير في السماء"
          ],
          "errors":[
-            "birds are silent/الترجمة مفقودة",
-            "birds are waiting/الترجمة مفقودة"
+            "birds are silent/الطيور صامتة",
+            "birds are waiting/الطيور تنتظر"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1409,11 +1238,11 @@
          "tag":"doha-boat",
          "enabled":"true",
          "lines":[
-            "people are on the water/الترجمة مفقودة",
-            "someone rents a boat/الترجمة مفقودة"
+            "people are on the water/الناس على الماء",
+            "someone rents a boat/شخص ما يستأجر قارب"
          ],
          "errors":[
-            "the boat rental is closed/الترجمة مفقودة"
+            "the boat rental is closed/تأجير القوارب مغلق"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1426,13 +1255,13 @@
          "tag":"doha-buildings",
          "enabled":"true",
          "lines":[
-            "new buildings are being built/الترجمة مفقودة",
-            "people are buying houses/الترجمة مفقودة",
-            "a new office is being built/الترجمة مفقودة"
+            "new buildings are being built/المباني الجديدة قيد الإنشاء",
+            "people are buying houses/الناس يشترون المنازل",
+            "a new office is being built/يتم إنشاء مكتب جديد"
          ],
          "errors":[
-            "someone invests in property/الترجمة مفقودة",
-            "the new building is empty/الترجمة مفقودة"
+            "someone invests in property/شخص يستثمر في العقارات ",
+            "the new building is empty/المبنى الجديد فارغ"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1444,14 +1273,14 @@
          "tag":"doha-camel",
          "enabled":"true",
          "lines":[
-            "the camel is running/الترجمة مفقودة",
-            "camels are running/الترجمة مفقودة",
-            "the camel race has started/الترجمة مفقودة",
-            "the riders are competing/الترجمة مفقودة"
+            "the camel is running/الهجن يركض",
+            "camels are running/الإبل تتسابق",
+            "the camel race has started/بدأ سباق الهجن",
+            "the riders are competing/المتسابقون يتنافسون"
          ],
          "errors":[
-            "the camels are resting/الترجمة مفقودة",
-            "the camel race is over/الترجمة مفقودة"
+            "the camels are resting/الجمال تستريح",
+            "the camel race is over/لقد انتهى سباق الهجن"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1464,12 +1293,12 @@
          "tag":"doha-camera",
          "enabled":"true",
          "lines":[
-            "cameras are filming/الترجمة مفقودة",
-            "the number plate is registered/الترجمة مفقودة",
-            "the parking ticket is issued/الترجمة مفقودة"
+            "cameras are filming/الكاميرات تُصور",
+            "the number plate is registered/لوحة الأرقام مسجلة",
+            "the parking ticket is issued/تم إصدار تذكرة وقوف السيارات"
          ],
          "errors":[
-            "cameras are filming the car park/الترجمة مفقودة"
+            "cameras are filming the car park/كاميرات تصور موقف السيارات"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1482,13 +1311,13 @@
          "tag":"doha-capitol",
          "enabled":"true",
          "lines":[
-            "the council is open/الترجمة مفقودة",
-            "someone at the council/الترجمة مفقودة",
-            "the council is busy/الترجمة مفقودة"
+            "the council is open/المجلس مفتوح ",
+            "someone at the council/شخص ما في المجلس ",
+            "the council is busy/المجلس مشغول"
          ],
          "errors":[
-            "the council is closed/الترجمة مفقودة",
-            "the council is quiet/الترجمة مفقودة"
+            "the council is closed/المجلس مغلق",
+            "the council is quiet/المجلس هادئ"
          ],
          "timing":{
             "type":"DAILY",
@@ -1508,15 +1337,16 @@
          "tag":"doha-captain",
          "enabled":"true",
          "lines":[
-            "someone is looking for a captain/الترجمة مفقودة",
-            "the captain has arrived/الترجمة مفقودة",
-            "the captain is en route/الترجمة مفقودة",
-            "the captain is on the way/الترجمة مفقودة",
-            "someone pays the captain/الترجمة مفقودة"
+            "someone is looking for a captain/شخص ما يبحث عن قبطان",
+            "the captain has arrived/لقد وصل القبطان",
+            "the captain is en route/القبطان في الطريق",
+            "someone is looking for a captain/شخص ما يبحث عن قبطان",
+            "the captain is on the way/القبطان في الطريق",
+            "someone pays the captain/شخص ما يدفع الي القبطان"
          ],
          "errors":[
-            "the captain finishes the shift/الترجمة مفقودة",
-            "the captain is waiting/الترجمة مفقودة"
+            "the captain finishes the shift/القبطان ينتهي من فترة عمله",
+            "the captain is waiting/القبطان ينتظر"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1528,13 +1358,13 @@
          "tag":"doha-carpark",
          "enabled":"true",
          "lines":[
-            "the car park is busy/الترجمة مفقودة",
-            "someone parks/الترجمة مفقودة",
-            "the car park is full/الترجمة مفقودة"
+            "the car park is busy/موقف السيارات مشغول",
+            "someone parks/شخص ما يوقف السيارة",
+            "the car park is full/موقف السيارات ممتلئ"
          ],
          "errors":[
-            "the car park is empty/الترجمة مفقودة",
-            "the car park is quiet/الترجمة مفقودة"
+            "the car park is empty/موقف السيارات فارغ",
+            "the car park is quiet/موقف السيارات هادئ"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1547,13 +1377,13 @@
          "tag":"doha-cinema",
          "enabled":"true",
          "lines":[
-            "the cinema is busy/الترجمة مفقودة",
-            "people are at the cinema/الترجمة مفقودة",
-            "people are queuing for the movies/الترجمة مفقودة"
+            "the cinema is busy/السينما مشغولة",
+            "people are at the cinema/الناس في السينما",
+            "people are queuing for the movies/الناس يصطفون في طوابير للأفلام"
          ],
          "errors":[
-            "the cinema is quiet/الترجمة مفقودة",
-            "the theatre is empty/الترجمة مفقودة"
+            "the cinema is quiet/السينما هادئة",
+            "the theatre is empty/المسرح فارغ"
          ],
          "timing":{
             "type":"SPLIT",
@@ -1592,11 +1422,11 @@
          "tag":"doha-city",
          "enabled":"true",
          "lines":[
-            "the new city is being built/الترجمة مفقودة",
-            "the new city is growing/الترجمة مفقودة"
+            "the new city is being built/المدينة الجديدة يتم بناؤها",
+            "the new city is growing/المدينة الجديدة تنمو"
          ],
          "errors":[
-            "people are building a new city/الترجمة مفقودة"
+            "people are building a new city/الناس يبنون مدينة جديدة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1608,14 +1438,14 @@
          "tag":"doha-club",
          "enabled":"true",
          "lines":[
-            "the club is open/الترجمة مفقودة",
-            "the club is busy/الترجمة مفقودة",
-            "people are dancing/الترجمة مفقودة",
-            "someone is dancing/الترجمة مفقودة"
+            "the club is open/النادي مفتوح",
+            "the club is busy/النادي مشغول",
+            "people are dancing/الناس يرقصون",
+            "someone is dancing/شخص ما يرقص"
          ],
          "errors":[
-            "the club is closed/الترجمة مفقودة",
-            "the club is quiet/الترجمة مفقودة"
+            "the club is closed/النادي مغلق",
+            "the club is quiet/النادي هادئ"
          ],
          "timing":{
             "type":"SPLIT",
@@ -1654,12 +1484,12 @@
          "tag":"doha-coast",
          "enabled":"true",
          "lines":[
-            "people drive by the coast/الترجمة مفقودة",
-            "cars drive by the coast/الترجمة مفقودة"
+            "people drive by the coast/الناس يقودون قرب الساحل",
+            "cars drive by the coast/السيارات تجوب قزب الساحل"
          ],
          "errors":[
-            "people are walking by the coast/الترجمة مفقودة",
-            "someone looks at the water/الترجمة مفقودة"
+            "people are walking by the coast/الناس يسيرون على الساحل",
+            "someone looks at the water/شخص ما ينظر إلى الماء"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1671,13 +1501,13 @@
          "tag":"doha-cows",
          "enabled":"true",
          "lines":[
-            "cows are chewing/الترجمة مفقودة",
-            "cows are standing/الترجمة مفقودة",
-            "cows look at each other/الترجمة مفقودة"
+            "cows are chewing/الأبقار تمضغ",
+            "cows are standing/الأبقار تقف",
+            "cows look at each other/الأبقار تنظر إلى بعضها البعض"
          ],
          "errors":[
-            "milk is flowing/الترجمة مفقودة",
-            "the cow farm is busy/الترجمة مفقودة"
+            "milk is flowing/الحليب يتدفق",
+            "the cow farm is busy/مزرعة البقر مشغولة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1689,12 +1519,12 @@
          "tag":"doha-cricket",
          "enabled":"true",
          "lines":[
-            "someone is watching cricket/الترجمة مفقودة",
-            "someone is playing cricket/الترجمة مفقودة",
-            "people watch cricket/الترجمة مفقودة"
+            "someone is watching cricket/شخص ما يشاهد لعبة الكريكيت",
+            "someone is playing cricket/شخص ما يلعب لعبة الكريكيت",
+            "people watch cricket/الناس يشاهدون لعبة الكريكيت"
          ],
          "errors":[
-            "the cricket ground is empty/الترجمة مفقودة"
+            "the cricket ground is empty/ملعب الكريكيت فارغ"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1706,12 +1536,12 @@
          "tag":"doha-dhow",
          "enabled":"true",
          "lines":[
-            "someone boards the dhow/الترجمة مفقودة",
-            "the dhow is sailing/الترجمة مفقودة",
-            "the captain is sailing/الترجمة مفقودة"
+            "someone boards the dhow/شخص ما يجلس على السفينه",
+            "the dhow is sailing/السفينه تُبحر",
+            "the captain is sailing/القبطان يُبحر"
          ],
          "errors":[
-            "the dhow is parked/الترجمة مفقودة"
+            "the dhow is parked/المركب الشراعي متوقف"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1724,11 +1554,11 @@
          "tag":"doha-falcon",
          "enabled":"true",
          "lines":[
-            "the falcon is healing/الترجمة مفقودة",
-            "the falcon is injured/الترجمة مفقودة"
+            "the falcon is healing/الصقر يشفى",
+            "the falcon is injured/الصقر مصاب"
          ],
          "errors":[
-            "the falcon is sleeping/الترجمة مفقودة"
+            "the falcon is sleeping/الصقر نائم"
          ],
          "timing":{
             "type":"DAILY",
@@ -1749,15 +1579,15 @@
          "tag":"doha-festival",
          "enabled":"true",
          "lines":[
-            "the festival is on/الترجمة مفقودة",
-            "children are at the festival/الترجمة مفقودة",
-            "the festival is busy/الترجمة مفقودة",
-            "the city is full of visitors/الترجمة مفقودة",
-            "the festival is busy/الترجمة مفقودة"
+            "the festival is on/المهرجان بدأ",
+            "children are at the festival/الأطفال في المهرجان",
+            "the festival is busy/المهرجان مشغول",
+            "the city is full of visitors/المدينة مليئة بالزائرين",
+            "the festival is busy/المهرجان مشغول"
          ],
          "errors":[
-            "the festival has finished/الترجمة مفقودة",
-            "the event space is empty/الترجمة مفقودة"
+            "the festival has finished/انتهى المهرجان",
+            "the event space is empty/مساحة الحدث فارغة"
          ],
          "timing":{
             "type":"UNIQUE",
@@ -1776,12 +1606,12 @@
          "tag":"doha-firestation",
          "enabled":"true",
          "lines":[
-            "someone eats alone/الترجمة مفقودة",
-            "art works are exhibited/الترجمة مفقودة",
-            "people are visiting the museum/الترجمة مفقودة"
+            "someone eats alone/شخص ما يأكل وحده",
+            "art works are exhibited/يتم عرض الأعمال الفنية",
+            "people are visiting the museum/الناس يزورون المتحف"
          ],
          "errors":[
-            "the entrance hall is closed/الترجمة مفقودة"
+            "the entrance hall is closed/قاعة المدخل مغلقة"
          ],
          "timing":{
             "type":"SPLIT",
@@ -1813,12 +1643,12 @@
          "tag":"doha-flightnoise",
          "enabled":"true",
          "lines":[
-            "the plane flies overhead/الترجمة مفقودة",
-            "the plane is loud/الترجمة مفقودة"
+            "the plane flies overhead/الطائرة تحلق في سماء المنطقة",
+            "the plane is loud/الطائرة صوتها مرتفع"
          ],
          "errors":[
-            "the flight hasn't landed/الترجمة مفقودة",
-            "the plane has landed/الترجمة مفقودة"
+            "the flight hasn't landed/الرحلة لم تهبط",
+            "the plane has landed/هبطت الطائرة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1830,14 +1660,14 @@
          "tag":"doha-fountain",
          "enabled":"true",
          "lines":[
-            "fountains are running/الترجمة مفقودة",
-            "water is dancing/الترجمة مفقودة",
-            "water is flowing/الترجمة مفقودة",
-            "water is moving/الترجمة مفقودة"
+            "fountains are running/النوافير تعمل",
+            "water is dancing/الماء يرقص",
+            "water is flowing/المياه تتدفق",
+            "water is moving/الماء تتحرك"
          ],
          "errors":[
-            "the fountain is turned off/الترجمة مفقودة",
-            "water is still/الترجمة مفقودة"
+            "the fountain is turned off/تم إيقاف النافورة",
+            "water is still/الماء متوقف"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1849,16 +1679,16 @@
          "tag":"doha-garden",
          "enabled":"true",
          "lines":[
-            "the garden is open/الترجمة مفقودة",
-            "people are watching plants/الترجمة مفقودة",
-            "someone looks at a tree/الترجمة مفقودة",
-            "the garden is busy/الترجمة مفقودة",
-            "children are playing in the garden/الترجمة مفقودة",
-            "people are walking in the garden/الترجمة مفقودة"
+            "the garden is open/الحديقة مفتوحة",
+            "people are watching plants/الناس يشاهدون النباتات",
+            "someone looks at a tree/شخص ما ينظر إلى شجرة",
+            "the garden is busy/الحديقة مشغولة",
+            "children are playing in the garden/الأطفال يلعبون في الحديقة",
+            "people are walking in the garden/الناس يسيرون في الحديقة"
          ],
          "errors":[
-            "the garden is closed/الترجمة مفقودة",
-            "the garden is quiet/الترجمة مفقودة"
+            "the garden is closed/الحديقة مغلقة",
+            "the garden is quiet/الحديقة هادئة"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -1871,12 +1701,12 @@
          "tag":"doha-gasoline",
          "enabled":"true",
          "lines":[
-            "the gasoline price rises/الترجمة مفقودة",
-            "gasoline price is rising/الترجمة مفقودة",
-            "gasoline is expensive/الترجمة مفقودة"
+            "the gasoline price rises/اسعار البنزين ترتفع",
+            "gasoline price is rising/سعر البنزين يرتفع",
+            "gasoline is expensive/البنزين غالي الثمن"
          ],
          "errors":[
-            "the gasoline price drops/الترجمة مفقودة"
+            "the gasoline price drops/سعر البنزين ينخفض"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1888,14 +1718,14 @@
          "tag":"doha-gold",
          "enabled":"true",
          "lines":[
-            "someone buys gold/الترجمة مفقودة",
-            "the women look at jewelry/الترجمة مفقودة",
-            "the men look at jewelry/الترجمة مفقودة",
-            "someone buys jewelry/الترجمة مفقودة",
-            "gold is being sold/الترجمة مفقودة"
+            "someone buys gold/شخص ما يشتري الذهب",
+            "the women look at jewelry/المرأة تنظر إلى المجوهرات",
+            "the men look at jewelry/الرجل ينظرن إلى المجوهرات",
+            "someone buys jewelry/شخص ما يشتري المجوهرات",
+            "gold is being sold/يتم بيع الذهب"
          ],
          "errors":[
-            "no one buys gold/الترجمة مفقودة"
+            "no one buys gold/لا أحد يشتري الذهب"
          ],
          "timing":{
             "type":"SPLIT",
@@ -1939,11 +1769,11 @@
          "tag":"doha-goldprice",
          "enabled":"true",
          "lines":[
-            "the price of gold rises/الترجمة مفقودة",
-            "the prince of gold drops/الترجمة مفقودة"
+            "the price of gold rises/سعر الذهب يرتفع",
+            "the prince of gold drops/سعر الذهب ينخفض"
          ],
          "errors":[
-            "the price of gold fluctuates/الترجمة مفقودة"
+            "the price of gold fluctuates/أسعار الذهب تتقلب"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1955,11 +1785,11 @@
          "tag":"doha-horse",
          "enabled":"true",
          "lines":[
-            "horses are sleeping/الترجمة مفقودة",
-            "horses are walking/الترجمة مفقودة"
+            "horses are sleeping/الخيول نائمة",
+            "horses are walking/الخيول تمشي"
          ],
          "errors":[
-            "horses are waiting/الترجمة مفقودة"
+            "horses are waiting/الخيول ينتظرون"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1971,15 +1801,15 @@
          "tag":"doha-hospital",
          "enabled":"true",
          "lines":[
-            "the hospital is busy/الترجمة مفقودة",
-            "the doctor is consulting/الترجمة مفقودة",
-            "doctors are consulting/الترجمة مفقودة",
-            "the nurse is busy/الترجمة مفقودة"
+            "the hospital is busy/المستشفى مشغول",
+            "the doctor is consulting/الطبيب يُستشار",
+            "doctors are consulting/الأطباء يُستشارون",
+            "the nurse is busy/الممرضة مشغولة"
          ],
          "errors":[
-            "the hospital is busy/الترجمة مفقودة",
-            "the waiting room is busy/الترجمة مفقودة",
-            "the ambulance is driving/الترجمة مفقودة"
+            "the hospital is busy/المستشفى مشغول",
+            "the waiting room is busy/غرفة الانتظار مشغولة",
+            "the ambulance is driving/سيارة الإسعاف تقود"
          ],
          "timing":{
             "type":"RANDOM",
@@ -1991,12 +1821,11 @@
          "tag":"doha-humidity",
          "enabled":"true",
          "lines":[
-            "the air is humid/الترجمة مفقودة",
-            "humidity is high/الترجمة مفقودة",
-            "humidity is low/الترجمة مفقودة"
+            "the air is humid/الهواء رطب",
+            "humidity is high/الرطوبة مرتفعة"
          ],
          "errors":[
-            "humidity is low/الترجمة مفقودة"
+            "humidity is low/الرطوبة منخفضة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2008,15 +1837,15 @@
          "tag":"doha-islamicmuseum",
          "enabled":"true",
          "lines":[
-            "the exhibition is open/الترجمة مفقودة",
-            "people are looking at things/الترجمة مفقودة",
-            "the museum is busy/الترجمة مفقودة",
-            "the museum is open/الترجمة مفقودة",
-            "people are looking at artifacts/الترجمة مفقودة"
+            "the exhibition is open/المعرض مفتوح",
+            "people are looking at things/الناس ينظرون إلى الأشياء",
+            "the museum is busy/المتحف مشغول",
+            "the museum is open/المتحف مفتوح",
+            "people are looking at artifacts/الناس ينظرون إلى القطع الأثرية"
          ],
          "errors":[
-            "the exhibition is closed/الترجمة مفقودة",
-            "the exhibition is empty/الترجمة مفقودة"
+            "the exhibition is closed/المعرض مغلق",
+            "the exhibition is empty/المعرض فارغ"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2048,16 +1877,16 @@
          "tag":"doha-katara",
          "enabled":"true",
          "lines":[
-            "the gallery is open/الترجمة مفقودة",
-            "people are visiting the gallery/الترجمة مفقودة",
-            "the man visits the gallery/الترجمة مفقودة",
-            "the woman visits the gallery/الترجمة مفقودة",
-            "someone enters the gallery/الترجمة مفقودة",
-            "someone leaves the gallery/الترجمة مفقودة"
+            "the gallery is open/المعرض مفتوح",
+            "people are visiting the gallery/الناس يزورون المعرض",
+            "the man visits the gallery/الرجل يزور المعرض",
+            "the woman visits the gallery/المرأة تزور المعرض",
+            "someone enters the gallery/شخص ما يدخل المعرض",
+            "someone leaves the gallery/شخص ما يغادر المعرض"
          ],
          "errors":[
-            "the gallery is closed/الترجمة مفقودة",
-            "the gallery is empty/الترجمة مفقودة"
+            "the gallery is closed/المعرض مغلق",
+            "the gallery is empty/المعرض فارغ"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2089,15 +1918,15 @@
          "tag":"doha-mall",
          "enabled":"true",
          "lines":[           
-            "the mall is open/الترجمة مفقودة",
-            "the mall is busy/الترجمة مفقودة",
-            "people are at the mall/الترجمة مفقودة",
-            "the man walks through the mall/الترجمة مفقودة",
-            "the woman walks through the mall/الترجمة مفقودة"
+            "the mall is open/المركز التجاري مفتوح",
+            "the mall is busy/المركز التجاري مشغول",
+            "people are at the mall/الناس في مول",
+            "the man walks through the mall/الرجل يمشي من خلال المركز التجاري",
+            "the woman walks through the mall/المرأة تمشي من خلال المركز التجاري"
          ],
          "errors":[
-            "the mall is empty/الترجمة مفقودة",
-            "the mall is closed/الترجمة مفقودة"
+            "the mall is empty/المركز التجاري فارغ",
+            "the mall is closed/المركز التجاري مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2142,13 +1971,13 @@
          "tag":"doha-metro",
          "enabled":"true",
          "lines":[
-            "the metro travels/الترجمة مفقودة",
-            "the metro arrives/الترجمة مفقودة",
-            "the metro departs/الترجمة مفقودة"
+            "the metro travels/يسافر المترو",
+            "the metro arrives/يصل المترو",
+            "the metro departs/يغادر المترو"
          ],
          "errors":[
-            "the metro is not running/الترجمة مفقودة",
-            "people are waiting for the metro/الترجمة مفقودة"
+            "the metro is not running/المترو لا يعمل",
+            "people are waiting for the metro/الناس ينتظرون المترو"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2180,12 +2009,11 @@
          "tag":"doha-moon",
          "enabled":"true",
          "lines":[
-            "the moon is up/الترجمة مفقودة",
-            "the moon is visible/الترجمة مفقودة",
-            "the moon is hiding/الترجمة مفقودة"
+            "the moon is up/القمر عالياً",
+            "the moon is visible/القمر مرئي"
          ],
          "errors":[
-            "the moon is hiding/الترجمة مفقودة"
+            "the moon is hiding/القمر يختبئ"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2197,14 +2025,14 @@
          "tag":"doha-nanny",
          "enabled":"true",
          "lines":[
-            "nannies are busy/الترجمة مفقودة",
-            "the nanny is busy/الترجمة مفقودة",
-            "the child calls the nanny/الترجمة مفقودة",
-            "the nanny is busy/الترجمة مفقودة"
+            "nannies are busy/المربيات مشغولات",
+            "the nanny is busy/المربية مشغولة",
+            "the child calls the nanny/الطفل ينادي المربية",
+            "the nanny is busy/المربية مشغولة"
          ],
          "errors":[
-            "the nanny is resting/الترجمة مفقودة",
-            "the nanny is off work/الترجمة مفقودة"
+            "the nanny is resting/المربية تستريح",
+            "the nanny is off work/المربية متوقفة عن العمل"
          ],
          "timing":{
             "type":"DAILY",
@@ -2225,14 +2053,14 @@
          "tag":"doha-nationalmuseum",
          "enabled":"true",
          "lines":[
-            "people are looking at history/الترجمة مفقودة",
-            "the site is open/الترجمة مفقودة",
-            "people take pictures of a building/الترجمة مفقودة",
-            "the museum guard is working/الترجمة مفقودة"
+            "people are looking at history/الناس ينظرون إلى التاريخ",
+            "the site is open/الموقع مفتوح",
+            "people take pictures of a building/الناس يلتقطون صور للمبنى",
+            "the museum guard is working/حارس المتحف يعمل"
          ],
          "errors":[
-            "the museum is quiet/الترجمة مفقودة",
-            "the venue is closed/الترجمة مفقودة"
+            "the museum is quiet/المتحف هادئ",
+            "the venue is closed/المكان مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2264,14 +2092,14 @@
          "tag":"doha-naturalgas",
          "enabled":"true",
          "lines":[
-            "the gas price rises/الترجمة مفقودة",
-            "gas prices are rising/الترجمة مفقودة",
-            "gas is expensive/الترجمة مفقودة"
+            "the gas price rises/أسعار الغاز ارتفعت",
+            "gas prices are rising/أسعار الغاز ترتفع",
+            "gas is expensive/الغاز غالي"
          ],
          "errors":[
-            "the gas price drops/الترجمة مفقودة",
-            "gas prices are dropping/الترجمة مفقودة",
-            "gas is getting cheaper/الترجمة مفقودة"
+            "the gas price drops/أسعار الغاز تنخفض",
+            "gas prices are dropping/أسعار الغاز تنخفض",
+            "gas is getting cheaper/الغاز اصبح ارخص"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2283,12 +2111,12 @@
          "tag":"doha-newcar",
          "enabled":"true",
          "lines":[
-            "the car is new/الترجمة مفقودة",
-            "the car is clean/الترجمة مفقودة"
+            "the car is new/السيارة جديدة",
+            "the car is clean/السيارة نظيفة"
          ],
          "errors":[
-            "someone looks out of the car window",
-            "someone cleans a car"
+            "someone looks out of the car window/شخص ما ينظر من نافذة السيارة",
+            "someone cleans a car/شخص ما ينظف سيارة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2300,12 +2128,12 @@
          "tag":"doha-northfield",
          "enabled":"true",
          "lines":[
-            "people are working on the platform/الترجمة مفقودة",
-            "people are working offshore/الترجمة مفقودة"
+            "people are working on the platform/الناس يعملون على المنصة",
+            "people are working offshore/الناس يعملون في الخارج"
          ],
          "errors":[
-            "the platform is busy/الترجمة مفقودة",
-            "the man works offshore/الترجمة مفقودة"
+            "the platform is busy/المنصة مشغولة",
+            "the man works offshore/الرجل يعمل في الخارج"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2317,13 +2145,13 @@
          "tag":"doha-oil",
          "enabled":"true",
          "lines":[
-            "the oil price rises/الترجمة مفقودة",
-            "oil prices are rising/الترجمة مفقودة",
-            "oil has a high value/الترجمة مفقودة"
+            "the oil price rises/سعر النفط يرتفع",
+            "oil prices are rising/أسعار النفط ترتفع",
+            "oil has a high value/النفط له قيمة عالية"
          ],
          "errors":[
-            "the oil price drops/الترجمة مفقودة",
-            "oil prices are dropping/الترجمة مفقودة"
+            "the oil price drops/أسعار النفط انخفضت",
+            "oil prices are dropping/أسعار النفط تنخفض"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2335,17 +2163,17 @@
          "tag":"doha-qatarlibrary",
          "enabled":"true",
          "lines":[
-            "books are borrowed/الترجمة مفقودة",
-            "books are returned/الترجمة مفقودة",
-            "someone borrows a book/الترجمة مفقودة",
-            "someone returns a book/الترجمة مفقودة",
-            "someone reads/الترجمة مفقودة",
-            "the library is open/الترجمة مفقودة",
-            "someone arranges the book shelves/الترجمة مفقودة"
+            "books are borrowed/الكتب تم استعارتها",
+            "books are returned/تم إرجاع الكتب",
+            "someone borrows a book/شخص ما يستعير كتابًا",
+            "someone returns a book/شخص ما ارجع الكتاب",
+            "someone reads/شخص ما يقرأ",
+            "the library is open/المكتبة مفتوحة",
+            "someone arranges the book shelves/شخص ما يرتب رفوف الكتاب"
          ],
          "errors":[
-            "the library is closed/الترجمة مفقودة",
-            "the library is empty/الترجمة مفقودة"
+            "the library is closed/المكتبة مغلقة",
+            "the library is empty/المكتبة فارغة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2357,11 +2185,11 @@
          "tag":"doha-qna",
          "enabled":"true",
          "lines":[
-            "the news agency is tweeting/الترجمة مفقودة",
-            "the news agency sends a tweet/الترجمة مفقودة"
+            "the news agency is tweeting/وكالة الأنباء تغرد",
+            "the news agency sends a tweet/وكالة الأنباء ترسل تغريدة"
          ],
          "errors":[
-            "the news agency might tweet soon/الترجمة مفقودة"
+            "the news agency might tweet soon/وكالة الأنباء قد تغرد قريبا"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2373,12 +2201,12 @@
          "tag":"doha-quran",
          "enabled":"true",
          "lines":[
-            "the boy learns the Quran/الترجمة مفقودة",
-            "the girl learns the Quran/الترجمة مفقودة",
-            "someone learns the Quran/الترجمة مفقودة"
+            "the boy learns the Quran/الولد يتعلم القرآن",
+            "the girl learns the Quran/الفتاة تتعلم القرآن",
+            "someone learns the Quran/شخص يتعلم القرآن"
          ],
          "errors":[
-            "the Quran class is over/الترجمة مفقودة"
+            "the Quran class is over/انتهى الفصل الدراسي للقرآن"
          ],
          "timing":{
             "type":"DAILY",
@@ -2398,12 +2226,12 @@
          "tag":"doha-racing",
          "enabled":"true",
          "lines":[
-            "the driver is racing/الترجمة مفقودة",
-            "someone is drifting/الترجمة مفقودة",
-            "someone drives very fast/الترجمة مفقودة"
+            "the driver is racing/السائق يتسابق",
+            "someone is drifting/شخص ما ينجرف عن طريقة",
+            "someone drives very fast/شخص ما يقود بسرعة كبيرة"
          ],
          "errors":[
-            "the roads are busy/الترجمة مفقودة"
+            "the roads are busy/الطرق مشغولة"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -2416,13 +2244,13 @@
          "tag":"doha-rainfall",
          "enabled":"true",
          "lines":[
-            "it rains/الترجمة مفقودة",
-            "it's raining/الترجمة مفقودة",
-            "the streets are wet/الترجمة مفقودة",
-            "rain is falling/الترجمة مفقودة"
+            "it rains/انها تمطر",
+            "it's raining/انها تمطر",
+            "the streets are wet/الشوارع مبللة",
+            "rain is falling/المطر يهطل"
          ],
          "errors":[
-            "it isn't raining/الترجمة مفقودة"
+            "it isn't raining/انها لا تُمطر"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2434,12 +2262,12 @@
          "tag":"doha-research",
          "enabled":"true",
          "lines":[
-            "the research lab is open/الترجمة مفقودة",
-            "the research lab is busy/الترجمة مفقودة"
+            "the research lab is open/MISSING",
+            "the research lab is busy/MISSING"
          ],
          "errors":[
-            "the research lab is closed/الترجمة مفقودة",
-            "the research lab is empty/الترجمة مفقودة"
+            "the research lab is closed/MISSING",
+            "the research lab is empty/MISSING"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -2452,11 +2280,11 @@
          "tag":"doha-riyal",
          "enabled":"true",
          "lines":[
-            "the riyal is weak/الترجمة مفقودة",
-            "the riyal is strong/الترجمة مفقودة"
+            "the riyal is weak/الريال ضعيف",
+            "the riyal is strong/الريال قوي"
          ],
          "errors":[
-            "the riyal fluctuates/الترجمة مفقودة"
+            "the riyal fluctuates/الريال يتقلب"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2468,11 +2296,11 @@
          "tag":"doha-rooftop",
          "enabled":"true",
          "lines":[
-            "the rooftop is open/الترجمة مفقودة",
-            "people are on the rooftop/الترجمة مفقودة"
+            "the rooftop is open/السطح مفتوح",
+            "people are on the rooftop/الناس على السطح"
          ],
          "errors":[
-            "the rooftop is closed/الترجمة مفقودة"
+            "the rooftop is closed/السطح مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2511,14 +2339,14 @@
          "tag":"doha-salon",
          "enabled":"true",
          "lines":[
-            "the hair salon is open/الترجمة مفقودة",
-            "the man gets a haircut/الترجمة مفقودة",
-            "the woman gets a haircut/الترجمة مفقودة",
-            "the hairdresser cuts/الترجمة مفقودة",
-            "someone gets a haircut/الترجمة مفقودة"
+            "the hair salon is open/صالون الشعر مفتوح",
+            "the man gets a haircut/الرجل يحصل على حلاقة",
+            "the woman gets a haircut/المرأة تحصل على قصة شعر",
+            "the hairdresser cuts/مصفف الشعر يقُص",
+            "someone gets a haircut/شخص ما يحصل على قصة شعر"
          ],
          "errors":[
-            "the hair salon is closed/الترجمة مفقودة"
+            "the hair salon is closed/صالون الشعر مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2555,15 +2383,15 @@
          "tag":"doha-sheraton",
          "enabled":"true",
          "lines":[
-            "someone checks in/الترجمة مفقودة",
-            "someone stays at the hotel/الترجمة مفقودة",
-            "the hotel is busy/الترجمة مفقودة",
-            "check-in is open/الترجمة مفقودة",
-            "the front desk is busy/الترجمة مفقودة"
+            "someone checks in/شخص ما قام بتسجيل الوصول",
+            "someone stays at the hotel/شخص ما يبقى في الفندق",
+            "the hotel is busy/الفندق مشغول",
+            "check-in is open/تسجيل الوصول مفتوح",
+            "the front desk is busy/المكتب الأمامي مشغول"
          ],
          "errors":[
-            "the hotel is quiet/الترجمة مفقودة",
-            "the lobby is empty/الترجمة مفقودة"
+            "the hotel is quiet/الفندق هادئ",
+            "the lobby is empty/اللوبي فارغ"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2602,14 +2430,14 @@
          "tag":"doha-school",
          "enabled":"true",
          "lines":[
-            "children are learning/الترجمة مفقودة",
-            "the boy is at school/الترجمة مفقودة",
-            "the girl is at school/الترجمة مفقودة",
-            "the school is open/الترجمة مفقودة"
+            "children are learning/الأطفال يتعلمون",
+            "the boy is at school/الولد في المدرسة",
+            "the girl is at school/الفتاة في المدرسة",
+            "the school is open/المدرسة مفتوحة"
          ],
          "errors":[
-            "the school is empty/الترجمة مفقودة",
-            "the classroom is empty/الترجمة مفقودة"
+            "the school is empty/المدرسة فارغة",
+            "the classroom is empty/الفصل فارغ"
          ],
          "timing":{
             "type":"DAILY",
@@ -2629,15 +2457,15 @@
          "tag":"doha-shisha",
          "enabled":"true",
          "lines":[
-            "the man is smoking/الترجمة مفقودة",
-            "the woman is smoking/الترجمة مفقودة",
-            "the shisha is bubbling/الترجمة مفقودة",
-            "the charcoal is burning/الترجمة مفقودة",
-            "someone smokes a shisha/الترجمة مفقودة"
+            "the man is smoking/الرجل يدخن",
+            "the woman is smoking/المرأة تدخن",
+            "the shisha is bubbling/الشيشة مشتعلة",
+            "the charcoal is burning/الفحم يحترق",
+            "someone smokes a shisha/شخص ما يدخن الشيشة"
          ],
          "errors":[
-            "the shisha is empty/الترجمة مفقودة",
-            "no one is smoking/الترجمة مفقودة"
+            "the shisha is empty/الشيشة فارغة",
+            "no one is smoking/لا أحد يدخن"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2649,16 +2477,16 @@
          "tag":"doha-souq",
          "enabled":"true",
          "lines":[
-            "the souq is open/الترجمة مفقودة",
-            "the souq is busy/الترجمة مفقودة",
-            "someone is at the souq/الترجمة مفقودة",
-            "someone buys carpets/الترجمة مفقودة",
-            "the man sells spices/الترجمة مفقودة",
-            "the woman sells sweets/الترجمة مفقودة"
+            "the souq is open/السوق مفتوح",
+            "the souq is busy/السوق مشغول",
+            "someone is at the souq/شخص ما في السوق",
+            "someone buys carpets/شخص ما يشتري السجاد",
+            "the man sells spices/الرجل يبيع التوابل",
+            "the woman sells sweets/المرأة تبيع الحلويات"
          ],
          "errors":[
-            "the souq is empty/الترجمة مفقودة",
-            "the shops are closed/الترجمة مفقودة"
+            "the souq is empty/السوق فارغ",
+            "the shops are closed/المتاجر مغلقة"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -2671,12 +2499,12 @@
          "tag":"doha-stadium",
          "enabled":"true",
          "lines":[
-            "people are working at the stadium/الترجمة مفقودة",
-            "the stadium is being built/الترجمة مفقودة"
+            "people are working at the stadium/الناس يعملون في الملعب",
+            "the stadium is being built/يتم بناء الملعب"
          ],
          "errors":[
-            "the stadium is empty/الترجمة مفقودة",
-            "the stadium is opening soon/الترجمة مفقودة"
+            "the stadium is empty/الملعب فارغ",
+            "the stadium is opening soon/الملعب سيُفتتح قريباً"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2688,12 +2516,12 @@
          "tag":"doha-supermarket",
          "enabled":"true",
          "lines":[
-            "the supermarket is busy/الترجمة مفقودة",
-            "someone buys groceries/الترجمة مفقودة",
-            "someone pushes a shopping cart/الترجمة مفقودة"
+            "the supermarket is busy/السوبر ماركت مشغول",
+            "someone buys groceries/شخص ما يشتري البقالة",
+            "someone pushes a shopping cart/شخص ما يدفع عربة التسوق"
          ],
          "errors":[
-            "the supermarket is closed/الترجمة مفقودة"
+            "the supermarket is closed/السوبر ماركت مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2732,12 +2560,12 @@
          "tag":"doha-syrian",
          "enabled":"true",
          "lines":[
-            "the waiters are serving/الترجمة مفقودة",
-            "someone orders food/الترجمة مفقودة",
-            "people are eating/الترجمة مفقودة"
+            "the waiters are serving/النوادل يخدمون",
+            "someone orders food/شخص ما يطلب الطعام",
+            "people are eating/الناس يأكلون"
          ],
          "errors":[
-            "the restaurant is closed/الترجمة مفقودة"
+            "the restaurant is closed/المطعم مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2764,13 +2592,13 @@
          "tag":"doha-team",
          "enabled":"true",
          "lines":[
-            "the trainer is on the field/الترجمة مفقودة",
-            "the team is on the field/الترجمة مفقودة",
-            "the team is training/الترجمة مفقودة"
+            "the trainer is on the field/المدرب في الميدان",
+            "the team is on the field/الفريق في الميدان",
+            "the team is training/الفريق يتدرب"
          ],
          "errors":[
-            "the field is empty/الترجمة مفقودة",
-            "no one is training/الترجمة مفقودة"
+            "the field is empty/الميدان فارغ",
+            "no one is training/لا أحد يتدرب"
          ],
          "timing":{
             "type":"DAILY",
@@ -2790,15 +2618,15 @@
          "tag":"doha-temperature",
          "enabled":"true",
          "lines":[
-            "it's warm today/الترجمة مفقودة",
-            "it's hot today/الترجمة مفقودة",
-            "the weather is good/الترجمة مفقودة",
-            "the weather is mild/الترجمة مفقودة"
+            "it's warm today/انها دافئة اليوم",
+            "it's hot today/الجو حار اليوم",
+            "the weather is good/الجو جيد",
+            "the weather is mild/الطقس معتدل"
          ],
          "errors":[
-            "the weather is bad/الترجمة مفقودة",
-            "it's cold/الترجمة مفقودة",
-            "it's chilly/الترجمة مفقودة"
+            "the weather is bad/الطقس رديء",
+            "it's cold/ان الجو بارد",
+            "it's chilly/انها باردة"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2810,13 +2638,13 @@
          "tag":"doha-tide",
          "enabled":"true",
          "lines":[
-            "the tide is high/الترجمة مفقودة",
-            "the tide is low/الترجمة مفقودة"
+            "the tide is high/المد مرتفع",
+            "the tide is low/المد منخفض"
          ],
          "errors":[
-            "the next tide is soon/الترجمة مفقودة",
-            "the next high tide is soon/الترجمة مفقودة",
-            "the next low tide is soon/الترجمة مفقودة"
+            "the next tide is soon/المد القادم قريبًا",
+            "the next high tide is soon/المد العالي التالي مقبل قريبًا",
+            "the next low tide is soon/المد المنخفض التالي مقبل قريبًا"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2828,16 +2656,16 @@
          "tag":"doha-tourist",
          "enabled":"true",
          "lines":[
-            "people are visiting/الترجمة مفقودة",
-            "the city is busy/الترجمة مفقودة",
-            "visitors are arriving/الترجمة مفقودة",
-            "someone asks for the way/الترجمة مفقودة",
-            "someone books a tour/الترجمة مفقودة",
-            "someone reads a map/الترجمة مفقودة"
+            "people are visiting/الناس يتزاورون",
+            "the city is busy/المدينة مشغولة",
+            "visitors are arriving/الزوار يصلون",
+            "someone asks for the way/شخص ما يسأل عن الطريق",
+            "someone books a tour/شخص ما يحجز جولة",
+            "someone reads a map/شخص ما يقرأ الخريطة"
          ],
          "errors":[
-            "visitors are leaving/الترجمة مفقودة",
-            "someone leaves/الترجمة مفقودة"
+            "visitors are leaving/الزوار يغادرون",
+            "someone leaves/شخص ما يغادر"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -2850,13 +2678,13 @@
          "tag":"doha-traffic",
          "enabled":"true",
          "lines":[
-            "the road is busy/الترجمة مفقودة",
-            "there is a lot of traffic/الترجمة مفقودة"
+            "the road is busy/الطريق مزدحم",
+            "there is a lot of traffic/هناك الكثير من الزُحام"
          ],
          "errors":[
-            "the road is quiet/الترجمة مفقودة",
-            "the traffic is light/الترجمة مفقودة",
-            "there is not much traffic/الترجمة مفقودة"
+            "the road is quiet/الطريق هادئ",
+            "the traffic is light/حركة المرور خفيفة",
+            "there is not much traffic/ليس هناك الكثير من حركة المرور"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2868,14 +2696,14 @@
          "tag":"doha-turkish",
          "enabled":"true",
          "lines":[
-            "the barbeque is smoking/الترجمة مفقودة",
-            "the restaurant is open/الترجمة مفقودة",
-            "people are queueing/الترجمة مفقودة",
-            "the barbeque is on/الترجمة مفقودة",
-            "people are sharing food/الترجمة مفقودة"
+            "the barbeque is smoking/الشواء يدخن",
+            "the restaurant is open/المطعم مفتوح",
+            "people are queueing/الناس يصطفون في طوابير",
+            "the barbeque is on/الشواء بدأ",
+            "people are sharing food/الناس يتشاركون الطعام"
          ],
          "errors":[
-            "the kitchen is closed/الترجمة مفقودة"
+            "the kitchen is closed/المطبخ مغلق"
          ],
          "timing":{
             "type":"SPLIT",
@@ -2926,16 +2754,16 @@
          "tag":"doha-uber",
          "enabled":"true",
          "lines":[
-            "someone rates the driver/الترجمة مفقودة",
-            "the driver rates the client/الترجمة مفقودة",
-            "the driver is en route/الترجمة مفقودة",
-            "the driver is arriving/الترجمة مفقودة",
-            "the driver is approaching/الترجمة مفقودة",
-            "the driver is on the way/الترجمة مفقودة"
+            "someone rates the driver/شخص ما يقيم السائق",
+            "the driver rates the client/يقوم السائق بتقييم العميل",
+            "the driver is en route/السائق في الطريق",
+            "the driver is arriving/يصل السائق",
+            "the driver is approaching/السائق يقترب",
+            "the driver is on the way/السائق في الطريق"
          ],
          "errors":[
-            "the driver finishes the shift/الترجمة مفقودة",
-            "the driver is waiting/الترجمة مفقودة"
+            "the driver finishes the shift/السائق ينتهي من فترة عمله",
+            "the driver is waiting/السائق ينتظر"
          ],
          "timing":{
             "type":"RANDOM",
@@ -2947,13 +2775,13 @@
          "tag":"doha-university",
          "enabled":"true",
          "lines":[
-            "the university is open/الترجمة مفقودة",
-            "someone is studying/الترجمة مفقودة",
-            "the classroom is busy/الترجمة مفقودة"
+            "the university is open/الجامعة مفتوحة",
+            "someone is studying/شخص ما يدرس",
+            "the classroom is busy/الفصل الدراسي مشغول"
          ],
          "errors":[
-            "the students have left/الترجمة مفقودة",
-            "the university is quiet/الترجمة مفقودة"
+            "the students have left/لقد غادر الطلاب",
+            "the university is quiet/الجامعة هادئة"
          ],
          "timing":{
             "type":"DAILY",
@@ -2973,12 +2801,12 @@
          "tag":"doha-village",
          "enabled":"true",
          "lines":[
-            "the village is busy/الترجمة مفقودة",
-            "people are visiting the village/الترجمة مفقودة",
-            "someone walks through the village/الترجمة مفقودة"
+            "the village is busy/القرية مشغولة",
+            "people are visiting the village/الناس يزورون القرية",
+            "someone walks through the village/شخص ما يمشي في القرية"
          ],
          "errors":[
-            "the village is quiet/الترجمة مفقودة"
+            "the village is quiet/MISSING"
          ],
          "timing":{
             "type":"SPLIT",
@@ -3017,13 +2845,13 @@
          "tag":"doha-windowcleaning",
          "enabled":"true",
          "lines":[
-            "someone cleans a window/الترجمة مفقودة",
-            "the worker is suspended in air/الترجمة مفقودة",
-            "the man is cleaning windows/الترجمة مفقودة",
-            "windows are being cleaned/الترجمة مفقودة"
+            "someone cleans a window/شخص ما ينظف النافذة",
+            "the worker is suspended in air/يتم تعليق العامل في الهواء",
+            "the man is cleaning windows/الرجل ينظف النوافذ",
+            "windows are being cleaned/يتم تنظيف النوافذ"
          ],
          "errors":[
-            "the windows need cleaning/الترجمة مفقودة"
+            "the windows need cleaning/النوافذ تحتاج إلى تنظيف"
          ],
          "timing":{
             "type":"RANDOM",
@@ -3035,15 +2863,15 @@
          "tag":"doha-worker",
          "enabled":"true",
          "lines":[
-            "workers are busy/الترجمة مفقودة",
-            "workers are on the construction site/الترجمة مفقودة",
-            "the man is working outside/الترجمة مفقودة",
-            "men are working outside/الترجمة مفقودة"
+            "workers are busy/العمال مشغولون",
+            "workers are on the construction site/العمال في موقع البناء",
+            "the man is working outside/الرجل يعمل خارج",
+            "men are working outside/الرجال يعملون في الخارج"
          ],
          "errors":[
-            "workers are resting/الترجمة مفقودة",
-            "the construction site is empty/الترجمة مفقودة",
-            "the man is resting/الترجمة مفقودة"
+            "workers are resting/العمال يستريحون",
+            "the construction site is empty/موقع البناء فارغ",
+            "the man is resting/الرجل يستريح"
          ],
          "timing":{
             "type":"DAILY",
@@ -3064,14 +2892,14 @@
          "tag":"doha-yacht",
          "enabled":"true",
          "lines":[
-            "someone is sitting on their yacht/الترجمة مفقودة",
-            "people are cruising/الترجمة مفقودة",
-            "the yacht is sailing/الترجمة مفقودة",
-            "the captain is sailing/الترجمة مفقودة"
+            "someone is sitting on their yacht/شخص ما يجلس على اليخت",
+            "people are cruising/الناس يبحرون",
+            "the yacht is sailing/اليخوت تُبحر",
+            "the captain is sailing/القبطان يُبحر"
          ],
          "errors":[
-            "the yacht is in the harbor/الترجمة مفقودة",
-            "the yacht is parked/الترجمة مفقودة"
+            "the yacht is in the harbor/اليخت في الميناء",
+            "the yacht is parked/اليخت متوقف"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -3084,14 +2912,14 @@
          "tag":"doha-zakat",
          "enabled":"true",
          "lines":[
-            "someone donates money/الترجمة مفقودة",
-            "someone makes a donation/الترجمة مفقودة",
-            "people donate money/الترجمة مفقودة"
+            "someone donates money/شخص ما يتبرع بالمال",
+            "someone makes a donation/شخص ما يتبرع",
+            "people donate money/الناس يتبرعون بالمال"
          ],
          "errors":[
-            "someone donates/الترجمة مفقودة",
-            "the man makes a donation/الترجمة مفقودة",
-            "the woman makes a donation/الترجمة مفقودة"
+            "someone donates/شخص ما يتبرع",
+            "the man makes a donation/الرجل يتبرع",
+            "the woman makes a donation/المرأة تتبرع"
          ],
          "timing":{
             "type":"RANDOM",
