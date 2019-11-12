@@ -307,8 +307,8 @@
             "the taxi arrives/سيارة الأجرة تصل"
          ],
          "errors":[
-            "the taxi is late/سيارة الأجرة متأخرة ",
-            "the taxis are busy/سيارات الأجرة مشغولة ",
+            "the taxi is late/سيارة الأجرة متأخرة",
+            "the taxis are busy/سيارات الأجرة مشغولة",
             "someone looks for a taxi/شخص ما يبحث عن سيارة أجرة"
          ],
          "timing":{
@@ -399,14 +399,14 @@
          "tag":"music",
          "enabled":"true",
          "lines":[
-            "the music is playing/TRANSLATE",
-            "someone is playing music/TRANSLATE",
-            "someone is listening to music/TRANSLATE",
-            "the music is on/TRANSLATE"
+            "the music is playing/الموسيقى تُعزف",
+            "someone is playing music/شخص ما يعزف الموسيقى",
+            "someone is listening to music/شخص ما يستمع إلى الموسيقى",
+            "the music is on/الموسيقى قيد التشغيل"
          ],
          "errors":[
-            "the music is turned off/TRANSLATE",
-            "no one is playing music/TRANSLATE"
+            "the music is turned off/الموسيقى متوقفة",
+            "no one is playing music/لا أحد يعزف الموسيقى"
          ],
          "timing":{
             "type":"RANDOM",
@@ -417,16 +417,14 @@
          "tag":"sing",
          "enabled":"true",
          "lines":[
-            "someone is singing/TRANSLATE",
-            "the man sings/TRANSLATE",
-            "the woman sings/TRANSLATE",
-            "the boy sings/TRANSLATE",
-            "the girl sings/TRANSLATE"
+            "someone is singing/شخص ما يغني",
+            "the man sings/الرجل يغني",
+            "the woman sings/المرأة تُغني",
+            "the boy sings/الصبي يغني",
+            "the girl sings/الفتاة تُغني"
          ],
          "errors":[
-            "is someone singing today?/TRANSLATE",
-            "nobody is singing/TRANSLATE",
-            "is someone singing?/TRANSLATE"
+            "nobody is singing/لا أحد يُغني"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -438,12 +436,12 @@
          "tag":"lecture",
          "enabled":"true",
          "lines":[
-            "the teacher speaks to the students/TRANSLATE",
-            "the teacher talks/TRANSLATE"
+            "the teacher speaks to the students/المعلم يتحدث للطلاب",
+            "the teacher talks/المعلم يتحدث"
          ],
          "errors":[
-            "the lecture hall is quiet/TRANSLATE",
-            "the classroom is empty/TRANSLATE"
+            "the lecture hall is quiet/قاعة المحاضرات هادئة",
+            "the classroom is empty/الفصل فارغ"
          ],
          "timing":{
          "type":"DAILY",
@@ -485,13 +483,13 @@
          "tag":"radio",
          "enabled":"true",
          "lines":[
-            "the radio plays the news/TRANSLATE",
-            "the radio plays a song/TRANSLATE",
-            "there is chat on the radio/TRANSLATE",
-            "the radio is on/TRANSLATE"
+            "the radio plays the news/الراديو يبث الأخبار",
+            "the radio plays a song/الراديو يبث أغنية",
+            "there is chat on the radio/هناك دردشة على الراديو",
+            "the radio is on/الراديو في وضع التشغيل"
          ],
          "errors":[
-            "the radio is silent/TRANSLATE"
+            "the radio is silent/الراديو صامت"
          ],
          "timing":{
             "type":"RANDOM",
@@ -528,16 +526,16 @@
          "tag":"swimming",
          "enabled":"true",
          "lines":[
-            "someone swims/TRANSLATE",
-            "the man swims/TRANSLATE",
-            "the woman swims/TRANSLATE",
-            "someone is at the pool/TRANSLATE",
-            "the pool is open/TRANSLATE",
-            "people are swimming/TRANSLATE"
+            "someone swims/شخص يسبح",
+            "the man swims/الرجل يسبح",
+            "the woman swims/المرأة تسبح",
+            "someone is at the pool/شخص ما في حمام السباحة",
+            "the pool is open/المسبح مفتوح",
+            "people are swimming/الناس يسبحون"
          ],
          "errors":[
-            "the pool is closed/TRANSLATE",
-            "the pool is empty/TRANSLATE"
+            "the pool is closed/حمام السباحة مغلق",
+            "the pool is empty/حمام السباحة فارغ"
          ],
          "timing":{
             "type":"DAILY",
@@ -779,8 +777,8 @@
          "tag":"office",
          "enabled":"true",
          "lines":[
-            "the office opens/يفتح المكتب ",
-            "the office is open/المكتب مفتوح ",
+            "the office opens/يفتح المكتب",
+            "the office is open/المكتب مفتوح",
             "the office is busy/المكتب مشغول"
          ],
          "errors":[
@@ -862,12 +860,12 @@
          "tag":"wedding",
          "enabled":"true",
          "lines":[
-            "the wedding is today/TRANSLATE",
-            "someone gets married/TRANSLATE"
+            "the wedding is today/العرس اليوم",
+            "someone gets married/شخص ما يتزوج"
          ],
          "errors":[
-            "there is no wedding today/TRANSLATE",
-            "the city hall is empty/TRANSLATE"
+            "there is no wedding today/لا يوجد زفاف اليوم",
+            "the city hall is empty/قاعة المدينة فارغة"
          ],
          "timing":{
             "type":"DAILY",
@@ -1019,11 +1017,11 @@
          "tag":"doha-artmuseum",
          "enabled":"true",
          "lines":[
-            "people are looking at art/الناس ينظرون إلى الفن ",
-            "the man is looking at art/الرجل ينظر إلى الفن ",
-            "the woman is looking at art/المرأة تنظر إلى الفن ",
-            "someone enters the gallery/شخص ما يدخل المعرض ",
-            "the galleries are open/صالات العرض مفتوحة ",
+            "people are looking at art/الناس ينظرون إلى الفن",
+            "the man is looking at art/الرجل ينظر إلى الفن",
+            "the woman is looking at art/المرأة تنظر إلى الفن",
+            "someone enters the gallery/شخص ما يدخل المعرض",
+            "the galleries are open/صالات العرض مفتوحة",
             "someone leaves the museum/شخص ما يغادر المتحف"
          ],
          "errors":[
@@ -1092,7 +1090,7 @@
             "someone plays a game/شخص ما يلعب لعبة",
             "games are played/يتم لعب الألعاب",
             "the boys plays a videogame/الأولاد يلعبون لعبة فيديو",
-            "the girl plays a videogame/الفتاة تلعب لعبة فيديو ",
+            "the girl plays a videogame/الفتاة تلعب لعبة فيديو",
             "the boys wears a VR headset/الأولاد يرتدون سماعة الواقع الافتراضي",
             "the girl wears a VR headset/الفتاة ترتدي سماعة الواقع الافتراضي"
          ],
@@ -1205,7 +1203,7 @@
             "a new office is being built/يتم إنشاء مكتب جديد"
          ],
          "errors":[
-            "someone invests in property/شخص يستثمر في العقارات ",
+            "someone invests in property/شخص يستثمر في العقارات",
             "the new building is empty/المبنى الجديد فارغ"
          ],
          "timing":{
@@ -1256,8 +1254,8 @@
          "tag":"doha-capitol",
          "enabled":"true",
          "lines":[
-            "the council is open/المجلس مفتوح ",
-            "someone at the council/شخص ما في المجلس ",
+            "the council is open/المجلس مفتوح",
+            "someone at the council/شخص ما في المجلس",
             "the council is busy/المجلس مشغول"
          ],
          "errors":[
@@ -2195,12 +2193,12 @@
          "tag":"doha-research",
          "enabled":"true",
          "lines":[
-            "the research lab is open/MISSING",
-            "the research lab is busy/MISSING"
+            "the research lab is open/مختبر البحوث مفتوح",
+            "the research lab is busy/مختبر البحث مشغول"
          ],
          "errors":[
-            "the research lab is closed/MISSING",
-            "the research lab is empty/MISSING"
+            "the research lab is closed/مختبر البحوث مغلق",
+            "the research lab is empty/مختبر البحث فارغ"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -2720,7 +2718,7 @@
             "someone walks through the village/شخص ما يمشي في القرية"
          ],
          "errors":[
-            "the village is quiet/MISSING"
+            "the village is quiet/القرية هادئة"
          ],
          "timing":{
             "type":"SPLIT",
