@@ -4,12 +4,12 @@
          "tag":"bench",
          "enabled":"true",
          "lines":[
-            "someone sits in the shade/شخص ما يجلس في الظل",
-            "people sit on the bench/يجلس الناس على المقعد",
-            "the man sits on the bench/الرجل يجلس على المقعد"
+            "someone sits in the shade",
+            "people sit on the bench",
+            "the man sits on the bench"
          ],
          "errors":[
-            "no one sits on the bench/لا أحد يجلس على المقعد"
+            "no one sits on the bench"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -20,14 +20,14 @@
       {
          "tag":"bike",
          "lines":[
-            "the bike turns left/تلتف الدراجة إلى اليسار",
-            "the bike turns right/الدراجة تلتف إلى اليمين",
-            "the bike waits/الدراجة تنتظر",
-            "the biker turns left/يلتف السائق الي اليسار",
-            "the biker turns right/السائق يلتف إلى اليمين"
+            "the bike turns left",
+            "the bike turns right",
+            "the bike waits",
+            "the biker turns left",
+            "the biker turns right"
          ],
          "errors":[
-            "the bike is parked/الدراجة متوقفة"
+            "the bike is parked"
          ],
          "timing":{
             "type":"RANDOM",
@@ -38,19 +38,19 @@
          "tag":"busdriving",
          "enabled":"true",
          "lines":[
-            "the bus turns left/تلتف الحافلة إلى اليسار",
-            "the bus turns right/تلتف الحافلة إلى اليمين",
-            "the bus waits/الحافلة تنتظر",
-            "the bus slows down/الحافلة تبطئ",
-            "the bus stops/تتوقف الحافلة",
-            "the man takes the bus/يستقل الرجل الحافلة",
-            "the boy takes the bus/الصبي يستقل الحافلة",
-            "people are taking the bus/الناس يستقلون الحافلة"
+            "the bus turns left",
+            "the bus turns right",
+            "the bus waits",
+            "the bus slows down",
+            "the bus stops",
+            "the man takes the bus",
+            "the boy takes the bus",
+            "people are taking the bus"
          ],
          "errors":[
-            "the bus is parked/الحافلة متوقفة",
-            "the bus stops/الحافلة توقفت",
-            "the bus waits/الحافلة تنتظر"
+            "the bus is parked",
+            "the bus stops",
+            "the bus waits"
          ],
          "timing":{
             "type":"RANDOM",
@@ -61,15 +61,15 @@
          "tag":"buswaiting",
          "enabled":"true",
          "lines":[
-            "someone waits for the bus/شخص ما ينتظر الحافلة",
-            "the man takes the bus/يستقل الرجل الحافلة",
-            "the man gets off the bus/الرجل ينزل من الحافلة",
-            "men are sitting in buses/الرجال يجلسون في الحافلات",
-            "someone watches out of the window/شخص ما يراقب من النافذة"
+            "someone waits for the bus",
+            "the man takes the bus",
+            "the man gets off the bus",
+            "men are sitting in buses",
+            "someone watches out of the window"
          ],
          "errors":[
-            "the bus is gone/لقد غادرت الحافلات",
-            "the bus leaves/لقد غادرت الحافلة"
+            "the bus is gone",
+            "the bus leaves"
          ],
          "timing":{
             "type":"RANDOM",
@@ -80,18 +80,18 @@
          "tag":"car",
          "enabled":"true",
          "lines":[
-            "the car turns left/تلتف السيارة إلى اليسار",
-            "the car turns right/تلتف السيارة إلى اليمين",
-            "the car waits/السيارة تنتظر",
-            "the car crosses the bridge/السيارة تعبر الجسر",
-            "the man drives the car/الرجل يقود السيارة",
-            "the woman drives the car/المرأة تقود السيارة",
-            "the car waits at the lights/السيارة تنتظر الأشارة الضوئية",
-            "the car stops suddenly/تتوقف السيارة فجأة"
+            "the car turns left",
+            "the car turns right",
+            "the car waits",
+            "the car crosses the bridge",
+            "the man drives the car",
+            "the woman drives the car",
+            "the car waits at the lights",
+            "the car stops suddenly"
          ],
          "errors":[
-            "the car is parked/السيارة متوقفة",
-            "the car is still/السيارة متوقفة"
+            "the car is parked",
+            "the car is still"
          ],
          "timing":{
             "type":"RANDOM",
@@ -102,14 +102,14 @@
          "tag":"cat",
          "enabled":"true",
          "lines":[
-            "someone talks to a cat/شخص ما يتحدث إلى قطة",
-            "the cat sits in the shade/القطة تجلس في الظل",
-            "cats are sleeping/القطط نائمة"
+            "someone talks to a cat",
+            "the cat sits in the shade",
+            "cats are sleeping"
          ],
          "errors":[
-            "the cat disappears/القط يختفي",
-            "the cat is sleeping/القط نائم",
-            "the cat is hiding/القط يختبئ"
+            "the cat disappears",
+            "the cat is sleeping",
+            "the cat is hiding"
 
          ],
          "timing":{
@@ -121,13 +121,13 @@
          "tag":"child",
          "enabled":"true",
          "lines":[
-            "children are shouting/الأطفال يصرخون",
-            "children are crying/الأطفال يبكون",
-            "children are laughing/الأطفال يضحكون",
-            "the children are playing/الاطفال يلعبون"
+            "children are shouting",
+            "children are crying",
+            "children are laughing",
+            "the children are playing"
          ],
          "errors":[
-            "children are sleeping/الأطفال نائمين"
+            "children are sleeping"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -139,14 +139,14 @@
          "tag":"dog",
          "enabled":"true",
          "lines":[
-            "the dog sleeps/الكلب ينام",
-            "the dog eats/الكلب يأكل",
-            "the dog looks for food/الكلب يبحث عن الطعام",
-            "the dog meets another dog/الكلب يقابل كلبًا آخر"
+            "the dog sleeps",
+            "the dog eats",
+            "the dog looks for food",
+            "the dog meets another dog"
          ],
          "errors":[
-            "nobody walks the dog/لا أحد يُمشي الكلب",
-            "the dog sleeps/ينام الكلب"
+            "nobody walks the dog",
+            "the dog sleeps"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -158,19 +158,19 @@
          "tag":"meeting",
          "enabled":"true",
          "lines":[
-            "someone travels to a meeting/شخص ما يسافر إلى اجتماع",
-            "the meeting begins/يبدأ الاجتماع",
-            "the meeting ends/ينتهي الاجتماع",
-            "people shake hands/الناس يتصافحون",
-            "people talk/الناس يتحدثون",
-            "someone sits at the table/يجلس شخص ما على الطاولة",
-            "someone asks a question/يسأل شخص ما سؤال",
-            "someone disagrees/شخص ما يعارض",
-            "someone agrees/يوافق شخص ما",
-            "the meeting runs over/انتهى الاجتماع"
+            "someone travels to a meeting",
+            "the meeting begins",
+            "the meeting ends",
+            "people shake hands",
+            "people talk",
+            "someone sits at the table",
+            "someone asks a question",
+            "someone disagrees",
+            "someone agrees",
+            "the meeting runs over"
          ],
          "errors":[
-            "the meeting is cancelled/تم إلغاء الاجتماع"
+            "the meeting is cancelled"
          ],
          "timing":{
             "type":"DAILY",
@@ -189,30 +189,30 @@
          "tag":"person",
          "enabled":"true",
          "lines":[
-            "someone sneezes/شخص يعطس",
-            "someone fastens their shoes/شخص ما يربط أحذيته",
-            "someone coughs/شخص ما يسعل",
-            "someone smokes/شخص ما يدخن",
-            "someone drinks/شخص ما يشرب",
-            "someone yawns/شخص ما يتثاءب",
-            "someone turns their head/اشخاص ما يدير رؤوسهم",
-            "someone crosses the bridge/شخص ما يعبر الجسر",
-            "someone looks at the river/شخص ما ينظر إلى النهر",
-            "the man walks down the street/الرجل يسير في الشارع",
-            "the woman walks down the street/المرأة تسير في الشارع",
-            "the man stops/الرجل يتوقف",
-            "the woman stops/المرأة تتوقف",
-            "the man asks for change/الرجل يطلب التغيير",
-            "the woman asks for change/المرأة تطلب التغيير",
-            "the man smokes/الرجل يدخن",
-            "the woman smokes/المرأة تدخن",
-            "the man drinks/الرجل يشرب",
-            "the woman drinks/المرأة تشرب"
+            "someone sneezes",
+            "someone fastens their shoes",
+            "someone coughs",
+            "someone smokes",
+            "someone drinks",
+            "someone yawns",
+            "someone turns their head",
+            "someone crosses the bridge",
+            "someone looks at the river",
+            "the man walks down the street",
+            "the woman walks down the street",
+            "the man stops",
+            "the woman stops",
+            "the man asks for change",
+            "the woman asks for change",
+            "the man smokes",
+            "the woman smokes",
+            "the man drinks",
+            "the woman drinks"
          ],
          "errors":[
-            "someone is at home/شخص ما في المنزل",
-            "the man is at home/الرجل في المنزل",
-            "the woman is at home/المرأة في المنزل"
+            "someone is at home",
+            "the man is at home",
+            "the woman is at home"
          ],
          "timing":{
             "type":"RANDOM",
@@ -223,26 +223,26 @@
          "tag":"phone",
          "enabled":"true",
          "lines":[
-            "someone answers their phone/يجيب شخص ما على هاتفه",
-            "someone makes a call/شخص ما يجري مكالمة",
-            "someone sends a text/شخص ما يرسل رسالة نصية",
-            "the man sends a text/الرجل يرسل رسالة نصية",
-            "the woman sends a text/المرأة ترسل رسالة نصية",
-            "the girl sends a text/الفتاة ترسل رسالة نصية",
-            "the boy sends a text/يرسل الولد رسالة نصية",
-            "someone talks on the phone/شخص ما يتحدث على الهاتف",
-            "someone scrolls on their phone/يقوم شخص بالتمرير على هواتفه",
-            "someone likes a photo/شخص ما يحب صورة",
-            "someone sends a message/شخص ما يرسل رسالة",
-            "someone misses a call/شخص ما يفتقد مكالمة",
-            "someone looks for direction/شخص ما يبحث عن الاتجاه",
-            "someone finds their way/شخص ما يجد طريقه"
+            "someone answers their phone",
+            "someone makes a call",
+            "someone sends a text",
+            "the man sends a text",
+            "the woman sends a text",
+            "the girl sends a text",
+            "the boy sends a text",
+            "someone talks on the phone",
+            "someone scrolls on their phone",
+            "someone likes a photo",
+            "someone sends a message",
+            "someone misses a call",
+            "someone looks for direction",
+            "someone finds their way"
          ],
          "errors":[
-            "someone forgot their phone/أشخاص ما نسيو هواتفهم",
-            "the man forgot his phone/الرجل نسي هاتفه",
-            "the woman lost her phone/فقدت المرأة هاتفها",
-            "someone lost their phone/شخص ما فقد هاتفه"
+            "someone forgot their phone",
+            "the man forgot his phone",
+            "the woman lost her phone",
+            "someone lost their phone"
          ],
          "timing":{
             "type":"RANDOM",
@@ -253,21 +253,21 @@
          "tag":"photo",
          "enabled":"true",
          "lines":[
-            "someone takes a photo/شخص ما يلتقط صورة",
-            "the woman takes a photo/المرأة تلتقط صورة",
-            "the man takes a photo/الرجل يلتقط صورة",
-            "someone posts a photo/شخص ما ينشر صورة",
-            "the girl posts a photo/تنشر الفتاة صورة",
-            "the boy posts a photo/الصبي ينشر صورة",
-            "someone likes the photo/شخص ما يحب الصورة",
-            "someone edits a photo/شخص ما يحرر صورة",
-            "the girl takes a photo/الفتاة تلتقط صورة",
-            "the boy takes a photo/الفتى يلتقط صورة"
+            "someone takes a photo",
+            "the woman takes a photo",
+            "the man takes a photo",
+            "someone posts a photo",
+            "the girl posts a photo",
+            "the boy posts a photo",
+            "someone likes the photo",
+            "someone edits a photo",
+            "the girl takes a photo",
+            "the boy takes a photo"
          ],
          "errors":[
-            "no one takes a photo/لا أحد يلتقط صورة",
-            "someone deleted a photo/شخص ما حذف صورة",
-            "the battery is empty/البطارية فارغة"
+            "no one takes a photo",
+            "someone deleted a photo",
+            "the battery is empty"
          ],
          "timing":{
             "type":"RANDOM",
@@ -278,15 +278,15 @@
          "tag":"queueing",
          "enabled":"true",
          "lines":[
-            "someone is queuing/شخص ما يصطف في الطابور",
-            "someone is waiting/شخص ما ينتظر",
-            "someone joins the queue/شخص ما ينضم إلى الطابو",
-            "the queue is long/الطابور طويل",
-            "someone stands in the queue/شخص ما يقف في قائمة الانتظار"
+            "someone is queuing",
+            "someone is waiting",
+            "someone joins the queue",
+            "the queue is long",
+            "someone stands in the queue"
          ],
          "errors":[
-            "no one is queuing/لا أحد يصطف في الطابور",
-            "the queue is short/قائمة الانتظار قصيرة"
+            "no one is queuing",
+            "the queue is short"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -298,18 +298,18 @@
          "tag":"taxi",
          "enabled":"true",
          "lines":[
-            "someone flags down a taxi/شخص ما يأشر لسيارة أجرة",
-            "someone orders a taxi/شخص ما يطلب سيارة أجرة",
-            "the taxi is ordered/سيارة الأجرة مرتبة",
-            "the taxis are waiting/سيارات الأجرة ينتظرون",
-            "the taxi drives/سيارات الأجرة",
-            "the taxi stops/سيارة الزجرة توقفت",
-            "the taxi arrives/سيارة الأجرة تصل"
+            "someone flags down a taxi",
+            "someone orders a taxi",
+            "the taxi is ordered",
+            "the taxis are waiting",
+            "the taxi drives",
+            "the taxi stops",
+            "the taxi arrives"
          ],
          "errors":[
-            "the taxi is late/سيارة الأجرة متأخرة",
-            "the taxis are busy/سيارات الأجرة مشغولة",
-            "someone looks for a taxi/شخص ما يبحث عن سيارة أجرة"
+            "the taxi is late",
+            "the taxis are busy",
+            "someone looks for a taxi"
          ],
          "timing":{
             "type":"SPLIT",
@@ -347,15 +347,15 @@
          "tag":"time",
          "enabled":"true",
          "lines":[
-            "someone is on time/شخص ما في الوقت المحدد",
-            "someone is late/شخص ما متأخر",
-            "the man arrives late/الرجل يصل متأخرا",
-            "the woman arrives late/المرأة تصل متأخرة",
-            "someone is on their way/شخص ما في طريقه",
-            "someone is going home/شخص ما يذهب إلى المنزل"
+            "someone is on time",
+            "someone is late",
+            "the man arrives late",
+            "the woman arrives late",
+            "someone is on their way",
+            "someone is going home"
          ],
          "errors":[
-            "someone is on time/شخص ما في الوقت المحدد"
+            "someone is on time"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -367,15 +367,15 @@
          "tag":"truck",
          "enabled":"true",
          "lines":[
-            "the truck turns left/الشاحنة تلتف إلى اليسار",
-            "the truck turns right/الشاحنة تلتف إلى اليمين",
-            "the truck waits at the lights/الشاحنة تنتظر الأضواء",
-            "the truck is loaded/الشاحنة محملة",
-            "the truck unloads/الشاحنة تقوم بالتفريغ",
-            "the truck drives/محرك الشاحنة"
+            "the truck turns left",
+            "the truck turns right",
+            "the truck waits at the lights",
+            "the truck is loaded",
+            "the truck unloads",
+            "the truck drives"
          ],
          "errors":[
-            "the truck is parked/الشاحنة متوقفة"
+            "the truck is parked"
          ],
          "timing":{
             "type":"RANDOM",
@@ -386,27 +386,27 @@
          "tag":"sunrise",
          "enabled":"true",
          "lines":[
-            "the sun rises/تشرق الشمس",
-            "it is daytime/إنه وقت النهار"
+            "the sun rises",
+            "it is daytime"
 
          ],
          "errors":[
-            "the sun sets/غروب الشمس",
-            "it is night time/انه وقت الليل"
+            "the sun sets",
+            "it is night time"
          ]
       },
       {
          "tag":"music",
          "enabled":"true",
          "lines":[
-            "the music is playing/الموسيقى تُعزف",
-            "someone is playing music/شخص ما يعزف الموسيقى",
-            "someone is listening to music/شخص ما يستمع إلى الموسيقى",
-            "the music is on/الموسيقى قيد التشغيل"
+            "the music is playing",
+            "someone is playing music",
+            "someone is listening to music",
+            "the music is on"
          ],
          "errors":[
-            "the music is turned off/الموسيقى متوقفة",
-            "no one is playing music/لا أحد يعزف الموسيقى"
+            "the music is turned off",
+            "no one is playing music"
          ],
          "timing":{
             "type":"RANDOM",
@@ -417,14 +417,14 @@
          "tag":"sing",
          "enabled":"true",
          "lines":[
-            "someone is singing/شخص ما يغني",
-            "the man sings/الرجل يغني",
-            "the woman sings/المرأة تُغني",
-            "the boy sings/الصبي يغني",
-            "the girl sings/الفتاة تُغني"
+            "someone is singing",
+            "the man sings",
+            "the woman sings",
+            "the boy sings",
+            "the girl sings"
          ],
          "errors":[
-            "nobody is singing/لا أحد يُغني"
+            "nobody is singing"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -436,12 +436,12 @@
          "tag":"lecture",
          "enabled":"true",
          "lines":[
-            "the teacher speaks to the students/المعلم يتحدث للطلاب",
-            "the teacher talks/المعلم يتحدث"
+            "the teacher speaks to the students",
+            "the teacher talks"
          ],
          "errors":[
-            "the lecture hall is quiet/قاعة المحاضرات هادئة",
-            "the classroom is empty/الفصل فارغ"
+            "the lecture hall is quiet",
+            "the classroom is empty"
          ],
          "timing":{
          "type":"DAILY",
@@ -460,11 +460,11 @@
          "tag":"nursery",
          "enabled":"true",
          "lines":[
-            "children are playing/الأطفال يلعبون",
-            "the nursery is open/الحضانة مفتوحة"
+            "children are playing",
+            "the nursery is open"
          ],
          "errors":[
-            "the nursery is closed/الحضانة مغلقة"
+            "the nursery is closed"
          ],
          "timing":{
             "type":"DAILY",
@@ -483,13 +483,13 @@
          "tag":"radio",
          "enabled":"true",
          "lines":[
-            "the radio plays the news/الراديو يبث الأخبار",
-            "the radio plays a song/الراديو يبث أغنية",
-            "there is chat on the radio/هناك دردشة على الراديو",
-            "the radio is on/الراديو في وضع التشغيل"
+            "the radio plays the news",
+            "the radio plays a song",
+            "there is chat on the radio",
+            "the radio is on"
          ],
          "errors":[
-            "the radio is silent/الراديو صامت"
+            "the radio is silent"
          ],
          "timing":{
             "type":"RANDOM",
@@ -500,15 +500,15 @@
          "tag":"football",
          "enabled":"true",
          "lines":[
-            "the player kicks the ball/اللاعب يركل الكرة",
-            "the team is playing/الفريق يلعب",
-            "the team is winning/الفريق يفوز",
-            "the fans are watching/الجماهير تشاهد",
-            "people watch football/الناس يشاهدون كرة القدم"
+            "the player kicks the ball",
+            "the team is playing",
+            "the team is winning",
+            "the fans are watching",
+            "people watch football"
          ],
          "errors":[
-            "the team isn't playing/الفريق لا يلعب",
-            "the football pitch is empty/ملعب كرة القدم فارغ"
+            "the team isn't playing",
+            "the football pitch is empty"
          ],
          "timing":{
             "type":"UNIQUE",
@@ -526,16 +526,16 @@
          "tag":"swimming",
          "enabled":"true",
          "lines":[
-            "someone swims/شخص يسبح",
-            "the man swims/الرجل يسبح",
-            "the woman swims/المرأة تسبح",
-            "someone is at the pool/شخص ما في حمام السباحة",
-            "the pool is open/المسبح مفتوح",
-            "people are swimming/الناس يسبحون"
+            "someone swims",
+            "the man swims",
+            "the woman swims",
+            "someone is at the pool",
+            "the pool is open",
+            "people are swimming"
          ],
          "errors":[
-            "the pool is closed/حمام السباحة مغلق",
-            "the pool is empty/حمام السباحة فارغ"
+            "the pool is closed",
+            "the pool is empty"
          ],
          "timing":{
             "type":"DAILY",
@@ -553,15 +553,15 @@
       {
          "tag":"yoga",
          "lines":[
-            "someone does yoga/شخص ما يفعل اليوغا",
-            "the woman sits in a yoga pose/المرأة تجلس في وضع اليوغا",
-            "the man sits in a yoga pose/الرجل يجلس فيوضع اليوغا",
-            "people are doing yoga/الناس يقومون اليوغا",
-            "the yoga studio is open/استوديو اليوغا مفتوح",
-            "the yoga studio is busy/استوديو اليوغا مشغول"
+            "someone does yoga",
+            "the woman sits in a yoga pose",
+            "the man sits in a yoga pose",
+            "people are doing yoga",
+            "the yoga studio is open",
+            "the yoga studio is busy"
          ],
          "errors":[
-            "the yoga studio is closed/استوديو اليوغا مغلق"
+            "the yoga studio is closed"
          ],
          "timing":{
             "type":"SPLIT",
@@ -592,13 +592,13 @@
          "tag":"community",
          "enabled":"true",
          "lines":[
-            "people are meeting/الناس يجتمعون",
-            "the community is meeting/المجتمع يلتقي",
-            "the community event is on/فعالية المجتمع تبدأ"
+            "people are meeting",
+            "the community is meeting",
+            "the community event is on"
          ],
          "errors":[
-            "the community is planning/المجتمع يخطط",
-            "people are connecting/الناس يترابطون"
+            "the community is planning",
+            "people are connecting"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -610,16 +610,16 @@
       {
          "tag":"park",
          "lines":[
-            "the park is busy/الحديقة مشغولة",
-            "the park is open/الحديقة مفتوحة",
-            "someone walks through the park/شخص ما يمشي في الحديقة",
-            "the man cycles through the park/الرجل يقود الدراجة في الحديقة",
-            "the woman runs through the park/المرأة تجري عبر الحديقة",
-            "the man runs through the park/الرجل يجري عبر الحديقة"
+            "the park is busy",
+            "the park is open",
+            "someone walks through the park",
+            "the man cycles through the park",
+            "the woman runs through the park",
+            "the man runs through the park"
          ],
          "errors":[
-            "the park is quiet/الحديقة هادئة",
-            "the park is empty/الحديقة فارغة"
+            "the park is quiet",
+            "the park is empty"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -631,13 +631,13 @@
          "tag":"mosque",
          "enabled":"true",
          "lines":[
-            "the mosque is busy/المسجد مشغول",
-            "people are at the mosque/الناس في المسجد",
-            "someone takes off their shoes/شخص ما يخلع أحذيته",
-            "someone kneels down/شخص ما يركع"
+            "the mosque is busy",
+            "people are at the mosque",
+            "someone takes off their shoes",
+            "someone kneels down"
          ],
          "errors":[
-            "the mosque is quiet/المسجد هادئ"
+            "the mosque is quiet"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -648,14 +648,14 @@
       {
          "tag":"bar",
          "lines":[
-            "the bar is open/المقهى مفتوح",
-            "people are at the bar/الناس في المقهى",
-            "someone orders a drink/شخص ما يطلب شراب",
-            "the bar is busy/المقهى مشغول",
-            "the man is at the bar/الرجل في المقهى"
+            "the bar is open",
+            "people are at the bar",
+            "someone orders a drink",
+            "the bar is busy",
+            "the man is at the bar"
          ],
          "errors":[
-            "the bar is closed/المقهى مغلق"
+            "the bar is closed"
          ],
          "timing":{
             "type":"SPLIT",
@@ -692,17 +692,17 @@
       {
          "tag":"cafe",
          "lines":[
-            "tea is served/يتم تقديم الشاي",
-            "someone drinks tea/شخص ما يشرب الشاي",
-            "someone ordered a tea/شخص ما طلب الشاي",
-            "the cafe is open/المقهى مفتوح",
-            "tea is brewing/الشاي يتخمر",
-            "the man drinks tea/الرجل يشرب الشاي",
-            "the woman orders tea/المرأة تطلب الشاي"
+            "tea is served",
+            "someone drinks tea",
+            "someone ordered a tea",
+            "the cafe is open",
+            "tea is brewing",
+            "the man drinks tea",
+            "the woman orders tea"
          ],
          "errors":[
-            "the cafe is closed/المقهى مغلق",
-            "people are drinking tea/الناس يشربون الشاي"
+            "the cafe is closed",
+            "people are drinking tea"
          ],
          "timing":{
             "type":"SPLIT",
@@ -732,15 +732,15 @@
       {
          "tag":"icecream",
          "lines":[
-            "someone eats an ice cream/شخص ما يأكل الآيس كريم",
-            "ice cream is served/يتم تقديم الآيس كريم",
-            "the boy eats ice cream/الصبي يأكل الآيس كريم",
-            "the girl eats ice cream/الفتاة تأكل الآيس كريم",
-            "the ice cream stand is open/محل الآيس كريم مفتوح"
+            "someone eats an ice cream",
+            "ice cream is served",
+            "the boy eats ice cream",
+            "the girl eats ice cream",
+            "the ice cream stand is open"
          ],
          "errors":[
-            "the ice cream stand is closed/محل الآيس كريم مغلق",
-            "the ice cream is in the freezer/الآيس كريم في الثلاجة"
+            "the ice cream stand is closed",
+            "the ice cream is in the freezer"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -751,14 +751,14 @@
       {
          "tag":"bank",
          "lines":[
-            "the bank is open/البنك مفتوح",
-            "someone transfers money/شخص يحول الأموال",
-            "someone makes a payment/شخص ما يجعل الدفع",
-            "someone invests money/شخص يستثمر المال",
-            "people are doing business/الناس يمارسون الأعمال"
+            "the bank is open",
+            "someone transfers money",
+            "someone makes a payment",
+            "someone invests money",
+            "people are doing business"
          ],
          "errors":[
-            "the bank is closed/البنك مغلق"
+            "the bank is closed"
          ],
          "timing":{
             "type":"DAILY",
@@ -777,13 +777,13 @@
          "tag":"office",
          "enabled":"true",
          "lines":[
-            "the office opens/يفتح المكتب",
-            "the office is open/المكتب مفتوح",
-            "the office is busy/المكتب مشغول"
+            "the office opens",
+            "the office is open",
+            "the office is busy"
          ],
          "errors":[
-            "the office is closed/المكتب مغلق",
-            "the office is empty/المكتب فارغ"
+            "the office is closed",
+            "the office is empty"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -794,20 +794,20 @@
       {
          "tag":"shop",
          "lines":[
-            "someone carries shopping bags/شخص ما يحمل أكياس التسوق",
-            "someone enters the shop/شخص ما يدخل المحل",
-            "someone leaves the shop/شخص ما يغادر المحل",
-            "someone pays in cash/شخص ما يدفع نقدا",
-            "the shop is open/المحل مفتوح",
-            "the shop is busy/المحل مشغول",
-            "the man shops/الرجل يتسوق",
-            "the woman shops/المرأة تتسوق",
-            "people are shopping/الناس يتسوقون",
-            "people are buying things/الناس يشترون الأشياء"
+            "someone carries shopping bags",
+            "someone enters the shop",
+            "someone leaves the shop",
+            "someone pays in cash",
+            "the shop is open",
+            "the shop is busy",
+            "the man shops",
+            "the woman shops",
+            "people are shopping",
+            "people are buying things"
          ],
          "errors":[
-            "the shop is empty/المحل فارغ",
-            "the shop is closed/المتجر مغلق"
+            "the shop is empty",
+            "the shop is closed"
          ],
          "timing":{
             "type":"SPLIT",
@@ -844,12 +844,12 @@
          "tag":"escalator",
          "enabled":"true",
          "lines":[
-            "the escalators go up/السلالم المتحركة ترتفع",
-            "the escalators go down/السلالم المتحركة تنخفض"
+            "the escalators go up",
+            "the escalators go down"
          ],
          "errors":[
-            "the escalators are still/السلالم المتحركة لا تزال",
-            "the escalator arrives/يصل المصعد"
+            "the escalators are still",
+            "the escalator arrives"
          ],
          "timing":{
             "type":"RANDOM",
@@ -860,12 +860,12 @@
          "tag":"wedding",
          "enabled":"true",
          "lines":[
-            "the wedding is today/العرس اليوم",
-            "someone gets married/شخص ما يتزوج"
+            "the wedding is today",
+            "someone gets married"
          ],
          "errors":[
-            "there is no wedding today/لا يوجد زفاف اليوم",
-            "the city hall is empty/قاعة المدينة فارغة"
+            "there is no wedding today",
+            "the city hall is empty"
          ],
          "timing":{
             "type":"DAILY",
@@ -883,16 +883,16 @@
          "tag":"baby",
          "enabled":"true",
          "lines":[
-            "someone carries a baby/شخص ما يحمل طفلاً",
-            "someone feeds the baby/شخص ما يطعم الطفل",
-            "someone talks to the baby/شخص ما يتحدث إلى الطفل",
-            "the baby screams/الطفل يصرخ",
-            "the baby sleeps/الطفل ينام",
-            "the baby smiles/الطفل يبتسم",
-            "someone pushes a stroller/شخص ما يدفع عربة"
+            "someone carries a baby",
+            "someone feeds the baby",
+            "someone talks to the baby",
+            "the baby screams",
+            "the baby sleeps",
+            "the baby smiles",
+            "someone pushes a stroller"
          ],
          "errors":[
-            "the baby sleeps/الطفل نائم"
+            "the baby sleeps"
          ],
          "timing":{
             "type":"EVERYDAY",
@@ -904,1938 +904,18 @@
          "tag":"shift",
          "enabled":"true",
          "lines":[
-            "the shift continues/تستمر فترة العمل",
-            "the shift changes/تتغير فترة العمل",
-            "the shift starts/تبدأ فترة العمل",
-            "the shift ends/فترة العمل تنتهي"
+            "the shift continues",
+            "the shift changes",
+            "the shift starts",
+            "the shift ends"
          ],
          "errors":[
-            "the shift ends/فترة العمل تنتهي",
-            "the shift starts/فترة العمل تبدأ"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-
-
-
-
-
-      {
-         "tag":"doha-airbase",
-         "enabled":"true",
-         "lines":[
-            "the soldier is training/الجندي يتدرب",
-            "soldiers are training/الجنود يتدربون",
-            "the base is busy/القاعدة مشغولة",
-            "people are working at the base/الناس يعملون في القاعدة"
-         ],
-         "errors":[
-            "the camp is quiet/المخيم هادئ",
-            "the base is quiet/القاعدة هادئة"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"07:00",
-            "end":"21:00"
-         }
-      },
-
-      {
-         "tag":"doha-aircon",
-         "enabled":"true",
-         "lines":[
-            "the air conditioning is running/تكييف الهواء يعمل",
-            "the air conditioning is on/تكييف الهواء يشتغل",
-            "the air con is running/المكيفات الهوائية تعمل"
-         ],
-         "errors":[
-            "the air conditioning is off/تكييف الهواء مغلق"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-
-      {
-         "tag":"doha-airport",
-         "enabled":"true",
-         "lines":[
-            "the plane is taking off/والطائرة تقلع",
-            "the plane is landing/الطائرة تهبط",
-            "the plane flies/الطائرة تطير",
-            "the plane is flying/الطائرة تطير",
-            "people are boarding the plane/الناس يستقلون الطائرة",
-            "the airport is busy/لمطار مشغول"
-         ],
-         "errors":[
-            "the plane is delayed/الطائرة تأخرت",
-            "the plane has been cancelled/تم إلغاء الطائرة",
-            "the plane isn't flying/الطائرة لا تحلق"
+            "the shift ends",
+            "the shift starts"
          ],
          "timing":{
             "type":"RANDOM",
             "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-airquality",
-         "enabled":"true",
-         "lines":[
-            "the air is clean/الهواء نقي",
-            "the air is fresh/الهواء منعش"
-         ],
-         "errors":[
-            "the air isn't clean/الهواء ليس نظيفًا",
-            "the air is polluted/الهواء ملوث"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-aljazeera",
-         "enabled":"true",
-         "lines":[
-            "people are reading the news/الناس يقرؤون الأخبار",
-            "people are listening to the news/الناس يستمعون إلى الأخبار"
-         ],
-         "errors":[
-            "news is being reported/يتم تداول الاخبار",
-            "news is published/تم نشر الأخبار"
-         ]
-      },
-
-      {
-         "tag":"doha-artmuseum",
-         "enabled":"true",
-         "lines":[
-            "people are looking at art/الناس ينظرون إلى الفن",
-            "the man is looking at art/الرجل ينظر إلى الفن",
-            "the woman is looking at art/المرأة تنظر إلى الفن",
-            "someone enters the gallery/شخص ما يدخل المعرض",
-            "the galleries are open/صالات العرض مفتوحة",
-            "someone leaves the museum/شخص ما يغادر المتحف"
-         ],
-         "errors":[
-            "the museum is empty/المتحف فارغ",
-            "the museum is closed/المتحف مغلق "
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Friday"
-                ],
-                "start":"13:30",
-                "end":"19:00"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"09:00",
-               "end":"19:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-ayalscreening",
-         "enabled":"true",
-         "lines":[
-            "the film is showing/الفيلم يعرض",
-            "the man is watching a film/الرجل يشاهد فيلمًا",
-            "the woman is watching a film/المرأة تشاهد فيلمًا",
-            "the film is screening/الفيلم يعرض",
-            "the screening has started/بدأ الفيلم",
-            "people are watching the film/الناس يشاهدون الفيلم",
-            "someone watches the film/شخص ما يشاهد الفيلم"
-         ],
-         "errors":[
-            "the screening is over/انتهى الفيلم",
-            "the audience has left/غادر الجمهور"
-         ],
-         "timing":{
-            "type":"UNIQUE",
-            "times":[
-               { "start":"2019-11-18 20:00", "end":"2019-11-18 22:30" },
-               { "start":"2019-11-19 17:30", "end":"2019-11-19 23:30" },
-               { "start":"2019-11-20 17:30", "end":"2019-11-20 23:30" },
-               { "start":"2019-11-21 18:00", "end":"2019-11-21 23:30" },
-               { "start":"2019-11-22 14:30", "end":"2019-11-22 23:30" },
-               { "start":"2019-11-23 11:30", "end":"2019-11-23 23:00" }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-ayalgeekdom",
-         "enabled":"true",
-         "lines":[
-            "someone plays a game/شخص ما يلعب لعبة",
-            "games are played/يتم لعب الألعاب",
-            "the boys plays a videogame/الأولاد يلعبون لعبة فيديو",
-            "the girl plays a videogame/الفتاة تلعب لعبة فيديو",
-            "the boys wears a VR headset/الأولاد يرتدون سماعة الواقع الافتراضي",
-            "the girl wears a VR headset/الفتاة ترتدي سماعة الواقع الافتراضي"
-         ],
-         "errors":[
-            "the game is over/انتهت اللعبة"
-         ],
-         "timing":{
-            "type":"UNIQUE",
-            "times":[
-               { "start":"2019-11-18 10:00", "end":"2019-11-18 22:00" },
-               { "start":"2019-11-19 10:00", "end":"2019-11-19 22:00" },
-               { "start":"2019-11-20 10:00", "end":"2019-11-20 22:00" },
-               { "start":"2019-11-21 10:00", "end":"2019-11-21 22:00" },
-               { "start":"2019-11-22 14:00", "end":"2019-11-22 22:00" },
-               { "start":"2019-11-23 10:00", "end":"2019-11-23 22:00" }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-ayalcampaign",
-         "enabled":"true",
-         "lines":[
-            "someone finds adventure/شخص ما يجد المغامرة",
-            "someone finds love/شخص ما يجد الحب",
-            "someone finds compassion/شخص يجد التعاطف",
-            "someone finds passion/شخص ما يجد شغفًا",
-            "someone finds perspectives/شخص ما يجد وجهات نظر",
-            "someone finds feelings/شخص ما يجد مشاعر",
-            "someone finds purpose/شخص ما يجد الغرض",
-            "someone finds dreams/شخص ما يجد الأحلام",
-            "someone finds popcorn/شخص ما يجد الفشار"
-         ],
-         "errors":[
-            "someone finds friendship/شخص ما يجد الصداقة",
-            "someone finds survival/شخص ما يجد النجاة",
-            "someone finds imagination/شخص ما يجد الخيال",
-            "someone finds loneliness/شخص ما يجد الوحدة",
-            "someone finds magic/شخص ما يجد السحر",
-            "someone finds mystery/شخص ما يجد الغموض",
-            "someone finds sisterhood/شخص ما يجد الأخوة",
-            "someone finds brotherhood/شخص ما يجد الأخوة",
-            "someone finds stories/شخص ما يجد القصص"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-beach",
-         "enabled":"true",
-         "lines":[
-            "the sea is blue/البحر أزرق",
-            "people sit at the beach/الناس يجلسون على الشاطئ"
-         ],
-         "errors":[
-            "the beach is empty/الشاطئ فارغ"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"15:00",
-            "end":"23:59"
-         }
-      },
-
-      {
-         "tag":"doha-bird",
-         "enabled":"true",
-         "lines":[
-            "birds sits in the shade/تجلس الطيور في الظل",
-            "birds are looking for food/الطيور تبحث عن الطعام",
-            "birds are flying/الطيور تطير",
-            "birds are flying in the sky/الطيور تطير في السماء"
-         ],
-         "errors":[
-            "birds are silent/الطيور صامتة",
-            "birds are waiting/الطيور تنتظر"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"75"
-         }
-      },
-
-      {
-         "tag":"doha-boat",
-         "enabled":"true",
-         "lines":[
-            "people are on the water/الناس على الماء",
-            "someone rents a boat/شخص ما يستأجر قارب"
-         ],
-         "errors":[
-            "the boat rental is closed/تأجير القوارب مغلق"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"14:00",
-            "end":"23:00"
-         }
-      },
-
-      {
-         "tag":"doha-buildings",
-         "enabled":"true",
-         "lines":[
-            "new buildings are being built/المباني الجديدة قيد الإنشاء",
-            "people are buying houses/الناس يشترون المنازل",
-            "a new office is being built/يتم إنشاء مكتب جديد"
-         ],
-         "errors":[
-            "someone invests in property/شخص يستثمر في العقارات",
-            "the new building is empty/المبنى الجديد فارغ"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-camel",
-         "enabled":"true",
-         "lines":[
-            "the camel is running/الهجن يركض",
-            "camels are running/الإبل تتسابق",
-            "the camel race has started/بدأ سباق الهجن",
-            "the riders are competing/المتسابقون يتنافسون"
-         ],
-         "errors":[
-            "the camels are resting/الجمال تستريح",
-            "the camel race is over/لقد انتهى سباق الهجن"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"09:00",
-            "end":"11:00"
-         }
-      },
-
-      {
-         "tag":"doha-camera",
-         "enabled":"true",
-         "lines":[
-            "cameras are filming/الكاميرات تُصور",
-            "the number plate is registered/لوحة الأرقام مسجلة",
-            "the parking ticket is issued/تم إصدار تذكرة وقوف السيارات"
-         ],
-         "errors":[
-            "cameras are filming the car park/كاميرات تصور موقف السيارات"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"09:00",
-            "end":"23:00"
-         }
-      },
-
-      {
-         "tag":"doha-capitol",
-         "enabled":"true",
-         "lines":[
-            "the council is open/المجلس مفتوح",
-            "someone at the council/شخص ما في المجلس",
-            "the council is busy/المجلس مشغول"
-         ],
-         "errors":[
-            "the council is closed/المجلس مغلق",
-            "the council is quiet/المجلس هادئ"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Sunday"
-            ],
-            "start":"07:30",
-            "end":"17:30"
-         }
-      },
-
-      {
-         "tag":"doha-captain",
-         "enabled":"true",
-         "lines":[
-            "someone is looking for a captain/شخص ما يبحث عن قبطان",
-            "the captain has arrived/لقد وصل القبطان",
-            "the captain is en route/القبطان في الطريق",
-            "someone is looking for a captain/شخص ما يبحث عن قبطان",
-            "the captain is on the way/القبطان في الطريق",
-            "someone pays the captain/شخص ما يدفع الي القبطان"
-         ],
-         "errors":[
-            "the captain finishes the shift/القبطان ينتهي من فترة عمله",
-            "the captain is waiting/القبطان ينتظر"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"75"
-         }
-      },
-
-      {
-         "tag":"doha-carpark",
-         "enabled":"true",
-         "lines":[
-            "the car park is busy/موقف السيارات مشغول",
-            "someone parks/شخص ما يوقف السيارة",
-            "the car park is full/موقف السيارات ممتلئ"
-         ],
-         "errors":[
-            "the car park is empty/موقف السيارات فارغ",
-            "the car park is quiet/موقف السيارات هادئ"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"09:00",
-            "end":"23:00"
-         }
-      },
-
-      {
-         "tag":"doha-cinema",
-         "enabled":"true",
-         "lines":[
-            "the cinema is busy/السينما مشغولة",
-            "people are at the cinema/الناس في السينما",
-            "people are queuing for the movies/الناس يصطفون في طوابير للأفلام"
-         ],
-         "errors":[
-            "the cinema is quiet/السينما هادئة",
-            "the theatre is empty/المسرح فارغ"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "start":"10:00",
-                "end":"23:59"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"00:00",
-               "end":"02:00"
-               }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-city",
-         "enabled":"true",
-         "lines":[
-            "the new city is being built/المدينة الجديدة يتم بناؤها",
-            "the new city is growing/المدينة الجديدة تنمو"
-         ],
-         "errors":[
-            "people are building a new city/الناس يبنون مدينة جديدة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"70"
-         }
-      },
-
-      {
-         "tag":"doha-club",
-         "enabled":"true",
-         "lines":[
-            "the club is open/النادي مفتوح",
-            "the club is busy/النادي مشغول",
-            "people are dancing/الناس يرقصون",
-            "someone is dancing/شخص ما يرقص"
-         ],
-         "errors":[
-            "the club is closed/النادي مغلق",
-            "the club is quiet/النادي هادئ"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "start":"22:00",
-                "end":"23:59"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"00:00",
-               "end":"02:00"
-               }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-coast",
-         "enabled":"true",
-         "lines":[
-            "people drive by the coast/الناس يقودون قرب الساحل",
-            "cars drive by the coast/السيارات تجوب قزب الساحل"
-         ],
-         "errors":[
-            "people are walking by the coast/الناس يسيرون على الساحل",
-            "someone looks at the water/شخص ما ينظر إلى الماء"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"70"
-         }
-      },
-
-      {
-         "tag":"doha-cows",
-         "enabled":"true",
-         "lines":[
-            "cows are chewing/الأبقار تمضغ",
-            "cows are standing/الأبقار تقف",
-            "cows look at each other/الأبقار تنظر إلى بعضها البعض"
-         ],
-         "errors":[
-            "milk is flowing/الحليب يتدفق",
-            "the cow farm is busy/مزرعة البقر مشغولة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-
-      {
-         "tag":"doha-cricket",
-         "enabled":"true",
-         "lines":[
-            "someone is watching cricket/شخص ما يشاهد لعبة الكريكيت",
-            "someone is playing cricket/شخص ما يلعب لعبة الكريكيت",
-            "people watch cricket/الناس يشاهدون لعبة الكريكيت"
-         ],
-         "errors":[
-            "the cricket ground is empty/ملعب الكريكيت فارغ"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-dhow",
-         "enabled":"true",
-         "lines":[
-            "someone boards the dhow/شخص ما يجلس على السفينه",
-            "the dhow is sailing/السفينه تُبحر",
-            "the captain is sailing/القبطان يُبحر"
-         ],
-         "errors":[
-            "the dhow is parked/المركب الشراعي متوقف"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"14:00",
-            "end":"23:00"
-         }
-      },
-
-      {
-         "tag":"doha-falcon",
-         "enabled":"true",
-         "lines":[
-            "the falcon is healing/الصقر يشفى",
-            "the falcon is injured/الصقر مصاب"
-         ],
-         "errors":[
-            "the falcon is sleeping/الصقر نائم"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Saturday",
-               "Sunday"
-            ],
-            "start":"07:00",
-            "end":"14:00"
-         }
-      },
-
-      {
-         "tag":"doha-festival",
-         "enabled":"true",
-         "lines":[
-            "the festival is on/المهرجان بدأ",
-            "children are at the festival/الأطفال في المهرجان",
-            "the festival is busy/المهرجان مشغول",
-            "the city is full of visitors/المدينة مليئة بالزائرين",
-            "the festival is busy/المهرجان مشغول"
-         ],
-         "errors":[
-            "the festival has finished/انتهى المهرجان",
-            "the event space is empty/مساحة الحدث فارغة"
-         ],
-         "timing":{
-            "type":"UNIQUE",
-            "times":[
-               { "start":"2019-11-18 10:00", "end":"2019-11-18 22:00" },
-               { "start":"2019-11-19 10:00", "end":"2019-11-19 22:00" },
-               { "start":"2019-11-20 10:00", "end":"2019-11-20 22:00" },
-               { "start":"2019-11-21 10:00", "end":"2019-11-21 22:00" },
-               { "start":"2019-11-22 10:00", "end":"2019-11-22 22:00" },
-               { "start":"2019-11-23 10:00", "end":"2019-11-23 22:00" }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-firestation",
-         "enabled":"true",
-         "lines":[
-            "someone eats alone/شخص ما يأكل وحده",
-            "art works are exhibited/يتم عرض الأعمال الفنية",
-            "people are visiting the museum/الناس يزورون المتحف"
-         ],
-         "errors":[
-            "the entrance hall is closed/قاعة المدخل مغلقة"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Friday"
-                ],
-                "start":"13:30",
-                "end":"19:00"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"09:00",
-               "end":"19:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-flightnoise",
-         "enabled":"true",
-         "lines":[
-            "the plane flies overhead/الطائرة تحلق في سماء المنطقة",
-            "the plane is loud/الطائرة صوتها مرتفع"
-         ],
-         "errors":[
-            "the flight hasn't landed/الرحلة لم تهبط",
-            "the plane has landed/هبطت الطائرة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-fountain",
-         "enabled":"true",
-         "lines":[
-            "fountains are running/النوافير تعمل",
-            "water is dancing/الماء يرقص",
-            "water is flowing/المياه تتدفق",
-            "water is moving/الماء تتحرك"
-         ],
-         "errors":[
-            "the fountain is turned off/تم إيقاف النافورة",
-            "water is still/الماء متوقف"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-
-      {
-         "tag":"doha-garden",
-         "enabled":"true",
-         "lines":[
-            "the garden is open/الحديقة مفتوحة",
-            "people are watching plants/الناس يشاهدون النباتات",
-            "someone looks at a tree/شخص ما ينظر إلى شجرة",
-            "the garden is busy/الحديقة مشغولة",
-            "children are playing in the garden/الأطفال يلعبون في الحديقة",
-            "people are walking in the garden/الناس يسيرون في الحديقة"
-         ],
-         "errors":[
-            "the garden is closed/الحديقة مغلقة",
-            "the garden is quiet/الحديقة هادئة"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"09:00",
-            "end":"20:00"
-         }
-      },
-
-      {
-         "tag":"doha-gasoline",
-         "enabled":"true",
-         "lines":[
-            "the gasoline price rises/اسعار البنزين ترتفع",
-            "gasoline price is rising/سعر البنزين يرتفع",
-            "gasoline is expensive/البنزين غالي الثمن"
-         ],
-         "errors":[
-            "the gasoline price drops/سعر البنزين ينخفض"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-gold",
-         "enabled":"true",
-         "lines":[
-            "someone buys gold/شخص ما يشتري الذهب",
-            "the women look at jewelry/المرأة تنظر إلى المجوهرات",
-            "the men look at jewelry/الرجل ينظرن إلى المجوهرات",
-            "someone buys jewelry/شخص ما يشتري المجوهرات",
-            "gold is being sold/يتم بيع الذهب"
-         ],
-         "errors":[
-            "no one buys gold/لا أحد يشتري الذهب"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                  "days":[
-                     "Friday"
-                  ],
-                  "start":"16:00",
-                  "end":"22:00"
-              },
-              {
-                  "days":[
-                     "Monday",
-                     "Tuesday",
-                     "Wednesday",
-                     "Thursday",
-                     "Saturday",
-                     "Sunday"
-                  ],
-                  "start":"09:00",
-                  "end":"13:00"
-               },
-               {
-                  "days":[
-                     "Monday",
-                     "Tuesday",
-                     "Wednesday",
-                     "Thursday",
-                     "Saturday",
-                     "Sunday"
-                  ],
-                  "start":"16:00",
-                  "end":"22:00"
-               }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-goldprice",
-         "enabled":"true",
-         "lines":[
-            "the price of gold rises/سعر الذهب يرتفع"
-         ],
-         "errors":[
-            "the price of gold fluctuates/أسعار الذهب تتقلب",
-            "the prince of gold drops/سعر الذهب ينخفض"
-         ]
-      },
-
-      {
-         "tag":"doha-horse",
-         "enabled":"true",
-         "lines":[
-            "horses are sleeping/الخيول نائمة",
-            "horses are walking/الخيول تمشي"
-         ],
-         "errors":[
-            "horses are waiting/الخيول ينتظرون"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-
-      {
-         "tag":"doha-hospital",
-         "enabled":"true",
-         "lines":[
-            "the hospital is busy/المستشفى مشغول",
-            "the doctor is consulting/الطبيب يُستشار",
-            "doctors are consulting/الأطباء يُستشارون",
-            "the nurse is busy/الممرضة مشغولة"
-         ],
-         "errors":[
-            "the hospital is busy/المستشفى مشغول",
-            "the waiting room is busy/غرفة الانتظار مشغولة",
-            "the ambulance is driving/سيارة الإسعاف تقود"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-humidity",
-         "enabled":"true",
-         "lines":[
-            "the air is humid/الهواء رطب",
-            "humidity is high/الرطوبة مرتفعة"
-         ],
-         "errors":[
-            "humidity is low/الرطوبة منخفضة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-islamicmuseum",
-         "enabled":"true",
-         "lines":[
-            "the exhibition is open/المعرض مفتوح",
-            "people are looking at things/الناس ينظرون إلى الأشياء",
-            "the museum is busy/المتحف مشغول",
-            "the museum is open/المتحف مفتوح",
-            "people are looking at artifacts/الناس ينظرون إلى القطع الأثرية"
-         ],
-         "errors":[
-            "the exhibition is closed/المعرض مغلق",
-            "the exhibition is empty/المعرض فارغ"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Friday"
-                ],
-                "start":"13:30",
-                "end":"19:00"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"09:00",
-               "end":"19:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-katara",
-         "enabled":"true",
-         "lines":[
-            "the gallery is open/المعرض مفتوح",
-            "people are visiting the gallery/الناس يزورون المعرض",
-            "the man visits the gallery/الرجل يزور المعرض",
-            "the woman visits the gallery/المرأة تزور المعرض",
-            "someone enters the gallery/شخص ما يدخل المعرض",
-            "someone leaves the gallery/شخص ما يغادر المعرض"
-         ],
-         "errors":[
-            "the gallery is closed/المعرض مغلق",
-            "the gallery is empty/المعرض فارغ"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Friday"
-                ],
-                "start":"17:00",
-                "end":"21:00"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"11:00",
-               "end":"21:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-mall",
-         "enabled":"true",
-         "lines":[           
-            "the mall is open/المركز التجاري مفتوح",
-            "the mall is busy/المركز التجاري مشغول",
-            "people are at the mall/الناس في مول",
-            "the man walks through the mall/الرجل يمشي من خلال المركز التجاري",
-            "the woman walks through the mall/المرأة تمشي من خلال المركز التجاري"
-         ],
-         "errors":[
-            "the mall is empty/المركز التجاري فارغ",
-            "the mall is closed/المركز التجاري مغلق"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-               {
-                  "days":[
-                     "Monday",
-                     "Tuesday",
-                     "Wednesday",
-                     "Saturday",
-                     "Sunday"
-                  ],
-                  "start":"10:00",
-                  "end":"23:00"
-               },
-               {
-                  "days":[
-                     "Thursday"
-                  ],
-                  "start":"10:00",
-                  "end":"23:59"
-               },
-               {
-                  "days":[
-                     "Friday"
-                  ],
-                  "start":"10:00",
-                  "end":"11:30"
-               },
-               {
-                  "days":[
-                     "Friday"
-                  ],
-                  "start":"13:00",
-                  "end":"23:59"
-               }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-metro",
-         "enabled":"true",
-         "lines":[
-            "the metro travels/يسافر المترو",
-            "the metro arrives/يصل المترو",
-            "the metro departs/يغادر المترو"
-         ],
-         "errors":[
-            "the metro is not running/المترو لا يعمل",
-            "people are waiting for the metro/الناس ينتظرون المترو"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                  "days":[
-                     "Friday"
-                  ],
-                  "start":"14:00",
-                  "end":"23:00"
-              },
-              {
-                  "days":[
-                     "Monday",
-                     "Tuesday",
-                     "Wednesday",
-                     "Thursday",
-                     "Saturday",
-                     "Sunday"
-                  ],
-                  "start":"06:00",
-                  "end":"23:00"
-               }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-moon",
-         "enabled":"true",
-         "lines":[
-            "the moon is up/القمر عالياً",
-            "the moon is visible/القمر مرئي"
-         ],
-         "errors":[
-            "the moon is hiding/القمر يختبئ"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-nanny",
-         "enabled":"true",
-         "lines":[
-            "nannies are busy/المربيات مشغولات",
-            "the nanny is busy/المربية مشغولة",
-            "the child calls the nanny/الطفل ينادي المربية",
-            "the nanny is busy/المربية مشغولة"
-         ],
-         "errors":[
-            "the nanny is resting/المربية تستريح",
-            "the nanny is off work/المربية متوقفة عن العمل"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Saturday",
-               "Sunday"
-            ],
-            "start":"07:00",
-            "end":"19:30"
-         }
-      },
-
-      {
-         "tag":"doha-nationalmuseum",
-         "enabled":"true",
-         "lines":[
-            "people are looking at history/الناس ينظرون إلى التاريخ",
-            "the site is open/الموقع مفتوح",
-            "people take pictures of a building/الناس يلتقطون صور للمبنى",
-            "the museum guard is working/حارس المتحف يعمل"
-         ],
-         "errors":[
-            "the museum is quiet/المتحف هادئ",
-            "the venue is closed/المكان مغلق"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Friday"
-                ],
-                "start":"13:30",
-                "end":"19:00"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"09:00",
-               "end":"19:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-naturalgas",
-         "enabled":"true",
-         "lines":[
-            "the gas price rises/أسعار الغاز ارتفعت",
-            "gas prices are rising/أسعار الغاز ترتفع",
-            "gas is expensive/الغاز غالي"
-         ],
-         "errors":[
-            "the gas price drops/أسعار الغاز تنخفض",
-            "gas prices are dropping/أسعار الغاز تنخفض",
-            "gas is getting cheaper/الغاز اصبح ارخص"
-         ]
-      },
-
-      {
-         "tag":"doha-newcar",
-         "enabled":"true",
-         "lines":[
-            "the car is new/السيارة جديدة",
-            "the car is clean/السيارة نظيفة"
-         ],
-         "errors":[
-            "someone looks out of the car window/شخص ما ينظر من نافذة السيارة",
-            "someone cleans a car/شخص ما ينظف سيارة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-northfield",
-         "enabled":"true",
-         "lines":[
-            "people are working on the platform/الناس يعملون على المنصة",
-            "people are working offshore/الناس يعملون في الخارج"
-         ],
-         "errors":[
-            "the platform is busy/المنصة مشغولة",
-            "the man works offshore/الرجل يعمل في الخارج"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-oil",
-         "enabled":"true",
-         "lines":[
-            "the oil price rises/سعر النفط يرتفع",
-            "oil prices are rising/أسعار النفط ترتفع",
-            "oil has a high value/النفط له قيمة عالية"
-         ],
-         "errors":[
-            "the oil price drops/أسعار النفط انخفضت",
-            "oil prices are dropping/أسعار النفط تنخفض"
-         ]
-      },
-
-      {
-         "tag":"doha-qatarlibrary",
-         "enabled":"true",
-         "lines":[
-            "books are borrowed/الكتب تم استعارتها",
-            "books are returned/تم إرجاع الكتب",
-            "someone borrows a book/شخص ما يستعير كتابًا",
-            "someone returns a book/شخص ما ارجع الكتاب",
-            "someone reads/شخص ما يقرأ",
-            "the library is open/المكتبة مفتوحة",
-            "someone arranges the book shelves/شخص ما يرتب رفوف الكتاب"
-         ],
-         "errors":[
-            "the library is closed/المكتبة مغلقة",
-            "the library is empty/المكتبة فارغة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-qna",
-         "enabled":"true",
-         "lines":[
-            "the news agency is tweeting/وكالة الأنباء تغرد",
-            "the news agency sends a tweet/وكالة الأنباء ترسل تغريدة"
-         ],
-         "errors":[
-            "the news agency might tweet soon/وكالة الأنباء قد تغرد قريبا"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"80"
-         }
-      },
-
-      {
-         "tag":"doha-quran",
-         "enabled":"true",
-         "lines":[
-            "the boy learns the Quran/الولد يتعلم القرآن",
-            "the girl learns the Quran/الفتاة تتعلم القرآن",
-            "someone learns the Quran/شخص يتعلم القرآن"
-         ],
-         "errors":[
-            "the Quran class is over/انتهى الفصل الدراسي للقرآن"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Sunday"
-            ],
-            "start":"08:00",
-            "end":"21:00"
-         }
-      },
-
-      {
-         "tag":"doha-racing",
-         "enabled":"true",
-         "lines":[
-            "the driver is racing/السائق يتسابق",
-            "someone is drifting/شخص ما ينجرف عن طريقة",
-            "someone drives very fast/شخص ما يقود بسرعة كبيرة"
-         ],
-         "errors":[
-            "the roads are busy/الطرق مشغولة"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"03:00",
-            "end":"07:00"
-         }
-      },
-
-      {
-         "tag":"doha-rainfall",
-         "enabled":"true",
-         "lines":[
-            "it rains/انها تمطر",
-            "it's raining/انها تمطر",
-            "the streets are wet/الشوارع مبللة",
-            "rain is falling/المطر يهطل"
-         ],
-         "errors":[
-            "it isn't raining/انها لا تُمطر"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-research",
-         "enabled":"true",
-         "lines":[
-            "the research lab is open/مختبر البحوث مفتوح",
-            "the research lab is busy/مختبر البحث مشغول"
-         ],
-         "errors":[
-            "the research lab is closed/مختبر البحوث مغلق",
-            "the research lab is empty/مختبر البحث فارغ"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"09:00",
-            "end":"19:00"
-         }
-      },
-
-      {
-         "tag":"doha-riyal",
-         "enabled":"true",
-         "lines":[
-            "the riyal is strong/الريال قوي"
-         ],
-         "errors":[
-            "the riyal fluctuates/الريال يتقلب"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-rooftop",
-         "enabled":"true",
-         "lines":[
-            "the rooftop is open/السطح مفتوح",
-            "people are on the rooftop/الناس على السطح"
-         ],
-         "errors":[
-            "the rooftop is closed/السطح مغلق"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                  "days":[
-                     "Monday",
-                     "Tuesday",
-                     "Wednesday",
-                     "Thursday",
-                     "Friday",
-                     "Saturday",
-                     "Sunday"
-                ],
-                "start":"17:00",
-                "end":"23:59"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"00:00",
-               "end":"02:00"
-               }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-salon",
-         "enabled":"true",
-         "lines":[
-            "the hair salon is open/صالون الشعر مفتوح",
-            "the man gets a haircut/الرجل يحصل على حلاقة",
-            "the woman gets a haircut/المرأة تحصل على قصة شعر",
-            "the hairdresser cuts/مصفف الشعر يقُص",
-            "someone gets a haircut/شخص ما يحصل على قصة شعر"
-         ],
-         "errors":[
-            "the hair salon is closed/صالون الشعر مغلق"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-               "days":[
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday"
-               ],
-               "start":"10:00",
-               "end":"19:00"
-             },
-             {
-               "days":[
-                  "Friday"
-               ],
-               "start":"11:00",
-               "end":"22:00"
-             },
-             {
-               "days":[
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"10:00",
-               "end":"19:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-sheraton",
-         "enabled":"true",
-         "lines":[
-            "someone checks in/شخص ما قام بتسجيل الوصول",
-            "someone stays at the hotel/شخص ما يبقى في الفندق",
-            "the hotel is busy/الفندق مشغول",
-            "check-in is open/تسجيل الوصول مفتوح",
-            "the front desk is busy/المكتب الأمامي مشغول"
-         ],
-         "errors":[
-            "the hotel is quiet/الفندق هادئ",
-            "the lobby is empty/اللوبي فارغ"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Thursday",
-                   "Friday",
-                   "Saturday",
-                   "Sunday"
-                ],
-                "start":"12:00",
-                "end":"23:59"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"00:00",
-               "end":"01:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-school",
-         "enabled":"true",
-         "lines":[
-            "children are learning/الأطفال يتعلمون",
-            "the boy is at school/الولد في المدرسة",
-            "the girl is at school/الفتاة في المدرسة",
-            "the school is open/المدرسة مفتوحة"
-         ],
-         "errors":[
-            "the school is empty/المدرسة فارغة",
-            "the classroom is empty/الفصل فارغ"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Sunday",
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday"
-            ],
-            "start":"07:00",
-            "end":"16:00"
-         }
-      },
-
-      {
-         "tag":"doha-shisha",
-         "enabled":"true",
-         "lines":[
-            "the man is smoking/الرجل يدخن",
-            "the woman is smoking/المرأة تدخن",
-            "the shisha is bubbling/الشيشة مشتعلة",
-            "the charcoal is burning/الفحم يحترق",
-            "someone smokes a shisha/شخص ما يدخن الشيشة"
-         ],
-         "errors":[
-            "the shisha is empty/الشيشة فارغة",
-            "no one is smoking/لا أحد يدخن"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-
-      {
-         "tag":"doha-souq",
-         "enabled":"true",
-         "lines":[
-            "the souq is open/السوق مفتوح",
-            "the souq is busy/السوق مشغول",
-            "someone is at the souq/شخص ما في السوق",
-            "someone buys carpets/شخص ما يشتري السجاد",
-            "the man sells spices/الرجل يبيع التوابل",
-            "the woman sells sweets/المرأة تبيع الحلويات"
-         ],
-         "errors":[
-            "the souq is empty/السوق فارغ",
-            "the shops are closed/المتاجر مغلقة"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"22:00",
-            "end":"23:59"
-         }
-      },
-
-      {
-         "tag":"doha-stadium",
-         "enabled":"true",
-         "lines":[
-            "people are working at the stadium/الناس يعملون في الملعب",
-            "the stadium is being built/يتم بناء الملعب"
-         ],
-         "errors":[
-            "the stadium is empty/الملعب فارغ",
-            "the stadium is opening soon/الملعب سيُفتتح قريباً"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-
-      {
-         "tag":"doha-supermarket",
-         "enabled":"true",
-         "lines":[
-            "the supermarket is busy/السوبر ماركت مشغول",
-            "someone buys groceries/شخص ما يشتري البقالة",
-            "someone pushes a shopping cart/شخص ما يدفع عربة التسوق"
-         ],
-         "errors":[
-            "the supermarket is closed/السوبر ماركت مغلق"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-               "days":[
-                  "Friday"
-               ],
-               "start":"08:00",
-               "end":"10:30"
-             },
-             {
-               "days":[
-                  "Friday"
-               ],
-               "start":"12:30",
-               "end":"23:59"
-             },
-             {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"08:00",
-               "end":"23:59"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-syrian",
-         "enabled":"true",
-         "lines":[
-            "the waiters are serving/النوادل يخدمون",
-            "someone orders food/شخص ما يطلب الطعام",
-            "people are eating/الناس يأكلون"
-         ],
-         "errors":[
-            "the restaurant is closed/المطعم مغلق"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Saturday"
-                ],
-                "start":"08:30",
-                "end":"23:59"
-              },
-              {
-               "days":[
-                  "Sunday"
-               ],
-               "start":"00:00",
-               "end":"01:30"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-team",
-         "enabled":"true",
-         "lines":[
-            "the trainer is on the field/المدرب في الميدان",
-            "the team is on the field/الفريق في الميدان",
-            "the team is training/الفريق يتدرب"
-         ],
-         "errors":[
-            "the field is empty/الميدان فارغ",
-            "no one is training/لا أحد يتدرب"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Sunday"
-            ],
-            "start":"07:30",
-            "end":"17:30"
-         }
-      },
-
-      {
-         "tag":"doha-temperature",
-         "enabled":"true",
-         "lines":[
-            "it's warm today/انها دافئة اليوم",
-            "it's hot today/الجو حار اليوم",
-            "the weather is good/الجو جيد",
-            "the weather is mild/الطقس معتدل"
-         ],
-         "errors":[
-            "the weather is bad/الطقس رديء",
-            "it's cold/ان الجو بارد",
-            "it's chilly/انها باردة"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-tourist",
-         "enabled":"true",
-         "lines":[
-            "people are visiting/الناس يتزاورون",
-            "the city is busy/المدينة مشغولة",
-            "visitors are arriving/الزوار يصلون",
-            "someone asks for the way/شخص ما يسأل عن الطريق",
-            "someone books a tour/شخص ما يحجز جولة",
-            "someone reads a map/شخص ما يقرأ الخريطة"
-         ],
-         "errors":[
-            "visitors are leaving/الزوار يغادرون",
-            "someone leaves/شخص ما يغادر"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"09:00",
-            "end":"23:00"
-         }
-      },
-
-      {
-         "tag":"doha-traffic",
-         "enabled":"true",
-         "lines":[
-            "the road is busy/الطريق مزدحم",
-            "there is a lot of traffic/هناك الكثير من الزُحام"
-         ],
-         "errors":[
-            "the road is quiet/الطريق هادئ",
-            "the traffic is light/حركة المرور خفيفة",
-            "there is not much traffic/ليس هناك الكثير من حركة المرور"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"50"
-         }
-      },
-
-      {
-         "tag":"doha-turkish",
-         "enabled":"true",
-         "lines":[
-            "the barbeque is smoking/الشواء يدخن",
-            "the restaurant is open/المطعم مفتوح",
-            "people are queueing/الناس يصطفون في طوابير",
-            "the barbeque is on/الشواء بدأ",
-            "people are sharing food/الناس يتشاركون الطعام"
-         ],
-         "errors":[
-            "the kitchen is closed/المطبخ مغلق"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Friday"
-                ],
-                "start":"12:30",
-                "end":"23:59"
-              },
-              {
-               "days":[
-                  "Friday"
-               ],
-               "start":"00:00",
-               "end":"01:00"
-             },
-             {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"11:00",
-               "end":"23:59"
-             },
-             {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"00:00",
-               "end":"01:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-uber",
-         "enabled":"true",
-         "lines":[
-            "someone rates the driver/شخص ما يقيم السائق",
-            "the driver rates the client/يقوم السائق بتقييم العميل",
-            "the driver is en route/السائق في الطريق",
-            "the driver is arriving/يصل السائق",
-            "the driver is approaching/السائق يقترب",
-            "the driver is on the way/السائق في الطريق"
-         ],
-         "errors":[
-            "the driver finishes the shift/السائق ينتهي من فترة عمله",
-            "the driver is waiting/السائق ينتظر"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"75"
-         }
-      },
-
-      {
-         "tag":"doha-university",
-         "enabled":"true",
-         "lines":[
-            "the university is open/الجامعة مفتوحة",
-            "someone is studying/شخص ما يدرس",
-            "the classroom is busy/الفصل الدراسي مشغول"
-         ],
-         "errors":[
-            "the students have left/لقد غادر الطلاب",
-            "the university is quiet/الجامعة هادئة"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Sunday"
-            ],
-            "start":"07:30",
-            "end":"17:30"
-         }
-      },
-
-      {
-         "tag":"doha-village",
-         "enabled":"true",
-         "lines":[
-            "the village is busy/القرية مشغولة",
-            "people are visiting the village/الناس يزورون القرية",
-            "someone walks through the village/شخص ما يمشي في القرية"
-         ],
-         "errors":[
-            "the village is quiet/القرية هادئة"
-         ],
-         "timing":{
-            "type":"SPLIT",
-            "splittimes": [
-              {
-                "days":[
-                   "Monday",
-                   "Tuesday",
-                   "Wednesday",
-                   "Thursday",
-                   "Friday",
-                   "Saturday",
-                   "Sunday"
-                ],
-                "start":"11:00",
-                "end":"14:00"
-              },
-              {
-               "days":[
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-               ],
-               "start":"17:00",
-               "end":"23:00"
-             }
-            ]
-         }
-      },
-
-      {
-         "tag":"doha-windowcleaning",
-         "enabled":"true",
-         "lines":[
-            "someone cleans a window/شخص ما ينظف النافذة",
-            "the worker is suspended in air/يتم تعليق العامل في الهواء",
-            "the man is cleaning windows/الرجل ينظف النوافذ",
-            "windows are being cleaned/يتم تنظيف النوافذ"
-         ],
-         "errors":[
-            "the windows need cleaning/النوافذ تحتاج إلى تنظيف"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
-         }
-      },
-
-      {
-         "tag":"doha-worker",
-         "enabled":"true",
-         "lines":[
-            "workers are busy/العمال مشغولون",
-            "workers are on the construction site/العمال في موقع البناء",
-            "the man is working outside/الرجل يعمل خارج",
-            "men are working outside/الرجال يعملون في الخارج"
-         ],
-         "errors":[
-            "workers are resting/العمال يستريحون",
-            "the construction site is empty/موقع البناء فارغ",
-            "the man is resting/الرجل يستريح"
-         ],
-         "timing":{
-            "type":"DAILY",
-            "days":[
-               "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Saturday",
-               "Sunday"
-            ],
-            "start":"07:00",
-            "end":"19:30"
-         }
-      },
-
-      {
-         "tag":"doha-yacht",
-         "enabled":"true",
-         "lines":[
-            "someone is sitting on their yacht/شخص ما يجلس على اليخت",
-            "people are cruising/الناس يبحرون",
-            "the yacht is sailing/اليخوت تُبحر",
-            "the captain is sailing/القبطان يُبحر"
-         ],
-         "errors":[
-            "the yacht is in the harbor/اليخت في الميناء",
-            "the yacht is parked/اليخت متوقف"
-         ],
-         "timing":{
-            "type":"EVERYDAY",
-            "start":"14:00",
-            "end":"23:00"
-         }
-      },
-
-      {
-         "tag":"doha-zakat",
-         "enabled":"true",
-         "lines":[
-            "someone donates money/شخص ما يتبرع بالمال",
-            "someone makes a donation/شخص ما يتبرع",
-            "people donate money/الناس يتبرعون بالمال"
-         ],
-         "errors":[
-            "someone donates/شخص ما يتبرع",
-            "the man makes a donation/الرجل يتبرع",
-            "the woman makes a donation/المرأة تتبرع"
-         ],
-         "timing":{
-            "type":"RANDOM",
-            "chance":"90"
          }
       }
    ]
